@@ -1,9 +1,37 @@
-// Questions are loaded from chapter1.js
-const questions = chapter1Questions;
+// Questions will be loaded dynamically based on chapter selection
+let questions = [];
+let chapterQuestionsLoaded = {};
+
+// === DEVICE DETECTION ===
+function detectDevice() {
+    const ua = navigator.userAgent;
+    const width = window.innerWidth;
+    
+    // Check for mobile devices
+    if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua)) {
+        if (width < 768) {
+            return 'mobile';
+        } else {
+            return 'tablet';
+        }
+    }
+    
+    // Check for tablets (iPad, Android tablets)
+    if (/iPad|Android/i.test(ua) && width >= 768 && width <= 1024) {
+        return 'tablet';
+    }
+    
+    // Default to desktop
+    return 'desktop';
+}
+
+// Detect device type and add class to body
+const deviceType = detectDevice();
+document.body.classList.add(`device-${deviceType}`);
+console.log('Device type detected:', deviceType);
 
 // === STATE ===
-
-// === STATE ===
+let selectedChapter = 1;
 let currentQuestionIndex = 0;
 let score = 0;
 let isAnswered = false;
@@ -24,6 +52,7 @@ fetch('response-insults.txt').then(r => r.text()).then(txt => {
 });
 
 // === DOM ELEMENTS ===
+const welcomeScreen = document.getElementById('welcome-screen');
 const startScreen = document.getElementById('start-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
@@ -40,10 +69,101 @@ const totalQNum = document.getElementById('total-q-num');
 const startTotalQ = document.getElementById('start-total-q');
 const hintBtn = document.getElementById('hint-btn');
 
-// Initialize static text
-startTotalQ.innerText = questions.length;
-
 // === FUNCTIONS ===
+
+// Chapter file path mapping
+const chapterPaths = {
+    1: "Chapters/Chp-1/Chp-1_testbank/chapter1.js",
+    2: "Chapters/Chp-2/Ch-2_PsychologicalResearch-testbank/chapter2.js",
+    3: "Chapters/Chp-3/Ch-3_Biopsychology-testbank/chapter3.js",
+    4: "Chapters/Chp-4/Ch-4_StatesofConsciousness-testbank/chapter4.js",
+    5: "Chapters/Chp-5/Ch-5_SensationandPerception-testbank/chapter5.js",
+    6: "Chapters/Chp-6/Ch-6_Learning-testbank/chapter6.js",
+    7: "Chapters/Chp-7/Ch-7_ThinkingandIntelligence-testbank/chapter7.js",
+    8: "Chapters/Chp-8/Ch-8_Memory-testbank/chapter8.js",
+    9: "Chapters/Chp-9/Ch-9_LifespanDevelopment-testbank/chapter9.js",
+    10: "Chapters/Chp-10/Ch-10_MotivationandEmotion-testbank/chapter10.js",
+    11: "Chapters/Chp-11/Ch-11_Personality-testbank/chapter11.js",
+    14: "Chapters/Chp-14/Ch-14_StressLifestyleandHealth-testbank/chapter14.js",
+    15: "Chapters/Chp-15/Ch-15_PsychologicalDisorders-testbank/chapter15.js",
+    16: "Chapters/Chp-16/Ch-16_TherapyandTreatment-testbank/chapter16.js"
+};
+
+// Load chapter questions dynamically
+function loadChapterQuestions(chapterNum, callback) {
+    // Check if already loaded
+    if (chapterQuestionsLoaded[chapterNum]) {
+        questions = chapterQuestionsLoaded[chapterNum];
+        if (callback) callback();
+        return;
+    }
+    
+    // Load the chapter script dynamically
+    const script = document.createElement('script');
+    script.src = chapterPaths[chapterNum];
+    script.onload = function() {
+        // Access the global variable created by the chapter file
+        const chapterVar = window[`chapter${chapterNum}Questions`];
+        if (chapterVar) {
+            chapterQuestionsLoaded[chapterNum] = chapterVar;
+            questions = chapterVar;
+            if (callback) callback();
+        } else {
+            console.error(`Failed to load chapter ${chapterNum} questions`);
+            alert(`Error: Could not load Chapter ${chapterNum} questions.`);
+        }
+    };
+    script.onerror = function() {
+        console.error(`Failed to load chapter${chapterNum}.js`);
+        alert(`Error: Could not find Chapter ${chapterNum} question file.`);
+    };
+    document.head.appendChild(script);
+}
+
+// Chapter descriptions mapping
+const chapterDescriptions = {
+    1: "Chapter 1: Introduction to Psychology",
+    2: "Chapter 2: Research Methods",
+    3: "Chapter 3: Biological Psychology",
+    4: "Chapter 4: Sensation and Perception",
+    5: "Chapter 5: Consciousness",
+    6: "Chapter 6: Learning",
+    7: "Chapter 7: Memory",
+    8: "Chapter 8: Thinking and Intelligence",
+    9: "Chapter 9: Development",
+    10: "Chapter 10: Motivation and Emotion",
+    11: "Chapter 11: Personality",
+    14: "Chapter 14: Social Psychology",
+    15: "Chapter 15: Psychological Disorders",
+    16: "Chapter 16: Therapy and Treatment"
+};
+
+window.selectChapter = function(chapterNum) {
+    selectedChapter = chapterNum;
+    
+    // Load chapter questions
+    loadChapterQuestions(chapterNum, function() {
+        // Update the chapter description
+        const chapterDesc = document.getElementById('chapter-description');
+        if (chapterDesc) {
+            chapterDesc.innerHTML = `${chapterDescriptions[chapterNum] || 'Chapter ' + chapterNum}.<br>There are <span id="start-total-q">${questions.length}</span> questions in this set.`;
+        }
+        
+        // Hide welcome screen, show start screen
+        welcomeScreen.classList.add('hidden');
+        startScreen.classList.remove('hidden');
+    });
+};
+
+window.backToChapterSelect = function() {
+    // Hide start screen, show welcome screen
+    startScreen.classList.add('hidden');
+    quizScreen.classList.add('hidden');
+    resultScreen.classList.add('hidden');
+    headerBar.classList.add('hidden');
+    progressContainer.classList.add('hidden');
+    welcomeScreen.classList.remove('hidden');
+};
 
 window.startGame = function() {
     console.log("Starting game...");
@@ -53,7 +173,12 @@ window.startGame = function() {
     headerBar.classList.remove('hidden');
     progressContainer.classList.remove('hidden');
     
-    gameQuestions = [...questions]; 
+    // Shuffle the questions randomly using Fisher-Yates algorithm
+    gameQuestions = [...questions];
+    for (let i = gameQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [gameQuestions[i], gameQuestions[j]] = [gameQuestions[j], gameQuestions[i]];
+    }
     
     currentQuestionIndex = 0;
     score = 0;
@@ -193,6 +318,6 @@ function showResults() {
 }
 
 window.restartGame = function() {
-    startGame();
+    backToChapterSelect();
 };
 

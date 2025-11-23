@@ -211,3 +211,288 @@ button:disabled { cursor: not-allowed; opacity: 0.5; }
     .text-xl, .md\:text-2xl { font-size: 1.5rem; }
     .p-6, .md\:p-10 { padding: 2.5rem; }
 }
+
+/* ========================================
+   MOBILE PHONE OPTIMIZATION (Portrait)
+   ======================================== */
+@media (max-width: 767px) {
+    /* Body & Container */
+    body {
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: stretch;
+    }
+    
+    .glass-panel {
+        border-radius: 0;
+        min-height: 100vh;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Header Bar - Sticky at top */
+    #header-bar {
+        padding: 0.75rem 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background-color: rgba(249, 250, 251, 0.98);
+        backdrop-filter: blur(10px);
+        border-bottom: 2px solid #e5e7eb;
+    }
+    
+    #header-bar .text-sm {
+        font-size: 0.8rem;
+    }
+    
+    #header-bar button {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+    
+    /* Progress Bar */
+    #progress-container {
+        height: 4px;
+    }
+    
+    #progress-bar {
+        height: 4px;
+    }
+    
+    /* Content Area - Scrollable with padding */
+    .flex-1.p-6 {
+        padding: 1rem !important;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Welcome Screen */
+    #welcome-screen {
+        padding: 1.5rem 1rem;
+    }
+    
+    #welcome-screen h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    #welcome-screen h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    #welcome-screen h3 {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #welcome-screen .text-5xl {
+        font-size: 2.5rem;
+    }
+    
+    /* Chapter Buttons Grid */
+    .grid.grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem;
+    }
+    
+    .chapter-btn {
+        padding: 1rem 0.75rem !important;
+        font-size: 0.875rem !important;
+        border-radius: 0.5rem !important;
+    }
+    
+    /* Start Screen */
+    #start-screen {
+        padding: 1.5rem 1rem;
+    }
+    
+    #start-screen .text-6xl {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    #start-screen h1 {
+        font-size: 2rem;
+    }
+    
+    #start-screen p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #start-screen button {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Quiz Screen */
+    #quiz-screen {
+        padding-bottom: 2rem !important;
+    }
+    
+    /* Question Text */
+    #question-text {
+        font-size: 1.125rem !important;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    
+    /* Hint Button */
+    #hint-btn {
+        padding: 0.5rem !important;
+        margin-left: 0.5rem;
+    }
+    
+    #hint-btn .fa-lightbulb {
+        font-size: 1.5rem;
+    }
+    
+    #hint-btn .text-xs {
+        font-size: 0.7rem;
+    }
+    
+    /* Answer Buttons */
+    #answer-buttons {
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+    
+    .option-btn {
+        padding: 1rem !important;
+        font-size: 1.125rem !important;
+        line-height: 1.4;
+        border-radius: 0.75rem !important;
+        min-height: 3.5rem;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    
+    /* Feedback Area */
+    #feedback-area {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        border-radius: 0.75rem;
+        position: sticky;
+        bottom: 0;
+        background-color: rgba(249, 250, 251, 0.98);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    #feedback-text {
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+    }
+    
+    #next-btn {
+        width: 100%;
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 0.75rem;
+    }
+    
+    /* Result Screen */
+    #result-screen {
+        padding: 2rem 1rem;
+    }
+    
+    #result-icon {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #result-screen h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    #result-screen p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #final-score {
+        font-size: 2rem;
+    }
+    
+    #result-screen button {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    /* Touch Target Optimization */
+    button, .option-btn, .chapter-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Reduce animations for better performance */
+    .option-btn:hover:not(:disabled) {
+        transform: none;
+    }
+    
+    /* Insult Banner Mobile */
+    #insult-banner strong {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    /* Font size adjustments for readability */
+    .text-lg {
+        font-size: 1.125rem;
+    }
+    
+    .text-xl {
+        font-size: 1.25rem;
+    }
+    
+    .text-2xl {
+        font-size: 1.5rem;
+    }
+    
+    .text-3xl {
+        font-size: 1.75rem;
+    }
+    
+    /* Prevent text selection on buttons */
+    button, .option-btn, .chapter-btn {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    
+    /* Improve scrolling */
+    .overflow-y-auto {
+        -webkit-overflow-scrolling: touch;
+        overflow-y: auto;
+    }
+    
+    /* Spacing adjustments */
+    .mb-6 {
+        margin-bottom: 1rem;
+    }
+    
+    .mb-8 {
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Grid adjustments for small screens */
+    .grid.grid-cols-2.md\:grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    .grid.grid-cols-2.md\:grid-cols-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
