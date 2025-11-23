@@ -94,22 +94,9 @@ function resetState() {
     hintBtn.classList.remove('opacity-50', 'cursor-not-allowed');
     hintBtn.disabled = false;
     feedbackArea.classList.add('hidden');
-    // hide insult banner between questions
-    const insultEl = document.getElementById('insult-banner');
-    if (insultEl) { insultEl.classList.remove('show'); insultEl.innerHTML = ''; }
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
     }
-}
-
-// Display an insult in bold red text over the quiz; auto-hide after a short delay
-function showInsult(text) {
-    const el = document.getElementById('insult-banner');
-    if (!el) return;
-    el.innerHTML = '<strong>' + text.toUpperCase() + '</strong>';
-    el.classList.add('show');
-    // remove after 5s
-    setTimeout(() => { el.classList.remove('show'); }, 3000);
 }
 
 window.useHint = function() {
@@ -150,13 +137,14 @@ function selectAnswer(e) {
         feedbackText.className = "text-lg font-bold text-green-600 mb-2";
     } else {
         selectedBtn.classList.add('wrong');
-        feedbackText.innerText = "Incorrect";
-        feedbackText.className = "text-lg font-bold text-red-600 mb-2";
-        // show a random insult (if loaded) in front of quiz
+        // Display a random insult instead of "Incorrect"
         if (insults && insults.length > 0) {
             const idx = Math.floor(Math.random() * insults.length);
-            showInsult(insults[idx]);
+            feedbackText.innerText = insults[idx];
+        } else {
+            feedbackText.innerText = "Incorrect";
         }
+        feedbackText.className = "text-lg font-bold text-red-600 mb-2";
     }
 
     Array.from(answerButtonsElement.children).forEach(button => {
