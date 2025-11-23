@@ -203,6 +203,9 @@ function App() {
                 {/* WELCOME SCREEN */}
                 {view === 'welcome' && (
                     <div id="welcome-screen" className="fade-in w-full max-w-3xl mx-auto">
+                        <div className="w-full text-center mb-2">
+                            <span className="text-red-600 font-bold text-lg">React Version</span>
+                        </div>
                         <div className="mb-4 text-cyan-600 text-5xl"><i className="fa-solid fa-graduation-cap"></i></div>
                         <h1 className="text-3xl font-bold text-gray-800 mb-2">Pierce College</h1>
                         <h2 className="text-2xl font-semibold text-gray-700 mb-6">Psychology 1 Practice Tests</h2>
