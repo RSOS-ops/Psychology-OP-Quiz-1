@@ -1,4 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useLayoutEffect } from 'react';
+import GlowButton from './components/GlowButton';
+import CrossfadeLoop from './components/CrossfadeLoop';
+import FlashCards from './FlashCards';
 
 const chapterPaths = {
     1: "Chapters/Chp-1/Chp-1_testbank/chapter1.js",
@@ -35,22 +38,77 @@ const chapterDescriptions = {
 };
 
 function App() {
-    const [view, setView] = useState('welcome'); // welcome, start, quiz, result
-    const [selectedChapter, setSelectedChapter] = useState(1);
-    const [questions, setQuestions] = useState([]);
-    const [gameQuestions, setGameQuestions] = useState([]);
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [score, setScore] = useState(0);
+    const [savedState] = useState(() => {
+        try {
+            const item = localStorage.getItem('psychQuizState');
+            return item ? JSON.parse(item) : {};
+        } catch (error) {
+            console.error('Failed to load state from localStorage:', error);
+            return {};
+        }
+    });
+
+    const [view, setView] = useState(savedState.view || 'splash'); // welcome, start, quiz, result, splash
+    const [selectedChapter, setSelectedChapter] = useState(savedState.selectedChapter || 1);
+    const [questions, setQuestions] = useState(savedState.questions || []);
+    const [gameQuestions, setGameQuestions] = useState(savedState.gameQuestions || []);
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(savedState.currentQuestionIndex || 0);
+    const [score, setScore] = useState(savedState.score || 0);
     const [insults, setInsults] = useState([]);
-    const [isAnswered, setIsAnswered] = useState(false);
-    const [hintUsed, setHintUsed] = useState(false);
-    const [feedback, setFeedback] = useState(null); // { text: string, type: 'correct' | 'wrong' }
-    const [eliminatedAnswers, setEliminatedAnswers] = useState([]); // indices of eliminated answers
+    const [isAnswered, setIsAnswered] = useState(savedState.isAnswered || false);
+    const [hintUsed, setHintUsed] = useState(savedState.hintUsed || false);
+    const [feedback, setFeedback] = useState(savedState.feedback || null); // { text: string, type: 'correct' | 'wrong' }
+    const [eliminatedAnswers, setEliminatedAnswers] = useState(savedState.eliminatedAnswers || []); // indices of eliminated answers
+    const [hiddenAnswers, setHiddenAnswers] = useState(savedState.hiddenAnswers || []); // indices of hidden answers
+    const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(savedState.selectedAnswerIndex || null);
     const feedbackRef = useRef(null);
+    const questionRef = useRef(null);
+
+    // Save state to localStorage whenever it changes
+    useEffect(() => {
+        try {
+            const stateToSave = {
+                view,
+                selectedChapter,
+                questions,
+                gameQuestions,
+                currentQuestionIndex,
+                score,
+                isAnswered,
+                hintUsed,
+                feedback,
+                eliminatedAnswers,
+                hiddenAnswers,
+                selectedAnswerIndex
+            };
+            localStorage.setItem('psychQuizState', JSON.stringify(stateToSave));
+        } catch (error) {
+            console.error('Failed to save state to localStorage:', error);
+        }
+    }, [view, selectedChapter, questions, gameQuestions, currentQuestionIndex, score, isAnswered, hintUsed, feedback, eliminatedAnswers, hiddenAnswers, selectedAnswerIndex]);
+
+    // Adjust font size if question is too long
+    useLayoutEffect(() => {
+        if (view === 'quiz' && questionRef.current) {
+            const el = questionRef.current;
+            // Reset to default to measure natural height
+            el.style.fontSize = '';
+            
+            const style = window.getComputedStyle(el);
+            const lineHeight = parseFloat(style.lineHeight);
+            const height = el.clientHeight;
+            
+            // If height is greater than 3 lines (allow a tiny margin for error)
+            if (height > lineHeight * 3.1) {
+                const currentFontSize = parseFloat(style.fontSize);
+                el.style.fontSize = `${currentFontSize * 0.85}px`;
+            }
+        }
+    }, [currentQuestionIndex, view]); // Run when question index changes or view changes
 
     // Load insults
     useEffect(() => {
-        fetch('/response-insults.txt')
+        fetch(import.meta.env.BASE_URL + 'response-insults.txt')
             .then(r => r.text())
             .then(txt => {
                 const list = txt.split(/\r?\n/)
@@ -63,58 +121,47 @@ function App() {
             .catch(console.error);
     }, []);
 
-    // Device detection
-    useEffect(() => {
-        const ua = navigator.userAgent;
-        const width = window.innerWidth;
-        let type = 'desktop';
-        if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua)) {
-            type = width < 768 ? 'mobile' : 'tablet';
-        } else if (/iPad|Android/i.test(ua) && width >= 768 && width <= 1024) {
-            type = 'tablet';
-        }
-        document.body.classList.add(`device-${type}`);
-    }, []);
-
     const loadChapter = (chapterNum) => {
-        if (window[`chapter${chapterNum}Questions`]) {
-            setQuestions(window[`chapter${chapterNum}Questions`]);
-            setSelectedChapter(chapterNum);
-            setView('start');
+        const path = chapterPaths[chapterNum];
+        if (!path) {
+            console.error('No path found for chapter:', chapterNum);
             return;
         }
-
+        
+        setSelectedChapter(chapterNum);
+        
+        // Remove all existing chapter scripts
+        document.querySelectorAll('script[src*="chapter"]').forEach(s => s.remove());
+        
         const script = document.createElement('script');
-        script.src = '/' + chapterPaths[chapterNum];
+        script.src = import.meta.env.BASE_URL + path;
         script.onload = () => {
-            const qs = window[`chapter${chapterNum}Questions`];
-            if (qs) {
-                setQuestions(qs);
-                setSelectedChapter(chapterNum);
+            const chapterVarName = `chapter${chapterNum}Questions`;
+            const chapterData = window[chapterVarName];
+            
+            if (chapterData && Array.isArray(chapterData)) {
+                setQuestions(chapterData);
                 setView('start');
             } else {
-                alert(`Error: Could not load Chapter ${chapterNum} questions.`);
+                console.error(`No ${chapterVarName} found or not an array`);
             }
         };
         script.onerror = () => {
-            alert(`Error: Could not find Chapter ${chapterNum} question file.`);
+            console.error('Failed to load script:', import.meta.env.BASE_URL + path);
         };
-        document.head.appendChild(script);
+        document.body.appendChild(script);
     };
 
     const startGame = () => {
-        // Fisher-Yates Shuffle
-        const shuffled = [...questions];
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-        }
+        const shuffled = [...questions].sort(() => Math.random() - 0.5);
         setGameQuestions(shuffled);
         setCurrentQuestionIndex(0);
         setScore(0);
         setIsAnswered(false);
         setHintUsed(false);
         setEliminatedAnswers([]);
+        setHiddenAnswers([]);
+        setSelectedAnswerIndex(null);
         setFeedback(null);
         setView('quiz');
     };
@@ -122,17 +169,32 @@ function App() {
     const handleAnswer = (answer, index) => {
         if (isAnswered) return;
         setIsAnswered(true);
+        setSelectedAnswerIndex(index);
 
+        // Calculate hidden answers
+        const currentQ = gameQuestions[currentQuestionIndex];
+        const newHiddenAnswers = [];
+        
         if (answer.c) {
+            // User selected correct answer. Hide all incorrect answers.
+            currentQ.a.forEach((ans, idx) => {
+                if (!ans.c) newHiddenAnswers.push(idx);
+            });
             setScore(s => s + 1);
             setFeedback({ text: "Correct!", type: "correct" });
         } else {
+            // User selected wrong answer. Hide all except selected and correct.
+            currentQ.a.forEach((ans, idx) => {
+                if (idx !== index && !ans.c) newHiddenAnswers.push(idx);
+            });
+
             let msg = "Incorrect";
             if (insults.length > 0) {
                 msg = insults[Math.floor(Math.random() * insults.length)];
             }
             setFeedback({ text: msg, type: "wrong" });
         }
+        setHiddenAnswers(newHiddenAnswers);
         
         // Scroll to feedback
         setTimeout(() => {
@@ -163,6 +225,8 @@ function App() {
             setIsAnswered(false);
             setHintUsed(false);
             setEliminatedAnswers([]);
+            setHiddenAnswers([]);
+            setSelectedAnswerIndex(null);
             setFeedback(null);
         } else {
             setView('result');
@@ -177,152 +241,206 @@ function App() {
 
     const currentQuestion = gameQuestions[currentQuestionIndex];
 
+    if (view === 'flashcards') {
+        return <FlashCards onBack={() => setView('splash')} />;
+    }
+
+    // Render splash screen without the glass panel wrapper
+    if (view === 'splash') {
+        return (
+            <div id="splash-screen" className="fixed inset-0 w-full h-full z-50 fade-in overflow-hidden bg-black">
+                <CrossfadeLoop 
+                    src={`${import.meta.env.BASE_URL}Video/JellyLoop-VBR.mp4`} 
+                    containerClassName="absolute inset-0 w-full h-full splash-mask"
+                />
+                <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 z-10 pointer-events-none">
+                    <div className="mb-12 text-center pointer-events-auto">
+                        <h1 className="text-heading-main text-4xl md:text-6xl leading-tight tracking-tighter" style={{ 
+                            color: '#24daff',
+                            filter: 'none'
+                        }}>
+                            PIERCE COLLEGE<br />PSYCHOLOGY 1
+                        </h1>
+                        <h2 className="text-heading-sub text-2xl md:text-3xl text-white mt-2" style={{ textShadow: '0 0 10px #00ffff' }}>Comprehensive Final Exam Study Companion</h2>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-6 pointer-events-auto">
+                        <GlowButton onClick={() => setView('flashcards')} className="bg-black/50 hover:bg-[#00ffff]/20 border-2 border-[#00ffff] text-[#00ffff] font-black py-3 px-5 md:px-8 rounded-xl text-base md:text-lg transition-all shadow-[0_0_20px_rgba(0,255,255,0.5)] hover:shadow-[0_0_40px_rgba(0,255,255,0.8)] transform hover:-translate-y-1 hover:scale-105 uppercase tracking-widest">
+                            FLASH CARD STUDY GUIDE
+                        </GlowButton>
+                        <GlowButton onClick={() => setView('welcome')} className="bg-black/50 hover:bg-[#ff00ff]/20 border-2 border-[#ff00ff] text-[#ff00ff] font-black py-3 px-5 md:px-8 rounded-xl text-base md:text-lg transition-all shadow-[0_0_20px_rgba(255,0,255,0.5)] hover:shadow-[0_0_40px_rgba(255,0,255,0.8)] transform hover:-translate-y-1 hover:scale-105 uppercase tracking-widest">
+                            PRACTICE EXAMS
+                        </GlowButton>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
     return (
-        <div className="glass-panel w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl min-h-[600px] flex flex-col relative">
+        <div className="glass-panel w-full max-w-5xl md:rounded-xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] h-[100dvh] md:h-auto md:min-h-[700px] flex flex-col relative border-2 border-[#00ffff]">
             {/* Header */}
             {view === 'quiz' && (
                 <>
-                    <div id="header-bar" className="bg-gray-50 px-6 py-4 border-b border-gray-100 flex justify-between items-center sticky top-0 z-10">
-                        <div className="text-sm font-semibold text-gray-500">
-                            Question <span id="current-q-num">{currentQuestionIndex + 1}</span>/<span id="total-q-num">{gameQuestions.length}</span>
+                    <div id="header-bar" className="bg-black/80 px-4 py-3 md:px-6 md:py-4 border-b-2 border-[#ff00ff] flex flex-col md:flex-row md:justify-between md:items-center sticky top-0 z-10 backdrop-blur-md">
+                        <div className="w-full flex flex-row justify-between items-center">
+                            <div className="text-sm font-bold text-[#00ffff] uppercase tracking-wider z-20 relative">
+                                Question <span id="current-q-num" className="text-white text-lg">{currentQuestionIndex + 1}</span> / <span id="total-q-num">{gameQuestions.length}</span>
+                            </div>
+                            <div className="flex items-center gap-4 z-20 relative">
+                                <div className="text-[#ff00ff] font-black text-lg uppercase tracking-wider" style={{ textShadow: '0 0 10px #ff00ff' }}>Score: <span id="score-display" className="text-white">{score}</span></div>
+                                <GlowButton onClick={restartGame} className="bg-transparent hover:bg-red-900/50 text-red-500 hover:text-red-400 font-bold py-2 px-6 rounded-xl transition-all shadow-none text-sm border-2 border-red-600 uppercase tracking-wider">Quit</GlowButton>
+                            </div>
                         </div>
-                        <div className="flex items-center gap-4">
-                            <div className="text-cyan-700 font-bold text-sm">Score: <span id="score-display">{score}</span></div>
-                            <button onClick={restartGame} className="bg-gray-200 hover:bg-red-500 hover:text-white text-gray-700 font-semibold py-2 px-6 rounded-lg transition-all shadow-sm text-sm">Quit</button>
+                        <div className="w-full text-center mt-2 md:mt-0">
+                            <span className="md:inline hidden">{chapterDescriptions[selectedChapter]}</span>
+                            <span className="md:hidden block text-white font-bold text-xs uppercase tracking-widest">Ch {selectedChapter}</span>
                         </div>
                     </div>
-                    <div id="progress-container" className="w-full bg-gray-200 h-1.5">
-                        <div id="progress-bar" className="bg-cyan-600 h-1.5 transition-all duration-500" style={{ width: `${((currentQuestionIndex) / gameQuestions.length) * 100}%` }}></div>
+                    <div id="progress-container" className="w-full bg-black h-2 border-b border-[#333]">
+                        <div id="progress-bar" className="bg-[#00ffff] h-full transition-all duration-500 shadow-[0_0_10px_#00ffff]" style={{ width: `${((currentQuestionIndex) / gameQuestions.length) * 100}%` }}></div>
                     </div>
                 </>
             )}
 
             {/* Content Area */}
-            <div className="flex-1 p-6 md:p-10 flex flex-col justify-center items-center text-center w-full overflow-y-auto custom-scroll">
+            <div className={`flex-1 p-6 md:p-10 flex flex-col items-center text-center w-full overflow-y-auto no-scrollbar bg-black/40 ${view === 'quiz' ? 'justify-start pt-10 md:pt-20' : 'justify-center'}`}>
                 
                 {/* WELCOME SCREEN */}
                 {view === 'welcome' && (
-                    <div id="welcome-screen" className="fade-in w-full max-w-3xl mx-auto">
-                        <div className="w-full text-center mb-2">
-                            <span className="text-red-600 font-bold text-lg">React Version</span>
-                        </div>
-                        <div className="mb-4 text-cyan-600 text-5xl"><i className="fa-solid fa-graduation-cap"></i></div>
-                        <h1 className="text-3xl font-bold text-gray-800 mb-2">Pierce College</h1>
-                        <h2 className="text-2xl font-semibold text-gray-700 mb-6">Psychology 1 Practice Tests</h2>
-                        <h3 className="text-xl font-medium text-gray-600 mb-8">Select Your Chapter</h3>
+                    <div id="welcome-screen" className="fade-in w-full max-w-4xl mx-auto">
+                        <div className="mb-6 text-[#ff00ff] text-6xl filter drop-shadow-[0_0_10px_rgba(255,0,255,0.8)]"><i className="fa-solid fa-graduation-cap"></i></div>
+                        <h2 className="text-heading-sub text-2xl md:text-3xl text-gray-300 mb-4 tracking-wide">Psychology 1 Practice Tests</h2>
                         
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-                            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(num => (
-                                <button key={num} onClick={() => loadChapter(num)} className="chapter-btn bg-white hover:bg-cyan-50 border-2 border-gray-200 hover:border-cyan-500 text-gray-800 font-semibold py-4 px-6 rounded-xl transition-all shadow-sm hover:shadow-md">
+                        <div className="w-full flex justify-center mb-8">
+                            <GlowButton onClick={() => setView('splash')} className="text-button bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-2 px-6 rounded-xl text-base transition-all flex items-center gap-2 border-2 border-gray-700 hover:border-white tracking-wide">
+                                <i className="fa-solid fa-arrow-left"></i> Back to Main
+                            </GlowButton>
+                        </div>
+
+                        <h3 className="text-body text-xl font-bold text-[#00ffff] mb-8 uppercase tracking-widest border-2 border-[#00ffff] inline-block px-6 py-2 bg-black/50">Select Your Chapter</h3>
+                        
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14].map(num => (
+                                <GlowButton key={num} onClick={() => loadChapter(num)} className="chapter-btn text-button bg-[#111] hover:bg-[#222] border-2 border-[#333] hover:border-[#ff00ff] text-gray-300 hover:text-white py-4 px-6 rounded-xl transition-all shadow-none hover:shadow-[0_0_15px_rgba(255,0,255,0.4)] tracking-wider">
                                     Chapter {num}
-                                </button>
+                                </GlowButton>
                             ))}
                         </div>
                         
-                        <div className="bg-gray-100 border border-gray-300 rounded-lg py-3 px-4 mb-6 text-gray-600 italic text-sm">
-                            Chapters 12 & 13 Were Skipped
-                        </div>
-                        
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                            {[14, 15, 16].map(num => (
-                                <button key={num} onClick={() => loadChapter(num)} className="chapter-btn bg-white hover:bg-cyan-50 border-2 border-gray-200 hover:border-cyan-500 text-gray-800 font-semibold py-4 px-6 rounded-xl transition-all shadow-sm hover:shadow-md">
+                        <div className="flex flex-wrap justify-center gap-4">
+                            {[15, 16].map(num => (
+                                <GlowButton key={num} onClick={() => loadChapter(num)} className="chapter-btn text-button bg-[#111] hover:bg-[#222] border-2 border-[#333] hover:border-[#ff00ff] text-gray-300 hover:text-white py-4 px-6 rounded-xl transition-all shadow-none hover:shadow-[0_0_15px_rgba(255,0,255,0.4)] tracking-wider">
                                     Chapter {num}
-                                </button>
+                                </GlowButton>
                             ))}
+                        </div>
+
+                        <div className="bg-black/80 border border-[#333] py-3 px-4 mt-8 text-gray-500 italic text-sm font-mono">
+                            // Chapters 12 & 13 Were Skipped //
                         </div>
                     </div>
                 )}
 
                 {/* START SCREEN */}
                 {view === 'start' && (
-                    <div id="start-screen" className="fade-in w-full max-w-lg mx-auto">
-                        <div className="mb-6 text-cyan-600 text-6xl"><i className="fa-solid fa-brain"></i></div>
-                        <h1 className="text-4xl font-bold text-gray-800 mb-4">Psychology Quiz</h1>
-                        <p className="text-gray-600 mb-8 text-lg">
+                    <div id="start-screen" className="fade-in w-full max-w-2xl mx-auto border-2 border-[#ff00ff] p-8 bg-black/60 relative">
+                        <div className="absolute -top-3 -left-3 w-6 h-6 border-t-4 border-l-4 border-[#00ffff]"></div>
+                        <div className="absolute -top-3 -right-3 w-6 h-6 border-t-4 border-r-4 border-[#00ffff]"></div>
+                        <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-4 border-l-4 border-[#00ffff]"></div>
+                        <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-4 border-r-4 border-[#00ffff]"></div>
+
+                        <div className="mb-8 text-[#00ffff] text-7xl filter drop-shadow-[0_0_15px_rgba(0,255,255,0.6)]"><i className="fa-solid fa-brain"></i></div>
+                        <h1 className="text-heading-main text-5xl text-white mb-6 tracking-tighter italic transform -skew-x-6">Psychology Quiz</h1>
+                        <p className="text-body text-gray-300 mb-10 text-xl leading-relaxed">
                             {chapterDescriptions[selectedChapter] || `Chapter ${selectedChapter}`}
                             <br />
-                            There are <span className="font-bold">{questions.length}</span> questions in this set.
+                            <span className="inline-block mt-4 bg-[#ff00ff]/20 border border-[#ff00ff] px-4 py-1 text-[#ff00ff] font-bold uppercase tracking-wider">
+                                {questions.length} Questions Loaded
+                            </span>
                         </p>
-                        <button onClick={startGame} className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-10 rounded-full text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 mb-4 w-full md:w-auto">
+                        <GlowButton onClick={startGame} className="text-button bg-[#ff00ff] hover:bg-[#d900d9] text-white py-5 px-12 rounded-xl text-xl transition-all shadow-[0_0_20px_rgba(255,0,255,0.6)] hover:shadow-[0_0_40px_rgba(255,0,255,0.8)] transform hover:-translate-y-1 mb-6 w-full md:w-auto tracking-widest border-2 border-white">
                             Start Quiz
-                        </button>
+                        </GlowButton>
                         <br/>
-                        <button onClick={() => setView('welcome')} className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-4 px-10 rounded-full text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center gap-2 justify-center mx-auto w-full md:w-auto">
-                            <i className="fa-solid fa-arrow-left"></i> Back to Chapter Selection
-                        </button>
+                        <GlowButton onClick={() => setView('welcome')} className="text-button bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-3 px-8 rounded-xl text-lg transition-all flex items-center gap-2 justify-center mx-auto w-full md:w-auto border-2 border-gray-700 hover:border-white tracking-wide">
+                            <i className="fa-solid fa-arrow-left"></i> Back to Selection
+                        </GlowButton>
                     </div>
                 )}
 
                 {/* QUIZ SCREEN */}
                 {view === 'quiz' && currentQuestion && (
-                    <div id="quiz-screen" className="w-full text-left fade-in max-w-3xl mx-auto pb-10">
-                        <div className="flex justify-between items-start mb-6">
-                            <h2 id="question-text" className="text-xl md:text-2xl font-bold text-gray-800 leading-tight flex-1 mr-4" dangerouslySetInnerHTML={{ __html: currentQuestion.q }}></h2>
+                    <div id="quiz-screen" className="w-full text-left fade-in max-w-4xl mx-auto pb-10">
+                        <div className="flex justify-between items-start mb-8 border-b border-[#333] pb-6">
+                            <h2 ref={questionRef} id="question-text" className="text-question text-xl md:text-2xl flex-1 mr-6" dangerouslySetInnerHTML={{ __html: currentQuestion.q }}></h2>
                             <button 
-                                id="hint-btn" 
+                                id="hint-btn"
                                 onClick={useHint} 
                                 disabled={isAnswered || hintUsed}
-                                className={`shrink-0 flex flex-col items-center justify-center text-yellow-500 transition-colors p-2 rounded-lg group ${isAnswered || hintUsed ? 'opacity-50 cursor-not-allowed' : 'hover:text-yellow-600 hover:bg-yellow-50'}`} 
+                                className={`shrink-0 flex flex-col items-center justify-center transition-all p-2 group ${isAnswered || hintUsed ? 'opacity-30 cursor-not-allowed text-gray-600' : 'text-[#ff00ff] hover:text-[#ffe0ff] hover:drop-shadow-[0_0_15px_rgba(0,255,255,1)] animate-breathe-cyan'}`} 
                                 title="Remove 2 wrong answers"
                             >
-                                <i className="fa-solid fa-lightbulb text-2xl mb-1 group-hover:scale-110 transition-transform"></i>
-                                <span className="text-xs font-bold">Hint</span>
+                                <i className="fa-solid fa-lightbulb text-4xl mb-1 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12"></i>
+                                <span className="text-xs font-black uppercase tracking-widest">Hint</span>
                             </button>
                         </div>
                         
-                        <div id="answer-buttons" className="grid grid-cols-1 gap-3 w-full">
+                        <div id="answer-buttons" className="flex flex-col gap-4 w-full">
                             {currentQuestion.a.map((ans, idx) => {
                                 const isEliminated = eliminatedAnswers.includes(idx);
                                 const isCorrect = ans.c;
-                                let btnClass = "option-btn p-4 text-left bg-white border border-gray-200 rounded-xl text-gray-700 font-medium shadow-sm transition-all";
+                                const isSelected = selectedAnswerIndex === idx;
+                                const isHidden = hiddenAnswers.includes(idx);
+
+                                let btnClass = "option-btn text-center rounded-xl font-bold shadow-sm transition-all duration-500 ease-in-out overflow-hidden";
                                 
-                                if (isEliminated) {
-                                    btnClass += " eliminated";
-                                } else if (isAnswered) {
-                                    if (isCorrect) btnClass += " correct";
-                                    // If this was the clicked one and it's wrong? 
-                                    // Actually, in the original logic, only the clicked one turned red, and the correct one turned green.
-                                    // But here I don't track which one was clicked in state easily unless I add it.
-                                    // Let's just highlight the correct one and disable all.
-                                    // Wait, the user wants to know if THEY were wrong.
-                                    // I need to know which button was clicked.
-                                    // I'll handle the styling via inline or just logic here.
-                                    // But wait, I can't easily know which one was clicked unless I store `selectedAnswerIndex`.
+                                if (isHidden) {
+                                    btnClass += " max-h-0 opacity-0 !p-0 !border-0 !m-0 pointer-events-none";
                                 } else {
-                                    btnClass += " hover:bg-gray-50";
+                                    btnClass += " max-h-[500px] opacity-100 p-5 border-2";
+                                    
+                                    if (isEliminated) {
+                                        btnClass += " eliminated";
+                                    } else if (isAnswered) {
+                                        if (isCorrect) {
+                                            btnClass += " correct";
+                                        } else if (isSelected) {
+                                            btnClass += " wrong";
+                                        }
+                                    } else {
+                                        btnClass += " hover:bg-[#1a1a1a]";
+                                    }
                                 }
 
                                 return (
-                                    <button 
+                                    <GlowButton 
                                         key={idx}
-                                        onClick={(e) => {
-                                            e.currentTarget.classList.add(ans.c ? 'correct' : 'wrong');
-                                            handleAnswer(ans, idx);
-                                        }}
-                                        disabled={isAnswered || isEliminated}
+                                        onClick={() => handleAnswer(ans, idx)}
+                                        disabled={isAnswered || isEliminated || isHidden}
                                         className={btnClass}
                                     >
                                         {isEliminated ? (
-                                            <span className="line-through decoration-2 decoration-gray-400 text-gray-400" dangerouslySetInnerHTML={{ __html: ans.t }}></span>
+                                            <span className="line-through decoration-2 decoration-gray-600 text-gray-600 font-mono" dangerouslySetInnerHTML={{ __html: ans.t }}></span>
                                         ) : (
                                             <>
-                                                <span dangerouslySetInnerHTML={{ __html: ans.t }}></span>
-                                                {isAnswered && isCorrect && <i className="fa-solid fa-check float-right mt-1 text-green-700"></i>}
+                                                <span className="font-sans tracking-wide" dangerouslySetInnerHTML={{ __html: ans.t }}></span>
+                                                {isAnswered && isCorrect && <i className="fa-solid fa-check float-right mt-1 text-[#39ff14] text-xl filter drop-shadow-[0_0_5px_#39ff14]"></i>}
+                                                {isAnswered && isSelected && !isCorrect && <i className="fa-solid fa-xmark float-right mt-1 text-[#ff0000] text-xl filter drop-shadow-[0_0_5px_#ff0000]"></i>}
                                             </>
                                         )}
-                                    </button>
+                                    </GlowButton>
                                 );
                             })}
                         </div>
 
                         {feedback && (
-                            <div id="feedback-area" ref={feedbackRef} className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-100 fade-in">
-                                <p id="feedback-text" className={`text-lg font-bold mb-2 ${feedback.type === 'correct' ? 'text-green-600' : 'text-red-600'}`}>
+                            <div id="feedback-area" ref={feedbackRef} className="mt-8 flex flex-col items-center animate-slide-up">
+                                <p id="feedback-text" className={`mb-6 ${feedback.type === 'correct' ? 'text-feedback-correct' : 'text-feedback-wrong'}`}>
                                     {feedback.text}
                                 </p>
-                                <button id="next-btn" onClick={nextQuestion} className="bg-cyan-600 text-white px-8 py-3 rounded-lg hover:bg-cyan-700 transition-colors shadow-md font-semibold w-full md:w-auto">
+                                <GlowButton id="next-btn" onClick={nextQuestion} className="bg-[#00ffff] text-white px-10 py-4 rounded-xl hover:bg-[#ccffff] transition-all shadow-[0_0_15px_#00ffff] font-black w-full md:w-auto uppercase tracking-widest text-lg transform hover:-translate-y-1">
                                     Next Question <i className="fa-solid fa-arrow-right ml-2"></i>
-                                </button>
+                                </GlowButton>
                             </div>
                         )}
                     </div>
@@ -330,20 +448,35 @@ function App() {
 
                 {/* RESULT SCREEN */}
                 {view === 'result' && (
-                    <div id="result-screen" className="fade-in w-full">
-                        <div id="result-icon" className="text-6xl mb-4 text-gray-300">
+                    <div id="result-screen" className="fade-in w-full max-w-3xl mx-auto border-4 border-[#00ffff] p-10 bg-black/80 relative">
+                        <div className="absolute top-0 left-0 w-4 h-4 bg-[#00ffff]"></div>
+                        <div className="absolute top-0 right-0 w-4 h-4 bg-[#00ffff]"></div>
+                        <div className="absolute bottom-0 left-0 w-4 h-4 bg-[#00ffff]"></div>
+                        <div className="absolute bottom-0 right-0 w-4 h-4 bg-[#00ffff]"></div>
+
+                        <div id="result-icon" className="text-8xl mb-6 filter drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                             {(score / gameQuestions.length) === 1 ? (
-                                <i className="fa-solid fa-trophy text-yellow-400"></i>
-                            ) : (score / gameQuestions.length) >= 0.6 ? (
-                                <i className="fa-solid fa-thumbs-up text-blue-400"></i>
+                                <i className="fa-solid fa-crown text-[#ffd700] animate-bounce"></i>
+                            ) : (score / gameQuestions.length) >= 0.92 ? (
+                                <i className="fa-solid fa-trophy text-[#ffd700]"></i>
+                            ) : (score / gameQuestions.length) >= 0.8 ? (
+                                <i className="fa-solid fa-thumbs-up text-[#00ffff]"></i>
+                            ) : (score / gameQuestions.length) <= 0.7 ? (
+                                <i className="fa-solid fa-skull text-[#ff0000]"></i>
                             ) : (
-                                <i className="fa-solid fa-book-open text-gray-400"></i>
+                                <i className="fa-solid fa-face-meh text-[#ffa500]"></i>
                             )}
                         </div>
-                        <h2 className="text-3xl font-bold text-gray-800 mb-2">Assessment Complete</h2>
-                        <p className="text-gray-600 mb-6">You scored <span className="font-bold text-cyan-600 text-2xl">{score}</span> out of <span id="final-total">{gameQuestions.length}</span></p>
+                        <h2 className="text-heading-main text-4xl md:text-5xl text-white mb-4 tracking-tighter">
+                            {(score / gameQuestions.length) === 1 ? "GREAT JOB 100%!!" : "Assessment Complete"}
+                        </h2>
+                        <p className="text-body text-gray-300 mb-10 text-2xl">
+                            You scored <span className="font-black text-[#ff00ff] text-4xl inline-block transform -rotate-3 border-2 border-[#ff00ff] px-3 py-1 mx-2 bg-black">{score}</span> out of <span id="final-total" className="font-bold text-white">{gameQuestions.length}</span>
+                            <br />
+                            <span className="text-lg text-[#00ffff] font-bold">({((score / gameQuestions.length) * 100).toFixed(1)}%)</span>
+                        </p>
                         <div className="flex justify-center gap-4">
-                            <button onClick={restartGame} className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-full transition-all w-full md:w-auto">Restart Quiz</button>
+                            <GlowButton onClick={restartGame} className="text-button bg-[#ff00ff] hover:bg-[#d900d9] text-white py-4 px-12 rounded-xl transition-all w-full md:w-auto border-2 border-white shadow-[0_0_20px_#ff00ff] tracking-widest text-xl hover:scale-105">Restart Quiz</GlowButton>
                         </div>
                     </div>
                 )}
