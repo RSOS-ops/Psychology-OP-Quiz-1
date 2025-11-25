@@ -661,6 +661,24 @@ button:disabled { cursor: not-allowed; opacity: 0.5; }
     animation: breathe-cyan 3s infinite ease-in-out;
 }
 
+/* Breathing animation for custom yellow hint button */
+@keyframes breathe-custom-yellow {
+    0%, 100% { 
+        transform: scale(1); 
+        filter: drop-shadow(0 0 10px rgba(255, 244, 125, 0.8));
+        text-shadow: 0 0 10px rgba(255, 244, 125, 0.8);
+    }
+    50% { 
+        transform: scale(1.25); 
+        filter: drop-shadow(0 0 35px rgba(255, 244, 125, 1));
+        text-shadow: 0 0 35px rgba(255, 244, 125, 1);
+    }
+}
+
+.animate-breathe-custom-yellow {
+    animation: breathe-custom-yellow 3s infinite ease-in-out;
+}
+
 /* Gradient Text Animation */
 @keyframes gradient-x {
     0% {
