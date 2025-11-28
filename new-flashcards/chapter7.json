@@ -1,0 +1,897 @@
+{
+  "title": "Chapter 7: Thinking and Intelligence",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 601,
+      "term": "algorithm",
+      "definition": "problem-solving strategy characterized by a specific set of instructions"
+    },
+    {
+      "id": 10601,
+      "term": "problem-solving strategy characterized by a specific set of instructions",
+      "definition": "algorithm",
+      "isReverse": true
+    },
+    {
+      "id": 602,
+      "term": "analytical intelligence",
+      "definition": "aligned with academic problem solving and computations"
+    },
+    {
+      "id": 10602,
+      "term": "aligned with academic problem solving and computations",
+      "definition": "analytical intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 603,
+      "term": "anchoring bias",
+      "definition": "faulty heuristic in which you fixate on a single aspect of a problem to find a solution"
+    },
+    {
+      "id": 10603,
+      "term": "faulty heuristic in which you fixate on a single aspect of a problem to find a solution",
+      "definition": "anchoring bias",
+      "isReverse": true
+    },
+    {
+      "id": 604,
+      "term": "artificial concept",
+      "definition": "concept that is defined by a very specific set of characteristics"
+    },
+    {
+      "id": 10604,
+      "term": "concept that is defined by a very specific set of characteristics",
+      "definition": "artificial concept",
+      "isReverse": true
+    },
+    {
+      "id": 605,
+      "term": "availability heuristic",
+      "definition": "faulty heuristic in which you make a decision based on information readily available to you"
+    },
+    {
+      "id": 10605,
+      "term": "faulty heuristic in which you make a decision based on information readily available to you",
+      "definition": "availability heuristic",
+      "isReverse": true
+    },
+    {
+      "id": 606,
+      "term": "cognition",
+      "definition": "thinking, including perception, learning, problem solving, judgment, and memory"
+    },
+    {
+      "id": 10606,
+      "term": "thinking, including perception, learning, problem solving, judgment, and memory",
+      "definition": "cognition",
+      "isReverse": true
+    },
+    {
+      "id": 607,
+      "term": "cognitive psychology",
+      "definition": "field of psychology dedicated to studying every aspect of how people think"
+    },
+    {
+      "id": 10607,
+      "term": "field of psychology dedicated to studying every aspect of how people think",
+      "definition": "cognitive psychology",
+      "isReverse": true
+    },
+    {
+      "id": 608,
+      "term": "cognitive script",
+      "definition": "set of behaviors that are performed the same way each time; also referred to as an event schema"
+    },
+    {
+      "id": 10608,
+      "term": "set of behaviors that are performed the same way each time; also referred to as an event schema",
+      "definition": "cognitive script",
+      "isReverse": true
+    },
+    {
+      "id": 609,
+      "term": "concept",
+      "definition": "category or grouping of linguistic information, objects, ideas, or life experiences"
+    },
+    {
+      "id": 10609,
+      "term": "category or grouping of linguistic information, objects, ideas, or life experiences",
+      "definition": "concept",
+      "isReverse": true
+    },
+    {
+      "id": 610,
+      "term": "confirmation bias",
+      "definition": "faulty heuristic in which you focus on information that confirms your beliefs"
+    },
+    {
+      "id": 10610,
+      "term": "faulty heuristic in which you focus on information that confirms your beliefs",
+      "definition": "confirmation bias",
+      "isReverse": true
+    },
+    {
+      "id": 611,
+      "term": "convergent thinking",
+      "definition": "providing correct or established answers to problems"
+    },
+    {
+      "id": 10611,
+      "term": "providing correct or established answers to problems",
+      "definition": "convergent thinking",
+      "isReverse": true
+    },
+    {
+      "id": 612,
+      "term": "creative intelligence",
+      "definition": "ability to produce new products, ideas, or inventing a new, novel solution to a problem"
+    },
+    {
+      "id": 10612,
+      "term": "ability to produce new products, ideas, or inventing a new, novel solution to a problem",
+      "definition": "creative intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 613,
+      "term": "creativity",
+      "definition": "ability to generate, create, or discover new ideas, solutions, and possibilities"
+    },
+    {
+      "id": 10613,
+      "term": "ability to generate, create, or discover new ideas, solutions, and possibilities",
+      "definition": "creativity",
+      "isReverse": true
+    },
+    {
+      "id": 614,
+      "term": "crystallized intelligence",
+      "definition": "characterized by acquired knowledge and the ability to retrieve it"
+    },
+    {
+      "id": 10614,
+      "term": "characterized by acquired knowledge and the ability to retrieve it",
+      "definition": "crystallized intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 615,
+      "term": "cultural intelligence",
+      "definition": "ability with which people can understand and relate to those in another culture"
+    },
+    {
+      "id": 10615,
+      "term": "ability with which people can understand and relate to those in another culture",
+      "definition": "cultural intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 616,
+      "term": "divergent thinking",
+      "definition": "ability to think \"outside the box\" to arrive at novel solutions to a problem"
+    },
+    {
+      "id": 10616,
+      "term": "ability to think \"outside the box\" to arrive at novel solutions to a problem",
+      "definition": "divergent thinking",
+      "isReverse": true
+    },
+    {
+      "id": 617,
+      "term": "dysgraphia",
+      "definition": "learning disability that causes extreme difficulty in writing legibly"
+    },
+    {
+      "id": 10617,
+      "term": "learning disability that causes extreme difficulty in writing legibly",
+      "definition": "dysgraphia",
+      "isReverse": true
+    },
+    {
+      "id": 618,
+      "term": "dyslexia",
+      "definition": "common learning disability in which letters are not processed properly by the brain"
+    },
+    {
+      "id": 10618,
+      "term": "common learning disability in which letters are not processed properly by the brain",
+      "definition": "dyslexia",
+      "isReverse": true
+    },
+    {
+      "id": 619,
+      "term": "emotional intelligence",
+      "definition": "ability to understand emotions and motivations in yourself and others"
+    },
+    {
+      "id": 10619,
+      "term": "ability to understand emotions and motivations in yourself and others",
+      "definition": "emotional intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 620,
+      "term": "event schema",
+      "definition": "set of behaviors that are performed the same way each time; also referred to as a cognitive script"
+    },
+    {
+      "id": 10620,
+      "term": "set of behaviors that are performed the same way each time; also referred to as a cognitive script",
+      "definition": "event schema",
+      "isReverse": true
+    },
+    {
+      "id": 621,
+      "term": "fluid intelligence",
+      "definition": "ability to see complex relationships and solve problems"
+    },
+    {
+      "id": 10621,
+      "term": "ability to see complex relationships and solve problems",
+      "definition": "fluid intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 622,
+      "term": "Flynn effect",
+      "definition": "observation that each generation has a significantly higher IQ than the previous generation"
+    },
+    {
+      "id": 10622,
+      "term": "observation that each generation has a significantly higher IQ than the previous generation",
+      "definition": "Flynn effect",
+      "isReverse": true
+    },
+    {
+      "id": 623,
+      "term": "functional fixedness",
+      "definition": "inability to see an object as useful for any other use other than the one for which it was intended"
+    },
+    {
+      "id": 10623,
+      "term": "inability to see an object as useful for any other use other than the one for which it was intended",
+      "definition": "functional fixedness",
+      "isReverse": true
+    },
+    {
+      "id": 624,
+      "term": "grammar",
+      "definition": "set of rules that are used to convey meaning through the use of a lexicon"
+    },
+    {
+      "id": 10624,
+      "term": "set of rules that are used to convey meaning through the use of a lexicon",
+      "definition": "grammar",
+      "isReverse": true
+    },
+    {
+      "id": 625,
+      "term": "heuristic",
+      "definition": "mental shortcut that saves time when solving a problem"
+    },
+    {
+      "id": 10625,
+      "term": "mental shortcut that saves time when solving a problem",
+      "definition": "heuristic",
+      "isReverse": true
+    },
+    {
+      "id": 626,
+      "term": "hindsight bias",
+      "definition": "belief that the event just experienced was predictable, even though it really wasn't"
+    },
+    {
+      "id": 10626,
+      "term": "belief that the event just experienced was predictable, even though it really wasn't",
+      "definition": "hindsight bias",
+      "isReverse": true
+    },
+    {
+      "id": 627,
+      "term": "intelligence quotient (also, IQ)",
+      "definition": "score on a test designed to measure intelligence"
+    },
+    {
+      "id": 10627,
+      "term": "score on a test designed to measure intelligence",
+      "definition": "intelligence quotient (also, IQ)",
+      "isReverse": true
+    },
+    {
+      "id": 628,
+      "term": "language",
+      "definition": "communication system that involves using words to transmit information from one individual to another"
+    },
+    {
+      "id": 10628,
+      "term": "communication system that involves using words to transmit information from one individual to another",
+      "definition": "language",
+      "isReverse": true
+    },
+    {
+      "id": 629,
+      "term": "lexicon",
+      "definition": "the words of a given language"
+    },
+    {
+      "id": 10629,
+      "term": "the words of a given language",
+      "definition": "lexicon",
+      "isReverse": true
+    },
+    {
+      "id": 630,
+      "term": "mental set",
+      "definition": "continually using an old solution to a problem without results"
+    },
+    {
+      "id": 10630,
+      "term": "continually using an old solution to a problem without results",
+      "definition": "mental set",
+      "isReverse": true
+    },
+    {
+      "id": 631,
+      "term": "morpheme",
+      "definition": "smallest unit of language that conveys some type of meaning"
+    },
+    {
+      "id": 10631,
+      "term": "smallest unit of language that conveys some type of meaning",
+      "definition": "morpheme",
+      "isReverse": true
+    },
+    {
+      "id": 632,
+      "term": "Multiple Intelligences Theory",
+      "definition": "Gardner's theory that each person possesses at least eight types of intelligence"
+    },
+    {
+      "id": 10632,
+      "term": "Gardner's theory that each person possesses at least eight types of intelligence",
+      "definition": "Multiple Intelligences Theory",
+      "isReverse": true
+    },
+    {
+      "id": 633,
+      "term": "natural concept",
+      "definition": "mental groupings that are created \"naturally\" through your experiences"
+    },
+    {
+      "id": 10633,
+      "term": "mental groupings that are created \"naturally\" through your experiences",
+      "definition": "natural concept",
+      "isReverse": true
+    },
+    {
+      "id": 634,
+      "term": "norming",
+      "definition": "administering a test to a large population so data can be collected to reference the normal scores for a population and its groups"
+    },
+    {
+      "id": 10634,
+      "term": "administering a test to a large population so data can be collected to reference the normal scores for a population and its groups",
+      "definition": "norming",
+      "isReverse": true
+    },
+    {
+      "id": 635,
+      "term": "overgeneralization",
+      "definition": "extension of a rule that exists in a given language to an exception to the rule"
+    },
+    {
+      "id": 10635,
+      "term": "extension of a rule that exists in a given language to an exception to the rule",
+      "definition": "overgeneralization",
+      "isReverse": true
+    },
+    {
+      "id": 636,
+      "term": "phoneme",
+      "definition": "basic sound unit of a given language"
+    },
+    {
+      "id": 10636,
+      "term": "basic sound unit of a given language",
+      "definition": "phoneme",
+      "isReverse": true
+    },
+    {
+      "id": 637,
+      "term": "practical intelligence",
+      "definition": "aka \"street smarts\""
+    },
+    {
+      "id": 10637,
+      "term": "aka \"street smarts\"",
+      "definition": "practical intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 638,
+      "term": "problem-solving strategy",
+      "definition": "method for solving problems"
+    },
+    {
+      "id": 10638,
+      "term": "method for solving problems",
+      "definition": "problem-solving strategy",
+      "isReverse": true
+    },
+    {
+      "id": 639,
+      "term": "prototype",
+      "definition": "best representation of a concept"
+    },
+    {
+      "id": 10639,
+      "term": "best representation of a concept",
+      "definition": "prototype",
+      "isReverse": true
+    },
+    {
+      "id": 640,
+      "term": "range of reaction",
+      "definition": "each person's response to the environment is unique based on his or her genetic make-up"
+    },
+    {
+      "id": 10640,
+      "term": "each person's response to the environment is unique based on his or her genetic make-up",
+      "definition": "range of reaction",
+      "isReverse": true
+    },
+    {
+      "id": 641,
+      "term": "representative bias",
+      "definition": "faulty heuristic in which you stereotype someone or something without a valid basis for your judgment"
+    },
+    {
+      "id": 10641,
+      "term": "faulty heuristic in which you stereotype someone or something without a valid basis for your judgment",
+      "definition": "representative bias",
+      "isReverse": true
+    },
+    {
+      "id": 642,
+      "term": "representative sample",
+      "definition": "subset of the population that accurately represents the general population"
+    },
+    {
+      "id": 10642,
+      "term": "subset of the population that accurately represents the general population",
+      "definition": "representative sample",
+      "isReverse": true
+    },
+    {
+      "id": 643,
+      "term": "role schema",
+      "definition": "set of expectations that define the behaviors of a person occupying a particular role"
+    },
+    {
+      "id": 10643,
+      "term": "set of expectations that define the behaviors of a person occupying a particular role",
+      "definition": "role schema",
+      "isReverse": true
+    },
+    {
+      "id": 644,
+      "term": "schema (plural = schemata)",
+      "definition": "mental construct consisting of a cluster or collection of related concepts"
+    },
+    {
+      "id": 10644,
+      "term": "mental construct consisting of a cluster or collection of related concepts",
+      "definition": "schema (plural = schemata)",
+      "isReverse": true
+    },
+    {
+      "id": 645,
+      "term": "semantics",
+      "definition": "process by which we derive meaning from morphemes and words"
+    },
+    {
+      "id": 10645,
+      "term": "process by which we derive meaning from morphemes and words",
+      "definition": "semantics",
+      "isReverse": true
+    },
+    {
+      "id": 646,
+      "term": "standard deviation",
+      "definition": "measure of variability that describes the difference between a set of scores and their mean"
+    },
+    {
+      "id": 10646,
+      "term": "measure of variability that describes the difference between a set of scores and their mean",
+      "definition": "standard deviation",
+      "isReverse": true
+    },
+    {
+      "id": 647,
+      "term": "standardization",
+      "definition": "method of testing in which administration, scoring, and interpretation of results are consistent"
+    },
+    {
+      "id": 10647,
+      "term": "method of testing in which administration, scoring, and interpretation of results are consistent",
+      "definition": "standardization",
+      "isReverse": true
+    },
+    {
+      "id": 648,
+      "term": "syntax",
+      "definition": "manner by which words are organized into sentences"
+    },
+    {
+      "id": 10648,
+      "term": "manner by which words are organized into sentences",
+      "definition": "syntax",
+      "isReverse": true
+    },
+    {
+      "id": 649,
+      "term": "trial and error",
+      "definition": "problem-solving strategy in which multiple solutions are attempted until the correct one is found"
+    },
+    {
+      "id": 10649,
+      "term": "problem-solving strategy in which multiple solutions are attempted until the correct one is found",
+      "definition": "trial and error",
+      "isReverse": true
+    },
+    {
+      "id": 650,
+      "term": "triarchic theory of intelligence",
+      "definition": "Sternberg's theory of intelligence; three facets of intelligence: practical, creative, and analytical"
+    },
+    {
+      "id": 10650,
+      "term": "Sternberg's theory of intelligence; three facets of intelligence: practical, creative, and analytical",
+      "definition": "triarchic theory of intelligence",
+      "isReverse": true
+    },
+    {
+      "id": 651,
+      "term": "working backwards",
+      "definition": "heuristic in which you begin to solve a problem by focusing on the end result"
+    },
+    {
+      "id": 10651,
+      "term": "heuristic in which you begin to solve a problem by focusing on the end result",
+      "definition": "working backwards",
+      "isReverse": true
+    },
+    {
+      "id": 652,
+      "term": "Cognitive psychology is the branch of psychology that focuses on the study of ________.",
+      "definition": "Human thinking"
+    },
+    {
+      "id": 10652,
+      "term": "Human thinking",
+      "definition": "Cognitive psychology is the branch of psychology that focuses on the study of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 653,
+      "term": "Which of the following is an example of a prototype for the concept of leadership on an athletic team?",
+      "definition": "The team captain"
+    },
+    {
+      "id": 10653,
+      "term": "The team captain",
+      "definition": "Which of the following is an example of a prototype for the concept of leadership on an athletic team?",
+      "isReverse": true
+    },
+    {
+      "id": 654,
+      "term": "Which of the following is an example of an artificial concept?",
+      "definition": "A triangle's area"
+    },
+    {
+      "id": 10654,
+      "term": "A triangle's area",
+      "definition": "Which of the following is an example of an artificial concept?",
+      "isReverse": true
+    },
+    {
+      "id": 655,
+      "term": "An event schema is also known as a cognitive ________.",
+      "definition": "Script"
+    },
+    {
+      "id": 10655,
+      "term": "Script",
+      "definition": "An event schema is also known as a cognitive ________.",
+      "isReverse": true
+    },
+    {
+      "id": 656,
+      "term": "________ provides general principles for organizing words into meaningful sentences.",
+      "definition": "Syntax"
+    },
+    {
+      "id": 10656,
+      "term": "Syntax",
+      "definition": "________ provides general principles for organizing words into meaningful sentences.",
+      "isReverse": true
+    },
+    {
+      "id": 657,
+      "term": "________ are the smallest unit of language that carry meaning.",
+      "definition": "Morphemes"
+    },
+    {
+      "id": 10657,
+      "term": "Morphemes",
+      "definition": "________ are the smallest unit of language that carry meaning.",
+      "isReverse": true
+    },
+    {
+      "id": 658,
+      "term": "The meaning of words and phrases is determined by applying the rules of ________.",
+      "definition": "Semantics"
+    },
+    {
+      "id": 10658,
+      "term": "Semantics",
+      "definition": "The meaning of words and phrases is determined by applying the rules of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 659,
+      "term": "________ is (are) the basic sound units of a spoken language.",
+      "definition": "Phonemes"
+    },
+    {
+      "id": 10659,
+      "term": "Phonemes",
+      "definition": "________ is (are) the basic sound units of a spoken language.",
+      "isReverse": true
+    },
+    {
+      "id": 660,
+      "term": "A specific formula for solving a problem is called ________.",
+      "definition": "An algorithm"
+    },
+    {
+      "id": 10660,
+      "term": "An algorithm",
+      "definition": "A specific formula for solving a problem is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 661,
+      "term": "A mental shortcut in the form of a general problem-solving framework is called ________.",
+      "definition": "A heuristic"
+    },
+    {
+      "id": 10661,
+      "term": "A heuristic",
+      "definition": "A mental shortcut in the form of a general problem-solving framework is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 662,
+      "term": "Which type of bias involves becoming fixated on a single trait of a problem?",
+      "definition": "Anchoring bias"
+    },
+    {
+      "id": 10662,
+      "term": "Anchoring bias",
+      "definition": "Which type of bias involves becoming fixated on a single trait of a problem?",
+      "isReverse": true
+    },
+    {
+      "id": 663,
+      "term": "Which type of bias involves relying on a false stereotype to make a decision?",
+      "definition": "Representative bias"
+    },
+    {
+      "id": 10663,
+      "term": "Representative bias",
+      "definition": "Which type of bias involves relying on a false stereotype to make a decision?",
+      "isReverse": true
+    },
+    {
+      "id": 664,
+      "term": "Fluid intelligence is characterized by ________.",
+      "definition": "Being able to see complex relationships and solve problems"
+    },
+    {
+      "id": 10664,
+      "term": "Being able to see complex relationships and solve problems",
+      "definition": "Fluid intelligence is characterized by ________.",
+      "isReverse": true
+    },
+    {
+      "id": 665,
+      "term": "Which of the following is not one of Gardner's Multiple Intelligences?",
+      "definition": "Creative"
+    },
+    {
+      "id": 10665,
+      "term": "Creative",
+      "definition": "Which of the following is not one of Gardner's Multiple Intelligences?",
+      "isReverse": true
+    },
+    {
+      "id": 666,
+      "term": "Which theorist put forth the triarchic theory of intelligence?",
+      "definition": "Sternberg"
+    },
+    {
+      "id": 10666,
+      "term": "Sternberg",
+      "definition": "Which theorist put forth the triarchic theory of intelligence?",
+      "isReverse": true
+    },
+    {
+      "id": 667,
+      "term": "When you are examining data to look for trends, which type of intelligence are you using most?",
+      "definition": "Analytical"
+    },
+    {
+      "id": 10667,
+      "term": "Analytical",
+      "definition": "When you are examining data to look for trends, which type of intelligence are you using most?",
+      "isReverse": true
+    },
+    {
+      "id": 668,
+      "term": "In order for a test to be normed and standardized it must be tested on ________.",
+      "definition": "A representative sample"
+    },
+    {
+      "id": 10668,
+      "term": "A representative sample",
+      "definition": "In order for a test to be normed and standardized it must be tested on ________.",
+      "isReverse": true
+    },
+    {
+      "id": 669,
+      "term": "The mean score for a person with an average IQ is ________.",
+      "definition": "100"
+    },
+    {
+      "id": 10669,
+      "term": "100",
+      "definition": "The mean score for a person with an average IQ is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 670,
+      "term": "Who developed the IQ test most widely used today?",
+      "definition": "David Wechsler"
+    },
+    {
+      "id": 10670,
+      "term": "David Wechsler",
+      "definition": "Who developed the IQ test most widely used today?",
+      "isReverse": true
+    },
+    {
+      "id": 671,
+      "term": "Concepts",
+      "definition": "Categories or groupings of linguistic information, objects, ideas, or life experiences."
+    },
+    {
+      "id": 10671,
+      "term": "Categories or groupings of linguistic information, objects, ideas, or life experiences.",
+      "definition": "Concepts",
+      "isReverse": true
+    },
+    {
+      "id": 672,
+      "term": "Natural vs. Artificial Concepts",
+      "definition": "Natural concepts are created through experience (e.g., snow). Artificial concepts are defined by a specific set of characteristics (e.g., a square)."
+    },
+    {
+      "id": 10672,
+      "term": "Natural concepts are created through experience (e.g., snow). Artificial concepts are defined by a specific set of characteristics (e.g., a square).",
+      "definition": "Natural vs. Artificial Concepts",
+      "isReverse": true
+    },
+    {
+      "id": 673,
+      "term": "Schema",
+      "definition": "A mental construct consisting of a cluster or collection of related concepts. Helps the brain organize information."
+    },
+    {
+      "id": 10673,
+      "term": "A mental construct consisting of a cluster or collection of related concepts. Helps the brain organize information.",
+      "definition": "Schema",
+      "isReverse": true
+    },
+    {
+      "id": 674,
+      "term": "Role Schema vs. Event Schema",
+      "definition": "Role schema: expectations about how individuals in certain roles will behave. Event schema (cognitive script): a set of behaviors that feels like a routine (e.g., dining out)."
+    },
+    {
+      "id": 10674,
+      "term": "Role schema: expectations about how individuals in certain roles will behave. Event schema (cognitive script): a set of behaviors that feels like a routine (e.g., dining out).",
+      "definition": "Role Schema vs. Event Schema",
+      "isReverse": true
+    },
+    {
+      "id": 675,
+      "term": "Language Components",
+      "definition": "Lexicon (vocabulary) and Grammar (rules for organizing words)."
+    },
+    {
+      "id": 10675,
+      "term": "Lexicon (vocabulary) and Grammar (rules for organizing words).",
+      "definition": "Language Components",
+      "isReverse": true
+    },
+    {
+      "id": 676,
+      "term": "Critical Period for Language",
+      "definition": "Proficiency at acquiring language is maximal early in life and diminishes as people age."
+    },
+    {
+      "id": 10676,
+      "term": "Proficiency at acquiring language is maximal early in life and diminishes as people age.",
+      "definition": "Critical Period for Language",
+      "isReverse": true
+    },
+    {
+      "id": 677,
+      "term": "Linguistic Determinism",
+      "definition": "The idea that language may influence the way that we think."
+    },
+    {
+      "id": 10677,
+      "term": "The idea that language may influence the way that we think.",
+      "definition": "Linguistic Determinism",
+      "isReverse": true
+    },
+    {
+      "id": 678,
+      "term": "Practical Intelligence (Sternberg)",
+      "definition": "Street smarts; finding solutions that work in everyday life by applying knowledge based on experience."
+    },
+    {
+      "id": 10678,
+      "term": "Street smarts; finding solutions that work in everyday life by applying knowledge based on experience.",
+      "definition": "Practical Intelligence (Sternberg)",
+      "isReverse": true
+    },
+    {
+      "id": 679,
+      "term": "Multiple Intelligences Theory (Gardner)",
+      "definition": "Theory that each person possesses at least eight types of intelligence (e.g., Linguistic, Musical, Spatial, etc.)."
+    },
+    {
+      "id": 10679,
+      "term": "Theory that each person possesses at least eight types of intelligence (e.g., Linguistic, Musical, Spatial, etc.).",
+      "definition": "Multiple Intelligences Theory (Gardner)",
+      "isReverse": true
+    },
+    {
+      "id": 680,
+      "term": "Bell Curve",
+      "definition": "A graph showing how scores are dispersed from the average score; the majority of people have an IQ between 85 and 115."
+    },
+    {
+      "id": 10680,
+      "term": "A graph showing how scores are dispersed from the average score; the majority of people have an IQ between 85 and 115.",
+      "definition": "Bell Curve",
+      "isReverse": true
+    },
+    {
+      "id": 681,
+      "term": "Learning Disability vs. Intellectual Disability",
+      "definition": "Learning disabilities are specific neurological impairments (e.g., dyslexia), whereas intellectual disabilities are global developmental delays."
+    },
+    {
+      "id": 10681,
+      "term": "Learning disabilities are specific neurological impairments (e.g., dyslexia), whereas intellectual disabilities are global developmental delays.",
+      "definition": "Learning Disability vs. Intellectual Disability",
+      "isReverse": true
+    }
+  ]
+}

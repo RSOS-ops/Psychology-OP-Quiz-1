@@ -1,0 +1,809 @@
+{
+  "title": "Chapter 10: Emotion and Motivation",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 901,
+      "term": "anorexia nervosa",
+      "definition": "eating disorder characterized by an individual maintaining body weight that is well below average through starvation and/or excessive exercise"
+    },
+    {
+      "id": 10901,
+      "term": "eating disorder characterized by an individual maintaining body weight that is well below average through starvation and/or excessive exercise",
+      "definition": "anorexia nervosa",
+      "isReverse": true
+    },
+    {
+      "id": 902,
+      "term": "bariatric surgery",
+      "definition": "type of surgery that modifies the gastrointestinal system to reduce the amount of food that can be eaten and/or limiting how much of the digested food can be absorbed"
+    },
+    {
+      "id": 10902,
+      "term": "type of surgery that modifies the gastrointestinal system to reduce the amount of food that can be eaten and/or limiting how much of the digested food can be absorbed",
+      "definition": "bariatric surgery",
+      "isReverse": true
+    },
+    {
+      "id": 903,
+      "term": "basolateral complex",
+      "definition": "part of the brain with dense connections with a variety of sensory areas of the brain; it is critical for classical conditioning and attaching emotional value to memory"
+    },
+    {
+      "id": 10903,
+      "term": "part of the brain with dense connections with a variety of sensory areas of the brain; it is critical for classical conditioning and attaching emotional value to memory",
+      "definition": "basolateral complex",
+      "isReverse": true
+    },
+    {
+      "id": 904,
+      "term": "binge eating disorder",
+      "definition": "type of eating disorder characterized by binge eating and associated distress"
+    },
+    {
+      "id": 10904,
+      "term": "type of eating disorder characterized by binge eating and associated distress",
+      "definition": "binge eating disorder",
+      "isReverse": true
+    },
+    {
+      "id": 905,
+      "term": "bisexual",
+      "definition": "emotional and erotic attractions to both same-sexed individuals and opposite-sexed individuals"
+    },
+    {
+      "id": 10905,
+      "term": "emotional and erotic attractions to both same-sexed individuals and opposite-sexed individuals",
+      "definition": "bisexual",
+      "isReverse": true
+    },
+    {
+      "id": 906,
+      "term": "body language",
+      "definition": "emotional expression through body position or movement"
+    },
+    {
+      "id": 10906,
+      "term": "emotional expression through body position or movement",
+      "definition": "body language",
+      "isReverse": true
+    },
+    {
+      "id": 907,
+      "term": "bulimia nervosa",
+      "definition": "type of eating disorder characterized by binge eating followed by purging"
+    },
+    {
+      "id": 10907,
+      "term": "type of eating disorder characterized by binge eating followed by purging",
+      "definition": "bulimia nervosa",
+      "isReverse": true
+    },
+    {
+      "id": 908,
+      "term": "Cannon-Bard theory of emotion",
+      "definition": "physiological arousal and emotional experience occur at the same time"
+    },
+    {
+      "id": 10908,
+      "term": "physiological arousal and emotional experience occur at the same time",
+      "definition": "Cannon-Bard theory of emotion",
+      "isReverse": true
+    },
+    {
+      "id": 909,
+      "term": "central nucleus",
+      "definition": "part of the brain involved in attention and has connections with the hypothalamus and various brainstem areas to regulate the autonomic nervous and endocrine systems' activity"
+    },
+    {
+      "id": 10909,
+      "term": "part of the brain involved in attention and has connections with the hypothalamus and various brainstem areas to regulate the autonomic nervous and endocrine systems' activity",
+      "definition": "central nucleus",
+      "isReverse": true
+    },
+    {
+      "id": 910,
+      "term": "cognitive-mediational theory",
+      "definition": "our emotions are determined by our appraisal of the stimulus"
+    },
+    {
+      "id": 10910,
+      "term": "our emotions are determined by our appraisal of the stimulus",
+      "definition": "cognitive-mediational theory",
+      "isReverse": true
+    },
+    {
+      "id": 911,
+      "term": "components of emotion",
+      "definition": "physiological arousal, psychological appraisal, and subjective experience"
+    },
+    {
+      "id": 10911,
+      "term": "physiological arousal, psychological appraisal, and subjective experience",
+      "definition": "components of emotion",
+      "isReverse": true
+    },
+    {
+      "id": 912,
+      "term": "cultural display rule",
+      "definition": "one of the culturally specific standards that govern the types and frequencies of emotions that are acceptable"
+    },
+    {
+      "id": 10912,
+      "term": "one of the culturally specific standards that govern the types and frequencies of emotions that are acceptable",
+      "definition": "cultural display rule",
+      "isReverse": true
+    },
+    {
+      "id": 913,
+      "term": "distorted body image",
+      "definition": "individuals view themselves as overweight even though they are not"
+    },
+    {
+      "id": 10913,
+      "term": "individuals view themselves as overweight even though they are not",
+      "definition": "distorted body image",
+      "isReverse": true
+    },
+    {
+      "id": 914,
+      "term": "drive theory",
+      "definition": "deviations from homeostasis create physiological needs that result in psychological drive states that direct behavior to meet the need and ultimately bring the system back to homeostasis"
+    },
+    {
+      "id": 10914,
+      "term": "deviations from homeostasis create physiological needs that result in psychological drive states that direct behavior to meet the need and ultimately bring the system back to homeostasis",
+      "definition": "drive theory",
+      "isReverse": true
+    },
+    {
+      "id": 915,
+      "term": "emotion",
+      "definition": "subjective state of being often described as feelings"
+    },
+    {
+      "id": 10915,
+      "term": "subjective state of being often described as feelings",
+      "definition": "emotion",
+      "isReverse": true
+    },
+    {
+      "id": 916,
+      "term": "excitement",
+      "definition": "phase of the sexual response cycle that involves sexual arousal"
+    },
+    {
+      "id": 10916,
+      "term": "phase of the sexual response cycle that involves sexual arousal",
+      "definition": "excitement",
+      "isReverse": true
+    },
+    {
+      "id": 917,
+      "term": "extrinsic motivation",
+      "definition": "motivation that arises from external factors or rewards"
+    },
+    {
+      "id": 10917,
+      "term": "motivation that arises from external factors or rewards",
+      "definition": "extrinsic motivation",
+      "isReverse": true
+    },
+    {
+      "id": 918,
+      "term": "facial feedback hypothesis",
+      "definition": "facial expressions are capable of influencing our emotions"
+    },
+    {
+      "id": 10918,
+      "term": "facial expressions are capable of influencing our emotions",
+      "definition": "facial feedback hypothesis",
+      "isReverse": true
+    },
+    {
+      "id": 919,
+      "term": "gender dysphoria",
+      "definition": "diagnostic category in DSM-5 for individuals who do not identify as the gender associated with their biological sex"
+    },
+    {
+      "id": 10919,
+      "term": "diagnostic category in DSM-5 for individuals who do not identify as the gender associated with their biological sex",
+      "definition": "gender dysphoria",
+      "isReverse": true
+    },
+    {
+      "id": 920,
+      "term": "gender identity",
+      "definition": "individual's sense of being male or female"
+    },
+    {
+      "id": 10920,
+      "term": "individual's sense of being male or female",
+      "definition": "gender identity",
+      "isReverse": true
+    },
+    {
+      "id": 921,
+      "term": "habit",
+      "definition": "pattern of behavior in which we regularly engage"
+    },
+    {
+      "id": 10921,
+      "term": "pattern of behavior in which we regularly engage",
+      "definition": "habit",
+      "isReverse": true
+    },
+    {
+      "id": 922,
+      "term": "heterosexual",
+      "definition": "emotional and erotic attractions to opposite-sexed individuals"
+    },
+    {
+      "id": 10922,
+      "term": "emotional and erotic attractions to opposite-sexed individuals",
+      "definition": "heterosexual",
+      "isReverse": true
+    },
+    {
+      "id": 923,
+      "term": "hierarchy of needs",
+      "definition": "spectrum of needs ranging from basic biological needs to social needs to self-actualization"
+    },
+    {
+      "id": 10923,
+      "term": "spectrum of needs ranging from basic biological needs to social needs to self-actualization",
+      "definition": "hierarchy of needs",
+      "isReverse": true
+    },
+    {
+      "id": 924,
+      "term": "homosexual",
+      "definition": "emotional and erotic attractions to same-sexed individuals"
+    },
+    {
+      "id": 10924,
+      "term": "emotional and erotic attractions to same-sexed individuals",
+      "definition": "homosexual",
+      "isReverse": true
+    },
+    {
+      "id": 925,
+      "term": "instinct",
+      "definition": "species-specific pattern of behavior that is unlearned"
+    },
+    {
+      "id": 10925,
+      "term": "species-specific pattern of behavior that is unlearned",
+      "definition": "instinct",
+      "isReverse": true
+    },
+    {
+      "id": 926,
+      "term": "intrinsic motivation",
+      "definition": "motivation based on internal feelings rather than external rewards"
+    },
+    {
+      "id": 10926,
+      "term": "motivation based on internal feelings rather than external rewards",
+      "definition": "intrinsic motivation",
+      "isReverse": true
+    },
+    {
+      "id": 927,
+      "term": "James-Lange theory of emotion",
+      "definition": "emotions arise from physiological arousal"
+    },
+    {
+      "id": 10927,
+      "term": "emotions arise from physiological arousal",
+      "definition": "James-Lange theory of emotion",
+      "isReverse": true
+    },
+    {
+      "id": 928,
+      "term": "leptin",
+      "definition": "satiety hormone"
+    },
+    {
+      "id": 10928,
+      "term": "satiety hormone",
+      "definition": "leptin",
+      "isReverse": true
+    },
+    {
+      "id": 929,
+      "term": "metabolic rate",
+      "definition": "amount of energy that is expended in a given period of time"
+    },
+    {
+      "id": 10929,
+      "term": "amount of energy that is expended in a given period of time",
+      "definition": "metabolic rate",
+      "isReverse": true
+    },
+    {
+      "id": 930,
+      "term": "morbid obesity",
+      "definition": "adult with a BMI over 40"
+    },
+    {
+      "id": 10930,
+      "term": "adult with a BMI over 40",
+      "definition": "morbid obesity",
+      "isReverse": true
+    },
+    {
+      "id": 931,
+      "term": "motivation",
+      "definition": "wants or needs that direct behavior toward some goal"
+    },
+    {
+      "id": 10931,
+      "term": "wants or needs that direct behavior toward some goal",
+      "definition": "motivation",
+      "isReverse": true
+    },
+    {
+      "id": 932,
+      "term": "obese",
+      "definition": "adult with a BMI of 30 or higher"
+    },
+    {
+      "id": 10932,
+      "term": "adult with a BMI of 30 or higher",
+      "definition": "obese",
+      "isReverse": true
+    },
+    {
+      "id": 933,
+      "term": "orgasm",
+      "definition": "peak phase of the sexual response cycle associated with rhythmic muscle contractions (and ejaculation)"
+    },
+    {
+      "id": 10933,
+      "term": "peak phase of the sexual response cycle associated with rhythmic muscle contractions (and ejaculation)",
+      "definition": "orgasm",
+      "isReverse": true
+    },
+    {
+      "id": 934,
+      "term": "overweight",
+      "definition": "adult with a BMI between 25 and 29.9"
+    },
+    {
+      "id": 10934,
+      "term": "adult with a BMI between 25 and 29.9",
+      "definition": "overweight",
+      "isReverse": true
+    },
+    {
+      "id": 935,
+      "term": "plateau",
+      "definition": "phase of the sexual response cycle that falls between excitement and orgasm"
+    },
+    {
+      "id": 10935,
+      "term": "phase of the sexual response cycle that falls between excitement and orgasm",
+      "definition": "plateau",
+      "isReverse": true
+    },
+    {
+      "id": 936,
+      "term": "polygraph",
+      "definition": "lie detector test that measures physiological arousal of individuals as they answer a series of questions"
+    },
+    {
+      "id": 10936,
+      "term": "lie detector test that measures physiological arousal of individuals as they answer a series of questions",
+      "definition": "polygraph",
+      "isReverse": true
+    },
+    {
+      "id": 937,
+      "term": "refractory period",
+      "definition": "time immediately following an orgasm during which an individual is incapable of experiencing another orgasm"
+    },
+    {
+      "id": 10937,
+      "term": "time immediately following an orgasm during which an individual is incapable of experiencing another orgasm",
+      "definition": "refractory period",
+      "isReverse": true
+    },
+    {
+      "id": 938,
+      "term": "resolution",
+      "definition": "phase of the sexual response cycle following orgasm during which the body returns to its unaroused state"
+    },
+    {
+      "id": 10938,
+      "term": "phase of the sexual response cycle following orgasm during which the body returns to its unaroused state",
+      "definition": "resolution",
+      "isReverse": true
+    },
+    {
+      "id": 939,
+      "term": "satiation",
+      "definition": "fullness; satisfaction"
+    },
+    {
+      "id": 10939,
+      "term": "fullness; satisfaction",
+      "definition": "satiation",
+      "isReverse": true
+    },
+    {
+      "id": 940,
+      "term": "Schachter-Singer two-factor theory of emotion",
+      "definition": "emotions consist of two factors: physiological and cognitive"
+    },
+    {
+      "id": 10940,
+      "term": "emotions consist of two factors: physiological and cognitive",
+      "definition": "Schachter-Singer two-factor theory of emotion",
+      "isReverse": true
+    },
+    {
+      "id": 941,
+      "term": "self-efficacy",
+      "definition": "individual's belief in his own capabilities or capacities to complete a task"
+    },
+    {
+      "id": 10941,
+      "term": "individual's belief in his own capabilities or capacities to complete a task",
+      "definition": "self-efficacy",
+      "isReverse": true
+    },
+    {
+      "id": 942,
+      "term": "set point theory",
+      "definition": "assertion that each individual has an ideal body weight, or set point, that is resistant to change"
+    },
+    {
+      "id": 10942,
+      "term": "assertion that each individual has an ideal body weight, or set point, that is resistant to change",
+      "definition": "set point theory",
+      "isReverse": true
+    },
+    {
+      "id": 943,
+      "term": "sexual orientation",
+      "definition": "emotional and erotic attraction to same-sexed individuals, opposite-sexed individuals, or both"
+    },
+    {
+      "id": 10943,
+      "term": "emotional and erotic attraction to same-sexed individuals, opposite-sexed individuals, or both",
+      "definition": "sexual orientation",
+      "isReverse": true
+    },
+    {
+      "id": 944,
+      "term": "sexual response cycle",
+      "definition": "divided into 4 phases including excitement, plateau, orgasm, and resolution"
+    },
+    {
+      "id": 10944,
+      "term": "divided into 4 phases including excitement, plateau, orgasm, and resolution",
+      "definition": "sexual response cycle",
+      "isReverse": true
+    },
+    {
+      "id": 945,
+      "term": "transgender hormone therapy",
+      "definition": "use of hormones to make one's body look more like the opposite-sex"
+    },
+    {
+      "id": 10945,
+      "term": "use of hormones to make one's body look more like the opposite-sex",
+      "definition": "transgender hormone therapy",
+      "isReverse": true
+    },
+    {
+      "id": 946,
+      "term": "Yerkes-Dodson law",
+      "definition": "simple tasks are performed best when arousal levels are relatively high, while complex tasks are best performed when arousal is lower"
+    },
+    {
+      "id": 10946,
+      "term": "simple tasks are performed best when arousal levels are relatively high, while complex tasks are best performed when arousal is lower",
+      "definition": "Yerkes-Dodson law",
+      "isReverse": true
+    },
+    {
+      "id": 947,
+      "term": "Need for ________ refers to maintaining positive relationships with others.",
+      "definition": "Affiliation"
+    },
+    {
+      "id": 10947,
+      "term": "Affiliation",
+      "definition": "Need for ________ refers to maintaining positive relationships with others.",
+      "isReverse": true
+    },
+    {
+      "id": 948,
+      "term": "________ proposed the hierarchy of needs.",
+      "definition": "Abraham Maslow"
+    },
+    {
+      "id": 10948,
+      "term": "Abraham Maslow",
+      "definition": "________ proposed the hierarchy of needs.",
+      "isReverse": true
+    },
+    {
+      "id": 949,
+      "term": "________ is an individual's belief in her capability to complete some task.",
+      "definition": "Self-efficacy"
+    },
+    {
+      "id": 10949,
+      "term": "Self-efficacy",
+      "definition": "________ is an individual's belief in her capability to complete some task.",
+      "isReverse": true
+    },
+    {
+      "id": 950,
+      "term": "Carl mows the yard of his elderly neighbor each week for $20. What type of motivation is this?",
+      "definition": "Extrinsic"
+    },
+    {
+      "id": 10950,
+      "term": "Extrinsic",
+      "definition": "Carl mows the yard of his elderly neighbor each week for $20. What type of motivation is this?",
+      "isReverse": true
+    },
+    {
+      "id": 951,
+      "term": "According to your reading, nearly ________ of the adult population in the United States can be classified as obese.",
+      "definition": "One third"
+    },
+    {
+      "id": 10951,
+      "term": "One third",
+      "definition": "According to your reading, nearly ________ of the adult population in the United States can be classified as obese.",
+      "isReverse": true
+    },
+    {
+      "id": 952,
+      "term": "________ is a chemical messenger secreted by fat cells that acts as an appetite suppressant.",
+      "definition": "Leptin"
+    },
+    {
+      "id": 10952,
+      "term": "Leptin",
+      "definition": "________ is a chemical messenger secreted by fat cells that acts as an appetite suppressant.",
+      "isReverse": true
+    },
+    {
+      "id": 953,
+      "term": "________ is characterized by episodes of binge eating followed by attempts to compensate for the excessive amount of food that was consumed.",
+      "definition": "Bulimia nervosa"
+    },
+    {
+      "id": 10953,
+      "term": "Bulimia nervosa",
+      "definition": "________ is characterized by episodes of binge eating followed by attempts to compensate for the excessive amount of food that was consumed.",
+      "isReverse": true
+    },
+    {
+      "id": 954,
+      "term": "In order to be classified as severely obese, an adult must have a BMI of ________.",
+      "definition": "40 or more"
+    },
+    {
+      "id": 10954,
+      "term": "40 or more",
+      "definition": "In order to be classified as severely obese, an adult must have a BMI of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 955,
+      "term": "Animal research suggests that in male rats the ________ is critical for the ability to engage in sexual behavior, but not for the motivation to do so.",
+      "definition": "Medial preoptic area of the hypothalamus"
+    },
+    {
+      "id": 10955,
+      "term": "Medial preoptic area of the hypothalamus",
+      "definition": "Animal research suggests that in male rats the ________ is critical for the ability to engage in sexual behavior, but not for the motivation to do so.",
+      "isReverse": true
+    },
+    {
+      "id": 956,
+      "term": "During the ________ phase of the sexual response cycle, individuals experience rhythmic contractions of the pelvis that are accompanied by uterine contractions and ejaculation.",
+      "definition": "Orgasm"
+    },
+    {
+      "id": 10956,
+      "term": "Orgasm",
+      "definition": "During the ________ phase of the sexual response cycle, individuals experience rhythmic contractions of the pelvis that are accompanied by uterine contractions and ejaculation.",
+      "isReverse": true
+    },
+    {
+      "id": 957,
+      "term": "Which of the following findings was not a result of the Kinsey study?",
+      "definition": "Sexual desire and sexual ability can be separate functions"
+    },
+    {
+      "id": 10957,
+      "term": "Sexual desire and sexual ability can be separate functions",
+      "definition": "Which of the following findings was not a result of the Kinsey study?",
+      "isReverse": true
+    },
+    {
+      "id": 958,
+      "term": "If someone is uncomfortable identifying with the gender normally associated with their biological sex, then they could be classified as experiencing ________.",
+      "definition": "Gender dysphoria"
+    },
+    {
+      "id": 10958,
+      "term": "Gender dysphoria",
+      "definition": "If someone is uncomfortable identifying with the gender normally associated with their biological sex, then they could be classified as experiencing ________.",
+      "isReverse": true
+    },
+    {
+      "id": 959,
+      "term": "Individuals suffering from posttraumatic stress disorder have been shown to have reduced volumes of the ________.",
+      "definition": "Hippocampus"
+    },
+    {
+      "id": 10959,
+      "term": "Hippocampus",
+      "definition": "Individuals suffering from posttraumatic stress disorder have been shown to have reduced volumes of the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 960,
+      "term": "According to the ________ theory of emotion, emotional experiences arise from physiological arousal.",
+      "definition": "James-Lange"
+    },
+    {
+      "id": 10960,
+      "term": "James-Lange",
+      "definition": "According to the ________ theory of emotion, emotional experiences arise from physiological arousal.",
+      "isReverse": true
+    },
+    {
+      "id": 961,
+      "term": "Which of the following is not one of the seven universal emotions described in this chapter?",
+      "definition": "Melancholy"
+    },
+    {
+      "id": 10961,
+      "term": "Melancholy",
+      "definition": "Which of the following is not one of the seven universal emotions described in this chapter?",
+      "isReverse": true
+    },
+    {
+      "id": 962,
+      "term": "Which of the following theories of emotion would suggest that polygraphs should be quite accurate at differentiating one emotion from another?",
+      "definition": "James-Lange theory"
+    },
+    {
+      "id": 10962,
+      "term": "James-Lange theory",
+      "definition": "Which of the following theories of emotion would suggest that polygraphs should be quite accurate at differentiating one emotion from another?",
+      "isReverse": true
+    },
+    {
+      "id": 963,
+      "term": "Overjustification Effect",
+      "definition": "When intrinsic motivation is diminished because extrinsic motivation (like payment) is given for an activity one already enjoys."
+    },
+    {
+      "id": 10963,
+      "term": "When intrinsic motivation is diminished because extrinsic motivation (like payment) is given for an activity one already enjoys.",
+      "definition": "Overjustification Effect",
+      "isReverse": true
+    },
+    {
+      "id": 964,
+      "term": "Self-Efficacy (Bandura)",
+      "definition": "An individual's belief in their own capability to complete a task, which motivates behavior."
+    },
+    {
+      "id": 10964,
+      "term": "An individual's belief in their own capability to complete a task, which motivates behavior.",
+      "definition": "Self-Efficacy (Bandura)",
+      "isReverse": true
+    },
+    {
+      "id": 965,
+      "term": "Maslow's Hierarchy of Needs",
+      "definition": "A spectrum of motives ranging from biological needs (bottom) to social needs to self-actualization (top)."
+    },
+    {
+      "id": 10965,
+      "term": "A spectrum of motives ranging from biological needs (bottom) to social needs to self-actualization (top).",
+      "definition": "Maslow's Hierarchy of Needs",
+      "isReverse": true
+    },
+    {
+      "id": 966,
+      "term": "Satiety Signals",
+      "definition": "Signals to stop eating. Includes blood glucose levels, passage of food in GI tract, and leptin released by fat cells."
+    },
+    {
+      "id": 10966,
+      "term": "Signals to stop eating. Includes blood glucose levels, passage of food in GI tract, and leptin released by fat cells.",
+      "definition": "Satiety Signals",
+      "isReverse": true
+    },
+    {
+      "id": 967,
+      "term": "Set-Point Theory",
+      "definition": "Asserts that each individual has an ideal body weight (set point) that is genetically predetermined and resistant to change."
+    },
+    {
+      "id": 10967,
+      "term": "Asserts that each individual has an ideal body weight (set point) that is genetically predetermined and resistant to change.",
+      "definition": "Set-Point Theory",
+      "isReverse": true
+    },
+    {
+      "id": 968,
+      "term": "Body Mass Index (BMI)",
+      "definition": "A measure of weight used to classify individuals as normal, overweight, or obese. Criticized for not distinguishing between muscle and fat."
+    },
+    {
+      "id": 10968,
+      "term": "A measure of weight used to classify individuals as normal, overweight, or obese. Criticized for not distinguishing between muscle and fat.",
+      "definition": "Body Mass Index (BMI)",
+      "isReverse": true
+    },
+    {
+      "id": 969,
+      "term": "Sexual Response Cycle (Masters & Johnson)",
+      "definition": "Four phases: Excitement, Plateau, Orgasm, and Resolution."
+    },
+    {
+      "id": 10969,
+      "term": "Four phases: Excitement, Plateau, Orgasm, and Resolution.",
+      "definition": "Sexual Response Cycle (Masters & Johnson)",
+      "isReverse": true
+    },
+    {
+      "id": 970,
+      "term": "Emotional Expression",
+      "definition": "The way one displays an emotion, including nonverbal and verbal behaviors."
+    },
+    {
+      "id": 10970,
+      "term": "The way one displays an emotion, including nonverbal and verbal behaviors.",
+      "definition": "Emotional Expression",
+      "isReverse": true
+    },
+    {
+      "id": 971,
+      "term": "James-Lange Theory",
+      "definition": "Emotions arise FROM physiological arousal (e.g., you feel fear BECAUSE your heart is racing)."
+    },
+    {
+      "id": 10971,
+      "term": "Emotions arise FROM physiological arousal (e.g., you feel fear BECAUSE your heart is racing).",
+      "definition": "James-Lange Theory",
+      "isReverse": true
+    },
+    {
+      "id": 972,
+      "term": "Cannon-Bard Theory",
+      "definition": "Physiological arousal and emotional experience occur SIMULTANEOUSLY, yet independently."
+    },
+    {
+      "id": 10972,
+      "term": "Physiological arousal and emotional experience occur SIMULTANEOUSLY, yet independently.",
+      "definition": "Cannon-Bard Theory",
+      "isReverse": true
+    },
+    {
+      "id": 973,
+      "term": "Schachter-Singer Two-Factor Theory",
+      "definition": "Emotions are composed of two factors: physiological and cognitive. Context/labeling is key to interpreting the arousal."
+    },
+    {
+      "id": 10973,
+      "term": "Emotions are composed of two factors: physiological and cognitive. Context/labeling is key to interpreting the arousal.",
+      "definition": "Schachter-Singer Two-Factor Theory",
+      "isReverse": true
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "title": "Chapter 3: Biopsychology",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 201,
+      "term": "action potential",
+      "definition": "electrical signal that moves down the neuron's axon"
+    },
+    {
+      "id": 10201,
+      "term": "electrical signal that moves down the neuron's axon",
+      "definition": "action potential",
+      "isReverse": true
+    },
+    {
+      "id": 202,
+      "term": "adrenal gland",
+      "definition": "sits atop our kidneys and secretes hormones involved in the stress response"
+    },
+    {
+      "id": 10202,
+      "term": "sits atop our kidneys and secretes hormones involved in the stress response",
+      "definition": "adrenal gland",
+      "isReverse": true
+    },
+    {
+      "id": 203,
+      "term": "agonist",
+      "definition": "drug that mimics or strengthens the effects of a neurotransmitter"
+    },
+    {
+      "id": 10203,
+      "term": "drug that mimics or strengthens the effects of a neurotransmitter",
+      "definition": "agonist",
+      "isReverse": true
+    },
+    {
+      "id": 204,
+      "term": "all-or-none",
+      "definition": "phenomenon that incoming signal from another neuron is either sufficient or insufficient to reach the threshold of excitation"
+    },
+    {
+      "id": 10204,
+      "term": "phenomenon that incoming signal from another neuron is either sufficient or insufficient to reach the threshold of excitation",
+      "definition": "all-or-none",
+      "isReverse": true
+    },
+    {
+      "id": 205,
+      "term": "allele",
+      "definition": "specific version of a gene"
+    },
+    {
+      "id": 10205,
+      "term": "specific version of a gene",
+      "definition": "allele",
+      "isReverse": true
+    },
+    {
+      "id": 206,
+      "term": "amygdala",
+      "definition": "structure in the limbic system involved in our experience of emotion and tying emotional meaning to our memories"
+    },
+    {
+      "id": 10206,
+      "term": "structure in the limbic system involved in our experience of emotion and tying emotional meaning to our memories",
+      "definition": "amygdala",
+      "isReverse": true
+    },
+    {
+      "id": 207,
+      "term": "antagonist",
+      "definition": "drug that blocks or impedes the normal activity of a given neurotransmitter"
+    },
+    {
+      "id": 10207,
+      "term": "drug that blocks or impedes the normal activity of a given neurotransmitter",
+      "definition": "antagonist",
+      "isReverse": true
+    },
+    {
+      "id": 208,
+      "term": "auditory cortex",
+      "definition": "strip of cortex in the temporal lobe that is responsible for processing auditory information"
+    },
+    {
+      "id": 10208,
+      "term": "strip of cortex in the temporal lobe that is responsible for processing auditory information",
+      "definition": "auditory cortex",
+      "isReverse": true
+    },
+    {
+      "id": 209,
+      "term": "autonomic nervous system",
+      "definition": "controls our internal organs and glands"
+    },
+    {
+      "id": 10209,
+      "term": "controls our internal organs and glands",
+      "definition": "autonomic nervous system",
+      "isReverse": true
+    },
+    {
+      "id": 210,
+      "term": "axon",
+      "definition": "major extension of the soma"
+    },
+    {
+      "id": 10210,
+      "term": "major extension of the soma",
+      "definition": "axon",
+      "isReverse": true
+    },
+    {
+      "id": 211,
+      "term": "biological perspective",
+      "definition": "view that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems"
+    },
+    {
+      "id": 10211,
+      "term": "view that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems",
+      "definition": "biological perspective",
+      "isReverse": true
+    },
+    {
+      "id": 212,
+      "term": "Broca's area",
+      "definition": "region in the left hemisphere that is essential for language production"
+    },
+    {
+      "id": 10212,
+      "term": "region in the left hemisphere that is essential for language production",
+      "definition": "Broca's area",
+      "isReverse": true
+    },
+    {
+      "id": 213,
+      "term": "central nervous system (CNS)",
+      "definition": "brain and spinal cord"
+    },
+    {
+      "id": 10213,
+      "term": "brain and spinal cord",
+      "definition": "central nervous system (CNS)",
+      "isReverse": true
+    },
+    {
+      "id": 214,
+      "term": "cerebellum",
+      "definition": "hindbrain structure that controls our balance, coordination, movement, and motor skills, and it is thought to be important in processing some types of memory"
+    },
+    {
+      "id": 10214,
+      "term": "hindbrain structure that controls our balance, coordination, movement, and motor skills, and it is thought to be important in processing some types of memory",
+      "definition": "cerebellum",
+      "isReverse": true
+    },
+    {
+      "id": 215,
+      "term": "cerebral cortex",
+      "definition": "surface of the brain that is associated with our highest mental capabilities"
+    },
+    {
+      "id": 10215,
+      "term": "surface of the brain that is associated with our highest mental capabilities",
+      "definition": "cerebral cortex",
+      "isReverse": true
+    },
+    {
+      "id": 216,
+      "term": "chromosome",
+      "definition": "long strand of genetic information"
+    },
+    {
+      "id": 10216,
+      "term": "long strand of genetic information",
+      "definition": "chromosome",
+      "isReverse": true
+    },
+    {
+      "id": 217,
+      "term": "computerized tomography (CT) scan",
+      "definition": "imaging technique in which a computer coordinates and integrates multiple x-rays of a given area"
+    },
+    {
+      "id": 10217,
+      "term": "imaging technique in which a computer coordinates and integrates multiple x-rays of a given area",
+      "definition": "computerized tomography (CT) scan",
+      "isReverse": true
+    },
+    {
+      "id": 218,
+      "term": "corpus callosum",
+      "definition": "thick band of neural fibers connecting the brain's two hemispheres"
+    },
+    {
+      "id": 10218,
+      "term": "thick band of neural fibers connecting the brain's two hemispheres",
+      "definition": "corpus callosum",
+      "isReverse": true
+    },
+    {
+      "id": 219,
+      "term": "dendrite",
+      "definition": "branch-like extension of the soma that receives incoming signals from other neurons"
+    },
+    {
+      "id": 10219,
+      "term": "branch-like extension of the soma that receives incoming signals from other neurons",
+      "definition": "dendrite",
+      "isReverse": true
+    },
+    {
+      "id": 220,
+      "term": "deoxyribonucleic acid (DNA)",
+      "definition": "helix-shaped molecule made of nucleotide base pairs"
+    },
+    {
+      "id": 10220,
+      "term": "helix-shaped molecule made of nucleotide base pairs",
+      "definition": "deoxyribonucleic acid (DNA)",
+      "isReverse": true
+    },
+    {
+      "id": 221,
+      "term": "diabetes",
+      "definition": "disease related to insufficient insulin production"
+    },
+    {
+      "id": 10221,
+      "term": "disease related to insufficient insulin production",
+      "definition": "diabetes",
+      "isReverse": true
+    },
+    {
+      "id": 222,
+      "term": "dominant allele",
+      "definition": "allele whose phenotype will be expressed in an individual that possesses that allele"
+    },
+    {
+      "id": 10222,
+      "term": "allele whose phenotype will be expressed in an individual that possesses that allele",
+      "definition": "dominant allele",
+      "isReverse": true
+    },
+    {
+      "id": 223,
+      "term": "electroencephalography (EEG)",
+      "definition": "recording the electrical activity of the brain via electrodes on the scalp"
+    },
+    {
+      "id": 10223,
+      "term": "recording the electrical activity of the brain via electrodes on the scalp",
+      "definition": "electroencephalography (EEG)",
+      "isReverse": true
+    },
+    {
+      "id": 224,
+      "term": "endocrine system",
+      "definition": "series of glands that produce chemical substances known as hormones"
+    },
+    {
+      "id": 10224,
+      "term": "series of glands that produce chemical substances known as hormones",
+      "definition": "endocrine system",
+      "isReverse": true
+    },
+    {
+      "id": 225,
+      "term": "epigenetics",
+      "definition": "study of gene-environment interactions, such as how the same genotype leads to different phenotypes"
+    },
+    {
+      "id": 10225,
+      "term": "study of gene-environment interactions, such as how the same genotype leads to different phenotypes",
+      "definition": "epigenetics",
+      "isReverse": true
+    },
+    {
+      "id": 226,
+      "term": "fight or flight response",
+      "definition": "activation of the sympathetic division of the autonomic nervous system, allowing access to energy reserves and heightened sensory capacity so that we might fight off a given threat or run away to safety"
+    },
+    {
+      "id": 10226,
+      "term": "activation of the sympathetic division of the autonomic nervous system, allowing access to energy reserves and heightened sensory capacity so that we might fight off a given threat or run away to safety",
+      "definition": "fight or flight response",
+      "isReverse": true
+    },
+    {
+      "id": 227,
+      "term": "forebrain",
+      "definition": "largest part of the brain, containing the cerebral cortex, the thalamus, and the limbic system, among other structures"
+    },
+    {
+      "id": 10227,
+      "term": "largest part of the brain, containing the cerebral cortex, the thalamus, and the limbic system, among other structures",
+      "definition": "forebrain",
+      "isReverse": true
+    },
+    {
+      "id": 228,
+      "term": "fraternal twins",
+      "definition": "twins who develop from two different eggs fertilized by different sperm, so their genetic material varies the same as in non-twin siblings"
+    },
+    {
+      "id": 10228,
+      "term": "twins who develop from two different eggs fertilized by different sperm, so their genetic material varies the same as in non-twin siblings",
+      "definition": "fraternal twins",
+      "isReverse": true
+    },
+    {
+      "id": 229,
+      "term": "frontal lobe",
+      "definition": "part of the cerebral cortex involved in reasoning, motor control, emotion, and language; contains motor cortex"
+    },
+    {
+      "id": 10229,
+      "term": "part of the cerebral cortex involved in reasoning, motor control, emotion, and language; contains motor cortex",
+      "definition": "frontal lobe",
+      "isReverse": true
+    },
+    {
+      "id": 230,
+      "term": "functional magnetic resonance imaging (fMRI)",
+      "definition": "MRI that shows changes in metabolic activity over time"
+    },
+    {
+      "id": 10230,
+      "term": "MRI that shows changes in metabolic activity over time",
+      "definition": "functional magnetic resonance imaging (fMRI)",
+      "isReverse": true
+    },
+    {
+      "id": 231,
+      "term": "gene",
+      "definition": "sequence of DNA that controls or partially controls physical characteristics"
+    },
+    {
+      "id": 10231,
+      "term": "sequence of DNA that controls or partially controls physical characteristics",
+      "definition": "gene",
+      "isReverse": true
+    },
+    {
+      "id": 232,
+      "term": "genetic environmental correlation",
+      "definition": "view of gene-environment interaction that asserts our genes affect our environment, and our environment influences the expression of our genes"
+    },
+    {
+      "id": 10232,
+      "term": "view of gene-environment interaction that asserts our genes affect our environment, and our environment influences the expression of our genes",
+      "definition": "genetic environmental correlation",
+      "isReverse": true
+    },
+    {
+      "id": 233,
+      "term": "genotype",
+      "definition": "genetic makeup of an individual"
+    },
+    {
+      "id": 10233,
+      "term": "genetic makeup of an individual",
+      "definition": "genotype",
+      "isReverse": true
+    },
+    {
+      "id": 234,
+      "term": "glial cell",
+      "definition": "nervous system cell that provides physical and metabolic support to neurons, including neuronal insulation and communication, and nutrient and waste transport"
+    },
+    {
+      "id": 10234,
+      "term": "nervous system cell that provides physical and metabolic support to neurons, including neuronal insulation and communication, and nutrient and waste transport",
+      "definition": "glial cell",
+      "isReverse": true
+    },
+    {
+      "id": 235,
+      "term": "gonad",
+      "definition": "secretes sexual hormones, which are important for successful reproduction, and mediate both sexual motivation and behavior"
+    },
+    {
+      "id": 10235,
+      "term": "secretes sexual hormones, which are important for successful reproduction, and mediate both sexual motivation and behavior",
+      "definition": "gonad",
+      "isReverse": true
+    },
+    {
+      "id": 236,
+      "term": "gyrus (plural: gyri)",
+      "definition": "bump or ridge on the cerebral cortex"
+    },
+    {
+      "id": 10236,
+      "term": "bump or ridge on the cerebral cortex",
+      "definition": "gyrus (plural: gyri)",
+      "isReverse": true
+    },
+    {
+      "id": 237,
+      "term": "hemisphere",
+      "definition": "left or right half of the brain"
+    },
+    {
+      "id": 10237,
+      "term": "left or right half of the brain",
+      "definition": "hemisphere",
+      "isReverse": true
+    },
+    {
+      "id": 238,
+      "term": "heterozygous",
+      "definition": "consisting of two different alleles"
+    },
+    {
+      "id": 10238,
+      "term": "consisting of two different alleles",
+      "definition": "heterozygous",
+      "isReverse": true
+    },
+    {
+      "id": 239,
+      "term": "hindbrain",
+      "definition": "division of the brain containing the medulla, pons, and cerebellum"
+    },
+    {
+      "id": 10239,
+      "term": "division of the brain containing the medulla, pons, and cerebellum",
+      "definition": "hindbrain",
+      "isReverse": true
+    },
+    {
+      "id": 240,
+      "term": "hippocampus",
+      "definition": "structure in the temporal lobe associated with learning and memory"
+    },
+    {
+      "id": 10240,
+      "term": "structure in the temporal lobe associated with learning and memory",
+      "definition": "hippocampus",
+      "isReverse": true
+    },
+    {
+      "id": 241,
+      "term": "homeostasis",
+      "definition": "state of equilibrium—biological conditions, such as body temperature, are maintained at optimal levels"
+    },
+    {
+      "id": 10241,
+      "term": "state of equilibrium—biological conditions, such as body temperature, are maintained at optimal levels",
+      "definition": "homeostasis",
+      "isReverse": true
+    },
+    {
+      "id": 242,
+      "term": "homozygous",
+      "definition": "consisting of two identical alleles"
+    },
+    {
+      "id": 10242,
+      "term": "consisting of two identical alleles",
+      "definition": "homozygous",
+      "isReverse": true
+    },
+    {
+      "id": 243,
+      "term": "hormone",
+      "definition": "chemical messenger released by endocrine glands"
+    },
+    {
+      "id": 10243,
+      "term": "chemical messenger released by endocrine glands",
+      "definition": "hormone",
+      "isReverse": true
+    },
+    {
+      "id": 244,
+      "term": "hypothalamus",
+      "definition": "forebrain structure that regulates sexual motivation and behavior and a number of homeostatic processes; serves as an interface between the nervous system and the endocrine system"
+    },
+    {
+      "id": 10244,
+      "term": "forebrain structure that regulates sexual motivation and behavior and a number of homeostatic processes; serves as an interface between the nervous system and the endocrine system",
+      "definition": "hypothalamus",
+      "isReverse": true
+    },
+    {
+      "id": 245,
+      "term": "identical twins",
+      "definition": "twins that develop from the same sperm and egg"
+    },
+    {
+      "id": 10245,
+      "term": "twins that develop from the same sperm and egg",
+      "definition": "identical twins",
+      "isReverse": true
+    },
+    {
+      "id": 246,
+      "term": "lateralization",
+      "definition": "concept that each hemisphere of the brain is associated with specialized functions"
+    },
+    {
+      "id": 10246,
+      "term": "concept that each hemisphere of the brain is associated with specialized functions",
+      "definition": "lateralization",
+      "isReverse": true
+    },
+    {
+      "id": 247,
+      "term": "limbic system",
+      "definition": "collection of structures involved in processing emotion and memory"
+    },
+    {
+      "id": 10247,
+      "term": "collection of structures involved in processing emotion and memory",
+      "definition": "limbic system",
+      "isReverse": true
+    },
+    {
+      "id": 248,
+      "term": "longitudinal fissure",
+      "definition": "deep groove in the brain's cortex"
+    },
+    {
+      "id": 10248,
+      "term": "deep groove in the brain's cortex",
+      "definition": "longitudinal fissure",
+      "isReverse": true
+    },
+    {
+      "id": 249,
+      "term": "magnetic resonance imaging (MRI)",
+      "definition": "magnetic fields used to produce a picture of the tissue being imaged"
+    },
+    {
+      "id": 10249,
+      "term": "magnetic fields used to produce a picture of the tissue being imaged",
+      "definition": "magnetic resonance imaging (MRI)",
+      "isReverse": true
+    },
+    {
+      "id": 250,
+      "term": "medulla",
+      "definition": "hindbrain structure that controls automated processes like breathing, blood pressure, and heart rate"
+    },
+    {
+      "id": 10250,
+      "term": "hindbrain structure that controls automated processes like breathing, blood pressure, and heart rate",
+      "definition": "medulla",
+      "isReverse": true
+    },
+    {
+      "id": 251,
+      "term": "membrane potential",
+      "definition": "difference in charge across the neuronal membrane"
+    },
+    {
+      "id": 10251,
+      "term": "difference in charge across the neuronal membrane",
+      "definition": "membrane potential",
+      "isReverse": true
+    },
+    {
+      "id": 252,
+      "term": "midbrain",
+      "definition": "division of the brain located between the forebrain and the hindbrain; contains the reticular formation"
+    },
+    {
+      "id": 10252,
+      "term": "division of the brain located between the forebrain and the hindbrain; contains the reticular formation",
+      "definition": "midbrain",
+      "isReverse": true
+    },
+    {
+      "id": 253,
+      "term": "motor cortex",
+      "definition": "strip of cortex involved in planning and coordinating movement"
+    },
+    {
+      "id": 10253,
+      "term": "strip of cortex involved in planning and coordinating movement",
+      "definition": "motor cortex",
+      "isReverse": true
+    },
+    {
+      "id": 254,
+      "term": "mutation",
+      "definition": "sudden, permanent change in a gene"
+    },
+    {
+      "id": 10254,
+      "term": "sudden, permanent change in a gene",
+      "definition": "mutation",
+      "isReverse": true
+    },
+    {
+      "id": 255,
+      "term": "myelin sheath",
+      "definition": "fatty substance that insulates axons"
+    },
+    {
+      "id": 10255,
+      "term": "fatty substance that insulates axons",
+      "definition": "myelin sheath",
+      "isReverse": true
+    },
+    {
+      "id": 256,
+      "term": "neuron",
+      "definition": "cells in the nervous system that act as interconnected information processors, which are essential for all of the tasks of the nervous system"
+    },
+    {
+      "id": 10256,
+      "term": "cells in the nervous system that act as interconnected information processors, which are essential for all of the tasks of the nervous system",
+      "definition": "neuron",
+      "isReverse": true
+    },
+    {
+      "id": 257,
+      "term": "neurotransmitter",
+      "definition": "chemical messenger of the nervous system"
+    },
+    {
+      "id": 10257,
+      "term": "chemical messenger of the nervous system",
+      "definition": "neurotransmitter",
+      "isReverse": true
+    },
+    {
+      "id": 258,
+      "term": "occipital lobe",
+      "definition": "part of the cerebral cortex associated with visual processing; contains the primary visual cortex"
+    },
+    {
+      "id": 10258,
+      "term": "part of the cerebral cortex associated with visual processing; contains the primary visual cortex",
+      "definition": "occipital lobe",
+      "isReverse": true
+    },
+    {
+      "id": 259,
+      "term": "pancreas",
+      "definition": "secretes hormones that regulate blood sugar"
+    },
+    {
+      "id": 10259,
+      "term": "secretes hormones that regulate blood sugar",
+      "definition": "pancreas",
+      "isReverse": true
+    },
+    {
+      "id": 260,
+      "term": "parasympathetic nervous system",
+      "definition": "associated with routine, day-to-day operations of the body"
+    },
+    {
+      "id": 10260,
+      "term": "associated with routine, day-to-day operations of the body",
+      "definition": "parasympathetic nervous system",
+      "isReverse": true
+    },
+    {
+      "id": 261,
+      "term": "parietal lobe",
+      "definition": "part of the cerebral cortex involved in processing various sensory and perceptual information; contains the primary somatosensory cortex"
+    },
+    {
+      "id": 10261,
+      "term": "part of the cerebral cortex involved in processing various sensory and perceptual information; contains the primary somatosensory cortex",
+      "definition": "parietal lobe",
+      "isReverse": true
+    },
+    {
+      "id": 262,
+      "term": "peripheral nervous system (PNS)",
+      "definition": "connects the brain and spinal cord to the muscles, organs and senses in the periphery of the body"
+    },
+    {
+      "id": 10262,
+      "term": "connects the brain and spinal cord to the muscles, organs and senses in the periphery of the body",
+      "definition": "peripheral nervous system (PNS)",
+      "isReverse": true
+    },
+    {
+      "id": 263,
+      "term": "phenotype",
+      "definition": "individual's inheritable physical characteristics"
+    },
+    {
+      "id": 10263,
+      "term": "individual's inheritable physical characteristics",
+      "definition": "phenotype",
+      "isReverse": true
+    },
+    {
+      "id": 264,
+      "term": "pituitary gland",
+      "definition": "secretes a number of key hormones, which regulate fluid levels in the body, and a number of messenger hormones, which direct the activity of other glands in the endocrine system"
+    },
+    {
+      "id": 10264,
+      "term": "secretes a number of key hormones, which regulate fluid levels in the body, and a number of messenger hormones, which direct the activity of other glands in the endocrine system",
+      "definition": "pituitary gland",
+      "isReverse": true
+    },
+    {
+      "id": 265,
+      "term": "polygenic",
+      "definition": "multiple genes affecting a given trait"
+    },
+    {
+      "id": 10265,
+      "term": "multiple genes affecting a given trait",
+      "definition": "polygenic",
+      "isReverse": true
+    },
+    {
+      "id": 266,
+      "term": "pons",
+      "definition": "hindbrain structure that connects the brain and spinal cord; involved in regulating brain activity during sleep"
+    },
+    {
+      "id": 10266,
+      "term": "hindbrain structure that connects the brain and spinal cord; involved in regulating brain activity during sleep",
+      "definition": "pons",
+      "isReverse": true
+    },
+    {
+      "id": 267,
+      "term": "positron emission tomography (PET) scan",
+      "definition": "involves injecting individuals with a mildly radioactive substance and monitoring changes in blood flow to different regions of the brain"
+    },
+    {
+      "id": 10267,
+      "term": "involves injecting individuals with a mildly radioactive substance and monitoring changes in blood flow to different regions of the brain",
+      "definition": "positron emission tomography (PET) scan",
+      "isReverse": true
+    },
+    {
+      "id": 268,
+      "term": "prefrontal cortex",
+      "definition": "area in the frontal lobe responsible for higher-level cognitive functioning"
+    },
+    {
+      "id": 10268,
+      "term": "area in the frontal lobe responsible for higher-level cognitive functioning",
+      "definition": "prefrontal cortex",
+      "isReverse": true
+    },
+    {
+      "id": 269,
+      "term": "psychotropic medication",
+      "definition": "drugs that treat psychiatric symptoms by restoring neurotransmitter balance"
+    },
+    {
+      "id": 10269,
+      "term": "drugs that treat psychiatric symptoms by restoring neurotransmitter balance",
+      "definition": "psychotropic medication",
+      "isReverse": true
+    },
+    {
+      "id": 270,
+      "term": "range of reaction",
+      "definition": "asserts our genes set the boundaries within which we can operate, and our environment interacts with the genes to determine where in that range we will fall"
+    },
+    {
+      "id": 10270,
+      "term": "asserts our genes set the boundaries within which we can operate, and our environment interacts with the genes to determine where in that range we will fall",
+      "definition": "range of reaction",
+      "isReverse": true
+    },
+    {
+      "id": 271,
+      "term": "receptor",
+      "definition": "protein on the cell surface where neurotransmitters attach"
+    },
+    {
+      "id": 10271,
+      "term": "protein on the cell surface where neurotransmitters attach",
+      "definition": "receptor",
+      "isReverse": true
+    },
+    {
+      "id": 272,
+      "term": "recessive allele",
+      "definition": "allele whose phenotype will be expressed only if an individual is homozygous for that allele"
+    },
+    {
+      "id": 10272,
+      "term": "allele whose phenotype will be expressed only if an individual is homozygous for that allele",
+      "definition": "recessive allele",
+      "isReverse": true
+    },
+    {
+      "id": 273,
+      "term": "resting potential",
+      "definition": "the state of readiness of a neuron membrane's potential between signals"
+    },
+    {
+      "id": 10273,
+      "term": "the state of readiness of a neuron membrane's potential between signals",
+      "definition": "resting potential",
+      "isReverse": true
+    },
+    {
+      "id": 274,
+      "term": "reticular formation",
+      "definition": "midbrain structure important in regulating the sleep/wake cycle, arousal, alertness, and motor activity"
+    },
+    {
+      "id": 10274,
+      "term": "midbrain structure important in regulating the sleep/wake cycle, arousal, alertness, and motor activity",
+      "definition": "reticular formation",
+      "isReverse": true
+    },
+    {
+      "id": 275,
+      "term": "reuptake",
+      "definition": "neurotransmitter is pumped back into the neuron that released it"
+    },
+    {
+      "id": 10275,
+      "term": "neurotransmitter is pumped back into the neuron that released it",
+      "definition": "reuptake",
+      "isReverse": true
+    },
+    {
+      "id": 276,
+      "term": "semipermeable membrane",
+      "definition": "cell membrane that allows smaller molecules or molecules without an electrical charge to pass through it, while stopping larger or highly charged molecules"
+    },
+    {
+      "id": 10276,
+      "term": "cell membrane that allows smaller molecules or molecules without an electrical charge to pass through it, while stopping larger or highly charged molecules",
+      "definition": "semipermeable membrane",
+      "isReverse": true
+    },
+    {
+      "id": 277,
+      "term": "soma",
+      "definition": "cell body"
+    },
+    {
+      "id": 10277,
+      "term": "cell body",
+      "definition": "soma",
+      "isReverse": true
+    },
+    {
+      "id": 278,
+      "term": "somatic nervous system",
+      "definition": "relays sensory and motor information to and from the CNS"
+    },
+    {
+      "id": 10278,
+      "term": "relays sensory and motor information to and from the CNS",
+      "definition": "somatic nervous system",
+      "isReverse": true
+    },
+    {
+      "id": 279,
+      "term": "somatosensory cortex",
+      "definition": "essential for processing sensory information from across the body, such as touch, temperature, and pain"
+    },
+    {
+      "id": 10279,
+      "term": "essential for processing sensory information from across the body, such as touch, temperature, and pain",
+      "definition": "somatosensory cortex",
+      "isReverse": true
+    },
+    {
+      "id": 280,
+      "term": "substantia nigra",
+      "definition": "midbrain structure where dopamine is produced; involved in control of movement"
+    },
+    {
+      "id": 10280,
+      "term": "midbrain structure where dopamine is produced; involved in control of movement",
+      "definition": "substantia nigra",
+      "isReverse": true
+    },
+    {
+      "id": 281,
+      "term": "sulcus (plural: sulci)",
+      "definition": "depressions or grooves in the cerebral cortex"
+    },
+    {
+      "id": 10281,
+      "term": "depressions or grooves in the cerebral cortex",
+      "definition": "sulcus (plural: sulci)",
+      "isReverse": true
+    },
+    {
+      "id": 282,
+      "term": "sympathetic nervous system",
+      "definition": "involved in stress-related activities and functions"
+    },
+    {
+      "id": 10282,
+      "term": "involved in stress-related activities and functions",
+      "definition": "sympathetic nervous system",
+      "isReverse": true
+    },
+    {
+      "id": 283,
+      "term": "synapse",
+      "definition": "small gap between two neurons where communication occurs"
+    },
+    {
+      "id": 10283,
+      "term": "small gap between two neurons where communication occurs",
+      "definition": "synapse",
+      "isReverse": true
+    },
+    {
+      "id": 284,
+      "term": "synaptic vesicle",
+      "definition": "storage site for neurotransmitters"
+    },
+    {
+      "id": 10284,
+      "term": "storage site for neurotransmitters",
+      "definition": "synaptic vesicle",
+      "isReverse": true
+    },
+    {
+      "id": 285,
+      "term": "temporal lobe",
+      "definition": "part of cerebral cortex associated with hearing, memory, emotion, and some aspects of language; contains primary auditory cortex"
+    },
+    {
+      "id": 10285,
+      "term": "part of cerebral cortex associated with hearing, memory, emotion, and some aspects of language; contains primary auditory cortex",
+      "definition": "temporal lobe",
+      "isReverse": true
+    },
+    {
+      "id": 286,
+      "term": "terminal button",
+      "definition": "axon terminal containing synaptic vesicles"
+    },
+    {
+      "id": 10286,
+      "term": "axon terminal containing synaptic vesicles",
+      "definition": "terminal button",
+      "isReverse": true
+    },
+    {
+      "id": 287,
+      "term": "thalamus",
+      "definition": "sensory relay for the brain"
+    },
+    {
+      "id": 10287,
+      "term": "sensory relay for the brain",
+      "definition": "thalamus",
+      "isReverse": true
+    },
+    {
+      "id": 288,
+      "term": "theory of evolution by natural selection",
+      "definition": "states that organisms that are better suited for their environments will survive and reproduce compared to those that are poorly suited for their environments"
+    },
+    {
+      "id": 10288,
+      "term": "states that organisms that are better suited for their environments will survive and reproduce compared to those that are poorly suited for their environments",
+      "definition": "theory of evolution by natural selection",
+      "isReverse": true
+    },
+    {
+      "id": 289,
+      "term": "threshold of excitation",
+      "definition": "level of charge in the membrane that causes the neuron to become active"
+    },
+    {
+      "id": 10289,
+      "term": "level of charge in the membrane that causes the neuron to become active",
+      "definition": "threshold of excitation",
+      "isReverse": true
+    },
+    {
+      "id": 290,
+      "term": "thyroid",
+      "definition": "secretes hormones that regulate growth, metabolism, and appetite"
+    },
+    {
+      "id": 10290,
+      "term": "secretes hormones that regulate growth, metabolism, and appetite",
+      "definition": "thyroid",
+      "isReverse": true
+    },
+    {
+      "id": 291,
+      "term": "ventral tegmental area (VTA)",
+      "definition": "midbrain structure where dopamine is produced: associated with mood, reward, and addiction"
+    },
+    {
+      "id": 10291,
+      "term": "midbrain structure where dopamine is produced: associated with mood, reward, and addiction",
+      "definition": "ventral tegmental area (VTA)",
+      "isReverse": true
+    },
+    {
+      "id": 292,
+      "term": "Wernicke's area",
+      "definition": "important for speech comprehension"
+    },
+    {
+      "id": 10292,
+      "term": "important for speech comprehension",
+      "definition": "Wernicke's area",
+      "isReverse": true
+    },
+    {
+      "id": 293,
+      "term": "A(n) ________ is a sudden, permanent change in a sequence of DNA.",
+      "definition": "Mutation"
+    },
+    {
+      "id": 10293,
+      "term": "Mutation",
+      "definition": "A(n) ________ is a sudden, permanent change in a sequence of DNA.",
+      "isReverse": true
+    },
+    {
+      "id": 294,
+      "term": "________ refers to a person's genetic makeup, while ________ refers to a person's physical characteristics.",
+      "definition": "Genotype; phenotype"
+    },
+    {
+      "id": 10294,
+      "term": "Genotype; phenotype",
+      "definition": "________ refers to a person's genetic makeup, while ________ refers to a person's physical characteristics.",
+      "isReverse": true
+    },
+    {
+      "id": 295,
+      "term": "________ is the field of study that focuses on genes and their expression.",
+      "definition": "Epigenetics"
+    },
+    {
+      "id": 10295,
+      "term": "Epigenetics",
+      "definition": "________ is the field of study that focuses on genes and their expression.",
+      "isReverse": true
+    },
+    {
+      "id": 296,
+      "term": "Humans have ________ pairs of chromosomes.",
+      "definition": "23"
+    },
+    {
+      "id": 10296,
+      "term": "23",
+      "definition": "Humans have ________ pairs of chromosomes.",
+      "isReverse": true
+    },
+    {
+      "id": 297,
+      "term": "The ________ receive(s) incoming signals from other neurons.",
+      "definition": "Dendrites"
+    },
+    {
+      "id": 10297,
+      "term": "Dendrites",
+      "definition": "The ________ receive(s) incoming signals from other neurons.",
+      "isReverse": true
+    },
+    {
+      "id": 298,
+      "term": "A(n) ________ facilitates or mimics the activity of a given neurotransmitter system.",
+      "definition": "Agonist"
+    },
+    {
+      "id": 10298,
+      "term": "Agonist",
+      "definition": "A(n) ________ facilitates or mimics the activity of a given neurotransmitter system.",
+      "isReverse": true
+    },
+    {
+      "id": 299,
+      "term": "Multiple sclerosis involves a breakdown of the ________.",
+      "definition": "Myelin sheath"
+    },
+    {
+      "id": 10299,
+      "term": "Myelin sheath",
+      "definition": "Multiple sclerosis involves a breakdown of the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 300,
+      "term": "An action potential involves Na+ moving ________ the cell and K+ moving ________ the cell.",
+      "definition": "Inside; outside"
+    },
+    {
+      "id": 10300,
+      "term": "Inside; outside",
+      "definition": "An action potential involves Na+ moving ________ the cell and K+ moving ________ the cell.",
+      "isReverse": true
+    },
+    {
+      "id": 301,
+      "term": "Our ability to make our legs move as we walk across the room is controlled by the ________ nervous system.",
+      "definition": "Somatic"
+    },
+    {
+      "id": 10301,
+      "term": "Somatic",
+      "definition": "Our ability to make our legs move as we walk across the room is controlled by the ________ nervous system.",
+      "isReverse": true
+    },
+    {
+      "id": 302,
+      "term": "If your ________ is activated, you will feel relatively at ease.",
+      "definition": "Parasympathetic nervous system"
+    },
+    {
+      "id": 10302,
+      "term": "Parasympathetic nervous system",
+      "definition": "If your ________ is activated, you will feel relatively at ease.",
+      "isReverse": true
+    },
+    {
+      "id": 303,
+      "term": "The central nervous system is comprised of ________.",
+      "definition": "Brain and spinal cord"
+    },
+    {
+      "id": 10303,
+      "term": "Brain and spinal cord",
+      "definition": "The central nervous system is comprised of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 304,
+      "term": "Sympathetic activation is associated with ________.",
+      "definition": "Pupil dilation and increased heart rate"
+    },
+    {
+      "id": 10304,
+      "term": "Pupil dilation and increased heart rate",
+      "definition": "Sympathetic activation is associated with ________.",
+      "isReverse": true
+    },
+    {
+      "id": 305,
+      "term": "The ________ is a sensory relay station where all sensory information, except for smell, goes before being sent to other areas of the brain for further processing.",
+      "definition": "Thalamus"
+    },
+    {
+      "id": 10305,
+      "term": "Thalamus",
+      "definition": "The ________ is a sensory relay station where all sensory information, except for smell, goes before being sent to other areas of the brain for further processing.",
+      "isReverse": true
+    },
+    {
+      "id": 306,
+      "term": "Damage to the ________ disrupts one's ability to comprehend language, but it leaves one's ability to produce words intact.",
+      "definition": "Wernicke's Area"
+    },
+    {
+      "id": 10306,
+      "term": "Wernicke's Area",
+      "definition": "Damage to the ________ disrupts one's ability to comprehend language, but it leaves one's ability to produce words intact.",
+      "isReverse": true
+    },
+    {
+      "id": 307,
+      "term": "A(n) ________ uses magnetic fields to create pictures of a given tissue.",
+      "definition": "MRI"
+    },
+    {
+      "id": 10307,
+      "term": "MRI",
+      "definition": "A(n) ________ uses magnetic fields to create pictures of a given tissue.",
+      "isReverse": true
+    },
+    {
+      "id": 308,
+      "term": "Which of the following is not a structure of the forebrain?",
+      "definition": "Substantia nigra"
+    },
+    {
+      "id": 10308,
+      "term": "Substantia nigra",
+      "definition": "Which of the following is not a structure of the forebrain?",
+      "isReverse": true
+    },
+    {
+      "id": 309,
+      "term": "The two major hormones secreted from the pancreas are:",
+      "definition": "Glucagon and insulin"
+    },
+    {
+      "id": 10309,
+      "term": "Glucagon and insulin",
+      "definition": "The two major hormones secreted from the pancreas are:",
+      "isReverse": true
+    },
+    {
+      "id": 310,
+      "term": "The ________ secretes messenger hormones that direct the function of the rest of the endocrine glands.",
+      "definition": "Pituitary"
+    },
+    {
+      "id": 10310,
+      "term": "Pituitary",
+      "definition": "The ________ secretes messenger hormones that direct the function of the rest of the endocrine glands.",
+      "isReverse": true
+    },
+    {
+      "id": 311,
+      "term": "The ________ gland secretes epinephrine.",
+      "definition": "Adrenal"
+    },
+    {
+      "id": 10311,
+      "term": "Adrenal",
+      "definition": "The ________ gland secretes epinephrine.",
+      "isReverse": true
+    },
+    {
+      "id": 312,
+      "term": "The ________ secretes hormones that regulate the body's fluid levels.",
+      "definition": "Pituitary"
+    },
+    {
+      "id": 10312,
+      "term": "Pituitary",
+      "definition": "The ________ secretes hormones that regulate the body's fluid levels.",
+      "isReverse": true
+    },
+    {
+      "id": 313,
+      "term": "Natural Selection",
+      "definition": "Theory stating that organisms better suited for their environment will survive and reproduce, while those poorly suited will die off."
+    },
+    {
+      "id": 10313,
+      "term": "Theory stating that organisms better suited for their environment will survive and reproduce, while those poorly suited will die off.",
+      "definition": "Natural Selection",
+      "isReverse": true
+    },
+    {
+      "id": 314,
+      "term": "Neurons",
+      "definition": "Interconnected information processors that are essential for all of the tasks of the nervous system."
+    },
+    {
+      "id": 10314,
+      "term": "Interconnected information processors that are essential for all of the tasks of the nervous system.",
+      "definition": "Neurons",
+      "isReverse": true
+    },
+    {
+      "id": 315,
+      "term": "Psychotropic Medications",
+      "definition": "Drugs that treat psychiatric symptoms by restoring neurotransmitter balance."
+    },
+    {
+      "id": 10315,
+      "term": "Drugs that treat psychiatric symptoms by restoring neurotransmitter balance.",
+      "definition": "Psychotropic Medications",
+      "isReverse": true
+    },
+    {
+      "id": 316,
+      "term": "PET Scan",
+      "definition": "Positron emission tomography; creates pictures of the living, active brain."
+    },
+    {
+      "id": 10316,
+      "term": "Positron emission tomography; creates pictures of the living, active brain.",
+      "definition": "PET Scan",
+      "isReverse": true
+    },
+    {
+      "id": 317,
+      "term": "MRI / fMRI",
+      "definition": "Magnetic Resonance Imaging; often used to compare the brains of healthy individuals to those with psychological disorders due to high detail."
+    },
+    {
+      "id": 10317,
+      "term": "Magnetic Resonance Imaging; often used to compare the brains of healthy individuals to those with psychological disorders due to high detail.",
+      "definition": "MRI / fMRI",
+      "isReverse": true
+    },
+    {
+      "id": 318,
+      "term": "Thyroid Gland",
+      "definition": "Regulates metabolism and appetite."
+    },
+    {
+      "id": 10318,
+      "term": "Regulates metabolism and appetite.",
+      "definition": "Thyroid Gland",
+      "isReverse": true
+    },
+    {
+      "id": 319,
+      "term": "Adrenal Glands",
+      "definition": "Secrete epinephrine and norepinephrine involved in the stress response."
+    },
+    {
+      "id": 10319,
+      "term": "Secrete epinephrine and norepinephrine involved in the stress response.",
+      "definition": "Adrenal Glands",
+      "isReverse": true
+    }
+  ]
+}

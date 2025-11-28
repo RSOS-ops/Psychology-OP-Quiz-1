@@ -1,0 +1,1370 @@
+{
+  "title": "Chapter 5: Sensation and Perception",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 401,
+      "term": "absolute threshold",
+      "definition": "minimum amount of stimulus energy that must be present for the stimulus to be detected 50% of the time"
+    },
+    {
+      "id": 10401,
+      "term": "minimum amount of stimulus energy that must be present for the stimulus to be detected 50% of the time",
+      "definition": "absolute threshold",
+      "isReverse": true
+    },
+    {
+      "id": 402,
+      "term": "afterimage",
+      "definition": "continuation of a visual sensation after removal of the stimulus"
+    },
+    {
+      "id": 10402,
+      "term": "continuation of a visual sensation after removal of the stimulus",
+      "definition": "afterimage",
+      "isReverse": true
+    },
+    {
+      "id": 403,
+      "term": "amplitude",
+      "definition": "height of a wave"
+    },
+    {
+      "id": 10403,
+      "term": "height of a wave",
+      "definition": "amplitude",
+      "isReverse": true
+    },
+    {
+      "id": 404,
+      "term": "basilar membrane",
+      "definition": "thin strip of tissue within the cochlea that contains the hair cells which serve as the sensory receptors for the auditory system"
+    },
+    {
+      "id": 10404,
+      "term": "thin strip of tissue within the cochlea that contains the hair cells which serve as the sensory receptors for the auditory system",
+      "definition": "basilar membrane",
+      "isReverse": true
+    },
+    {
+      "id": 405,
+      "term": "binaural cue",
+      "definition": "two-eared cue to localize sound"
+    },
+    {
+      "id": 10405,
+      "term": "two-eared cue to localize sound",
+      "definition": "binaural cue",
+      "isReverse": true
+    },
+    {
+      "id": 406,
+      "term": "binocular cue",
+      "definition": "cue that relies on the use of both eyes"
+    },
+    {
+      "id": 10406,
+      "term": "cue that relies on the use of both eyes",
+      "definition": "binocular cue",
+      "isReverse": true
+    },
+    {
+      "id": 407,
+      "term": "binocular disparity",
+      "definition": "slightly different view of the world that each eye receives"
+    },
+    {
+      "id": 10407,
+      "term": "slightly different view of the world that each eye receives",
+      "definition": "binocular disparity",
+      "isReverse": true
+    },
+    {
+      "id": 408,
+      "term": "blind spot",
+      "definition": "point where we cannot respond to visual information in that portion of the visual field"
+    },
+    {
+      "id": 10408,
+      "term": "point where we cannot respond to visual information in that portion of the visual field",
+      "definition": "blind spot",
+      "isReverse": true
+    },
+    {
+      "id": 409,
+      "term": "bottom-up processing",
+      "definition": "system in which perceptions are built from sensory input"
+    },
+    {
+      "id": 10409,
+      "term": "system in which perceptions are built from sensory input",
+      "definition": "bottom-up processing",
+      "isReverse": true
+    },
+    {
+      "id": 410,
+      "term": "closure",
+      "definition": "organizing our perceptions into complete objects rather than as a series of parts"
+    },
+    {
+      "id": 10410,
+      "term": "organizing our perceptions into complete objects rather than as a series of parts",
+      "definition": "closure",
+      "isReverse": true
+    },
+    {
+      "id": 411,
+      "term": "cochlea",
+      "definition": "fluid-filled, snail-shaped structure that contains the sensory receptor cells of the auditory system"
+    },
+    {
+      "id": 10411,
+      "term": "fluid-filled, snail-shaped structure that contains the sensory receptor cells of the auditory system",
+      "definition": "cochlea",
+      "isReverse": true
+    },
+    {
+      "id": 412,
+      "term": "cochlear implant",
+      "definition": "electronic device that consists of a microphone, a speech processor, and an electrode array to directly stimulate the auditory nerve to transmit information to the brain"
+    },
+    {
+      "id": 10412,
+      "term": "electronic device that consists of a microphone, a speech processor, and an electrode array to directly stimulate the auditory nerve to transmit information to the brain",
+      "definition": "cochlear implant",
+      "isReverse": true
+    },
+    {
+      "id": 413,
+      "term": "conductive hearing loss",
+      "definition": "failure in the vibration of the eardrum and/or movement of the ossicles"
+    },
+    {
+      "id": 10413,
+      "term": "failure in the vibration of the eardrum and/or movement of the ossicles",
+      "definition": "conductive hearing loss",
+      "isReverse": true
+    },
+    {
+      "id": 414,
+      "term": "cone",
+      "definition": "specialized photoreceptor that works best in bright light conditions and detects color"
+    },
+    {
+      "id": 10414,
+      "term": "specialized photoreceptor that works best in bright light conditions and detects color",
+      "definition": "cone",
+      "isReverse": true
+    },
+    {
+      "id": 415,
+      "term": "congenital deafness",
+      "definition": "deafness from birth"
+    },
+    {
+      "id": 10415,
+      "term": "deafness from birth",
+      "definition": "congenital deafness",
+      "isReverse": true
+    },
+    {
+      "id": 416,
+      "term": "congenital insensitivity to pain (congenital analgesia)",
+      "definition": "genetic disorder that results in the inability to experience pain"
+    },
+    {
+      "id": 10416,
+      "term": "genetic disorder that results in the inability to experience pain",
+      "definition": "congenital insensitivity to pain (congenital analgesia)",
+      "isReverse": true
+    },
+    {
+      "id": 417,
+      "term": "cornea",
+      "definition": "transparent covering over the eye"
+    },
+    {
+      "id": 10417,
+      "term": "transparent covering over the eye",
+      "definition": "cornea",
+      "isReverse": true
+    },
+    {
+      "id": 418,
+      "term": "deafness",
+      "definition": "partial or complete inability to hear"
+    },
+    {
+      "id": 10418,
+      "term": "partial or complete inability to hear",
+      "definition": "deafness",
+      "isReverse": true
+    },
+    {
+      "id": 419,
+      "term": "decibel (dB)",
+      "definition": "logarithmic unit of sound intensity"
+    },
+    {
+      "id": 10419,
+      "term": "logarithmic unit of sound intensity",
+      "definition": "decibel (dB)",
+      "isReverse": true
+    },
+    {
+      "id": 420,
+      "term": "depth perception",
+      "definition": "ability to perceive depth"
+    },
+    {
+      "id": 10420,
+      "term": "ability to perceive depth",
+      "definition": "depth perception",
+      "isReverse": true
+    },
+    {
+      "id": 421,
+      "term": "electromagnetic spectrum",
+      "definition": "all the electromagnetic radiation that occurs in our environment"
+    },
+    {
+      "id": 10421,
+      "term": "all the electromagnetic radiation that occurs in our environment",
+      "definition": "electromagnetic spectrum",
+      "isReverse": true
+    },
+    {
+      "id": 422,
+      "term": "figure-ground relationship",
+      "definition": "segmenting our visual world into figure and ground"
+    },
+    {
+      "id": 10422,
+      "term": "segmenting our visual world into figure and ground",
+      "definition": "figure-ground relationship",
+      "isReverse": true
+    },
+    {
+      "id": 423,
+      "term": "fovea",
+      "definition": "small indentation in the retina that contains cones"
+    },
+    {
+      "id": 10423,
+      "term": "small indentation in the retina that contains cones",
+      "definition": "fovea",
+      "isReverse": true
+    },
+    {
+      "id": 424,
+      "term": "frequency",
+      "definition": "number of waves that pass a given point in a given time period"
+    },
+    {
+      "id": 10424,
+      "term": "number of waves that pass a given point in a given time period",
+      "definition": "frequency",
+      "isReverse": true
+    },
+    {
+      "id": 425,
+      "term": "Gestalt psychology",
+      "definition": "field of psychology based on the idea that the whole is different from the sum of its parts"
+    },
+    {
+      "id": 10425,
+      "term": "field of psychology based on the idea that the whole is different from the sum of its parts",
+      "definition": "Gestalt psychology",
+      "isReverse": true
+    },
+    {
+      "id": 426,
+      "term": "good continuation (also, continuity)",
+      "definition": "we are more likely to perceive continuous, smooth flowing lines rather than jagged, broken lines"
+    },
+    {
+      "id": 10426,
+      "term": "we are more likely to perceive continuous, smooth flowing lines rather than jagged, broken lines",
+      "definition": "good continuation (also, continuity)",
+      "isReverse": true
+    },
+    {
+      "id": 427,
+      "term": "hair cell",
+      "definition": "auditory receptor cell of the inner ear"
+    },
+    {
+      "id": 10427,
+      "term": "auditory receptor cell of the inner ear",
+      "definition": "hair cell",
+      "isReverse": true
+    },
+    {
+      "id": 428,
+      "term": "hertz (Hz)",
+      "definition": "cycles per second; measure of frequency"
+    },
+    {
+      "id": 10428,
+      "term": "cycles per second; measure of frequency",
+      "definition": "hertz (Hz)",
+      "isReverse": true
+    },
+    {
+      "id": 429,
+      "term": "inattentional blindness",
+      "definition": "failure to notice something that is completely visible because of a lack of attention"
+    },
+    {
+      "id": 10429,
+      "term": "failure to notice something that is completely visible because of a lack of attention",
+      "definition": "inattentional blindness",
+      "isReverse": true
+    },
+    {
+      "id": 430,
+      "term": "incus",
+      "definition": "middle ear ossicle; also known as the anvil"
+    },
+    {
+      "id": 10430,
+      "term": "middle ear ossicle; also known as the anvil",
+      "definition": "incus",
+      "isReverse": true
+    },
+    {
+      "id": 431,
+      "term": "inflammatory pain",
+      "definition": "signal that some type of tissue damage has occurred"
+    },
+    {
+      "id": 10431,
+      "term": "signal that some type of tissue damage has occurred",
+      "definition": "inflammatory pain",
+      "isReverse": true
+    },
+    {
+      "id": 432,
+      "term": "interaural level difference",
+      "definition": "sound coming from one side of the body is more intense at the closest ear because of the attenuation of the sound wave as it passes through the head"
+    },
+    {
+      "id": 10432,
+      "term": "sound coming from one side of the body is more intense at the closest ear because of the attenuation of the sound wave as it passes through the head",
+      "definition": "interaural level difference",
+      "isReverse": true
+    },
+    {
+      "id": 433,
+      "term": "interaural timing difference",
+      "definition": "small difference in the time at which a given sound wave arrives at each ear"
+    },
+    {
+      "id": 10433,
+      "term": "small difference in the time at which a given sound wave arrives at each ear",
+      "definition": "interaural timing difference",
+      "isReverse": true
+    },
+    {
+      "id": 434,
+      "term": "iris",
+      "definition": "colored portion of the eye"
+    },
+    {
+      "id": 10434,
+      "term": "colored portion of the eye",
+      "definition": "iris",
+      "isReverse": true
+    },
+    {
+      "id": 435,
+      "term": "just noticeable difference",
+      "definition": "difference in stimuli required to detect a difference between the stimuli"
+    },
+    {
+      "id": 10435,
+      "term": "difference in stimuli required to detect a difference between the stimuli",
+      "definition": "just noticeable difference",
+      "isReverse": true
+    },
+    {
+      "id": 436,
+      "term": "kinesthesia",
+      "definition": "perception of the body's movement through space"
+    },
+    {
+      "id": 10436,
+      "term": "perception of the body's movement through space",
+      "definition": "kinesthesia",
+      "isReverse": true
+    },
+    {
+      "id": 437,
+      "term": "lens",
+      "definition": "curved, transparent structure that provides additional focus for light entering the eye"
+    },
+    {
+      "id": 10437,
+      "term": "curved, transparent structure that provides additional focus for light entering the eye",
+      "definition": "lens",
+      "isReverse": true
+    },
+    {
+      "id": 438,
+      "term": "linear perspective",
+      "definition": "perceive depth in an image when two parallel lines seem to converge"
+    },
+    {
+      "id": 10438,
+      "term": "perceive depth in an image when two parallel lines seem to converge",
+      "definition": "linear perspective",
+      "isReverse": true
+    },
+    {
+      "id": 439,
+      "term": "malleus",
+      "definition": "middle ear ossicle; also known as the hammer"
+    },
+    {
+      "id": 10439,
+      "term": "middle ear ossicle; also known as the hammer",
+      "definition": "malleus",
+      "isReverse": true
+    },
+    {
+      "id": 440,
+      "term": "Meissner's corpuscle",
+      "definition": "touch receptor that responds to pressure and lower frequency vibrations"
+    },
+    {
+      "id": 10440,
+      "term": "touch receptor that responds to pressure and lower frequency vibrations",
+      "definition": "Meissner's corpuscle",
+      "isReverse": true
+    },
+    {
+      "id": 441,
+      "term": "Merkel's disk",
+      "definition": "touch receptor that responds to light touch"
+    },
+    {
+      "id": 10441,
+      "term": "touch receptor that responds to light touch",
+      "definition": "Merkel's disk",
+      "isReverse": true
+    },
+    {
+      "id": 442,
+      "term": "monaural cue",
+      "definition": "one-eared cue to localize sound"
+    },
+    {
+      "id": 10442,
+      "term": "one-eared cue to localize sound",
+      "definition": "monaural cue",
+      "isReverse": true
+    },
+    {
+      "id": 443,
+      "term": "monocular cue",
+      "definition": "cue that requires only one eye"
+    },
+    {
+      "id": 10443,
+      "term": "cue that requires only one eye",
+      "definition": "monocular cue",
+      "isReverse": true
+    },
+    {
+      "id": 444,
+      "term": "Ménière's disease",
+      "definition": "results in a degeneration of inner ear structures that can lead to hearing loss, tinnitus, vertigo, and an increase in pressure within the inner ear"
+    },
+    {
+      "id": 10444,
+      "term": "results in a degeneration of inner ear structures that can lead to hearing loss, tinnitus, vertigo, and an increase in pressure within the inner ear",
+      "definition": "Ménière's disease",
+      "isReverse": true
+    },
+    {
+      "id": 445,
+      "term": "neuropathic pain",
+      "definition": "pain from damage to neurons of either the peripheral or central nervous system"
+    },
+    {
+      "id": 10445,
+      "term": "pain from damage to neurons of either the peripheral or central nervous system",
+      "definition": "neuropathic pain",
+      "isReverse": true
+    },
+    {
+      "id": 446,
+      "term": "nociception",
+      "definition": "sensory signal indicating potential harm and maybe pain"
+    },
+    {
+      "id": 10446,
+      "term": "sensory signal indicating potential harm and maybe pain",
+      "definition": "nociception",
+      "isReverse": true
+    },
+    {
+      "id": 447,
+      "term": "olfactory bulb",
+      "definition": "bulb-like structure at the tip of the frontal lobe, where the olfactory nerves begin"
+    },
+    {
+      "id": 10447,
+      "term": "bulb-like structure at the tip of the frontal lobe, where the olfactory nerves begin",
+      "definition": "olfactory bulb",
+      "isReverse": true
+    },
+    {
+      "id": 448,
+      "term": "olfactory receptor",
+      "definition": "sensory cell for the olfactory system"
+    },
+    {
+      "id": 10448,
+      "term": "sensory cell for the olfactory system",
+      "definition": "olfactory receptor",
+      "isReverse": true
+    },
+    {
+      "id": 449,
+      "term": "opponent-process theory of color perception",
+      "definition": "color is coded in opponent pairs: black-white, yellow-blue, and red-green"
+    },
+    {
+      "id": 10449,
+      "term": "color is coded in opponent pairs: black-white, yellow-blue, and red-green",
+      "definition": "opponent-process theory of color perception",
+      "isReverse": true
+    },
+    {
+      "id": 450,
+      "term": "optic chiasm",
+      "definition": "X-shaped structure that sits just below the brain's ventral surface; represents the merging of the optic nerves from the two eyes and the separation of information from the two sides of the visual field to the opposite side of the brain"
+    },
+    {
+      "id": 10450,
+      "term": "X-shaped structure that sits just below the brain's ventral surface; represents the merging of the optic nerves from the two eyes and the separation of information from the two sides of the visual field to the opposite side of the brain",
+      "definition": "optic chiasm",
+      "isReverse": true
+    },
+    {
+      "id": 451,
+      "term": "optic nerve",
+      "definition": "carries visual information from the retina to the brain"
+    },
+    {
+      "id": 10451,
+      "term": "carries visual information from the retina to the brain",
+      "definition": "optic nerve",
+      "isReverse": true
+    },
+    {
+      "id": 452,
+      "term": "Pacinian corpuscle",
+      "definition": "touch receptor that detects transient pressure and higher frequency vibrations"
+    },
+    {
+      "id": 10452,
+      "term": "touch receptor that detects transient pressure and higher frequency vibrations",
+      "definition": "Pacinian corpuscle",
+      "isReverse": true
+    },
+    {
+      "id": 453,
+      "term": "pattern perception",
+      "definition": "ability to discriminate among different figures and shapes"
+    },
+    {
+      "id": 10453,
+      "term": "ability to discriminate among different figures and shapes",
+      "definition": "pattern perception",
+      "isReverse": true
+    },
+    {
+      "id": 454,
+      "term": "peak (also, crest)",
+      "definition": "highest point of a wave"
+    },
+    {
+      "id": 10454,
+      "term": "highest point of a wave",
+      "definition": "peak (also, crest)",
+      "isReverse": true
+    },
+    {
+      "id": 455,
+      "term": "perception",
+      "definition": "way that sensory information is interpreted and consciously experienced"
+    },
+    {
+      "id": 10455,
+      "term": "way that sensory information is interpreted and consciously experienced",
+      "definition": "perception",
+      "isReverse": true
+    },
+    {
+      "id": 456,
+      "term": "perceptual hypothesis",
+      "definition": "educated guess used to interpret sensory information"
+    },
+    {
+      "id": 10456,
+      "term": "educated guess used to interpret sensory information",
+      "definition": "perceptual hypothesis",
+      "isReverse": true
+    },
+    {
+      "id": 457,
+      "term": "pheromone",
+      "definition": "chemical message sent by another individual"
+    },
+    {
+      "id": 10457,
+      "term": "chemical message sent by another individual",
+      "definition": "pheromone",
+      "isReverse": true
+    },
+    {
+      "id": 458,
+      "term": "photoreceptor",
+      "definition": "light-detecting cell"
+    },
+    {
+      "id": 10458,
+      "term": "light-detecting cell",
+      "definition": "photoreceptor",
+      "isReverse": true
+    },
+    {
+      "id": 459,
+      "term": "pinna",
+      "definition": "visible part of the ear that protrudes from the head"
+    },
+    {
+      "id": 10459,
+      "term": "visible part of the ear that protrudes from the head",
+      "definition": "pinna",
+      "isReverse": true
+    },
+    {
+      "id": 460,
+      "term": "pitch",
+      "definition": "perception of a sound's frequency"
+    },
+    {
+      "id": 10460,
+      "term": "perception of a sound's frequency",
+      "definition": "pitch",
+      "isReverse": true
+    },
+    {
+      "id": 461,
+      "term": "place theory of pitch perception",
+      "definition": "different portions of the basilar membrane are sensitive to sounds of different frequencies"
+    },
+    {
+      "id": 10461,
+      "term": "different portions of the basilar membrane are sensitive to sounds of different frequencies",
+      "definition": "place theory of pitch perception",
+      "isReverse": true
+    },
+    {
+      "id": 462,
+      "term": "principle of closure",
+      "definition": "organize perceptions into complete objects rather than as a series of parts"
+    },
+    {
+      "id": 10462,
+      "term": "organize perceptions into complete objects rather than as a series of parts",
+      "definition": "principle of closure",
+      "isReverse": true
+    },
+    {
+      "id": 463,
+      "term": "proprioception",
+      "definition": "perception of body position"
+    },
+    {
+      "id": 10463,
+      "term": "perception of body position",
+      "definition": "proprioception",
+      "isReverse": true
+    },
+    {
+      "id": 464,
+      "term": "proximity",
+      "definition": "things that are close to one another tend to be grouped together"
+    },
+    {
+      "id": 10464,
+      "term": "things that are close to one another tend to be grouped together",
+      "definition": "proximity",
+      "isReverse": true
+    },
+    {
+      "id": 465,
+      "term": "pupil",
+      "definition": "small opening in the eye through which light passes"
+    },
+    {
+      "id": 10465,
+      "term": "small opening in the eye through which light passes",
+      "definition": "pupil",
+      "isReverse": true
+    },
+    {
+      "id": 466,
+      "term": "retina",
+      "definition": "light-sensitive lining of the eye"
+    },
+    {
+      "id": 10466,
+      "term": "light-sensitive lining of the eye",
+      "definition": "retina",
+      "isReverse": true
+    },
+    {
+      "id": 467,
+      "term": "rod",
+      "definition": "specialized photoreceptor that works well in low light conditions"
+    },
+    {
+      "id": 10467,
+      "term": "specialized photoreceptor that works well in low light conditions",
+      "definition": "rod",
+      "isReverse": true
+    },
+    {
+      "id": 468,
+      "term": "Ruffini corpuscle",
+      "definition": "touch receptor that detects stretch"
+    },
+    {
+      "id": 10468,
+      "term": "touch receptor that detects stretch",
+      "definition": "Ruffini corpuscle",
+      "isReverse": true
+    },
+    {
+      "id": 469,
+      "term": "sensation",
+      "definition": "what happens when sensory information is detected by a sensory receptor"
+    },
+    {
+      "id": 10469,
+      "term": "what happens when sensory information is detected by a sensory receptor",
+      "definition": "sensation",
+      "isReverse": true
+    },
+    {
+      "id": 470,
+      "term": "sensorineural hearing loss",
+      "definition": "failure to transmit neural signals from the cochlea to the brain"
+    },
+    {
+      "id": 10470,
+      "term": "failure to transmit neural signals from the cochlea to the brain",
+      "definition": "sensorineural hearing loss",
+      "isReverse": true
+    },
+    {
+      "id": 471,
+      "term": "sensory adaptation",
+      "definition": "not perceiving stimuli that remain relatively constant over prolonged periods of time"
+    },
+    {
+      "id": 10471,
+      "term": "not perceiving stimuli that remain relatively constant over prolonged periods of time",
+      "definition": "sensory adaptation",
+      "isReverse": true
+    },
+    {
+      "id": 472,
+      "term": "signal detection theory",
+      "definition": "change in stimulus detection as a function of current mental state"
+    },
+    {
+      "id": 10472,
+      "term": "change in stimulus detection as a function of current mental state",
+      "definition": "signal detection theory",
+      "isReverse": true
+    },
+    {
+      "id": 473,
+      "term": "similarity",
+      "definition": "things that are alike tend to be grouped together"
+    },
+    {
+      "id": 10473,
+      "term": "things that are alike tend to be grouped together",
+      "definition": "similarity",
+      "isReverse": true
+    },
+    {
+      "id": 474,
+      "term": "stapes",
+      "definition": "middle ear ossicle; also known as the stirrup"
+    },
+    {
+      "id": 10474,
+      "term": "middle ear ossicle; also known as the stirrup",
+      "definition": "stapes",
+      "isReverse": true
+    },
+    {
+      "id": 475,
+      "term": "subliminal message",
+      "definition": "message presented below the threshold of conscious awareness"
+    },
+    {
+      "id": 10475,
+      "term": "message presented below the threshold of conscious awareness",
+      "definition": "subliminal message",
+      "isReverse": true
+    },
+    {
+      "id": 476,
+      "term": "taste bud",
+      "definition": "grouping of taste receptor cells with hair-like extensions that protrude into the central pore of the taste bud"
+    },
+    {
+      "id": 10476,
+      "term": "grouping of taste receptor cells with hair-like extensions that protrude into the central pore of the taste bud",
+      "definition": "taste bud",
+      "isReverse": true
+    },
+    {
+      "id": 477,
+      "term": "temporal theory of pitch perception",
+      "definition": "sound's frequency is coded by the activity level of a sensory neuron"
+    },
+    {
+      "id": 10477,
+      "term": "sound's frequency is coded by the activity level of a sensory neuron",
+      "definition": "temporal theory of pitch perception",
+      "isReverse": true
+    },
+    {
+      "id": 478,
+      "term": "thermoception",
+      "definition": "temperature perception"
+    },
+    {
+      "id": 10478,
+      "term": "temperature perception",
+      "definition": "thermoception",
+      "isReverse": true
+    },
+    {
+      "id": 479,
+      "term": "timbre",
+      "definition": "sound's purity"
+    },
+    {
+      "id": 10479,
+      "term": "sound's purity",
+      "definition": "timbre",
+      "isReverse": true
+    },
+    {
+      "id": 480,
+      "term": "top-down processing",
+      "definition": "interpretation of sensations is influenced by available knowledge, experiences, and thoughts"
+    },
+    {
+      "id": 10480,
+      "term": "interpretation of sensations is influenced by available knowledge, experiences, and thoughts",
+      "definition": "top-down processing",
+      "isReverse": true
+    },
+    {
+      "id": 481,
+      "term": "transduction",
+      "definition": "conversion from sensory stimulus energy to action potential"
+    },
+    {
+      "id": 10481,
+      "term": "conversion from sensory stimulus energy to action potential",
+      "definition": "transduction",
+      "isReverse": true
+    },
+    {
+      "id": 482,
+      "term": "trichromatic theory of color perception",
+      "definition": "color vision is mediated by the activity across the three groups of cones"
+    },
+    {
+      "id": 10482,
+      "term": "color vision is mediated by the activity across the three groups of cones",
+      "definition": "trichromatic theory of color perception",
+      "isReverse": true
+    },
+    {
+      "id": 483,
+      "term": "trough",
+      "definition": "lowest point of a wave"
+    },
+    {
+      "id": 10483,
+      "term": "lowest point of a wave",
+      "definition": "trough",
+      "isReverse": true
+    },
+    {
+      "id": 484,
+      "term": "tympanic membrane",
+      "definition": "eardrum"
+    },
+    {
+      "id": 10484,
+      "term": "eardrum",
+      "definition": "tympanic membrane",
+      "isReverse": true
+    },
+    {
+      "id": 485,
+      "term": "umami",
+      "definition": "taste for monosodium glutamate"
+    },
+    {
+      "id": 10485,
+      "term": "taste for monosodium glutamate",
+      "definition": "umami",
+      "isReverse": true
+    },
+    {
+      "id": 486,
+      "term": "vertigo",
+      "definition": "spinning sensation"
+    },
+    {
+      "id": 10486,
+      "term": "spinning sensation",
+      "definition": "vertigo",
+      "isReverse": true
+    },
+    {
+      "id": 487,
+      "term": "vestibular sense",
+      "definition": "contributes to our ability to maintain balance and body posture"
+    },
+    {
+      "id": 10487,
+      "term": "contributes to our ability to maintain balance and body posture",
+      "definition": "vestibular sense",
+      "isReverse": true
+    },
+    {
+      "id": 488,
+      "term": "visible spectrum",
+      "definition": "portion of the electromagnetic spectrum that we can see"
+    },
+    {
+      "id": 10488,
+      "term": "portion of the electromagnetic spectrum that we can see",
+      "definition": "visible spectrum",
+      "isReverse": true
+    },
+    {
+      "id": 489,
+      "term": "wavelength",
+      "definition": "length of a wave from one peak to the next peak"
+    },
+    {
+      "id": 10489,
+      "term": "length of a wave from one peak to the next peak",
+      "definition": "wavelength",
+      "isReverse": true
+    },
+    {
+      "id": 490,
+      "term": "________ refers to the minimum amount of stimulus energy required to be detected 50% of the time.",
+      "definition": "Absolute threshold"
+    },
+    {
+      "id": 10490,
+      "term": "Absolute threshold",
+      "definition": "________ refers to the minimum amount of stimulus energy required to be detected 50% of the time.",
+      "isReverse": true
+    },
+    {
+      "id": 491,
+      "term": "Decreased sensitivity to an unchanging stimulus is known as ________.",
+      "definition": "Sensory adaptation"
+    },
+    {
+      "id": 10491,
+      "term": "Sensory adaptation",
+      "definition": "Decreased sensitivity to an unchanging stimulus is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 492,
+      "term": "________ involves the conversion of sensory stimulus energy into neural impulses.",
+      "definition": "Transduction"
+    },
+    {
+      "id": 10492,
+      "term": "Transduction",
+      "definition": "________ involves the conversion of sensory stimulus energy into neural impulses.",
+      "isReverse": true
+    },
+    {
+      "id": 493,
+      "term": "________ occurs when sensory information is organized, interpreted, and consciously experienced.",
+      "definition": "Perception"
+    },
+    {
+      "id": 10493,
+      "term": "Perception",
+      "definition": "________ occurs when sensory information is organized, interpreted, and consciously experienced.",
+      "isReverse": true
+    },
+    {
+      "id": 494,
+      "term": "Which of the following correctly matches the pattern in our perception of color as we move from short wavelengths to long wavelengths?",
+      "definition": "Yellow to orange to red"
+    },
+    {
+      "id": 10494,
+      "term": "Yellow to orange to red",
+      "definition": "Which of the following correctly matches the pattern in our perception of color as we move from short wavelengths to long wavelengths?",
+      "isReverse": true
+    },
+    {
+      "id": 495,
+      "term": "The visible spectrum includes light that ranges from about ________.",
+      "definition": "400-700 nm"
+    },
+    {
+      "id": 10495,
+      "term": "400-700 nm",
+      "definition": "The visible spectrum includes light that ranges from about ________.",
+      "isReverse": true
+    },
+    {
+      "id": 496,
+      "term": "The electromagnetic spectrum includes ________.",
+      "definition": "All of the above (radio waves, x-rays, infrared light)"
+    },
+    {
+      "id": 10496,
+      "term": "All of the above (radio waves, x-rays, infrared light)",
+      "definition": "The electromagnetic spectrum includes ________.",
+      "isReverse": true
+    },
+    {
+      "id": 497,
+      "term": "The audible range for humans is ________.",
+      "definition": "20-20,000 Hz"
+    },
+    {
+      "id": 10497,
+      "term": "20-20,000 Hz",
+      "definition": "The audible range for humans is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 498,
+      "term": "The quality of a sound that is affected by frequency, amplitude, and timing of the sound wave is known as ________.",
+      "definition": "Timbre"
+    },
+    {
+      "id": 10498,
+      "term": "Timbre",
+      "definition": "The quality of a sound that is affected by frequency, amplitude, and timing of the sound wave is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 499,
+      "term": "The ________ is a small indentation of the retina that contains cones.",
+      "definition": "Fovea"
+    },
+    {
+      "id": 10499,
+      "term": "Fovea",
+      "definition": "The ________ is a small indentation of the retina that contains cones.",
+      "isReverse": true
+    },
+    {
+      "id": 500,
+      "term": "________ operate best under bright light conditions.",
+      "definition": "Cones"
+    },
+    {
+      "id": 10500,
+      "term": "Cones",
+      "definition": "________ operate best under bright light conditions.",
+      "isReverse": true
+    },
+    {
+      "id": 501,
+      "term": "________ depth cues require the use of both eyes.",
+      "definition": "Binocular"
+    },
+    {
+      "id": 10501,
+      "term": "Binocular",
+      "definition": "________ depth cues require the use of both eyes.",
+      "isReverse": true
+    },
+    {
+      "id": 502,
+      "term": "If you were to stare at a green dot for a relatively long period of time and then shift your gaze to a blank white screen, you would see a ________ negative afterimage.",
+      "definition": "Red"
+    },
+    {
+      "id": 10502,
+      "term": "Red",
+      "definition": "If you were to stare at a green dot for a relatively long period of time and then shift your gaze to a blank white screen, you would see a ________ negative afterimage.",
+      "isReverse": true
+    },
+    {
+      "id": 503,
+      "term": "Hair cells located near the base of the basilar membrane respond best to ________ sounds.",
+      "definition": "High-frequency"
+    },
+    {
+      "id": 10503,
+      "term": "High-frequency",
+      "definition": "Hair cells located near the base of the basilar membrane respond best to ________ sounds.",
+      "isReverse": true
+    },
+    {
+      "id": 504,
+      "term": "The three ossicles of the middle ear are known as ________.",
+      "definition": "Both a and b (malleus, incus, and stapes; hammer, anvil, and stirrup)"
+    },
+    {
+      "id": 10504,
+      "term": "Both a and b (malleus, incus, and stapes; hammer, anvil, and stirrup)",
+      "definition": "The three ossicles of the middle ear are known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 505,
+      "term": "Hearing aids might be effective for treating ________.",
+      "definition": "Conductive hearing loss"
+    },
+    {
+      "id": 10505,
+      "term": "Conductive hearing loss",
+      "definition": "Hearing aids might be effective for treating ________.",
+      "isReverse": true
+    },
+    {
+      "id": 506,
+      "term": "Cues that require two ears are referred to as ________ cues.",
+      "definition": "Binaural"
+    },
+    {
+      "id": 10506,
+      "term": "Binaural",
+      "definition": "Cues that require two ears are referred to as ________ cues.",
+      "isReverse": true
+    },
+    {
+      "id": 507,
+      "term": "Chemical messages often sent between two members of a species to communicate something about reproductive status are called ________.",
+      "definition": "Pheromones"
+    },
+    {
+      "id": 10507,
+      "term": "Pheromones",
+      "definition": "Chemical messages often sent between two members of a species to communicate something about reproductive status are called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 508,
+      "term": "Which taste is associated with monosodium glutamate?",
+      "definition": "Umami"
+    },
+    {
+      "id": 10508,
+      "term": "Umami",
+      "definition": "Which taste is associated with monosodium glutamate?",
+      "isReverse": true
+    },
+    {
+      "id": 509,
+      "term": "________ serve as sensory receptors for temperature and pain stimuli.",
+      "definition": "Free nerve endings"
+    },
+    {
+      "id": 10509,
+      "term": "Free nerve endings",
+      "definition": "________ serve as sensory receptors for temperature and pain stimuli.",
+      "isReverse": true
+    },
+    {
+      "id": 510,
+      "term": "Which of the following is involved in maintaining balance and body posture?",
+      "definition": "Vestibular system"
+    },
+    {
+      "id": 10510,
+      "term": "Vestibular system",
+      "definition": "Which of the following is involved in maintaining balance and body posture?",
+      "isReverse": true
+    },
+    {
+      "id": 511,
+      "term": "According to the principle of ________, objects that occur close to one another tend to be grouped together.",
+      "definition": "Proximity"
+    },
+    {
+      "id": 10511,
+      "term": "Proximity",
+      "definition": "According to the principle of ________, objects that occur close to one another tend to be grouped together.",
+      "isReverse": true
+    },
+    {
+      "id": 512,
+      "term": "Our tendency to perceive things as complete objects rather than as a series of parts is known as the principle of ________.",
+      "definition": "Closure"
+    },
+    {
+      "id": 10512,
+      "term": "Closure",
+      "definition": "Our tendency to perceive things as complete objects rather than as a series of parts is known as the principle of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 513,
+      "term": "According to the law of ________, we are more likely to perceive smoothly flowing lines rather than choppy or jagged lines.",
+      "definition": "Good continuation"
+    },
+    {
+      "id": 10513,
+      "term": "Good continuation",
+      "definition": "According to the law of ________, we are more likely to perceive smoothly flowing lines rather than choppy or jagged lines.",
+      "isReverse": true
+    },
+    {
+      "id": 514,
+      "term": "The main point of focus in a visual display is known as the ________.",
+      "definition": "Figure"
+    },
+    {
+      "id": 10514,
+      "term": "Figure",
+      "definition": "The main point of focus in a visual display is known as the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 515,
+      "term": "Sensation vs. Perception",
+      "definition": "Sensation is detecting stimuli (via receptors). Perception is organizing, interpreting, and experiencing those stimuli."
+    },
+    {
+      "id": 10515,
+      "term": "Sensation is detecting stimuli (via receptors). Perception is organizing, interpreting, and experiencing those stimuli.",
+      "definition": "Sensation vs. Perception",
+      "isReverse": true
+    },
+    {
+      "id": 516,
+      "term": "Wavelength & Frequency",
+      "definition": "Wavelength in light is associated with color. Frequency in sound is associated with pitch."
+    },
+    {
+      "id": 10516,
+      "term": "Wavelength in light is associated with color. Frequency in sound is associated with pitch.",
+      "definition": "Wavelength & Frequency",
+      "isReverse": true
+    },
+    {
+      "id": 517,
+      "term": "Cornea & Pupil",
+      "definition": "Cornea: transparent covering over the eye. Pupil: small opening through which light passes."
+    },
+    {
+      "id": 10517,
+      "term": "Cornea: transparent covering over the eye. Pupil: small opening through which light passes.",
+      "definition": "Cornea & Pupil",
+      "isReverse": true
+    },
+    {
+      "id": 518,
+      "term": "Retina & Fovea",
+      "definition": "Retina: light-sensitive lining of the eye. Fovea: small indentation in the retina containing cones (high acuity)."
+    },
+    {
+      "id": 10518,
+      "term": "Retina: light-sensitive lining of the eye. Fovea: small indentation in the retina containing cones (high acuity).",
+      "definition": "Retina & Fovea",
+      "isReverse": true
+    },
+    {
+      "id": 519,
+      "term": "Rods vs. Cones",
+      "definition": "Cones: work in bright light, perceive color. Rods: work in low light, perceive movement/contrast."
+    },
+    {
+      "id": 10519,
+      "term": "Cones: work in bright light, perceive color. Rods: work in low light, perceive movement/contrast.",
+      "definition": "Rods vs. Cones",
+      "isReverse": true
+    },
+    {
+      "id": 520,
+      "term": "Trichromatic Theory",
+      "definition": "Theory that three types of cones (red, blue, green) combine to produce color vision."
+    },
+    {
+      "id": 10520,
+      "term": "Theory that three types of cones (red, blue, green) combine to produce color vision.",
+      "definition": "Trichromatic Theory",
+      "isReverse": true
+    },
+    {
+      "id": 521,
+      "term": "Opponent-Process Theory",
+      "definition": "Color is coded in opponent pairs: black-white, yellow-blue, and green-red."
+    },
+    {
+      "id": 10521,
+      "term": "Color is coded in opponent pairs: black-white, yellow-blue, and green-red.",
+      "definition": "Opponent-Process Theory",
+      "isReverse": true
+    },
+    {
+      "id": 522,
+      "term": "Temporal Theory",
+      "definition": "Pitch perception theory asserting that frequency is coded by the activity level of a sensory neuron."
+    },
+    {
+      "id": 10522,
+      "term": "Pitch perception theory asserting that frequency is coded by the activity level of a sensory neuron.",
+      "definition": "Temporal Theory",
+      "isReverse": true
+    },
+    {
+      "id": 523,
+      "term": "Place Theory",
+      "definition": "Pitch perception theory suggesting different portions of the basilar membrane are sensitive to different frequencies."
+    },
+    {
+      "id": 10523,
+      "term": "Pitch perception theory suggesting different portions of the basilar membrane are sensitive to different frequencies.",
+      "definition": "Place Theory",
+      "isReverse": true
+    },
+    {
+      "id": 524,
+      "term": "Congenital Insensitivity to Pain",
+      "definition": "A genetic disorder where an individual is born without the ability to feel pain."
+    },
+    {
+      "id": 10524,
+      "term": "A genetic disorder where an individual is born without the ability to feel pain.",
+      "definition": "Congenital Insensitivity to Pain",
+      "isReverse": true
+    }
+  ]
+}

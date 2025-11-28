@@ -1,0 +1,644 @@
+{
+  "title": "Chapter 16: Therapy and Treatment",
+  "description": "Key Terms",
+  "cards": [
+    {
+      "id": 1301,
+      "term": "asylum",
+      "definition": "institution created for the specific purpose of housing people with psychological disorders"
+    },
+    {
+      "id": 11301,
+      "term": "institution created for the specific purpose of housing people with psychological disorders",
+      "definition": "asylum",
+      "isReverse": true
+    },
+    {
+      "id": 1302,
+      "term": "aversive conditioning",
+      "definition": "counterconditioning technique that pairs an unpleasant stimulant with an undesirable behavior"
+    },
+    {
+      "id": 11302,
+      "term": "counterconditioning technique that pairs an unpleasant stimulant with an undesirable behavior",
+      "definition": "aversive conditioning",
+      "isReverse": true
+    },
+    {
+      "id": 1303,
+      "term": "behavior therapy",
+      "definition": "therapeutic orientation that employs principles of learning to help clients change undesirable behaviors"
+    },
+    {
+      "id": 11303,
+      "term": "therapeutic orientation that employs principles of learning to help clients change undesirable behaviors",
+      "definition": "behavior therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1304,
+      "term": "biomedical therapy",
+      "definition": "treatment that involves medication and/or medical procedures to treat psychological disorders"
+    },
+    {
+      "id": 11304,
+      "term": "treatment that involves medication and/or medical procedures to treat psychological disorders",
+      "definition": "biomedical therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1305,
+      "term": "cognitive therapy",
+      "definition": "form of psychotherapy that focuses on how a person's thoughts lead to feelings of distress, with the aim of helping them change these irrational thoughts"
+    },
+    {
+      "id": 11305,
+      "term": "form of psychotherapy that focuses on how a person's thoughts lead to feelings of distress, with the aim of helping them change these irrational thoughts",
+      "definition": "cognitive therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1306,
+      "term": "cognitive-behavioral therapy",
+      "definition": "form of psychotherapy that aims to change cognitive distortions and self-defeating behaviors"
+    },
+    {
+      "id": 11306,
+      "term": "form of psychotherapy that aims to change cognitive distortions and self-defeating behaviors",
+      "definition": "cognitive-behavioral therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1307,
+      "term": "comorbid disorder",
+      "definition": "individual who has two or more diagnoses, which often includes a substance abuse diagnosis and another psychiatric diagnosis, such as depression, bipolar disorder, or schizophrenia"
+    },
+    {
+      "id": 11307,
+      "term": "individual who has two or more diagnoses, which often includes a substance abuse diagnosis and another psychiatric diagnosis, such as depression, bipolar disorder, or schizophrenia",
+      "definition": "comorbid disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1308,
+      "term": "confidentiality",
+      "definition": "therapist cannot disclose confidential communications to any third party, unless mandated or permitted by law"
+    },
+    {
+      "id": 11308,
+      "term": "therapist cannot disclose confidential communications to any third party, unless mandated or permitted by law",
+      "definition": "confidentiality",
+      "isReverse": true
+    },
+    {
+      "id": 1309,
+      "term": "counterconditioning",
+      "definition": "classical conditioning therapeutic technique in which a client learns a new response to a stimulus that has previously elicited an undesirable behavior"
+    },
+    {
+      "id": 11309,
+      "term": "classical conditioning therapeutic technique in which a client learns a new response to a stimulus that has previously elicited an undesirable behavior",
+      "definition": "counterconditioning",
+      "isReverse": true
+    },
+    {
+      "id": 1310,
+      "term": "couples therapy",
+      "definition": "two people in an intimate relationship, such as husband and wife, who are having difficulties and are trying to resolve them with therapy"
+    },
+    {
+      "id": 11310,
+      "term": "two people in an intimate relationship, such as husband and wife, who are having difficulties and are trying to resolve them with therapy",
+      "definition": "couples therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1311,
+      "term": "cultural competence",
+      "definition": "therapist's understanding and attention to issues of race, culture, and ethnicity in providing treatment"
+    },
+    {
+      "id": 11311,
+      "term": "therapist's understanding and attention to issues of race, culture, and ethnicity in providing treatment",
+      "definition": "cultural competence",
+      "isReverse": true
+    },
+    {
+      "id": 1312,
+      "term": "deinstitutionalization",
+      "definition": "process of closing large asylums and integrating people back into the community where they can be treated locally"
+    },
+    {
+      "id": 11312,
+      "term": "process of closing large asylums and integrating people back into the community where they can be treated locally",
+      "definition": "deinstitutionalization",
+      "isReverse": true
+    },
+    {
+      "id": 1313,
+      "term": "dream analysis",
+      "definition": "technique in psychoanalysis in which patients recall their dreams and the psychoanalyst interprets them to reveal unconscious desires or struggles"
+    },
+    {
+      "id": 11313,
+      "term": "technique in psychoanalysis in which patients recall their dreams and the psychoanalyst interprets them to reveal unconscious desires or struggles",
+      "definition": "dream analysis",
+      "isReverse": true
+    },
+    {
+      "id": 1314,
+      "term": "electroconvulsive therapy (ECT)",
+      "definition": "type of biomedical therapy that involves using an electrical current to induce seizures in a person to help alleviate the effects of severe depression"
+    },
+    {
+      "id": 11314,
+      "term": "type of biomedical therapy that involves using an electrical current to induce seizures in a person to help alleviate the effects of severe depression",
+      "definition": "electroconvulsive therapy (ECT)",
+      "isReverse": true
+    },
+    {
+      "id": 1315,
+      "term": "exposure therapy",
+      "definition": "counterconditioning technique in which a therapist seeks to treat a client's fear or anxiety by presenting the feared object or situation with the idea that the person will eventually get used to it"
+    },
+    {
+      "id": 11315,
+      "term": "counterconditioning technique in which a therapist seeks to treat a client's fear or anxiety by presenting the feared object or situation with the idea that the person will eventually get used to it",
+      "definition": "exposure therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1316,
+      "term": "family therapy",
+      "definition": "special form of group therapy consisting of one or more families"
+    },
+    {
+      "id": 11316,
+      "term": "special form of group therapy consisting of one or more families",
+      "definition": "family therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1317,
+      "term": "free association",
+      "definition": "technique in psychoanalysis in which the patient says whatever comes to mind at the moment"
+    },
+    {
+      "id": 11317,
+      "term": "technique in psychoanalysis in which the patient says whatever comes to mind at the moment",
+      "definition": "free association",
+      "isReverse": true
+    },
+    {
+      "id": 1318,
+      "term": "group therapy",
+      "definition": "treatment modality in which 5-10 people with the same issue or concern meet together with a trained clinician"
+    },
+    {
+      "id": 11318,
+      "term": "treatment modality in which 5-10 people with the same issue or concern meet together with a trained clinician",
+      "definition": "group therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1319,
+      "term": "humanistic therapy",
+      "definition": "therapeutic orientation aimed at helping people become more self-aware and accepting of themselves"
+    },
+    {
+      "id": 11319,
+      "term": "therapeutic orientation aimed at helping people become more self-aware and accepting of themselves",
+      "definition": "humanistic therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1320,
+      "term": "individual therapy",
+      "definition": "treatment modality in which the client and clinician meet one-on-one"
+    },
+    {
+      "id": 11320,
+      "term": "treatment modality in which the client and clinician meet one-on-one",
+      "definition": "individual therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1321,
+      "term": "intake",
+      "definition": "therapist's first meeting with the client in which the therapist gathers specific information to address the client's immediate needs"
+    },
+    {
+      "id": 11321,
+      "term": "therapist's first meeting with the client in which the therapist gathers specific information to address the client's immediate needs",
+      "definition": "intake",
+      "isReverse": true
+    },
+    {
+      "id": 1322,
+      "term": "involuntary treatment",
+      "definition": "therapy that is mandated by the courts or other systems"
+    },
+    {
+      "id": 11322,
+      "term": "therapy that is mandated by the courts or other systems",
+      "definition": "involuntary treatment",
+      "isReverse": true
+    },
+    {
+      "id": 1323,
+      "term": "nondirective therapy",
+      "definition": "therapeutic approach in which the therapist does not give advice or provide interpretations but helps the person identify conflicts and understand feelings"
+    },
+    {
+      "id": 11323,
+      "term": "therapeutic approach in which the therapist does not give advice or provide interpretations but helps the person identify conflicts and understand feelings",
+      "definition": "nondirective therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1324,
+      "term": "play therapy",
+      "definition": "therapeutic process, often used with children, that employs toys to help them resolve psychological problems"
+    },
+    {
+      "id": 11324,
+      "term": "therapeutic process, often used with children, that employs toys to help them resolve psychological problems",
+      "definition": "play therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1325,
+      "term": "psychoanalysis",
+      "definition": "therapeutic orientation developed by Sigmund Freud that employs free association, dream analysis, and transference to uncover repressed feelings"
+    },
+    {
+      "id": 11325,
+      "term": "therapeutic orientation developed by Sigmund Freud that employs free association, dream analysis, and transference to uncover repressed feelings",
+      "definition": "psychoanalysis",
+      "isReverse": true
+    },
+    {
+      "id": 1326,
+      "term": "psychotherapy (also, psychodynamic psychotherapy)",
+      "definition": "psychological treatment that employs various methods to help someone overcome personal problems, or to attain personal growth"
+    },
+    {
+      "id": 11326,
+      "term": "psychological treatment that employs various methods to help someone overcome personal problems, or to attain personal growth",
+      "definition": "psychotherapy (also, psychodynamic psychotherapy)",
+      "isReverse": true
+    },
+    {
+      "id": 1327,
+      "term": "rational emotive therapy (RET)",
+      "definition": "form of cognitive-behavioral therapy"
+    },
+    {
+      "id": 11327,
+      "term": "form of cognitive-behavioral therapy",
+      "definition": "rational emotive therapy (RET)",
+      "isReverse": true
+    },
+    {
+      "id": 1328,
+      "term": "relapse",
+      "definition": "repeated drug use and/or alcohol use after a period of improvement from substance abuse"
+    },
+    {
+      "id": 11328,
+      "term": "repeated drug use and/or alcohol use after a period of improvement from substance abuse",
+      "definition": "relapse",
+      "isReverse": true
+    },
+    {
+      "id": 1329,
+      "term": "Rogerian (client-centered therapy)",
+      "definition": "non-directive form of humanistic psychotherapy developed by Carl Rogers that emphasizes unconditional positive regard and self-acceptance"
+    },
+    {
+      "id": 11329,
+      "term": "non-directive form of humanistic psychotherapy developed by Carl Rogers that emphasizes unconditional positive regard and self-acceptance",
+      "definition": "Rogerian (client-centered therapy)",
+      "isReverse": true
+    },
+    {
+      "id": 1330,
+      "term": "strategic family therapy",
+      "definition": "therapist guides the therapy sessions and develops treatment plans for each family member for specific problems that can addressed in a short amount of time"
+    },
+    {
+      "id": 11330,
+      "term": "therapist guides the therapy sessions and develops treatment plans for each family member for specific problems that can addressed in a short amount of time",
+      "definition": "strategic family therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1331,
+      "term": "structural family therapy",
+      "definition": "therapist examines and discusses with the family the boundaries and structure of the family: who makes the rules, who sleeps in the bed with whom, how decisions are made, and what are the boundaries within the family"
+    },
+    {
+      "id": 11331,
+      "term": "therapist examines and discusses with the family the boundaries and structure of the family: who makes the rules, who sleeps in the bed with whom, how decisions are made, and what are the boundaries within the family",
+      "definition": "structural family therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1332,
+      "term": "systematic desensitization",
+      "definition": "form of exposure therapy used to treat phobias and anxiety disorders by exposing a person to the feared object or situation through a stimulus hierarchy"
+    },
+    {
+      "id": 11332,
+      "term": "form of exposure therapy used to treat phobias and anxiety disorders by exposing a person to the feared object or situation through a stimulus hierarchy",
+      "definition": "systematic desensitization",
+      "isReverse": true
+    },
+    {
+      "id": 1333,
+      "term": "token economy",
+      "definition": "controlled setting where individuals are reinforced for desirable behaviors with tokens (e.g., poker chip) that be exchanged for items or privileges"
+    },
+    {
+      "id": 11333,
+      "term": "controlled setting where individuals are reinforced for desirable behaviors with tokens (e.g., poker chip) that be exchanged for items or privileges",
+      "definition": "token economy",
+      "isReverse": true
+    },
+    {
+      "id": 1334,
+      "term": "transference",
+      "definition": "process in psychoanalysis in which the patient transfers all of the positive or negative emotions associated with the patient's other relationships to the psychoanalyst"
+    },
+    {
+      "id": 11334,
+      "term": "process in psychoanalysis in which the patient transfers all of the positive or negative emotions associated with the patient's other relationships to the psychoanalyst",
+      "definition": "transference",
+      "isReverse": true
+    },
+    {
+      "id": 1335,
+      "term": "unconditional positive regard",
+      "definition": "fundamental acceptance of a person regardless of what they say or do; term associated with humanistic psychology"
+    },
+    {
+      "id": 11335,
+      "term": "fundamental acceptance of a person regardless of what they say or do; term associated with humanistic psychology",
+      "definition": "unconditional positive regard",
+      "isReverse": true
+    },
+    {
+      "id": 1336,
+      "term": "virtual reality exposure therapy",
+      "definition": "uses a simulation rather than the actual feared object or situation to help people conquer their fears"
+    },
+    {
+      "id": 11336,
+      "term": "uses a simulation rather than the actual feared object or situation to help people conquer their fears",
+      "definition": "virtual reality exposure therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1337,
+      "term": "voluntary treatment",
+      "definition": "therapy that a person chooses to attend in order to obtain relief from her symptoms"
+    },
+    {
+      "id": 11337,
+      "term": "therapy that a person chooses to attend in order to obtain relief from her symptoms",
+      "definition": "voluntary treatment",
+      "isReverse": true
+    },
+    {
+      "id": 1338,
+      "term": "Who of the following does not support the humane and improved treatment of people with mental illness?",
+      "definition": "Medieval priests"
+    },
+    {
+      "id": 11338,
+      "term": "Medieval priests",
+      "definition": "Who of the following does not support the humane and improved treatment of people with mental illness?",
+      "isReverse": true
+    },
+    {
+      "id": 1339,
+      "term": "The process of closing large asylums and providing for people to stay in the community to be treated locally is known as ________.",
+      "definition": "Deinstitutionalization"
+    },
+    {
+      "id": 11339,
+      "term": "Deinstitutionalization",
+      "definition": "The process of closing large asylums and providing for people to stay in the community to be treated locally is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1340,
+      "term": "Joey was convicted of domestic violence. As part of his sentence, the judge has ordered that he attend therapy for anger management. This is considered ________ treatment.",
+      "definition": "Involuntary"
+    },
+    {
+      "id": 11340,
+      "term": "Involuntary",
+      "definition": "Joey was convicted of domestic violence. As part of his sentence, the judge has ordered that he attend therapy for anger management. This is considered ________ treatment.",
+      "isReverse": true
+    },
+    {
+      "id": 1341,
+      "term": "Today, most people with mental health issues are not hospitalized. Typically they are only hospitalized if they ________.",
+      "definition": "Are an imminent threat to themselves or others"
+    },
+    {
+      "id": 11341,
+      "term": "Are an imminent threat to themselves or others",
+      "definition": "Today, most people with mental health issues are not hospitalized. Typically they are only hospitalized if they ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1342,
+      "term": "The idea behind ________ is that how you think determines how you feel and act.",
+      "definition": "Cognitive therapy"
+    },
+    {
+      "id": 11342,
+      "term": "Cognitive therapy",
+      "definition": "The idea behind ________ is that how you think determines how you feel and act.",
+      "isReverse": true
+    },
+    {
+      "id": 1343,
+      "term": "Mood stabilizers, such as lithium, are used to treat ________.",
+      "definition": "Bipolar disorder"
+    },
+    {
+      "id": 11343,
+      "term": "Bipolar disorder",
+      "definition": "Mood stabilizers, such as lithium, are used to treat ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1344,
+      "term": "Clay is in a therapy session. The therapist asks him to relax and say whatever comes to his mind at the moment. This therapist is using ________, which is a technique of ________.",
+      "definition": "Free association; psychoanalysis"
+    },
+    {
+      "id": 11344,
+      "term": "Free association; psychoanalysis",
+      "definition": "Clay is in a therapy session. The therapist asks him to relax and say whatever comes to his mind at the moment. This therapist is using ________, which is a technique of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1345,
+      "term": "A treatment modality in which 5–10 people with the same issue or concern meet together with a trained clinician is known as ________.",
+      "definition": "Group therapy"
+    },
+    {
+      "id": 11345,
+      "term": "Group therapy",
+      "definition": "A treatment modality in which 5–10 people with the same issue or concern meet together with a trained clinician is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1346,
+      "term": "What happens during an intake?",
+      "definition": "The therapist gathers specific information to address the client's immediate needs such as the presenting problem, the client's support system, and insurance status."
+    },
+    {
+      "id": 11346,
+      "term": "The therapist gathers specific information to address the client's immediate needs such as the presenting problem, the client's support system, and insurance status.",
+      "definition": "What happens during an intake?",
+      "isReverse": true
+    },
+    {
+      "id": 1347,
+      "term": "What is the minimum amount of time addicts should receive treatment if they are to achieve a desired outcome?",
+      "definition": "3 months"
+    },
+    {
+      "id": 11347,
+      "term": "3 months",
+      "definition": "What is the minimum amount of time addicts should receive treatment if they are to achieve a desired outcome?",
+      "isReverse": true
+    },
+    {
+      "id": 1348,
+      "term": "When an individual has two or more diagnoses, which often includes a substance-related diagnosis and another psychiatric diagnosis, this is known as ________.",
+      "definition": "Comorbid disorder"
+    },
+    {
+      "id": 11348,
+      "term": "Comorbid disorder",
+      "definition": "When an individual has two or more diagnoses, which often includes a substance-related diagnosis and another psychiatric diagnosis, this is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1349,
+      "term": "John was drug-free for almost six months. Then he started hanging out with his addict friends, and he has now started abusing drugs again. This is an example of ________.",
+      "definition": "Relapse"
+    },
+    {
+      "id": 11349,
+      "term": "Relapse",
+      "definition": "John was drug-free for almost six months. Then he started hanging out with his addict friends, and he has now started abusing drugs again. This is an example of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1350,
+      "term": "The sociocultural perspective looks at you, your behaviors, and your symptoms in the context of your ________.",
+      "definition": "Culture and background"
+    },
+    {
+      "id": 11350,
+      "term": "Culture and background",
+      "definition": "The sociocultural perspective looks at you, your behaviors, and your symptoms in the context of your ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1351,
+      "term": "Which of the following was not listed as a barrier to mental health treatment?",
+      "definition": "Being a member of the ethnic majority"
+    },
+    {
+      "id": 11351,
+      "term": "Being a member of the ethnic majority",
+      "definition": "Which of the following was not listed as a barrier to mental health treatment?",
+      "isReverse": true
+    },
+    {
+      "id": 1352,
+      "term": "Asylums",
+      "definition": "Institutions created for the specific purpose of housing people with psychological disorders, often focusing on ostracizing rather than treating."
+    },
+    {
+      "id": 11352,
+      "term": "Institutions created for the specific purpose of housing people with psychological disorders, often focusing on ostracizing rather than treating.",
+      "definition": "Asylums",
+      "isReverse": true
+    },
+    {
+      "id": 1353,
+      "term": "Psychotherapy",
+      "definition": "Psychological treatment that employs various methods to help someone overcome personal problems or attain personal growth."
+    },
+    {
+      "id": 11353,
+      "term": "Psychological treatment that employs various methods to help someone overcome personal problems or attain personal growth.",
+      "definition": "Psychotherapy",
+      "isReverse": true
+    },
+    {
+      "id": 1354,
+      "term": "Psychodynamic Therapy",
+      "definition": "Talk therapy based on the belief that the unconscious and childhood conflicts impact behavior."
+    },
+    {
+      "id": 11354,
+      "term": "Talk therapy based on the belief that the unconscious and childhood conflicts impact behavior.",
+      "definition": "Psychodynamic Therapy",
+      "isReverse": true
+    },
+    {
+      "id": 1355,
+      "term": "Cognitive-Behavioral Therapy (CBT)",
+      "definition": "Helps clients examine how their thoughts affect their behavior; aims to change cognitive distortions and self-defeating behaviors."
+    },
+    {
+      "id": 11355,
+      "term": "Helps clients examine how their thoughts affect their behavior; aims to change cognitive distortions and self-defeating behaviors.",
+      "definition": "Cognitive-Behavioral Therapy (CBT)",
+      "isReverse": true
+    },
+    {
+      "id": 1356,
+      "term": "Active Listening",
+      "definition": "Technique where the therapist acknowledges, restates, and clarifies what the client expresses."
+    },
+    {
+      "id": 11356,
+      "term": "Technique where the therapist acknowledges, restates, and clarifies what the client expresses.",
+      "definition": "Active Listening",
+      "isReverse": true
+    },
+    {
+      "id": 1357,
+      "term": "Psychotropic Medications",
+      "definition": "Medications used to treat psychological disorders."
+    },
+    {
+      "id": 11357,
+      "term": "Medications used to treat psychological disorders.",
+      "definition": "Psychotropic Medications",
+      "isReverse": true
+    },
+    {
+      "id": 1358,
+      "term": "Comorbid Disorders",
+      "definition": "The individual has two or more diagnoses, such as a substance-related diagnosis and another psychiatric diagnosis (e.g., depression)."
+    },
+    {
+      "id": 11358,
+      "term": "The individual has two or more diagnoses, such as a substance-related diagnosis and another psychiatric diagnosis (e.g., depression).",
+      "definition": "Comorbid Disorders",
+      "isReverse": true
+    }
+  ]
+}

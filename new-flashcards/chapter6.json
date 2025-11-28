@@ -1,0 +1,688 @@
+{
+  "title": "Chapter 6: Learning",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 501,
+      "term": "acquisition",
+      "definition": "period of initial learning in classical conditioning in which a human or an animal begins to connect a neutral stimulus and an unconditioned stimulus so that the neutral stimulus will begin to elicit the conditioned response"
+    },
+    {
+      "id": 10501,
+      "term": "period of initial learning in classical conditioning in which a human or an animal begins to connect a neutral stimulus and an unconditioned stimulus so that the neutral stimulus will begin to elicit the conditioned response",
+      "definition": "acquisition",
+      "isReverse": true
+    },
+    {
+      "id": 502,
+      "term": "associative learning",
+      "definition": "form of learning that involves connecting certain stimuli or events that occur together in the environment (classical and operant conditioning)"
+    },
+    {
+      "id": 10502,
+      "term": "form of learning that involves connecting certain stimuli or events that occur together in the environment (classical and operant conditioning)",
+      "definition": "associative learning",
+      "isReverse": true
+    },
+    {
+      "id": 503,
+      "term": "classical conditioning",
+      "definition": "learning in which the stimulus or experience occurs before the behavior and then gets paired or associated with the behavior"
+    },
+    {
+      "id": 10503,
+      "term": "learning in which the stimulus or experience occurs before the behavior and then gets paired or associated with the behavior",
+      "definition": "classical conditioning",
+      "isReverse": true
+    },
+    {
+      "id": 504,
+      "term": "cognitive map",
+      "definition": "mental picture of the layout of the environment"
+    },
+    {
+      "id": 10504,
+      "term": "mental picture of the layout of the environment",
+      "definition": "cognitive map",
+      "isReverse": true
+    },
+    {
+      "id": 505,
+      "term": "conditioned response (CR)",
+      "definition": "response caused by the conditioned stimulus"
+    },
+    {
+      "id": 10505,
+      "term": "response caused by the conditioned stimulus",
+      "definition": "conditioned response (CR)",
+      "isReverse": true
+    },
+    {
+      "id": 506,
+      "term": "conditioned stimulus (CS)",
+      "definition": "stimulus that elicits a response due to its being paired with an unconditioned stimulus"
+    },
+    {
+      "id": 10506,
+      "term": "stimulus that elicits a response due to its being paired with an unconditioned stimulus",
+      "definition": "conditioned stimulus (CS)",
+      "isReverse": true
+    },
+    {
+      "id": 507,
+      "term": "continuous reinforcement",
+      "definition": "rewarding a behavior every time it occurs"
+    },
+    {
+      "id": 10507,
+      "term": "rewarding a behavior every time it occurs",
+      "definition": "continuous reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 508,
+      "term": "extinction",
+      "definition": "decrease in the conditioned response when the unconditioned stimulus is no longer paired with the conditioned stimulus"
+    },
+    {
+      "id": 10508,
+      "term": "decrease in the conditioned response when the unconditioned stimulus is no longer paired with the conditioned stimulus",
+      "definition": "extinction",
+      "isReverse": true
+    },
+    {
+      "id": 509,
+      "term": "fixed interval reinforcement schedule",
+      "definition": "behavior is rewarded after a set amount of time"
+    },
+    {
+      "id": 10509,
+      "term": "behavior is rewarded after a set amount of time",
+      "definition": "fixed interval reinforcement schedule",
+      "isReverse": true
+    },
+    {
+      "id": 510,
+      "term": "fixed ratio reinforcement schedule",
+      "definition": "set number of responses must occur before a behavior is rewarded"
+    },
+    {
+      "id": 10510,
+      "term": "set number of responses must occur before a behavior is rewarded",
+      "definition": "fixed ratio reinforcement schedule",
+      "isReverse": true
+    },
+    {
+      "id": 511,
+      "term": "habituation",
+      "definition": "when we learn not to respond to a stimulus that is presented repeatedly without change"
+    },
+    {
+      "id": 10511,
+      "term": "when we learn not to respond to a stimulus that is presented repeatedly without change",
+      "definition": "habituation",
+      "isReverse": true
+    },
+    {
+      "id": 512,
+      "term": "higher-order conditioning (also, second-order conditioning)",
+      "definition": "using a conditioned stimulus to condition a neutral stimulus"
+    },
+    {
+      "id": 10512,
+      "term": "using a conditioned stimulus to condition a neutral stimulus",
+      "definition": "higher-order conditioning (also, second-order conditioning)",
+      "isReverse": true
+    },
+    {
+      "id": 513,
+      "term": "instinct",
+      "definition": "unlearned knowledge, involving complex patterns of behavior; instincts are thought to be more prevalent in lower animals than in humans"
+    },
+    {
+      "id": 10513,
+      "term": "unlearned knowledge, involving complex patterns of behavior; instincts are thought to be more prevalent in lower animals than in humans",
+      "definition": "instinct",
+      "isReverse": true
+    },
+    {
+      "id": 514,
+      "term": "latent learning",
+      "definition": "learning that occurs, but it may not be evident until there is a reason to demonstrate it"
+    },
+    {
+      "id": 10514,
+      "term": "learning that occurs, but it may not be evident until there is a reason to demonstrate it",
+      "definition": "latent learning",
+      "isReverse": true
+    },
+    {
+      "id": 515,
+      "term": "law of effect",
+      "definition": "behavior that is followed by consequences satisfying to the organism will be repeated and behaviors that are followed by unpleasant consequences will be discouraged"
+    },
+    {
+      "id": 10515,
+      "term": "behavior that is followed by consequences satisfying to the organism will be repeated and behaviors that are followed by unpleasant consequences will be discouraged",
+      "definition": "law of effect",
+      "isReverse": true
+    },
+    {
+      "id": 516,
+      "term": "learning",
+      "definition": "change in behavior or knowledge that is the result of experience"
+    },
+    {
+      "id": 10516,
+      "term": "change in behavior or knowledge that is the result of experience",
+      "definition": "learning",
+      "isReverse": true
+    },
+    {
+      "id": 517,
+      "term": "model",
+      "definition": "person who performs a behavior that serves as an example (in observational learning)"
+    },
+    {
+      "id": 10517,
+      "term": "person who performs a behavior that serves as an example (in observational learning)",
+      "definition": "model",
+      "isReverse": true
+    },
+    {
+      "id": 518,
+      "term": "negative punishment",
+      "definition": "taking away a pleasant stimulus to decrease or stop a behavior"
+    },
+    {
+      "id": 10518,
+      "term": "taking away a pleasant stimulus to decrease or stop a behavior",
+      "definition": "negative punishment",
+      "isReverse": true
+    },
+    {
+      "id": 519,
+      "term": "negative reinforcement",
+      "definition": "taking away an undesirable stimulus to increase a behavior"
+    },
+    {
+      "id": 10519,
+      "term": "taking away an undesirable stimulus to increase a behavior",
+      "definition": "negative reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 520,
+      "term": "neutral stimulus (NS)",
+      "definition": "stimulus that does not initially elicit a response"
+    },
+    {
+      "id": 10520,
+      "term": "stimulus that does not initially elicit a response",
+      "definition": "neutral stimulus (NS)",
+      "isReverse": true
+    },
+    {
+      "id": 521,
+      "term": "observational learning",
+      "definition": "type of learning that occurs by watching others"
+    },
+    {
+      "id": 10521,
+      "term": "type of learning that occurs by watching others",
+      "definition": "observational learning",
+      "isReverse": true
+    },
+    {
+      "id": 522,
+      "term": "operant conditioning",
+      "definition": "form of learning in which the stimulus/experience happens after the behavior is demonstrated"
+    },
+    {
+      "id": 10522,
+      "term": "form of learning in which the stimulus/experience happens after the behavior is demonstrated",
+      "definition": "operant conditioning",
+      "isReverse": true
+    },
+    {
+      "id": 523,
+      "term": "partial reinforcement",
+      "definition": "rewarding behavior only some of the time"
+    },
+    {
+      "id": 10523,
+      "term": "rewarding behavior only some of the time",
+      "definition": "partial reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 524,
+      "term": "positive punishment",
+      "definition": "adding an undesirable stimulus to stop or decrease a behavior"
+    },
+    {
+      "id": 10524,
+      "term": "adding an undesirable stimulus to stop or decrease a behavior",
+      "definition": "positive punishment",
+      "isReverse": true
+    },
+    {
+      "id": 525,
+      "term": "positive reinforcement",
+      "definition": "adding a desirable stimulus to increase a behavior"
+    },
+    {
+      "id": 10525,
+      "term": "adding a desirable stimulus to increase a behavior",
+      "definition": "positive reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 526,
+      "term": "primary reinforcer",
+      "definition": "has innate reinforcing qualities (e.g., food, water, shelter, sex)"
+    },
+    {
+      "id": 10526,
+      "term": "has innate reinforcing qualities (e.g., food, water, shelter, sex)",
+      "definition": "primary reinforcer",
+      "isReverse": true
+    },
+    {
+      "id": 527,
+      "term": "punishment",
+      "definition": "implementation of a consequence in order to decrease a behavior"
+    },
+    {
+      "id": 10527,
+      "term": "implementation of a consequence in order to decrease a behavior",
+      "definition": "punishment",
+      "isReverse": true
+    },
+    {
+      "id": 528,
+      "term": "reflex",
+      "definition": "unlearned, automatic response by an organism to a stimulus in the environment"
+    },
+    {
+      "id": 10528,
+      "term": "unlearned, automatic response by an organism to a stimulus in the environment",
+      "definition": "reflex",
+      "isReverse": true
+    },
+    {
+      "id": 529,
+      "term": "reinforcement",
+      "definition": "implementation of a consequence in order to increase a behavior"
+    },
+    {
+      "id": 10529,
+      "term": "implementation of a consequence in order to increase a behavior",
+      "definition": "reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 530,
+      "term": "secondary reinforcer",
+      "definition": "has no inherent value unto itself and only has reinforcing qualities when linked with something else (e.g., money, gold stars, poker chips)"
+    },
+    {
+      "id": 10530,
+      "term": "has no inherent value unto itself and only has reinforcing qualities when linked with something else (e.g., money, gold stars, poker chips)",
+      "definition": "secondary reinforcer",
+      "isReverse": true
+    },
+    {
+      "id": 531,
+      "term": "shaping",
+      "definition": "rewarding successive approximations toward a target behavior"
+    },
+    {
+      "id": 10531,
+      "term": "rewarding successive approximations toward a target behavior",
+      "definition": "shaping",
+      "isReverse": true
+    },
+    {
+      "id": 532,
+      "term": "spontaneous recovery",
+      "definition": "return of a previously extinguished conditioned response"
+    },
+    {
+      "id": 10532,
+      "term": "return of a previously extinguished conditioned response",
+      "definition": "spontaneous recovery",
+      "isReverse": true
+    },
+    {
+      "id": 533,
+      "term": "stimulus discrimination",
+      "definition": "ability to respond differently to similar stimuli"
+    },
+    {
+      "id": 10533,
+      "term": "ability to respond differently to similar stimuli",
+      "definition": "stimulus discrimination",
+      "isReverse": true
+    },
+    {
+      "id": 534,
+      "term": "stimulus generalization",
+      "definition": "demonstrating the conditioned response to stimuli that are similar to the conditioned stimulus"
+    },
+    {
+      "id": 10534,
+      "term": "demonstrating the conditioned response to stimuli that are similar to the conditioned stimulus",
+      "definition": "stimulus generalization",
+      "isReverse": true
+    },
+    {
+      "id": 535,
+      "term": "unconditioned response (UCR)",
+      "definition": "natural (unlearned) behavior to a given stimulus"
+    },
+    {
+      "id": 10535,
+      "term": "natural (unlearned) behavior to a given stimulus",
+      "definition": "unconditioned response (UCR)",
+      "isReverse": true
+    },
+    {
+      "id": 536,
+      "term": "unconditioned stimulus (UCS)",
+      "definition": "stimulus that elicits a reflexive response"
+    },
+    {
+      "id": 10536,
+      "term": "stimulus that elicits a reflexive response",
+      "definition": "unconditioned stimulus (UCS)",
+      "isReverse": true
+    },
+    {
+      "id": 537,
+      "term": "variable interval reinforcement schedule",
+      "definition": "behavior is rewarded after unpredictable amounts of time have passed"
+    },
+    {
+      "id": 10537,
+      "term": "behavior is rewarded after unpredictable amounts of time have passed",
+      "definition": "variable interval reinforcement schedule",
+      "isReverse": true
+    },
+    {
+      "id": 538,
+      "term": "variable ratio reinforcement schedule",
+      "definition": "number of responses differ before a behavior is rewarded"
+    },
+    {
+      "id": 10538,
+      "term": "number of responses differ before a behavior is rewarded",
+      "definition": "variable ratio reinforcement schedule",
+      "isReverse": true
+    },
+    {
+      "id": 539,
+      "term": "vicarious punishment",
+      "definition": "process where the observer sees the model punished, making the observer less likely to imitate the model's behavior"
+    },
+    {
+      "id": 10539,
+      "term": "process where the observer sees the model punished, making the observer less likely to imitate the model's behavior",
+      "definition": "vicarious punishment",
+      "isReverse": true
+    },
+    {
+      "id": 540,
+      "term": "vicarious reinforcement",
+      "definition": "process where the observer sees the model rewarded, making the observer more likely to imitate the model's behavior"
+    },
+    {
+      "id": 10540,
+      "term": "process where the observer sees the model rewarded, making the observer more likely to imitate the model's behavior",
+      "definition": "vicarious reinforcement",
+      "isReverse": true
+    },
+    {
+      "id": 541,
+      "term": "Which of the following is an example of a reflex that occurs at some point in the development of a human being?",
+      "definition": "Infant sucking on a nipple"
+    },
+    {
+      "id": 10541,
+      "term": "Infant sucking on a nipple",
+      "definition": "Which of the following is an example of a reflex that occurs at some point in the development of a human being?",
+      "isReverse": true
+    },
+    {
+      "id": 542,
+      "term": "Learning is best defined as a relatively permanent change in behavior that ________.",
+      "definition": "Occurs as a result of experience"
+    },
+    {
+      "id": 10542,
+      "term": "Occurs as a result of experience",
+      "definition": "Learning is best defined as a relatively permanent change in behavior that ________.",
+      "isReverse": true
+    },
+    {
+      "id": 543,
+      "term": "Two forms of associative learning are ________ and ________.",
+      "definition": "Classical conditioning; operant conditioning"
+    },
+    {
+      "id": 10543,
+      "term": "Classical conditioning; operant conditioning",
+      "definition": "Two forms of associative learning are ________ and ________.",
+      "isReverse": true
+    },
+    {
+      "id": 544,
+      "term": "In ________ the stimulus or experience occurs before the behavior and then gets paired with the behavior.",
+      "definition": "Classical conditioning"
+    },
+    {
+      "id": 10544,
+      "term": "Classical conditioning",
+      "definition": "In ________ the stimulus or experience occurs before the behavior and then gets paired with the behavior.",
+      "isReverse": true
+    },
+    {
+      "id": 545,
+      "term": "A stimulus that does not initially elicit a response in an organism is a(n) ________.",
+      "definition": "Neutral stimulus"
+    },
+    {
+      "id": 10545,
+      "term": "Neutral stimulus",
+      "definition": "A stimulus that does not initially elicit a response in an organism is a(n) ________.",
+      "isReverse": true
+    },
+    {
+      "id": 546,
+      "term": "In Watson and Rayner's experiments, Little Albert was conditioned to fear a white rat, and then he began to be afraid of other furry white objects. This demonstrates ________.",
+      "definition": "Stimulus generalization"
+    },
+    {
+      "id": 10546,
+      "term": "Stimulus generalization",
+      "definition": "In Watson and Rayner's experiments, Little Albert was conditioned to fear a white rat, and then he began to be afraid of other furry white objects. This demonstrates ________.",
+      "isReverse": true
+    },
+    {
+      "id": 547,
+      "term": "Extinction occurs when ________.",
+      "definition": "The conditioned stimulus is presented repeatedly without being paired with an unconditioned stimulus"
+    },
+    {
+      "id": 10547,
+      "term": "The conditioned stimulus is presented repeatedly without being paired with an unconditioned stimulus",
+      "definition": "Extinction occurs when ________.",
+      "isReverse": true
+    },
+    {
+      "id": 548,
+      "term": "In Pavlov's work with dogs, the psychic secretions were ________.",
+      "definition": "Conditioned responses"
+    },
+    {
+      "id": 10548,
+      "term": "Conditioned responses",
+      "definition": "In Pavlov's work with dogs, the psychic secretions were ________.",
+      "isReverse": true
+    },
+    {
+      "id": 549,
+      "term": "________ is when you take away a pleasant stimulus to stop a behavior.",
+      "definition": "Negative punishment"
+    },
+    {
+      "id": 10549,
+      "term": "Negative punishment",
+      "definition": "________ is when you take away a pleasant stimulus to stop a behavior.",
+      "isReverse": true
+    },
+    {
+      "id": 550,
+      "term": "Which of the following is not an example of a primary reinforcer?",
+      "definition": "Money"
+    },
+    {
+      "id": 10550,
+      "term": "Money",
+      "definition": "Which of the following is not an example of a primary reinforcer?",
+      "isReverse": true
+    },
+    {
+      "id": 551,
+      "term": "Rewarding successive approximations toward a target behavior is ________.",
+      "definition": "Shaping"
+    },
+    {
+      "id": 10551,
+      "term": "Shaping",
+      "definition": "Rewarding successive approximations toward a target behavior is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 552,
+      "term": "Slot machines reward gamblers with money according to which reinforcement schedule?",
+      "definition": "Variable ratio"
+    },
+    {
+      "id": 10552,
+      "term": "Variable ratio",
+      "definition": "Slot machines reward gamblers with money according to which reinforcement schedule?",
+      "isReverse": true
+    },
+    {
+      "id": 553,
+      "term": "The person who performs a behavior that serves as an example is called a ________.",
+      "definition": "Model"
+    },
+    {
+      "id": 10553,
+      "term": "Model",
+      "definition": "The person who performs a behavior that serves as an example is called a ________.",
+      "isReverse": true
+    },
+    {
+      "id": 554,
+      "term": "In Bandura's Bobo doll study, when the children who watched the aggressive model were placed in a room with the doll and other toys, they ________.",
+      "definition": "Kicked and threw the doll"
+    },
+    {
+      "id": 10554,
+      "term": "Kicked and threw the doll",
+      "definition": "In Bandura's Bobo doll study, when the children who watched the aggressive model were placed in a room with the doll and other toys, they ________.",
+      "isReverse": true
+    },
+    {
+      "id": 555,
+      "term": "Which is the correct order of steps in the modeling process?",
+      "definition": "Attention, retention, reproduction, motivation"
+    },
+    {
+      "id": 10555,
+      "term": "Attention, retention, reproduction, motivation",
+      "definition": "Which is the correct order of steps in the modeling process?",
+      "isReverse": true
+    },
+    {
+      "id": 556,
+      "term": "Who proposed observational learning?",
+      "definition": "Albert Bandura"
+    },
+    {
+      "id": 10556,
+      "term": "Albert Bandura",
+      "definition": "Who proposed observational learning?",
+      "isReverse": true
+    },
+    {
+      "id": 557,
+      "term": "Reflex vs. Instinct",
+      "definition": "Reflexes are motor/neural reactions to a specific stimulus. Instincts are innate behaviors triggered by a broader range of events."
+    },
+    {
+      "id": 10557,
+      "term": "Reflexes are motor/neural reactions to a specific stimulus. Instincts are innate behaviors triggered by a broader range of events.",
+      "definition": "Reflex vs. Instinct",
+      "isReverse": true
+    },
+    {
+      "id": 558,
+      "term": "Taste Aversion",
+      "definition": "Conditioning where an interval passes between the CS (ingested food) and US (nausea), leading to avoidance."
+    },
+    {
+      "id": 10558,
+      "term": "Conditioning where an interval passes between the CS (ingested food) and US (nausea), leading to avoidance.",
+      "definition": "Taste Aversion",
+      "isReverse": true
+    },
+    {
+      "id": 559,
+      "term": "Fixed Interval Schedule",
+      "definition": "Reinforcement is delivered at predictable time intervals (e.g., every 5 minutes)."
+    },
+    {
+      "id": 10559,
+      "term": "Reinforcement is delivered at predictable time intervals (e.g., every 5 minutes).",
+      "definition": "Fixed Interval Schedule",
+      "isReverse": true
+    },
+    {
+      "id": 560,
+      "term": "Variable Ratio Schedule",
+      "definition": "Reinforcement is delivered after an unpredictable number of responses (e.g., gambling)."
+    },
+    {
+      "id": 10560,
+      "term": "Reinforcement is delivered after an unpredictable number of responses (e.g., gambling).",
+      "definition": "Variable Ratio Schedule",
+      "isReverse": true
+    },
+    {
+      "id": 561,
+      "term": "Bandura's Bobo Doll Experiment",
+      "definition": "Demonstrated that children learn aggressive behaviors by observing an adult model."
+    },
+    {
+      "id": 10561,
+      "term": "Demonstrated that children learn aggressive behaviors by observing an adult model.",
+      "definition": "Bandura's Bobo Doll Experiment",
+      "isReverse": true
+    },
+    {
+      "id": 562,
+      "term": "Modeling Process",
+      "definition": "Steps required for successful modeling: Attention, Retention, Reproduction, and Motivation."
+    },
+    {
+      "id": 10562,
+      "term": "Steps required for successful modeling: Attention, Retention, Reproduction, and Motivation.",
+      "definition": "Modeling Process",
+      "isReverse": true
+    }
+  ]
+}

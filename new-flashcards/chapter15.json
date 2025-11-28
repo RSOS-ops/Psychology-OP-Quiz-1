@@ -1,0 +1,1062 @@
+{
+  "title": "Chapter 15: Psychological Disorders",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 1201,
+      "term": "agoraphobia",
+      "definition": "anxiety disorder characterized by intense fear, anxiety, and avoidance of situations in which it might be difficult to escape if one experiences symptoms of a panic attack"
+    },
+    {
+      "id": 11201,
+      "term": "anxiety disorder characterized by intense fear, anxiety, and avoidance of situations in which it might be difficult to escape if one experiences symptoms of a panic attack",
+      "definition": "agoraphobia",
+      "isReverse": true
+    },
+    {
+      "id": 1202,
+      "term": "antisocial personality disorder",
+      "definition": "characterized by a lack of regard for others' rights, impulsivity, deceitfulness, irresponsibility, and lack of remorse over misdeeds"
+    },
+    {
+      "id": 11202,
+      "term": "characterized by a lack of regard for others' rights, impulsivity, deceitfulness, irresponsibility, and lack of remorse over misdeeds",
+      "definition": "antisocial personality disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1203,
+      "term": "anxiety disorder",
+      "definition": "characterized by excessive and persistent fear and anxiety, and by related disturbances in behavior"
+    },
+    {
+      "id": 11203,
+      "term": "characterized by excessive and persistent fear and anxiety, and by related disturbances in behavior",
+      "definition": "anxiety disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1204,
+      "term": "attention deficit/hyperactivity disorder",
+      "definition": "childhood disorder characterized by inattentiveness and/or hyperactive, impulsive behavior"
+    },
+    {
+      "id": 11204,
+      "term": "childhood disorder characterized by inattentiveness and/or hyperactive, impulsive behavior",
+      "definition": "attention deficit/hyperactivity disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1205,
+      "term": "atypical",
+      "definition": "describes behaviors or feelings that deviate from the norm"
+    },
+    {
+      "id": 11205,
+      "term": "describes behaviors or feelings that deviate from the norm",
+      "definition": "atypical",
+      "isReverse": true
+    },
+    {
+      "id": 1206,
+      "term": "autism spectrum disorder",
+      "definition": "childhood disorder characterized by deficits in social interaction and communication, and repetitive patterns of behavior or interests"
+    },
+    {
+      "id": 11206,
+      "term": "childhood disorder characterized by deficits in social interaction and communication, and repetitive patterns of behavior or interests",
+      "definition": "autism spectrum disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1207,
+      "term": "bipolar and related disorders",
+      "definition": "group of mood disorders in which mania is the defining feature"
+    },
+    {
+      "id": 11207,
+      "term": "group of mood disorders in which mania is the defining feature",
+      "definition": "bipolar and related disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1208,
+      "term": "bipolar disorder",
+      "definition": "mood disorder characterized by mood states that vacillate between depression and mania"
+    },
+    {
+      "id": 11208,
+      "term": "mood disorder characterized by mood states that vacillate between depression and mania",
+      "definition": "bipolar disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1209,
+      "term": "body dysmorphic disorder",
+      "definition": "involves excessive preoccupation with an imagined defect in physical appearance"
+    },
+    {
+      "id": 11209,
+      "term": "involves excessive preoccupation with an imagined defect in physical appearance",
+      "definition": "body dysmorphic disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1210,
+      "term": "borderline personality disorder",
+      "definition": "instability in interpersonal relationships, self-image, and mood, as well as impulsivity; key features include intolerance of being alone and fear of abandonment, unstable relationships, unpredictable behavior and moods, and intense and inappropriate anger"
+    },
+    {
+      "id": 11210,
+      "term": "instability in interpersonal relationships, self-image, and mood, as well as impulsivity; key features include intolerance of being alone and fear of abandonment, unstable relationships, unpredictable behavior and moods, and intense and inappropriate anger",
+      "definition": "borderline personality disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1211,
+      "term": "catatonic behavior",
+      "definition": "decreased reactivity to the environment; includes posturing and catatonic stupor"
+    },
+    {
+      "id": 11211,
+      "term": "decreased reactivity to the environment; includes posturing and catatonic stupor",
+      "definition": "catatonic behavior",
+      "isReverse": true
+    },
+    {
+      "id": 1212,
+      "term": "comorbidity",
+      "definition": "co-occurrence of two disorders in the same individual"
+    },
+    {
+      "id": 11212,
+      "term": "co-occurrence of two disorders in the same individual",
+      "definition": "comorbidity",
+      "isReverse": true
+    },
+    {
+      "id": 1213,
+      "term": "delusion",
+      "definition": "belief that is contrary to reality and is firmly held, despite contradictory evidence"
+    },
+    {
+      "id": 11213,
+      "term": "belief that is contrary to reality and is firmly held, despite contradictory evidence",
+      "definition": "delusion",
+      "isReverse": true
+    },
+    {
+      "id": 1214,
+      "term": "depersonalization/derealization disorder",
+      "definition": "dissociative disorder in which people feel detached from the self (depersonalization), and the world feels artificial and unreal (derealization)"
+    },
+    {
+      "id": 11214,
+      "term": "dissociative disorder in which people feel detached from the self (depersonalization), and the world feels artificial and unreal (derealization)",
+      "definition": "depersonalization/derealization disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1215,
+      "term": "depressive disorder",
+      "definition": "one of a group of mood disorders in which depression is the defining feature"
+    },
+    {
+      "id": 11215,
+      "term": "one of a group of mood disorders in which depression is the defining feature",
+      "definition": "depressive disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1216,
+      "term": "diagnosis",
+      "definition": "determination of which disorder a set of symptoms represents"
+    },
+    {
+      "id": 11216,
+      "term": "determination of which disorder a set of symptoms represents",
+      "definition": "diagnosis",
+      "isReverse": true
+    },
+    {
+      "id": 1217,
+      "term": "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)",
+      "definition": "authoritative index of mental disorders and the criteria for their diagnosis; published by the American Psychiatric Association (APA)"
+    },
+    {
+      "id": 11217,
+      "term": "authoritative index of mental disorders and the criteria for their diagnosis; published by the American Psychiatric Association (APA)",
+      "definition": "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)",
+      "isReverse": true
+    },
+    {
+      "id": 1218,
+      "term": "diathesis-stress model",
+      "definition": "suggests that people with a predisposition for a disorder (a diathesis) are more likely to develop the disorder when faced with stress; model of psychopathology"
+    },
+    {
+      "id": 11218,
+      "term": "suggests that people with a predisposition for a disorder (a diathesis) are more likely to develop the disorder when faced with stress; model of psychopathology",
+      "definition": "diathesis-stress model",
+      "isReverse": true
+    },
+    {
+      "id": 1219,
+      "term": "disorganized thinking",
+      "definition": "disjointed and incoherent thought processes, usually detected by what a person says"
+    },
+    {
+      "id": 11219,
+      "term": "disjointed and incoherent thought processes, usually detected by what a person says",
+      "definition": "disorganized thinking",
+      "isReverse": true
+    },
+    {
+      "id": 1220,
+      "term": "disorganized/abnormal motor behavior",
+      "definition": "highly unusual behaviors and movements (such as child-like behaviors), repeated and purposeless movements, and displaying odd facial expressions and gestures"
+    },
+    {
+      "id": 11220,
+      "term": "highly unusual behaviors and movements (such as child-like behaviors), repeated and purposeless movements, and displaying odd facial expressions and gestures",
+      "definition": "disorganized/abnormal motor behavior",
+      "isReverse": true
+    },
+    {
+      "id": 1221,
+      "term": "dissociative amnesia",
+      "definition": "dissociative disorder characterized by an inability to recall important personal information, usually following an extremely stressful or traumatic experience"
+    },
+    {
+      "id": 11221,
+      "term": "dissociative disorder characterized by an inability to recall important personal information, usually following an extremely stressful or traumatic experience",
+      "definition": "dissociative amnesia",
+      "isReverse": true
+    },
+    {
+      "id": 1222,
+      "term": "dissociative disorders",
+      "definition": "group of DSM-5 disorders in which the primary feature is that a person becomes dissociated, or split off, from his or her core sense of self, resulting in disturbances in identity and memory"
+    },
+    {
+      "id": 11222,
+      "term": "group of DSM-5 disorders in which the primary feature is that a person becomes dissociated, or split off, from his or her core sense of self, resulting in disturbances in identity and memory",
+      "definition": "dissociative disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1223,
+      "term": "dissociative fugue",
+      "definition": "symptom of dissociative amnesia in which a person suddenly wanders away from one's home and experiences confusion about his or her identity"
+    },
+    {
+      "id": 11223,
+      "term": "symptom of dissociative amnesia in which a person suddenly wanders away from one's home and experiences confusion about his or her identity",
+      "definition": "dissociative fugue",
+      "isReverse": true
+    },
+    {
+      "id": 1224,
+      "term": "dissociative identity disorder",
+      "definition": "dissociative disorder (formerly known as multiple personality disorder) in which a person exhibits two or more distinct, well-defined personalities or identities and experiences memory gaps for the time during which another identity emerged"
+    },
+    {
+      "id": 11224,
+      "term": "dissociative disorder (formerly known as multiple personality disorder) in which a person exhibits two or more distinct, well-defined personalities or identities and experiences memory gaps for the time during which another identity emerged",
+      "definition": "dissociative identity disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1225,
+      "term": "dopamine hypothesis",
+      "definition": "theory of schizophrenia that proposes that an overabundance of dopamine or dopamine receptors is responsible for the onset and maintenance of schizophrenia"
+    },
+    {
+      "id": 11225,
+      "term": "theory of schizophrenia that proposes that an overabundance of dopamine or dopamine receptors is responsible for the onset and maintenance of schizophrenia",
+      "definition": "dopamine hypothesis",
+      "isReverse": true
+    },
+    {
+      "id": 1226,
+      "term": "etiology",
+      "definition": "cause or causes of a psychological disorder"
+    },
+    {
+      "id": 11226,
+      "term": "cause or causes of a psychological disorder",
+      "definition": "etiology",
+      "isReverse": true
+    },
+    {
+      "id": 1227,
+      "term": "flashback",
+      "definition": "psychological state lasting from a few seconds to several days, during which one relives a traumatic event and behaves as though the event were occurring at that moment"
+    },
+    {
+      "id": 11227,
+      "term": "psychological state lasting from a few seconds to several days, during which one relives a traumatic event and behaves as though the event were occurring at that moment",
+      "definition": "flashback",
+      "isReverse": true
+    },
+    {
+      "id": 1228,
+      "term": "flight of ideas",
+      "definition": "symptom of mania that involves an abruptly switching in conversation from one topic to another"
+    },
+    {
+      "id": 11228,
+      "term": "symptom of mania that involves an abruptly switching in conversation from one topic to another",
+      "definition": "flight of ideas",
+      "isReverse": true
+    },
+    {
+      "id": 1229,
+      "term": "generalized anxiety disorder",
+      "definition": "characterized by a continuous state of excessive, uncontrollable, and pointless worry and apprehension"
+    },
+    {
+      "id": 11229,
+      "term": "characterized by a continuous state of excessive, uncontrollable, and pointless worry and apprehension",
+      "definition": "generalized anxiety disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1230,
+      "term": "grandiose delusion",
+      "definition": "characterized by beliefs that one holds special power, unique knowledge, or is extremely important"
+    },
+    {
+      "id": 11230,
+      "term": "characterized by beliefs that one holds special power, unique knowledge, or is extremely important",
+      "definition": "grandiose delusion",
+      "isReverse": true
+    },
+    {
+      "id": 1231,
+      "term": "hallucination",
+      "definition": "perceptual experience that occurs in the absence of external stimulation, such as the auditory hallucinations (hearing voices) common to schizophrenia"
+    },
+    {
+      "id": 11231,
+      "term": "perceptual experience that occurs in the absence of external stimulation, such as the auditory hallucinations (hearing voices) common to schizophrenia",
+      "definition": "hallucination",
+      "isReverse": true
+    },
+    {
+      "id": 1232,
+      "term": "harmful dysfunction model",
+      "definition": "of psychological disorders resulting from the inability of an internal mechanism to perform its natural function"
+    },
+    {
+      "id": 11232,
+      "term": "of psychological disorders resulting from the inability of an internal mechanism to perform its natural function",
+      "definition": "harmful dysfunction model",
+      "isReverse": true
+    },
+    {
+      "id": 1233,
+      "term": "hoarding disorder",
+      "definition": "characterized by persistent difficulty in parting with possessions, regardless of their actual value or usefulness"
+    },
+    {
+      "id": 11233,
+      "term": "characterized by persistent difficulty in parting with possessions, regardless of their actual value or usefulness",
+      "definition": "hoarding disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1234,
+      "term": "hopelessness theory",
+      "definition": "cognitive theory of depression proposing that a style of thinking that perceives negative life events as having stable and global causes leads to a sense of hopelessness and then to depression"
+    },
+    {
+      "id": 11234,
+      "term": "cognitive theory of depression proposing that a style of thinking that perceives negative life events as having stable and global causes leads to a sense of hopelessness and then to depression",
+      "definition": "hopelessness theory",
+      "isReverse": true
+    },
+    {
+      "id": 1235,
+      "term": "International Classification of Diseases (ICD)",
+      "definition": "authoritative index of mental and physical diseases, including infectious diseases, and the criteria for their diagnosis; published by the World Health Organization (WHO)"
+    },
+    {
+      "id": 11235,
+      "term": "authoritative index of mental and physical diseases, including infectious diseases, and the criteria for their diagnosis; published by the World Health Organization (WHO)",
+      "definition": "International Classification of Diseases (ICD)",
+      "isReverse": true
+    },
+    {
+      "id": 1236,
+      "term": "locus coeruleus",
+      "definition": "area of the brainstem that contains norepinephrine, a neurotransmitter that triggers the body's fight-or-flight response; has been implicated in panic disorder"
+    },
+    {
+      "id": 11236,
+      "term": "area of the brainstem that contains norepinephrine, a neurotransmitter that triggers the body's fight-or-flight response; has been implicated in panic disorder",
+      "definition": "locus coeruleus",
+      "isReverse": true
+    },
+    {
+      "id": 1237,
+      "term": "major depressive disorder",
+      "definition": "commonly referred to as \"depression\" or \"major depression,\" characterized by sadness or loss of pleasure in usual activities, as well other symptoms"
+    },
+    {
+      "id": 11237,
+      "term": "commonly referred to as \"depression\" or \"major depression,\" characterized by sadness or loss of pleasure in usual activities, as well other symptoms",
+      "definition": "major depressive disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1238,
+      "term": "mania",
+      "definition": "state of extreme elation and agitation"
+    },
+    {
+      "id": 11238,
+      "term": "state of extreme elation and agitation",
+      "definition": "mania",
+      "isReverse": true
+    },
+    {
+      "id": 1239,
+      "term": "manic episode",
+      "definition": "period in which an individual experiences mania, characterized by extremely cheerful and euphoric mood, excessive talkativeness, irritability, increased activity levels, and other symptoms"
+    },
+    {
+      "id": 11239,
+      "term": "period in which an individual experiences mania, characterized by extremely cheerful and euphoric mood, excessive talkativeness, irritability, increased activity levels, and other symptoms",
+      "definition": "manic episode",
+      "isReverse": true
+    },
+    {
+      "id": 1240,
+      "term": "mood disorder",
+      "definition": "one of a group of disorders characterized by severe disturbances in mood and emotions; the categories of mood disorders listed in the DSM-5 are bipolar and related disorders and depressive disorders"
+    },
+    {
+      "id": 11240,
+      "term": "one of a group of disorders characterized by severe disturbances in mood and emotions; the categories of mood disorders listed in the DSM-5 are bipolar and related disorders and depressive disorders",
+      "definition": "mood disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1241,
+      "term": "negative symptom",
+      "definition": "characterized by decreases and absences in certain normal behaviors, emotions, or drives, such as an expressionless face, lack of motivation to engage in activities, reduced speech, lack of social engagement, and inability to experience pleasure"
+    },
+    {
+      "id": 11241,
+      "term": "characterized by decreases and absences in certain normal behaviors, emotions, or drives, such as an expressionless face, lack of motivation to engage in activities, reduced speech, lack of social engagement, and inability to experience pleasure",
+      "definition": "negative symptom",
+      "isReverse": true
+    },
+    {
+      "id": 1242,
+      "term": "neurodevelopmental disorder",
+      "definition": "one of the disorders that are first diagnosed in childhood and involve developmental problems in academic, intellectual, social functioning"
+    },
+    {
+      "id": 11242,
+      "term": "one of the disorders that are first diagnosed in childhood and involve developmental problems in academic, intellectual, social functioning",
+      "definition": "neurodevelopmental disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1243,
+      "term": "obsessive-compulsive and related disorders",
+      "definition": "group of overlapping disorders listed in the DSM-5 that involves intrusive, unpleasant thoughts and/or repetitive behaviors"
+    },
+    {
+      "id": 11243,
+      "term": "group of overlapping disorders listed in the DSM-5 that involves intrusive, unpleasant thoughts and/or repetitive behaviors",
+      "definition": "obsessive-compulsive and related disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1244,
+      "term": "obsessive-compulsive disorder",
+      "definition": "characterized by the tendency to experience intrusive and unwanted thoughts and urges (obsession) and/or the need to engage in repetitive behaviors or mental acts (compulsions) in response to the unwanted thoughts and urges"
+    },
+    {
+      "id": 11244,
+      "term": "characterized by the tendency to experience intrusive and unwanted thoughts and urges (obsession) and/or the need to engage in repetitive behaviors or mental acts (compulsions) in response to the unwanted thoughts and urges",
+      "definition": "obsessive-compulsive disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1245,
+      "term": "orbitofrontal cortex",
+      "definition": "area of the frontal lobe involved in learning and decision-making"
+    },
+    {
+      "id": 11245,
+      "term": "area of the frontal lobe involved in learning and decision-making",
+      "definition": "orbitofrontal cortex",
+      "isReverse": true
+    },
+    {
+      "id": 1246,
+      "term": "panic attack",
+      "definition": "period of extreme fear or discomfort that develops abruptly; symptoms of panic attacks are both physiological and psychological"
+    },
+    {
+      "id": 11246,
+      "term": "period of extreme fear or discomfort that develops abruptly; symptoms of panic attacks are both physiological and psychological",
+      "definition": "panic attack",
+      "isReverse": true
+    },
+    {
+      "id": 1247,
+      "term": "panic disorder",
+      "definition": "anxiety disorder characterized by unexpected panic attacks, along with at least one month of worry about panic attacks or self-defeating behavior related to the attacks"
+    },
+    {
+      "id": 11247,
+      "term": "anxiety disorder characterized by unexpected panic attacks, along with at least one month of worry about panic attacks or self-defeating behavior related to the attacks",
+      "definition": "panic disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1248,
+      "term": "paranoid delusion",
+      "definition": "characterized by beliefs that others are out to harm them"
+    },
+    {
+      "id": 11248,
+      "term": "characterized by beliefs that others are out to harm them",
+      "definition": "paranoid delusion",
+      "isReverse": true
+    },
+    {
+      "id": 1249,
+      "term": "peripartum onset",
+      "definition": "subtype of depression that applies to women who experience an episode of major depression either during pregnancy or in the four weeks following childbirth"
+    },
+    {
+      "id": 11249,
+      "term": "subtype of depression that applies to women who experience an episode of major depression either during pregnancy or in the four weeks following childbirth",
+      "definition": "peripartum onset",
+      "isReverse": true
+    },
+    {
+      "id": 1250,
+      "term": "persistent depressive disorder",
+      "definition": "depressive disorder characterized by a chronically sad and melancholy mood"
+    },
+    {
+      "id": 11250,
+      "term": "depressive disorder characterized by a chronically sad and melancholy mood",
+      "definition": "persistent depressive disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1251,
+      "term": "personality disorder",
+      "definition": "group of DSM-5 disorders characterized by an inflexible and pervasive personality style that differs markedly from the expectations of one's culture and causes distress and impairment; people with these disorders have a personality style that frequently brings them into conflict with others and disrupts their ability to develop and maintain social relationships"
+    },
+    {
+      "id": 11251,
+      "term": "group of DSM-5 disorders characterized by an inflexible and pervasive personality style that differs markedly from the expectations of one's culture and causes distress and impairment; people with these disorders have a personality style that frequently brings them into conflict with others and disrupts their ability to develop and maintain social relationships",
+      "definition": "personality disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1252,
+      "term": "posttraumatic stress disorder (PTSD)",
+      "definition": "experiencing a profoundly traumatic event leads to a constellation of symptoms that include intrusive and distressing memories of the event, avoidance of stimuli connected to the event, negative emotional states, feelings of detachment from others, irritability, proneness toward outbursts, hypervigilance, and a tendency to startle easily; these symptoms must occur for at least one month"
+    },
+    {
+      "id": 11252,
+      "term": "experiencing a profoundly traumatic event leads to a constellation of symptoms that include intrusive and distressing memories of the event, avoidance of stimuli connected to the event, negative emotional states, feelings of detachment from others, irritability, proneness toward outbursts, hypervigilance, and a tendency to startle easily; these symptoms must occur for at least one month",
+      "definition": "posttraumatic stress disorder (PTSD)",
+      "isReverse": true
+    },
+    {
+      "id": 1253,
+      "term": "prodromal symptom",
+      "definition": "in schizophrenia, one of the early minor symptoms of psychosis"
+    },
+    {
+      "id": 11253,
+      "term": "in schizophrenia, one of the early minor symptoms of psychosis",
+      "definition": "prodromal symptom",
+      "isReverse": true
+    },
+    {
+      "id": 1254,
+      "term": "psychological disorder",
+      "definition": "condition characterized by abnormal thoughts, feelings, and behaviors"
+    },
+    {
+      "id": 11254,
+      "term": "condition characterized by abnormal thoughts, feelings, and behaviors",
+      "definition": "psychological disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1255,
+      "term": "psychopathology",
+      "definition": "study of psychological disorders, including their symptoms, causes, and treatment; manifestation of a psychological disorder"
+    },
+    {
+      "id": 11255,
+      "term": "study of psychological disorders, including their symptoms, causes, and treatment; manifestation of a psychological disorder",
+      "definition": "psychopathology",
+      "isReverse": true
+    },
+    {
+      "id": 1256,
+      "term": "rumination",
+      "definition": "in depression, tendency to repetitively and passively dwell on one's depressed symptoms, their meanings, and their consequences"
+    },
+    {
+      "id": 11256,
+      "term": "in depression, tendency to repetitively and passively dwell on one's depressed symptoms, their meanings, and their consequences",
+      "definition": "rumination",
+      "isReverse": true
+    },
+    {
+      "id": 1257,
+      "term": "safety behavior",
+      "definition": "mental and behavior acts designed to reduce anxiety in social situations by reducing the chance of negative social outcomes; common in social anxiety disorder"
+    },
+    {
+      "id": 11257,
+      "term": "mental and behavior acts designed to reduce anxiety in social situations by reducing the chance of negative social outcomes; common in social anxiety disorder",
+      "definition": "safety behavior",
+      "isReverse": true
+    },
+    {
+      "id": 1258,
+      "term": "schizophrenia",
+      "definition": "severe disorder characterized by major disturbances in thought, perception, emotion, and behavior with symptoms that include hallucinations, delusions, disorganized thinking and behavior, and negative symptoms"
+    },
+    {
+      "id": 11258,
+      "term": "severe disorder characterized by major disturbances in thought, perception, emotion, and behavior with symptoms that include hallucinations, delusions, disorganized thinking and behavior, and negative symptoms",
+      "definition": "schizophrenia",
+      "isReverse": true
+    },
+    {
+      "id": 1259,
+      "term": "seasonal pattern",
+      "definition": "subtype of depression in which a person experiences the symptoms of major depressive disorder only during a particular time of year"
+    },
+    {
+      "id": 11259,
+      "term": "subtype of depression in which a person experiences the symptoms of major depressive disorder only during a particular time of year",
+      "definition": "seasonal pattern",
+      "isReverse": true
+    },
+    {
+      "id": 1260,
+      "term": "social anxiety disorder",
+      "definition": "characterized by extreme and persistent fear or anxiety and avoidance of social situations in which one could potentially be evaluated negatively by others"
+    },
+    {
+      "id": 11260,
+      "term": "characterized by extreme and persistent fear or anxiety and avoidance of social situations in which one could potentially be evaluated negatively by others",
+      "definition": "social anxiety disorder",
+      "isReverse": true
+    },
+    {
+      "id": 1261,
+      "term": "somatic delusion",
+      "definition": "belief that something highly unusual is happening to one's body or internal organs"
+    },
+    {
+      "id": 11261,
+      "term": "belief that something highly unusual is happening to one's body or internal organs",
+      "definition": "somatic delusion",
+      "isReverse": true
+    },
+    {
+      "id": 1262,
+      "term": "specific phobia",
+      "definition": "anxiety disorder characterized by excessive, distressing, and persistent fear or anxiety about a specific object or situation"
+    },
+    {
+      "id": 11262,
+      "term": "anxiety disorder characterized by excessive, distressing, and persistent fear or anxiety about a specific object or situation",
+      "definition": "specific phobia",
+      "isReverse": true
+    },
+    {
+      "id": 1263,
+      "term": "suicidal ideation",
+      "definition": "thoughts of death by suicide, thinking about or planning suicide, or making a suicide attempt"
+    },
+    {
+      "id": 11263,
+      "term": "thoughts of death by suicide, thinking about or planning suicide, or making a suicide attempt",
+      "definition": "suicidal ideation",
+      "isReverse": true
+    },
+    {
+      "id": 1264,
+      "term": "suicide",
+      "definition": "death caused by intentional, self-directed injurious behavior"
+    },
+    {
+      "id": 11264,
+      "term": "death caused by intentional, self-directed injurious behavior",
+      "definition": "suicide",
+      "isReverse": true
+    },
+    {
+      "id": 1265,
+      "term": "supernatural",
+      "definition": "describes a force beyond scientific understanding"
+    },
+    {
+      "id": 11265,
+      "term": "describes a force beyond scientific understanding",
+      "definition": "supernatural",
+      "isReverse": true
+    },
+    {
+      "id": 1266,
+      "term": "ventricle",
+      "definition": "one of the fluid-filled cavities within the brain"
+    },
+    {
+      "id": 11266,
+      "term": "one of the fluid-filled cavities within the brain",
+      "definition": "ventricle",
+      "isReverse": true
+    },
+    {
+      "id": 1267,
+      "term": "In the harmful dysfunction definition of psychological disorders, dysfunction involves ________.",
+      "definition": "The inability of a psychological mechanism to perform its function"
+    },
+    {
+      "id": 11267,
+      "term": "The inability of a psychological mechanism to perform its function",
+      "definition": "In the harmful dysfunction definition of psychological disorders, dysfunction involves ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1268,
+      "term": "Patterns of inner experience and behavior are thought to reflect the presence of a psychological disorder if they ________.",
+      "definition": "Lead to significant distress and impairment in one's life"
+    },
+    {
+      "id": 11268,
+      "term": "Lead to significant distress and impairment in one's life",
+      "definition": "Patterns of inner experience and behavior are thought to reflect the presence of a psychological disorder if they ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1269,
+      "term": "The letters in the abbreviation DSM-5 stand for ________.",
+      "definition": "Diagnostic and Statistical Manual of Mental Disorders"
+    },
+    {
+      "id": 11269,
+      "term": "Diagnostic and Statistical Manual of Mental Disorders",
+      "definition": "The letters in the abbreviation DSM-5 stand for ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1270,
+      "term": "A study based on over 9,000 U. S. residents found that the most prevalent disorder was ________.",
+      "definition": "Major depressive disorder"
+    },
+    {
+      "id": 11270,
+      "term": "Major depressive disorder",
+      "definition": "A study based on over 9,000 U. S. residents found that the most prevalent disorder was ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1271,
+      "term": "The diathesis-stress model presumes that psychopathology results from ________.",
+      "definition": "Vulnerability and adverse experiences"
+    },
+    {
+      "id": 11271,
+      "term": "Vulnerability and adverse experiences",
+      "definition": "The diathesis-stress model presumes that psychopathology results from ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1272,
+      "term": "Dr. Anastasia believes that major depressive disorder is caused by an over-secretion of cortisol. His view on the cause of major depressive disorder reflects a ________ perspective.",
+      "definition": "Biological"
+    },
+    {
+      "id": 11272,
+      "term": "Biological",
+      "definition": "Dr. Anastasia believes that major depressive disorder is caused by an over-secretion of cortisol. His view on the cause of major depressive disorder reflects a ________ perspective.",
+      "isReverse": true
+    },
+    {
+      "id": 1273,
+      "term": "In which of the following anxiety disorders is the person in a continuous state of excessive, pointless worry and apprehension?",
+      "definition": "Generalized anxiety disorder"
+    },
+    {
+      "id": 11273,
+      "term": "Generalized anxiety disorder",
+      "definition": "In which of the following anxiety disorders is the person in a continuous state of excessive, pointless worry and apprehension?",
+      "isReverse": true
+    },
+    {
+      "id": 1274,
+      "term": "Which of the following would constitute a safety behavior?",
+      "definition": "Avoiding eye contact"
+    },
+    {
+      "id": 11274,
+      "term": "Avoiding eye contact",
+      "definition": "Which of the following would constitute a safety behavior?",
+      "isReverse": true
+    },
+    {
+      "id": 1275,
+      "term": "Which of the following best illustrates a compulsion?",
+      "definition": "Mentally counting backward from 1,000"
+    },
+    {
+      "id": 11275,
+      "term": "Mentally counting backward from 1,000",
+      "definition": "Which of the following best illustrates a compulsion?",
+      "isReverse": true
+    },
+    {
+      "id": 1276,
+      "term": "Research indicates that the symptoms of OCD ________.",
+      "definition": "Are related to hyperactivity in the orbitofrontal cortex"
+    },
+    {
+      "id": 11276,
+      "term": "Are related to hyperactivity in the orbitofrontal cortex",
+      "definition": "Research indicates that the symptoms of OCD ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1277,
+      "term": "Symptoms of PTSD include all of the following except ________.",
+      "definition": "Physical complaints that cannot be explained medically"
+    },
+    {
+      "id": 11277,
+      "term": "Physical complaints that cannot be explained medically",
+      "definition": "Symptoms of PTSD include all of the following except ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1278,
+      "term": "Which of the following elevates the risk for developing PTSD?",
+      "definition": "Severity of the trauma"
+    },
+    {
+      "id": 11278,
+      "term": "Severity of the trauma",
+      "definition": "Which of the following elevates the risk for developing PTSD?",
+      "isReverse": true
+    },
+    {
+      "id": 1279,
+      "term": "Common symptoms of major depressive disorder include all of the following except ________.",
+      "definition": "Periods of extreme elation and euphoria"
+    },
+    {
+      "id": 11279,
+      "term": "Periods of extreme elation and euphoria",
+      "definition": "Common symptoms of major depressive disorder include all of the following except ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1280,
+      "term": "Suicide rates are ________ among men than among women, and they are ________ during the winter holiday season than during the spring months.",
+      "definition": "Higher; lower"
+    },
+    {
+      "id": 11280,
+      "term": "Higher; lower",
+      "definition": "Suicide rates are ________ among men than among women, and they are ________ during the winter holiday season than during the spring months.",
+      "isReverse": true
+    },
+    {
+      "id": 1281,
+      "term": "Clifford falsely believes that the police have planted secret cameras in his home to monitor his every movement. Clifford's belief is an example of ________.",
+      "definition": "A delusion"
+    },
+    {
+      "id": 11281,
+      "term": "A delusion",
+      "definition": "Clifford falsely believes that the police have planted secret cameras in his home to monitor his every movement. Clifford's belief is an example of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1282,
+      "term": "A study of adoptees whose biological mothers had schizophrenia found that the adoptees were most likely to develop schizophrenia ________.",
+      "definition": "If they were raised in a disturbed adoptive home environment"
+    },
+    {
+      "id": 11282,
+      "term": "If they were raised in a disturbed adoptive home environment",
+      "definition": "A study of adoptees whose biological mothers had schizophrenia found that the adoptees were most likely to develop schizophrenia ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1283,
+      "term": "Dissociative amnesia involves ________.",
+      "definition": "Memory loss following stress"
+    },
+    {
+      "id": 11283,
+      "term": "Memory loss following stress",
+      "definition": "Dissociative amnesia involves ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1284,
+      "term": "Dissociative identity disorder mainly involves ________.",
+      "definition": "Different personalities"
+    },
+    {
+      "id": 11284,
+      "term": "Different personalities",
+      "definition": "Dissociative identity disorder mainly involves ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1285,
+      "term": "People with borderline personality disorder often ________.",
+      "definition": "Are impulsive and unpredictable"
+    },
+    {
+      "id": 11285,
+      "term": "Are impulsive and unpredictable",
+      "definition": "People with borderline personality disorder often ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1286,
+      "term": "Antisocial personality disorder is associated with ________.",
+      "definition": "Emotional deficits"
+    },
+    {
+      "id": 11286,
+      "term": "Emotional deficits",
+      "definition": "Antisocial personality disorder is associated with ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1287,
+      "term": "Which of the following is not a primary characteristic of ADHD?",
+      "definition": "Restricted and fixated interest"
+    },
+    {
+      "id": 11287,
+      "term": "Restricted and fixated interest",
+      "definition": "Which of the following is not a primary characteristic of ADHD?",
+      "isReverse": true
+    },
+    {
+      "id": 1288,
+      "term": "One of the primary characteristics of autism spectrum disorder is ________.",
+      "definition": "Difficulty relating to others"
+    },
+    {
+      "id": 11288,
+      "term": "Difficulty relating to others",
+      "definition": "One of the primary characteristics of autism spectrum disorder is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1289,
+      "term": "Psychological Disorder (APA)",
+      "definition": "Significant disturbances in thoughts, feelings, and behaviors that reflect dysfunction (biological, psychological, developmental), cause significant distress/disability, and do not reflect expected cultural responses."
+    },
+    {
+      "id": 11289,
+      "term": "Significant disturbances in thoughts, feelings, and behaviors that reflect dysfunction (biological, psychological, developmental), cause significant distress/disability, and do not reflect expected cultural responses.",
+      "definition": "Psychological Disorder (APA)",
+      "isReverse": true
+    },
+    {
+      "id": 1290,
+      "term": "Dysfunction",
+      "definition": "Occurs when an internal mechanism breaks down and can no longer perform its normal function."
+    },
+    {
+      "id": 11290,
+      "term": "Occurs when an internal mechanism breaks down and can no longer perform its normal function.",
+      "definition": "Dysfunction",
+      "isReverse": true
+    },
+    {
+      "id": 1291,
+      "term": "Harmful Dysfunction",
+      "definition": "Model where a dysfunction leads to negative consequences for the individual or others, as judged by cultural standards."
+    },
+    {
+      "id": 11291,
+      "term": "Model where a dysfunction leads to negative consequences for the individual or others, as judged by cultural standards.",
+      "definition": "Harmful Dysfunction",
+      "isReverse": true
+    },
+    {
+      "id": 1292,
+      "term": "DSM-5",
+      "definition": "Diagnostic and Statistical Manual of Mental Disorders (5th edition). The classification system used by most mental health professionals in the U.S."
+    },
+    {
+      "id": 11292,
+      "term": "Diagnostic and Statistical Manual of Mental Disorders (5th edition). The classification system used by most mental health professionals in the U.S.",
+      "definition": "DSM-5",
+      "isReverse": true
+    },
+    {
+      "id": 1293,
+      "term": "Anxiety Disorders",
+      "definition": "Characterized by excessive and persistent fear and anxiety, and by related disturbances in behavior."
+    },
+    {
+      "id": 11293,
+      "term": "Characterized by excessive and persistent fear and anxiety, and by related disturbances in behavior.",
+      "definition": "Anxiety Disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1294,
+      "term": "Obsessive-Compulsive Disorder (OCD)",
+      "definition": "Characterized by intrusive/unwanted thoughts (obsessions) and the need to engage in repetitive behaviors/mental acts (compulsions)."
+    },
+    {
+      "id": 11294,
+      "term": "Characterized by intrusive/unwanted thoughts (obsessions) and the need to engage in repetitive behaviors/mental acts (compulsions).",
+      "definition": "Obsessive-Compulsive Disorder (OCD)",
+      "isReverse": true
+    },
+    {
+      "id": 1295,
+      "term": "Hallucination vs. Delusion",
+      "definition": "Hallucination: perceptual experience without external stimulation. Delusion: belief that is contrary to reality and firmly held despite contradictory evidence."
+    },
+    {
+      "id": 11295,
+      "term": "Hallucination: perceptual experience without external stimulation. Delusion: belief that is contrary to reality and firmly held despite contradictory evidence.",
+      "definition": "Hallucination vs. Delusion",
+      "isReverse": true
+    },
+    {
+      "id": 1296,
+      "term": "ADHD",
+      "definition": "Childhood disorder characterized by a constant pattern of inattention and/or hyperactive and impulsive behavior."
+    },
+    {
+      "id": 11296,
+      "term": "Childhood disorder characterized by a constant pattern of inattention and/or hyperactive and impulsive behavior.",
+      "definition": "ADHD",
+      "isReverse": true
+    }
+  ]
+}

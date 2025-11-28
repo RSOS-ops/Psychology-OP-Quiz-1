@@ -1,0 +1,754 @@
+{
+  "title": "Chapter 14: Stress, Lifestyle, and Health",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 1101,
+      "term": "alarm reaction",
+      "definition": "first stage of the general adaptation syndrome; characterized as the body's immediate physiological reaction to a threatening situation or some other emergency; analogous to the fight-or-flight response"
+    },
+    {
+      "id": 11101,
+      "term": "first stage of the general adaptation syndrome; characterized as the body's immediate physiological reaction to a threatening situation or some other emergency; analogous to the fight-or-flight response",
+      "definition": "alarm reaction",
+      "isReverse": true
+    },
+    {
+      "id": 1102,
+      "term": "asthma",
+      "definition": "psychophysiological disorder in which the airways of the respiratory system become obstructed, leading to great difficulty expelling air from the lungs"
+    },
+    {
+      "id": 11102,
+      "term": "psychophysiological disorder in which the airways of the respiratory system become obstructed, leading to great difficulty expelling air from the lungs",
+      "definition": "asthma",
+      "isReverse": true
+    },
+    {
+      "id": 1103,
+      "term": "biofeedback",
+      "definition": "stress-reduction technique using electronic equipment to measure a person's involuntary (neuromuscular and autonomic) activity and provide feedback to help the person gain a level of voluntary control over these processes"
+    },
+    {
+      "id": 11103,
+      "term": "stress-reduction technique using electronic equipment to measure a person's involuntary (neuromuscular and autonomic) activity and provide feedback to help the person gain a level of voluntary control over these processes",
+      "definition": "biofeedback",
+      "isReverse": true
+    },
+    {
+      "id": 1104,
+      "term": "cardiovascular disorders",
+      "definition": "disorders that involve the heart and blood circulation system"
+    },
+    {
+      "id": 11104,
+      "term": "disorders that involve the heart and blood circulation system",
+      "definition": "cardiovascular disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1105,
+      "term": "coping",
+      "definition": "mental or behavioral efforts used to manage problems relating to stress, including its cause and the unpleasant feelings and emotions it produces"
+    },
+    {
+      "id": 11105,
+      "term": "mental or behavioral efforts used to manage problems relating to stress, including its cause and the unpleasant feelings and emotions it produces",
+      "definition": "coping",
+      "isReverse": true
+    },
+    {
+      "id": 1106,
+      "term": "cortisol",
+      "definition": "stress hormone released by the adrenal glands when encountering a stressor; helps to provide a boost of energy, thereby preparing the individual to take action"
+    },
+    {
+      "id": 11106,
+      "term": "stress hormone released by the adrenal glands when encountering a stressor; helps to provide a boost of energy, thereby preparing the individual to take action",
+      "definition": "cortisol",
+      "isReverse": true
+    },
+    {
+      "id": 1107,
+      "term": "daily hassles",
+      "definition": "minor irritations and annoyances that are part of our everyday lives and are capable of producing stress"
+    },
+    {
+      "id": 11107,
+      "term": "minor irritations and annoyances that are part of our everyday lives and are capable of producing stress",
+      "definition": "daily hassles",
+      "isReverse": true
+    },
+    {
+      "id": 1108,
+      "term": "distress",
+      "definition": "bad form of stress; usually high in intensity; often leads to exhaustion, fatigue, feeling burned out; associated with erosions in performance and health"
+    },
+    {
+      "id": 11108,
+      "term": "bad form of stress; usually high in intensity; often leads to exhaustion, fatigue, feeling burned out; associated with erosions in performance and health",
+      "definition": "distress",
+      "isReverse": true
+    },
+    {
+      "id": 1109,
+      "term": "eustress",
+      "definition": "good form of stress; low to moderate in intensity; associated with positive feelings, as well as optimal health and performance"
+    },
+    {
+      "id": 11109,
+      "term": "good form of stress; low to moderate in intensity; associated with positive feelings, as well as optimal health and performance",
+      "definition": "eustress",
+      "isReverse": true
+    },
+    {
+      "id": 1110,
+      "term": "fight-or-flight response",
+      "definition": "set of physiological reactions (increases in blood pressure, heart rate, respiration rate, and sweat) that occur when an individual encounters a perceived threat; these reactions are produced by activation of the sympathetic nervous system and the endocrine system"
+    },
+    {
+      "id": 11110,
+      "term": "set of physiological reactions (increases in blood pressure, heart rate, respiration rate, and sweat) that occur when an individual encounters a perceived threat; these reactions are produced by activation of the sympathetic nervous system and the endocrine system",
+      "definition": "fight-or-flight response",
+      "isReverse": true
+    },
+    {
+      "id": 1111,
+      "term": "flow",
+      "definition": "state involving intense engagement in an activity; usually is experienced when participating in creative, work, and leisure endeavors"
+    },
+    {
+      "id": 11111,
+      "term": "state involving intense engagement in an activity; usually is experienced when participating in creative, work, and leisure endeavors",
+      "definition": "flow",
+      "isReverse": true
+    },
+    {
+      "id": 1112,
+      "term": "general adaptation syndrome",
+      "definition": "Hans Selye's three-stage model of the body's physiological reactions to stress and the process of stress adaptation: alarm reaction, stage of resistance, and stage of exhaustion"
+    },
+    {
+      "id": 11112,
+      "term": "Hans Selye's three-stage model of the body's physiological reactions to stress and the process of stress adaptation: alarm reaction, stage of resistance, and stage of exhaustion",
+      "definition": "general adaptation syndrome",
+      "isReverse": true
+    },
+    {
+      "id": 1113,
+      "term": "happiness",
+      "definition": "enduring state of mind consisting of joy, contentment, and other positive emotions; the sense that one's life has meaning and value"
+    },
+    {
+      "id": 11113,
+      "term": "enduring state of mind consisting of joy, contentment, and other positive emotions; the sense that one's life has meaning and value",
+      "definition": "happiness",
+      "isReverse": true
+    },
+    {
+      "id": 1114,
+      "term": "health psychology",
+      "definition": "subfield of psychology devoted to studying psychological influences on health, illness, and how people respond when they become ill"
+    },
+    {
+      "id": 11114,
+      "term": "subfield of psychology devoted to studying psychological influences on health, illness, and how people respond when they become ill",
+      "definition": "health psychology",
+      "isReverse": true
+    },
+    {
+      "id": 1115,
+      "term": "heart disease",
+      "definition": "several types of adverse heart conditions, including those that involve the heart's arteries or valves or those involving the inability of the heart to pump enough blood to meet the body's needs; can include heart attack and stroke"
+    },
+    {
+      "id": 11115,
+      "term": "several types of adverse heart conditions, including those that involve the heart's arteries or valves or those involving the inability of the heart to pump enough blood to meet the body's needs; can include heart attack and stroke",
+      "definition": "heart disease",
+      "isReverse": true
+    },
+    {
+      "id": 1116,
+      "term": "hypertension",
+      "definition": "high blood pressure"
+    },
+    {
+      "id": 11116,
+      "term": "high blood pressure",
+      "definition": "hypertension",
+      "isReverse": true
+    },
+    {
+      "id": 1117,
+      "term": "hypothalamic-pituitary-adrenal (HPA) axis",
+      "definition": "set of structures found in both the limbic system (hypothalamus) and the endocrine system (pituitary gland and adrenal glands) that regulate many of the body's physiological reactions to stress through the release of hormones"
+    },
+    {
+      "id": 11117,
+      "term": "set of structures found in both the limbic system (hypothalamus) and the endocrine system (pituitary gland and adrenal glands) that regulate many of the body's physiological reactions to stress through the release of hormones",
+      "definition": "hypothalamic-pituitary-adrenal (HPA) axis",
+      "isReverse": true
+    },
+    {
+      "id": 1118,
+      "term": "immune system",
+      "definition": "various structures, cells, and mechanisms that protect the body from foreign substances that can damage the body's tissues and organs"
+    },
+    {
+      "id": 11118,
+      "term": "various structures, cells, and mechanisms that protect the body from foreign substances that can damage the body's tissues and organs",
+      "definition": "immune system",
+      "isReverse": true
+    },
+    {
+      "id": 1119,
+      "term": "immunosuppression",
+      "definition": "decreased effectiveness of the immune system"
+    },
+    {
+      "id": 11119,
+      "term": "decreased effectiveness of the immune system",
+      "definition": "immunosuppression",
+      "isReverse": true
+    },
+    {
+      "id": 1120,
+      "term": "job burnout",
+      "definition": "general sense of emotional exhaustion and cynicism in relation to one's job; consists of three dimensions: exhaustion, depersonalization, and sense of diminished personal accomplishment"
+    },
+    {
+      "id": 11120,
+      "term": "general sense of emotional exhaustion and cynicism in relation to one's job; consists of three dimensions: exhaustion, depersonalization, and sense of diminished personal accomplishment",
+      "definition": "job burnout",
+      "isReverse": true
+    },
+    {
+      "id": 1121,
+      "term": "job strain",
+      "definition": "work situation involving the combination of excessive job demands and workload with little decision making latitude or job control"
+    },
+    {
+      "id": 11121,
+      "term": "work situation involving the combination of excessive job demands and workload with little decision making latitude or job control",
+      "definition": "job strain",
+      "isReverse": true
+    },
+    {
+      "id": 1122,
+      "term": "lymphocytes",
+      "definition": "white blood cells that circulate in the body's fluids and are especially important in the body's immune response"
+    },
+    {
+      "id": 11122,
+      "term": "white blood cells that circulate in the body's fluids and are especially important in the body's immune response",
+      "definition": "lymphocytes",
+      "isReverse": true
+    },
+    {
+      "id": 1123,
+      "term": "negative affectivity",
+      "definition": "tendency to experience distressed emotional states involving anger, contempt, disgust, guilt, fear, and nervousness"
+    },
+    {
+      "id": 11123,
+      "term": "tendency to experience distressed emotional states involving anger, contempt, disgust, guilt, fear, and nervousness",
+      "definition": "negative affectivity",
+      "isReverse": true
+    },
+    {
+      "id": 1124,
+      "term": "optimism",
+      "definition": "tendency toward a positive outlook and positive expectations"
+    },
+    {
+      "id": 11124,
+      "term": "tendency toward a positive outlook and positive expectations",
+      "definition": "optimism",
+      "isReverse": true
+    },
+    {
+      "id": 1125,
+      "term": "perceived control",
+      "definition": "peoples' beliefs concerning their capacity to influence and shape outcomes in their lives"
+    },
+    {
+      "id": 11125,
+      "term": "peoples' beliefs concerning their capacity to influence and shape outcomes in their lives",
+      "definition": "perceived control",
+      "isReverse": true
+    },
+    {
+      "id": 1126,
+      "term": "positive affect",
+      "definition": "state or a trait that involves pleasurable engagement with the environment, the dimensions of which include happiness, joy, enthusiasm, alertness, and excitement"
+    },
+    {
+      "id": 11126,
+      "term": "state or a trait that involves pleasurable engagement with the environment, the dimensions of which include happiness, joy, enthusiasm, alertness, and excitement",
+      "definition": "positive affect",
+      "isReverse": true
+    },
+    {
+      "id": 1127,
+      "term": "positive psychology",
+      "definition": "scientific area of study seeking to identify and promote those qualities that lead to happy, fulfilled, and contented lives"
+    },
+    {
+      "id": 11127,
+      "term": "scientific area of study seeking to identify and promote those qualities that lead to happy, fulfilled, and contented lives",
+      "definition": "positive psychology",
+      "isReverse": true
+    },
+    {
+      "id": 1128,
+      "term": "primary appraisal",
+      "definition": "judgment about the degree of potential harm or threat to well-being that a stressor might entail"
+    },
+    {
+      "id": 11128,
+      "term": "judgment about the degree of potential harm or threat to well-being that a stressor might entail",
+      "definition": "primary appraisal",
+      "isReverse": true
+    },
+    {
+      "id": 1129,
+      "term": "psychoneuroimmunology",
+      "definition": "field that studies how psychological factors (such as stress) influence the immune system and immune functioning"
+    },
+    {
+      "id": 11129,
+      "term": "field that studies how psychological factors (such as stress) influence the immune system and immune functioning",
+      "definition": "psychoneuroimmunology",
+      "isReverse": true
+    },
+    {
+      "id": 1130,
+      "term": "psychophysiological disorders",
+      "definition": "physical disorders or diseases in which symptoms are brought about or worsened by stress and emotional factors"
+    },
+    {
+      "id": 11130,
+      "term": "physical disorders or diseases in which symptoms are brought about or worsened by stress and emotional factors",
+      "definition": "psychophysiological disorders",
+      "isReverse": true
+    },
+    {
+      "id": 1131,
+      "term": "relaxation response technique",
+      "definition": "stress reduction technique combining elements of relaxation and meditation"
+    },
+    {
+      "id": 11131,
+      "term": "stress reduction technique combining elements of relaxation and meditation",
+      "definition": "relaxation response technique",
+      "isReverse": true
+    },
+    {
+      "id": 1132,
+      "term": "secondary appraisal",
+      "definition": "judgment of options available to cope with a stressor and their potential effectiveness"
+    },
+    {
+      "id": 11132,
+      "term": "judgment of options available to cope with a stressor and their potential effectiveness",
+      "definition": "secondary appraisal",
+      "isReverse": true
+    },
+    {
+      "id": 1133,
+      "term": "Social Readjustment Rating Scale (SRRS)",
+      "definition": "popular scale designed to measure stress; consists of 43 potentially stressful events, each of which has a numerical value quantifying how much readjustment is associated with the event"
+    },
+    {
+      "id": 11133,
+      "term": "popular scale designed to measure stress; consists of 43 potentially stressful events, each of which has a numerical value quantifying how much readjustment is associated with the event",
+      "definition": "Social Readjustment Rating Scale (SRRS)",
+      "isReverse": true
+    },
+    {
+      "id": 1134,
+      "term": "social support",
+      "definition": "soothing and often beneficial support of others; can take different forms, such as advice, guidance, encouragement, acceptance, emotional comfort, and tangible assistance"
+    },
+    {
+      "id": 11134,
+      "term": "soothing and often beneficial support of others; can take different forms, such as advice, guidance, encouragement, acceptance, emotional comfort, and tangible assistance",
+      "definition": "social support",
+      "isReverse": true
+    },
+    {
+      "id": 1135,
+      "term": "stage of exhaustion",
+      "definition": "third stage of the general adaptation syndrome; the body's ability to resist stress becomes depleted; illness, disease, and even death may occur"
+    },
+    {
+      "id": 11135,
+      "term": "third stage of the general adaptation syndrome; the body's ability to resist stress becomes depleted; illness, disease, and even death may occur",
+      "definition": "stage of exhaustion",
+      "isReverse": true
+    },
+    {
+      "id": 1136,
+      "term": "stage of resistance",
+      "definition": "second stage of the general adaptation syndrome; the body adapts to a stressor for a period of time"
+    },
+    {
+      "id": 11136,
+      "term": "second stage of the general adaptation syndrome; the body adapts to a stressor for a period of time",
+      "definition": "stage of resistance",
+      "isReverse": true
+    },
+    {
+      "id": 1137,
+      "term": "stress",
+      "definition": "process whereby an individual perceives and responds to events that one appraises as overwhelming or threatening to one's well-being"
+    },
+    {
+      "id": 11137,
+      "term": "process whereby an individual perceives and responds to events that one appraises as overwhelming or threatening to one's well-being",
+      "definition": "stress",
+      "isReverse": true
+    },
+    {
+      "id": 1138,
+      "term": "stressors",
+      "definition": "environmental events that may be judged as threatening or demanding; stimuli that initiate the stress process"
+    },
+    {
+      "id": 11138,
+      "term": "environmental events that may be judged as threatening or demanding; stimuli that initiate the stress process",
+      "definition": "stressors",
+      "isReverse": true
+    },
+    {
+      "id": 1139,
+      "term": "Type A",
+      "definition": "psychological and behavior pattern exhibited by individuals who tend to be extremely competitive, impatient, rushed, and hostile toward others"
+    },
+    {
+      "id": 11139,
+      "term": "psychological and behavior pattern exhibited by individuals who tend to be extremely competitive, impatient, rushed, and hostile toward others",
+      "definition": "Type A",
+      "isReverse": true
+    },
+    {
+      "id": 1140,
+      "term": "Type B",
+      "definition": "psychological and behavior pattern exhibited by a person who is relaxed and laid back"
+    },
+    {
+      "id": 11140,
+      "term": "psychological and behavior pattern exhibited by a person who is relaxed and laid back",
+      "definition": "Type B",
+      "isReverse": true
+    },
+    {
+      "id": 1141,
+      "term": "Negative effects of stress are most likely to be experienced when an event is perceived as ________.",
+      "definition": "Threatening, and no clear options for dealing with it are apparent"
+    },
+    {
+      "id": 11141,
+      "term": "Threatening, and no clear options for dealing with it are apparent",
+      "definition": "Negative effects of stress are most likely to be experienced when an event is perceived as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1142,
+      "term": "Between 2006 and 2009, the greatest increases in stress levels were found to occur among ________.",
+      "definition": "Those aged 45-64"
+    },
+    {
+      "id": 11142,
+      "term": "Those aged 45-64",
+      "definition": "Between 2006 and 2009, the greatest increases in stress levels were found to occur among ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1143,
+      "term": "At which stage of Selye's general adaptation syndrome is a person especially vulnerable to illness?",
+      "definition": "Exhaustion"
+    },
+    {
+      "id": 11143,
+      "term": "Exhaustion",
+      "definition": "At which stage of Selye's general adaptation syndrome is a person especially vulnerable to illness?",
+      "isReverse": true
+    },
+    {
+      "id": 1144,
+      "term": "During an encounter judged as stressful, cortisol is released by the ________.",
+      "definition": "Adrenal glands"
+    },
+    {
+      "id": 11144,
+      "term": "Adrenal glands",
+      "definition": "During an encounter judged as stressful, cortisol is released by the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1145,
+      "term": "According to the Holmes and Rahe scale, which life event requires the greatest amount of readjustment?",
+      "definition": "Death of spouse"
+    },
+    {
+      "id": 11145,
+      "term": "Death of spouse",
+      "definition": "According to the Holmes and Rahe scale, which life event requires the greatest amount of readjustment?",
+      "isReverse": true
+    },
+    {
+      "id": 1146,
+      "term": "While waiting to pay for his weekly groceries at the supermarket, Paul had to wait... These events that Paul had to endure are best characterized as ________.",
+      "definition": "Daily hassles"
+    },
+    {
+      "id": 11146,
+      "term": "Daily hassles",
+      "definition": "While waiting to pay for his weekly groceries at the supermarket, Paul had to wait... These events that Paul had to endure are best characterized as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1147,
+      "term": "What is one of the major criticisms of the Social Readjustment Rating Scale?",
+      "definition": "It does not take into consideration how a person appraises an event"
+    },
+    {
+      "id": 11147,
+      "term": "It does not take into consideration how a person appraises an event",
+      "definition": "What is one of the major criticisms of the Social Readjustment Rating Scale?",
+      "isReverse": true
+    },
+    {
+      "id": 1148,
+      "term": "Which of the following is not a dimension of job burnout?",
+      "definition": "Hostility"
+    },
+    {
+      "id": 11148,
+      "term": "Hostility",
+      "definition": "Which of the following is not a dimension of job burnout?",
+      "isReverse": true
+    },
+    {
+      "id": 1149,
+      "term": "The white blood cells that attack foreign invaders to the body are called ________.",
+      "definition": "Lymphocytes"
+    },
+    {
+      "id": 11149,
+      "term": "Lymphocytes",
+      "definition": "The white blood cells that attack foreign invaders to the body are called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1150,
+      "term": "The risk of heart disease is especially high among individuals with ________.",
+      "definition": "Depression"
+    },
+    {
+      "id": 11150,
+      "term": "Depression",
+      "definition": "The risk of heart disease is especially high among individuals with ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1151,
+      "term": "The most lethal dimension of Type A behavior pattern seems to be ________.",
+      "definition": "Hostility"
+    },
+    {
+      "id": 11151,
+      "term": "Hostility",
+      "definition": "The most lethal dimension of Type A behavior pattern seems to be ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1152,
+      "term": "Which of the following statements pertaining to asthma is false?",
+      "definition": "Rates of asthma have decreased considerably since 2000"
+    },
+    {
+      "id": 11152,
+      "term": "Rates of asthma have decreased considerably since 2000",
+      "definition": "Which of the following statements pertaining to asthma is false?",
+      "isReverse": true
+    },
+    {
+      "id": 1153,
+      "term": "Emotion-focused coping would likely be a better method than problem-focused coping for dealing with which of the following stressors?",
+      "definition": "Terminal cancer"
+    },
+    {
+      "id": 11153,
+      "term": "Terminal cancer",
+      "definition": "Emotion-focused coping would likely be a better method than problem-focused coping for dealing with which of the following stressors?",
+      "isReverse": true
+    },
+    {
+      "id": 1154,
+      "term": "Studies of British civil servants have found that those in the lowest status jobs are much more likely to develop heart disease... These findings attest to the importance of ________ in dealing with stress.",
+      "definition": "Perceived control"
+    },
+    {
+      "id": 11154,
+      "term": "Perceived control",
+      "definition": "Studies of British civil servants have found that those in the lowest status jobs are much more likely to develop heart disease... These findings attest to the importance of ________ in dealing with stress.",
+      "isReverse": true
+    },
+    {
+      "id": 1155,
+      "term": "Relative to those with low levels of social support, individuals with high levels of social support ________.",
+      "definition": "Tend to tolerate stress well"
+    },
+    {
+      "id": 11155,
+      "term": "Tend to tolerate stress well",
+      "definition": "Relative to those with low levels of social support, individuals with high levels of social support ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1156,
+      "term": "The concept of learned helplessness was formulated by Seligman to explain the ________.",
+      "definition": "Inability of dogs to attempt to escape avoidable shocks after having received inescapable shocks"
+    },
+    {
+      "id": 11156,
+      "term": "Inability of dogs to attempt to escape avoidable shocks after having received inescapable shocks",
+      "definition": "The concept of learned helplessness was formulated by Seligman to explain the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1157,
+      "term": "Which of the following is not one of the presumed components of happiness?",
+      "definition": "Learning new skills"
+    },
+    {
+      "id": 11157,
+      "term": "Learning new skills",
+      "definition": "Which of the following is not one of the presumed components of happiness?",
+      "isReverse": true
+    },
+    {
+      "id": 1158,
+      "term": "Researchers have identified a number of factors that are related to happiness. Which of the following is not one of them?",
+      "definition": "Physical attractiveness"
+    },
+    {
+      "id": 11158,
+      "term": "Physical attractiveness",
+      "definition": "Researchers have identified a number of factors that are related to happiness. Which of the following is not one of them?",
+      "isReverse": true
+    },
+    {
+      "id": 1159,
+      "term": "How does positive affect differ from optimism?",
+      "definition": "Positive affect involves feeling states, whereas optimism involves expectations"
+    },
+    {
+      "id": 11159,
+      "term": "Positive affect involves feeling states, whereas optimism involves expectations",
+      "definition": "How does positive affect differ from optimism?",
+      "isReverse": true
+    },
+    {
+      "id": 1160,
+      "term": "Carson enjoys writing mystery novels... Carson's experience best illustrates the concept of ________.",
+      "definition": "Flow"
+    },
+    {
+      "id": 11160,
+      "term": "Flow",
+      "definition": "Carson enjoys writing mystery novels... Carson's experience best illustrates the concept of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1161,
+      "term": "Stimulus-Based Definition of Stress",
+      "definition": "Conceptualizes stress as a demanding or threatening event/situation (the stressor itself)."
+    },
+    {
+      "id": 11161,
+      "term": "Conceptualizes stress as a demanding or threatening event/situation (the stressor itself).",
+      "definition": "Stimulus-Based Definition of Stress",
+      "isReverse": true
+    },
+    {
+      "id": 1162,
+      "term": "Response-Based Definition of Stress",
+      "definition": "Emphasizes the physiological responses (e.g., increased arousal) that occur when faced with demanding situations."
+    },
+    {
+      "id": 11162,
+      "term": "Emphasizes the physiological responses (e.g., increased arousal) that occur when faced with demanding situations.",
+      "definition": "Response-Based Definition of Stress",
+      "isReverse": true
+    },
+    {
+      "id": 1163,
+      "term": "Primary Appraisal (Lazarus & Folkman)",
+      "definition": "Judgment about the degree of potential harm or threat to well-being that a stressor might entail."
+    },
+    {
+      "id": 11163,
+      "term": "Judgment about the degree of potential harm or threat to well-being that a stressor might entail.",
+      "definition": "Primary Appraisal (Lazarus & Folkman)",
+      "isReverse": true
+    },
+    {
+      "id": 1164,
+      "term": "General Adaptation Syndrome (Selye)",
+      "definition": "The body's nonspecific physiological response to stress. Consists of three stages: Alarm Reaction, Resistance, and Exhaustion."
+    },
+    {
+      "id": 11164,
+      "term": "The body's nonspecific physiological response to stress. Consists of three stages: Alarm Reaction, Resistance, and Exhaustion.",
+      "definition": "General Adaptation Syndrome (Selye)",
+      "isReverse": true
+    },
+    {
+      "id": 1165,
+      "term": "HPA Axis",
+      "definition": "The Hypothalamic-Pituitary-Adrenal axis. A set of structures found in both the limbic system (hypothalamus) and the endocrine system (pituitary and adrenal glands) that regulate many of the body's physiological reactions to stress through the release of hormones like cortisol."
+    },
+    {
+      "id": 11165,
+      "term": "The Hypothalamic-Pituitary-Adrenal axis. A set of structures found in both the limbic system (hypothalamus) and the endocrine system (pituitary and adrenal glands) that regulate many of the body's physiological reactions to stress through the release of hormones like cortisol.",
+      "definition": "HPA Axis",
+      "isReverse": true
+    },
+    {
+      "id": 1166,
+      "term": "Type A Behavior Pattern",
+      "definition": "Characterized by an excessive competitive drive, chronic sense of time urgency, impatience, and hostility toward others (particularly hostility is linked to heart disease)."
+    },
+    {
+      "id": 11166,
+      "term": "Characterized by an excessive competitive drive, chronic sense of time urgency, impatience, and hostility toward others (particularly hostility is linked to heart disease).",
+      "definition": "Type A Behavior Pattern",
+      "isReverse": true
+    },
+    {
+      "id": 1167,
+      "term": "Problem-Focused Coping",
+      "definition": "Managing or altering the problem that is causing one to experience stress (e.g., identifying the problem, weighing solutions)."
+    },
+    {
+      "id": 11167,
+      "term": "Managing or altering the problem that is causing one to experience stress (e.g., identifying the problem, weighing solutions).",
+      "definition": "Problem-Focused Coping",
+      "isReverse": true
+    },
+    {
+      "id": 1168,
+      "term": "Emotion-Focused Coping",
+      "definition": "Efforts to change or reduce the negative emotions associated with stress (e.g., avoiding, minimizing, distancing)."
+    },
+    {
+      "id": 11168,
+      "term": "Efforts to change or reduce the negative emotions associated with stress (e.g., avoiding, minimizing, distancing).",
+      "definition": "Emotion-Focused Coping",
+      "isReverse": true
+    }
+  ]
+}

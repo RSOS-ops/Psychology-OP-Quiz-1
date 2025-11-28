@@ -1,0 +1,578 @@
+{
+  "title": "Chapter 1: Introduction",
+  "description": "Key Terms, History, and Review Questions",
+  "cards": [
+    {
+      "id": 1,
+      "term": "American Psychological Association",
+      "definition": "professional organization representing psychologists in the United States"
+    },
+    {
+      "id": 10001,
+      "term": "professional organization representing psychologists in the United States",
+      "definition": "American Psychological Association",
+      "isReverse": true
+    },
+    {
+      "id": 2,
+      "term": "behaviorism",
+      "definition": "focus on observing and controlling behavior"
+    },
+    {
+      "id": 10002,
+      "term": "focus on observing and controlling behavior",
+      "definition": "behaviorism",
+      "isReverse": true
+    },
+    {
+      "id": 3,
+      "term": "biopsychology",
+      "definition": "study of how biology influences behavior"
+    },
+    {
+      "id": 10003,
+      "term": "study of how biology influences behavior",
+      "definition": "biopsychology",
+      "isReverse": true
+    },
+    {
+      "id": 4,
+      "term": "biopsychosocial model",
+      "definition": "perspective that asserts that biology, psychology, and social factors interact to determine an individual's health"
+    },
+    {
+      "id": 10004,
+      "term": "perspective that asserts that biology, psychology, and social factors interact to determine an individual's health",
+      "definition": "biopsychosocial model",
+      "isReverse": true
+    },
+    {
+      "id": 5,
+      "term": "clinical psychology",
+      "definition": "area of psychology that focuses on the diagnosis and treatment of psychological disorders and other problematic patterns of behavior"
+    },
+    {
+      "id": 10005,
+      "term": "area of psychology that focuses on the diagnosis and treatment of psychological disorders and other problematic patterns of behavior",
+      "definition": "clinical psychology",
+      "isReverse": true
+    },
+    {
+      "id": 6,
+      "term": "cognitive psychology",
+      "definition": "study of cognitions, or thoughts, and their relationship to experiences and actions"
+    },
+    {
+      "id": 10006,
+      "term": "study of cognitions, or thoughts, and their relationship to experiences and actions",
+      "definition": "cognitive psychology",
+      "isReverse": true
+    },
+    {
+      "id": 7,
+      "term": "counseling psychology",
+      "definition": "area of psychology that focuses on improving emotional, social, vocational, and other aspects of the lives of psychologically healthy individuals"
+    },
+    {
+      "id": 10007,
+      "term": "area of psychology that focuses on improving emotional, social, vocational, and other aspects of the lives of psychologically healthy individuals",
+      "definition": "counseling psychology",
+      "isReverse": true
+    },
+    {
+      "id": 8,
+      "term": "developmental psychology",
+      "definition": "scientific study of development across a lifespan"
+    },
+    {
+      "id": 10008,
+      "term": "scientific study of development across a lifespan",
+      "definition": "developmental psychology",
+      "isReverse": true
+    },
+    {
+      "id": 9,
+      "term": "dissertation",
+      "definition": "long research paper about research that was conducted as a part of the candidate's doctoral training"
+    },
+    {
+      "id": 10009,
+      "term": "long research paper about research that was conducted as a part of the candidate's doctoral training",
+      "definition": "dissertation",
+      "isReverse": true
+    },
+    {
+      "id": 10,
+      "term": "empirical method",
+      "definition": "method for acquiring knowledge based on observation, including experimentation, rather than a method based only on forms of logical argument or previous authorities"
+    },
+    {
+      "id": 10010,
+      "term": "method for acquiring knowledge based on observation, including experimentation, rather than a method based only on forms of logical argument or previous authorities",
+      "definition": "empirical method",
+      "isReverse": true
+    },
+    {
+      "id": 11,
+      "term": "forensic psychology",
+      "definition": "area of psychology that applies the science and practice of psychology to issues within and related to the justice system"
+    },
+    {
+      "id": 10011,
+      "term": "area of psychology that applies the science and practice of psychology to issues within and related to the justice system",
+      "definition": "forensic psychology",
+      "isReverse": true
+    },
+    {
+      "id": 12,
+      "term": "functionalism",
+      "definition": "focused on how mental activities helped an organism adapt to its environment"
+    },
+    {
+      "id": 10012,
+      "term": "focused on how mental activities helped an organism adapt to its environment",
+      "definition": "functionalism",
+      "isReverse": true
+    },
+    {
+      "id": 13,
+      "term": "humanism",
+      "definition": "perspective within psychology that emphasizes the potential for good that is innate to all humans"
+    },
+    {
+      "id": 10013,
+      "term": "perspective within psychology that emphasizes the potential for good that is innate to all humans",
+      "definition": "humanism",
+      "isReverse": true
+    },
+    {
+      "id": 14,
+      "term": "introspection",
+      "definition": "process by which someone examines their own conscious experience in an attempt to break it into its component parts"
+    },
+    {
+      "id": 10014,
+      "term": "process by which someone examines their own conscious experience in an attempt to break it into its component parts",
+      "definition": "introspection",
+      "isReverse": true
+    },
+    {
+      "id": 15,
+      "term": "-ology",
+      "definition": "suffix that denotes \"scientific study of\""
+    },
+    {
+      "id": 10015,
+      "term": "suffix that denotes \"scientific study of\"",
+      "definition": "-ology",
+      "isReverse": true
+    },
+    {
+      "id": 16,
+      "term": "personality psychology",
+      "definition": "study of patterns of thoughts and behaviors that make each individual unique"
+    },
+    {
+      "id": 10016,
+      "term": "study of patterns of thoughts and behaviors that make each individual unique",
+      "definition": "personality psychology",
+      "isReverse": true
+    },
+    {
+      "id": 17,
+      "term": "personality trait",
+      "definition": "consistent pattern of thought and behavior"
+    },
+    {
+      "id": 10017,
+      "term": "consistent pattern of thought and behavior",
+      "definition": "personality trait",
+      "isReverse": true
+    },
+    {
+      "id": 18,
+      "term": "PhD (doctor of philosophy)",
+      "definition": "doctoral degree conferred in many disciplinary perspectives housed in a traditional college of liberal arts and sciences"
+    },
+    {
+      "id": 10018,
+      "term": "doctoral degree conferred in many disciplinary perspectives housed in a traditional college of liberal arts and sciences",
+      "definition": "PhD (doctor of philosophy)",
+      "isReverse": true
+    },
+    {
+      "id": 19,
+      "term": "postdoctoral training program",
+      "definition": "allows young scientists to further develop their research programs and broaden their research skills under the supervision of other professionals in the field"
+    },
+    {
+      "id": 10019,
+      "term": "allows young scientists to further develop their research programs and broaden their research skills under the supervision of other professionals in the field",
+      "definition": "postdoctoral training program",
+      "isReverse": true
+    },
+    {
+      "id": 20,
+      "term": "psyche",
+      "definition": "Greek word for soul"
+    },
+    {
+      "id": 10020,
+      "term": "Greek word for soul",
+      "definition": "psyche",
+      "isReverse": true
+    },
+    {
+      "id": 21,
+      "term": "psychoanalytic theory",
+      "definition": "focus on the role of the unconscious in affecting conscious behavior"
+    },
+    {
+      "id": 10021,
+      "term": "focus on the role of the unconscious in affecting conscious behavior",
+      "definition": "psychoanalytic theory",
+      "isReverse": true
+    },
+    {
+      "id": 22,
+      "term": "psychology",
+      "definition": "scientific study of the mind and behavior"
+    },
+    {
+      "id": 10022,
+      "term": "scientific study of the mind and behavior",
+      "definition": "psychology",
+      "isReverse": true
+    },
+    {
+      "id": 23,
+      "term": "PsyD (doctor of psychology)",
+      "definition": "doctoral degree that places less emphasis on research-oriented skills and focuses more on application of psychological principles in the clinical context"
+    },
+    {
+      "id": 10023,
+      "term": "doctoral degree that places less emphasis on research-oriented skills and focuses more on application of psychological principles in the clinical context",
+      "definition": "PsyD (doctor of psychology)",
+      "isReverse": true
+    },
+    {
+      "id": 24,
+      "term": "sport and exercise psychology",
+      "definition": "area of psychology that focuses on the interactions between mental and emotional factors and physical performance in sports, exercise, and other activities"
+    },
+    {
+      "id": 10024,
+      "term": "area of psychology that focuses on the interactions between mental and emotional factors and physical performance in sports, exercise, and other activities",
+      "definition": "sport and exercise psychology",
+      "isReverse": true
+    },
+    {
+      "id": 25,
+      "term": "structuralism",
+      "definition": "understanding the conscious experience through introspection"
+    },
+    {
+      "id": 10025,
+      "term": "understanding the conscious experience through introspection",
+      "definition": "structuralism",
+      "isReverse": true
+    },
+    {
+      "id": 26,
+      "term": "Which of the following was mentioned as a skill to which psychology students would be exposed?",
+      "definition": "All of the above (critical thinking, use of the scientific method, critical evaluation of sources of information)"
+    },
+    {
+      "id": 10026,
+      "term": "All of the above (critical thinking, use of the scientific method, critical evaluation of sources of information)",
+      "definition": "Which of the following was mentioned as a skill to which psychology students would be exposed?",
+      "isReverse": true
+    },
+    {
+      "id": 27,
+      "term": "Psyche is a Greek word meaning ________.",
+      "definition": "Soul"
+    },
+    {
+      "id": 10027,
+      "term": "Soul",
+      "definition": "Psyche is a Greek word meaning ________.",
+      "isReverse": true
+    },
+    {
+      "id": 28,
+      "term": "Before psychology became a recognized academic discipline, matters of the mind were undertaken by those in ________.",
+      "definition": "Philosophy"
+    },
+    {
+      "id": 10028,
+      "term": "Philosophy",
+      "definition": "Before psychology became a recognized academic discipline, matters of the mind were undertaken by those in ________.",
+      "isReverse": true
+    },
+    {
+      "id": 29,
+      "term": "In the scientific method, a hypothesis is a(n) ________.",
+      "definition": "Proposed explanation"
+    },
+    {
+      "id": 10029,
+      "term": "Proposed explanation",
+      "definition": "In the scientific method, a hypothesis is a(n) ________.",
+      "isReverse": true
+    },
+    {
+      "id": 30,
+      "term": "Based on your reading, which theorist would have been most likely to agree with this statement: Perceptual phenomena are best understood as a combination of their components?",
+      "definition": "Max Wertheimer"
+    },
+    {
+      "id": 10030,
+      "term": "Max Wertheimer",
+      "definition": "Based on your reading, which theorist would have been most likely to agree with this statement: Perceptual phenomena are best understood as a combination of their components?",
+      "isReverse": true
+    },
+    {
+      "id": 31,
+      "term": "________ is most well-known for proposing his hierarchy of needs.",
+      "definition": "Abraham Maslow"
+    },
+    {
+      "id": 10031,
+      "term": "Abraham Maslow",
+      "definition": "________ is most well-known for proposing his hierarchy of needs.",
+      "isReverse": true
+    },
+    {
+      "id": 32,
+      "term": "Rogers believed that providing genuineness, empathy, and ________ in the therapeutic environment for his clients was critical to their being able to deal with their problems.",
+      "definition": "Unconditional positive regard"
+    },
+    {
+      "id": 10032,
+      "term": "Unconditional positive regard",
+      "definition": "Rogers believed that providing genuineness, empathy, and ________ in the therapeutic environment for his clients was critical to their being able to deal with their problems.",
+      "isReverse": true
+    },
+    {
+      "id": 33,
+      "term": "The operant conditioning chamber (aka ________ box) is a device used to study the principles of operant conditioning.",
+      "definition": "Skinner"
+    },
+    {
+      "id": 10033,
+      "term": "Skinner",
+      "definition": "The operant conditioning chamber (aka ________ box) is a device used to study the principles of operant conditioning.",
+      "isReverse": true
+    },
+    {
+      "id": 34,
+      "term": "A researcher interested in how changes in the cells of the hippocampus (a structure in the brain related to learning and memory) are related to memory formation would be most likely to identify as a(n) ________ psychologist.",
+      "definition": "Biological"
+    },
+    {
+      "id": 10034,
+      "term": "Biological",
+      "definition": "A researcher interested in how changes in the cells of the hippocampus (a structure in the brain related to learning and memory) are related to memory formation would be most likely to identify as a(n) ________ psychologist.",
+      "isReverse": true
+    },
+    {
+      "id": 35,
+      "term": "An individual's consistent pattern of thought and behavior is known as a(n) ________.",
+      "definition": "Personality"
+    },
+    {
+      "id": 10035,
+      "term": "Personality",
+      "definition": "An individual's consistent pattern of thought and behavior is known as a(n) ________.",
+      "isReverse": true
+    },
+    {
+      "id": 36,
+      "term": "In Milgram's controversial study on obedience, nearly ________ of the participants were willing to administer what appeared to be lethal electrical shocks to another person because they were told to do so by an authority figure.",
+      "definition": "2/3"
+    },
+    {
+      "id": 10036,
+      "term": "2/3",
+      "definition": "In Milgram's controversial study on obedience, nearly ________ of the participants were willing to administer what appeared to be lethal electrical shocks to another person because they were told to do so by an authority figure.",
+      "isReverse": true
+    },
+    {
+      "id": 37,
+      "term": "A researcher interested in what factors make an employee best suited for a given job would most likely identify as a(n) ________ psychologist.",
+      "definition": "I-O (Industrial-Organizational)"
+    },
+    {
+      "id": 10037,
+      "term": "I-O (Industrial-Organizational)",
+      "definition": "A researcher interested in what factors make an employee best suited for a given job would most likely identify as a(n) ________ psychologist.",
+      "isReverse": true
+    },
+    {
+      "id": 38,
+      "term": "If someone wanted to become a psychology professor at a 4-year college, then s/he would probably need a ________ degree in psychology.",
+      "definition": "PhD"
+    },
+    {
+      "id": 10038,
+      "term": "PhD",
+      "definition": "If someone wanted to become a psychology professor at a 4-year college, then s/he would probably need a ________ degree in psychology.",
+      "isReverse": true
+    },
+    {
+      "id": 39,
+      "term": "The ________ degree in psychology places less emphasis on research and more emphasis on application of therapeutic skills.",
+      "definition": "PsyD"
+    },
+    {
+      "id": 10039,
+      "term": "PsyD",
+      "definition": "The ________ degree in psychology places less emphasis on research and more emphasis on application of therapeutic skills.",
+      "isReverse": true
+    },
+    {
+      "id": 40,
+      "term": "Which of the following degrees would be the minimum required to teach psychology courses in high school?",
+      "definition": "Bachelor's degree"
+    },
+    {
+      "id": 10040,
+      "term": "Bachelor's degree",
+      "definition": "Which of the following degrees would be the minimum required to teach psychology courses in high school?",
+      "isReverse": true
+    },
+    {
+      "id": 41,
+      "term": "One would need at least a(n) ________ degree to serve as a school psychologist.",
+      "definition": "Master's"
+    },
+    {
+      "id": 10041,
+      "term": "Master's",
+      "definition": "One would need at least a(n) ________ degree to serve as a school psychologist.",
+      "isReverse": true
+    },
+    {
+      "id": 42,
+      "term": "Critical Thinking",
+      "definition": "The active application of a set of skills to information for the understanding and evaluation of that information. It involves maintaining an attitude of skepticism, recognizing internal biases, making use of logical thinking, asking appropriate questions, and making observations."
+    },
+    {
+      "id": 10042,
+      "term": "The active application of a set of skills to information for the understanding and evaluation of that information. It involves maintaining an attitude of skepticism, recognizing internal biases, making use of logical thinking, asking appropriate questions, and making observations.",
+      "definition": "Critical Thinking",
+      "isReverse": true
+    },
+    {
+      "id": 43,
+      "term": "Gestalt Psychology",
+      "definition": "Translating to 'whole' or 'configuration', this perspective considers how different sensory perceptions are interpreted via a configuration. It emphasizes that the whole is different from the sum of its parts."
+    },
+    {
+      "id": 10043,
+      "term": "Translating to 'whole' or 'configuration', this perspective considers how different sensory perceptions are interpreted via a configuration. It emphasizes that the whole is different from the sum of its parts.",
+      "definition": "Gestalt Psychology",
+      "isReverse": true
+    },
+    {
+      "id": 44,
+      "term": "Pavlov's Conditioned Reflex",
+      "definition": "A form of learning behavior studied by Pavlov where an organism learns to produce a reflex response to a stimulus that was previously neutral."
+    },
+    {
+      "id": 10044,
+      "term": "A form of learning behavior studied by Pavlov where an organism learns to produce a reflex response to a stimulus that was previously neutral.",
+      "definition": "Pavlov's Conditioned Reflex",
+      "isReverse": true
+    },
+    {
+      "id": 45,
+      "term": "B.F. Skinner",
+      "definition": "A psychologist whose focus on positive and negative reinforcement of learned behaviors (operant conditioning) had a lasting influence in psychology."
+    },
+    {
+      "id": 10045,
+      "term": "A psychologist whose focus on positive and negative reinforcement of learned behaviors (operant conditioning) had a lasting influence in psychology.",
+      "definition": "B.F. Skinner",
+      "isReverse": true
+    },
+    {
+      "id": 46,
+      "term": "Naomi Weisstein",
+      "definition": "First published in 1968, she stimulated a feminist revolution in psychology by critiquing the field as a science. She criticized male psychologists for constructing the psychology of women entirely out of their own cultural biases without experimental verification."
+    },
+    {
+      "id": 10046,
+      "term": "First published in 1968, she stimulated a feminist revolution in psychology by critiquing the field as a science. She criticized male psychologists for constructing the psychology of women entirely out of their own cultural biases without experimental verification.",
+      "definition": "Naomi Weisstein",
+      "isReverse": true
+    },
+    {
+      "id": 47,
+      "term": "Mamie Phipps Clark & Kenneth Clark",
+      "definition": "Famous African American researchers known for studies that were instrumental in the Brown v. Board of Education case. They studied the psychological effects of segregation on African American children."
+    },
+    {
+      "id": 10047,
+      "term": "Famous African American researchers known for studies that were instrumental in the Brown v. Board of Education case. They studied the psychological effects of segregation on African American children.",
+      "definition": "Mamie Phipps Clark & Kenneth Clark",
+      "isReverse": true
+    },
+    {
+      "id": 48,
+      "term": "Mary Whiton Calkins",
+      "definition": "A psychologist who made significant strides in the field, invented the paired-associate technique, and later became the first female president of the American Psychological Association."
+    },
+    {
+      "id": 10048,
+      "term": "A psychologist who made significant strides in the field, invented the paired-associate technique, and later became the first female president of the American Psychological Association.",
+      "definition": "Mary Whiton Calkins",
+      "isReverse": true
+    },
+    {
+      "id": 49,
+      "term": "Martha Bernal",
+      "definition": "The first Latina to receive a doctorate in psychology in the U.S. She demonstrated the benefit of intervention to overcome conduct disorders and researched ethnic identity."
+    },
+    {
+      "id": 10049,
+      "term": "The first Latina to receive a doctorate in psychology in the U.S. She demonstrated the benefit of intervention to overcome conduct disorders and researched ethnic identity.",
+      "definition": "Martha Bernal",
+      "isReverse": true
+    },
+    {
+      "id": 50,
+      "term": "Inez Beverly Prosser",
+      "definition": "The first African American woman to receive a PhD in psychology. She studied the impacts of educational segregation and isolation based on race."
+    },
+    {
+      "id": 10050,
+      "term": "The first African American woman to receive a PhD in psychology. She studied the impacts of educational segregation and isolation based on race.",
+      "definition": "Inez Beverly Prosser",
+      "isReverse": true
+    },
+    {
+      "id": 51,
+      "term": "Social Psychology",
+      "definition": "The study of how individuals interact and relate with others and how such interactions can affect behavior."
+    },
+    {
+      "id": 10051,
+      "term": "The study of how individuals interact and relate with others and how such interactions can affect behavior.",
+      "definition": "Social Psychology",
+      "isReverse": true
+    },
+    {
+      "id": 52,
+      "term": "PsyD vs PhD",
+      "definition": "A PhD puts more emphasis on research, while a PsyD (Doctor of Psychology) places less emphasis on research and more emphasis on the application of therapeutic skills."
+    },
+    {
+      "id": 10052,
+      "term": "A PhD puts more emphasis on research, while a PsyD (Doctor of Psychology) places less emphasis on research and more emphasis on the application of therapeutic skills.",
+      "definition": "PsyD vs PhD",
+      "isReverse": true
+    }
+  ]
+}

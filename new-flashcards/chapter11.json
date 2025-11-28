@@ -1,0 +1,930 @@
+{
+  "title": "Chapter 11: Personality",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 1001,
+      "term": "anal stage",
+      "definition": "psychosexual stage in which children experience pleasure in their bowel and bladder movements"
+    },
+    {
+      "id": 11001,
+      "term": "psychosexual stage in which children experience pleasure in their bowel and bladder movements",
+      "definition": "anal stage",
+      "isReverse": true
+    },
+    {
+      "id": 1002,
+      "term": "analytical psychology",
+      "definition": "Jung's theory focusing on the balance of opposing forces within one's personality and the significance of the collective unconscious"
+    },
+    {
+      "id": 11002,
+      "term": "Jung's theory focusing on the balance of opposing forces within one's personality and the significance of the collective unconscious",
+      "definition": "analytical psychology",
+      "isReverse": true
+    },
+    {
+      "id": 1003,
+      "term": "archetype",
+      "definition": "pattern that exists in our collective unconscious across cultures and societies"
+    },
+    {
+      "id": 11003,
+      "term": "pattern that exists in our collective unconscious across cultures and societies",
+      "definition": "archetype",
+      "isReverse": true
+    },
+    {
+      "id": 1004,
+      "term": "collective unconscious",
+      "definition": "common psychological tendencies that have been passed down from one generation to the next"
+    },
+    {
+      "id": 11004,
+      "term": "common psychological tendencies that have been passed down from one generation to the next",
+      "definition": "collective unconscious",
+      "isReverse": true
+    },
+    {
+      "id": 1005,
+      "term": "congruence",
+      "definition": "state of being in which our thoughts about our real and ideal selves are very similar"
+    },
+    {
+      "id": 11005,
+      "term": "state of being in which our thoughts about our real and ideal selves are very similar",
+      "definition": "congruence",
+      "isReverse": true
+    },
+    {
+      "id": 1006,
+      "term": "conscious",
+      "definition": "mental activity (thoughts, feelings, and memories) that we can access at any time"
+    },
+    {
+      "id": 11006,
+      "term": "mental activity (thoughts, feelings, and memories) that we can access at any time",
+      "definition": "conscious",
+      "isReverse": true
+    },
+    {
+      "id": 1007,
+      "term": "Contemporized-Themes Concerning Blacks Test (C-TCB)",
+      "definition": "projective test designed to be culturally relevant to African Americans, using images that relate to African-American culture"
+    },
+    {
+      "id": 11007,
+      "term": "projective test designed to be culturally relevant to African Americans, using images that relate to African-American culture",
+      "definition": "Contemporized-Themes Concerning Blacks Test (C-TCB)",
+      "isReverse": true
+    },
+    {
+      "id": 1008,
+      "term": "culture",
+      "definition": "all of the beliefs, customs, art, and traditions of a particular society"
+    },
+    {
+      "id": 11008,
+      "term": "all of the beliefs, customs, art, and traditions of a particular society",
+      "definition": "culture",
+      "isReverse": true
+    },
+    {
+      "id": 1009,
+      "term": "defense mechanism",
+      "definition": "unconscious protective behaviors designed to reduce ego anxiety"
+    },
+    {
+      "id": 11009,
+      "term": "unconscious protective behaviors designed to reduce ego anxiety",
+      "definition": "defense mechanism",
+      "isReverse": true
+    },
+    {
+      "id": 1010,
+      "term": "displacement",
+      "definition": "ego defense mechanism in which a person transfers inappropriate urges or behaviors toward a more acceptable or less threatening target"
+    },
+    {
+      "id": 11010,
+      "term": "ego defense mechanism in which a person transfers inappropriate urges or behaviors toward a more acceptable or less threatening target",
+      "definition": "displacement",
+      "isReverse": true
+    },
+    {
+      "id": 1011,
+      "term": "ego",
+      "definition": "aspect of personality that represents the self, or the part of one's personality that is visible to others"
+    },
+    {
+      "id": 11011,
+      "term": "aspect of personality that represents the self, or the part of one's personality that is visible to others",
+      "definition": "ego",
+      "isReverse": true
+    },
+    {
+      "id": 1012,
+      "term": "Five Factor Model",
+      "definition": "theory that personality is composed of five factors or traits, including openness, conscientiousness, extroversion, agreeableness, and neuroticism"
+    },
+    {
+      "id": 11012,
+      "term": "theory that personality is composed of five factors or traits, including openness, conscientiousness, extroversion, agreeableness, and neuroticism",
+      "definition": "Five Factor Model",
+      "isReverse": true
+    },
+    {
+      "id": 1013,
+      "term": "genital stage",
+      "definition": "psychosexual stage in which the focus is on mature sexual interests"
+    },
+    {
+      "id": 11013,
+      "term": "psychosexual stage in which the focus is on mature sexual interests",
+      "definition": "genital stage",
+      "isReverse": true
+    },
+    {
+      "id": 1014,
+      "term": "heritability",
+      "definition": "proportion of difference among people that is attributed to genetics"
+    },
+    {
+      "id": 11014,
+      "term": "proportion of difference among people that is attributed to genetics",
+      "definition": "heritability",
+      "isReverse": true
+    },
+    {
+      "id": 1015,
+      "term": "id",
+      "definition": "aspect of personality that consists of our most primitive drives or urges, including impulses for hunger, thirst, and sex"
+    },
+    {
+      "id": 11015,
+      "term": "aspect of personality that consists of our most primitive drives or urges, including impulses for hunger, thirst, and sex",
+      "definition": "id",
+      "isReverse": true
+    },
+    {
+      "id": 1016,
+      "term": "ideal self",
+      "definition": "person we would like to be"
+    },
+    {
+      "id": 11016,
+      "term": "person we would like to be",
+      "definition": "ideal self",
+      "isReverse": true
+    },
+    {
+      "id": 1017,
+      "term": "incongruence",
+      "definition": "state of being in which there is a great discrepancy between our real and ideal selves"
+    },
+    {
+      "id": 11017,
+      "term": "state of being in which there is a great discrepancy between our real and ideal selves",
+      "definition": "incongruence",
+      "isReverse": true
+    },
+    {
+      "id": 1018,
+      "term": "individual psychology",
+      "definition": "school of psychology proposed by Adler that focuses on our drive to compensate for feelings of inferiority"
+    },
+    {
+      "id": 11018,
+      "term": "school of psychology proposed by Adler that focuses on our drive to compensate for feelings of inferiority",
+      "definition": "individual psychology",
+      "isReverse": true
+    },
+    {
+      "id": 1019,
+      "term": "inferiority complex",
+      "definition": "refers to a person's feelings that they lack worth and don't measure up to others' or to society's standards"
+    },
+    {
+      "id": 11019,
+      "term": "refers to a person's feelings that they lack worth and don't measure up to others' or to society's standards",
+      "definition": "inferiority complex",
+      "isReverse": true
+    },
+    {
+      "id": 1020,
+      "term": "latency period",
+      "definition": "psychosexual stage in which sexual feelings are dormant"
+    },
+    {
+      "id": 11020,
+      "term": "psychosexual stage in which sexual feelings are dormant",
+      "definition": "latency period",
+      "isReverse": true
+    },
+    {
+      "id": 1021,
+      "term": "locus of control",
+      "definition": "beliefs about the power we have over our lives; an external locus of control is the belief that our outcomes are outside of our control; an internal locus of control is the belief that we control our own outcomes"
+    },
+    {
+      "id": 11021,
+      "term": "beliefs about the power we have over our lives; an external locus of control is the belief that our outcomes are outside of our control; an internal locus of control is the belief that we control our own outcomes",
+      "definition": "locus of control",
+      "isReverse": true
+    },
+    {
+      "id": 1022,
+      "term": "Minnesota Multiphasic Personality Inventory (MMPI)",
+      "definition": "personality test composed of a series of true/false questions in order to establish a clinical profile of an individual"
+    },
+    {
+      "id": 11022,
+      "term": "personality test composed of a series of true/false questions in order to establish a clinical profile of an individual",
+      "definition": "Minnesota Multiphasic Personality Inventory (MMPI)",
+      "isReverse": true
+    },
+    {
+      "id": 1023,
+      "term": "neurosis",
+      "definition": "tendency to experience negative emotions"
+    },
+    {
+      "id": 11023,
+      "term": "tendency to experience negative emotions",
+      "definition": "neurosis",
+      "isReverse": true
+    },
+    {
+      "id": 1024,
+      "term": "oral stage",
+      "definition": "psychosexual stage in which an infant's pleasure is focused on the mouth"
+    },
+    {
+      "id": 11024,
+      "term": "psychosexual stage in which an infant's pleasure is focused on the mouth",
+      "definition": "oral stage",
+      "isReverse": true
+    },
+    {
+      "id": 1025,
+      "term": "personality",
+      "definition": "long-standing traits and patterns that propel individuals to consistently think, feel, and behave in specific ways"
+    },
+    {
+      "id": 11025,
+      "term": "long-standing traits and patterns that propel individuals to consistently think, feel, and behave in specific ways",
+      "definition": "personality",
+      "isReverse": true
+    },
+    {
+      "id": 1026,
+      "term": "phallic stage",
+      "definition": "psychosexual stage in which the focus is on the genitals"
+    },
+    {
+      "id": 11026,
+      "term": "psychosexual stage in which the focus is on the genitals",
+      "definition": "phallic stage",
+      "isReverse": true
+    },
+    {
+      "id": 1027,
+      "term": "projection",
+      "definition": "ego defense mechanism in which a person confronted with anxiety disguises their unacceptable urges or behaviors by attributing them to other people"
+    },
+    {
+      "id": 11027,
+      "term": "ego defense mechanism in which a person confronted with anxiety disguises their unacceptable urges or behaviors by attributing them to other people",
+      "definition": "projection",
+      "isReverse": true
+    },
+    {
+      "id": 1028,
+      "term": "Projective test",
+      "definition": "personality assessment in which a person responds to ambiguous stimuli, revealing hidden feelings, impulses, and desires"
+    },
+    {
+      "id": 11028,
+      "term": "personality assessment in which a person responds to ambiguous stimuli, revealing hidden feelings, impulses, and desires",
+      "definition": "Projective test",
+      "isReverse": true
+    },
+    {
+      "id": 1029,
+      "term": "psychosexual stages of development",
+      "definition": "stages of child development in which a child's pleasure-seeking urges are focused on specific areas of the body called erogenous zones"
+    },
+    {
+      "id": 11029,
+      "term": "stages of child development in which a child's pleasure-seeking urges are focused on specific areas of the body called erogenous zones",
+      "definition": "psychosexual stages of development",
+      "isReverse": true
+    },
+    {
+      "id": 1030,
+      "term": "rationalization",
+      "definition": "ego defense mechanism in which a person confronted with anxiety makes excuses to justify behavior"
+    },
+    {
+      "id": 11030,
+      "term": "ego defense mechanism in which a person confronted with anxiety makes excuses to justify behavior",
+      "definition": "rationalization",
+      "isReverse": true
+    },
+    {
+      "id": 1031,
+      "term": "reaction formation",
+      "definition": "ego defense mechanism in which a person confronted with anxiety swaps unacceptable urges or behaviors for their opposites"
+    },
+    {
+      "id": 11031,
+      "term": "ego defense mechanism in which a person confronted with anxiety swaps unacceptable urges or behaviors for their opposites",
+      "definition": "reaction formation",
+      "isReverse": true
+    },
+    {
+      "id": 1032,
+      "term": "real self",
+      "definition": "person who we actually are"
+    },
+    {
+      "id": 11032,
+      "term": "person who we actually are",
+      "definition": "real self",
+      "isReverse": true
+    },
+    {
+      "id": 1033,
+      "term": "reciprocal determinism",
+      "definition": "belief that one's environment can determine behavior, but at the same time, people can influence the environment with both their thoughts and behaviors"
+    },
+    {
+      "id": 11033,
+      "term": "belief that one's environment can determine behavior, but at the same time, people can influence the environment with both their thoughts and behaviors",
+      "definition": "reciprocal determinism",
+      "isReverse": true
+    },
+    {
+      "id": 1034,
+      "term": "regression",
+      "definition": "ego defense mechanism in which a person confronted with anxiety returns to a more immature behavioral state"
+    },
+    {
+      "id": 11034,
+      "term": "ego defense mechanism in which a person confronted with anxiety returns to a more immature behavioral state",
+      "definition": "regression",
+      "isReverse": true
+    },
+    {
+      "id": 1035,
+      "term": "repression",
+      "definition": "ego defense mechanism in which anxiety-related thoughts and memories are kept in the unconscious"
+    },
+    {
+      "id": 11035,
+      "term": "ego defense mechanism in which anxiety-related thoughts and memories are kept in the unconscious",
+      "definition": "repression",
+      "isReverse": true
+    },
+    {
+      "id": 1036,
+      "term": "Rorschach Inkblot Test",
+      "definition": "projective test that employs a series of symmetrical inkblot cards that are presented to a client by a psychologist in an effort to reveal the person's unconscious desires, fears, and struggles"
+    },
+    {
+      "id": 11036,
+      "term": "projective test that employs a series of symmetrical inkblot cards that are presented to a client by a psychologist in an effort to reveal the person's unconscious desires, fears, and struggles",
+      "definition": "Rorschach Inkblot Test",
+      "isReverse": true
+    },
+    {
+      "id": 1037,
+      "term": "Rotter Incomplete Sentence Blank (RISB)",
+      "definition": "projective test that is similar to a word association test in which a person completes sentences in order to reveal their unconscious desires, fears, and struggles"
+    },
+    {
+      "id": 11037,
+      "term": "projective test that is similar to a word association test in which a person completes sentences in order to reveal their unconscious desires, fears, and struggles",
+      "definition": "Rotter Incomplete Sentence Blank (RISB)",
+      "isReverse": true
+    },
+    {
+      "id": 1038,
+      "term": "selective migration",
+      "definition": "concept that people choose to move to places that are compatible with their personalities and needs"
+    },
+    {
+      "id": 11038,
+      "term": "concept that people choose to move to places that are compatible with their personalities and needs",
+      "definition": "selective migration",
+      "isReverse": true
+    },
+    {
+      "id": 1039,
+      "term": "self-concept",
+      "definition": "our thoughts and feelings about ourselves"
+    },
+    {
+      "id": 11039,
+      "term": "our thoughts and feelings about ourselves",
+      "definition": "self-concept",
+      "isReverse": true
+    },
+    {
+      "id": 1040,
+      "term": "self-efficacy",
+      "definition": "someone's level of confidence in their own abilities"
+    },
+    {
+      "id": 11040,
+      "term": "someone's level of confidence in their own abilities",
+      "definition": "self-efficacy",
+      "isReverse": true
+    },
+    {
+      "id": 1041,
+      "term": "social-cognitive theory",
+      "definition": "Bandura's theory of personality that emphasizes both cognition and learning as sources of individual differences in personality"
+    },
+    {
+      "id": 11041,
+      "term": "Bandura's theory of personality that emphasizes both cognition and learning as sources of individual differences in personality",
+      "definition": "social-cognitive theory",
+      "isReverse": true
+    },
+    {
+      "id": 1042,
+      "term": "sublimation",
+      "definition": "ego defense mechanism in which unacceptable urges are channeled into more appropriate activities"
+    },
+    {
+      "id": 11042,
+      "term": "ego defense mechanism in which unacceptable urges are channeled into more appropriate activities",
+      "definition": "sublimation",
+      "isReverse": true
+    },
+    {
+      "id": 1043,
+      "term": "superego",
+      "definition": "aspect of the personality that serves as one's moral compass, or conscience"
+    },
+    {
+      "id": 11043,
+      "term": "aspect of the personality that serves as one's moral compass, or conscience",
+      "definition": "superego",
+      "isReverse": true
+    },
+    {
+      "id": 1044,
+      "term": "TEMAS Multicultural Thematic Apperception Test",
+      "definition": "projective test designed to be culturally relevant to minority groups, especially Hispanic youths, using images and storytelling that relate to minority culture"
+    },
+    {
+      "id": 11044,
+      "term": "projective test designed to be culturally relevant to minority groups, especially Hispanic youths, using images and storytelling that relate to minority culture",
+      "definition": "TEMAS Multicultural Thematic Apperception Test",
+      "isReverse": true
+    },
+    {
+      "id": 1045,
+      "term": "temperament",
+      "definition": "how a person reacts to the world, including their activity level, starting when they are very young"
+    },
+    {
+      "id": 11045,
+      "term": "how a person reacts to the world, including their activity level, starting when they are very young",
+      "definition": "temperament",
+      "isReverse": true
+    },
+    {
+      "id": 1046,
+      "term": "Thematic Apperception Test (TAT)",
+      "definition": "projective test in which people are presented with ambiguous images, and they then make up stories to go with the images in an effort to uncover their unconscious desires, fears, and struggles"
+    },
+    {
+      "id": 11046,
+      "term": "projective test in which people are presented with ambiguous images, and they then make up stories to go with the images in an effort to uncover their unconscious desires, fears, and struggles",
+      "definition": "Thematic Apperception Test (TAT)",
+      "isReverse": true
+    },
+    {
+      "id": 1047,
+      "term": "traits",
+      "definition": "characteristic ways of behaving"
+    },
+    {
+      "id": 11047,
+      "term": "characteristic ways of behaving",
+      "definition": "traits",
+      "isReverse": true
+    },
+    {
+      "id": 1048,
+      "term": "unconscious",
+      "definition": "mental activity of which we are unaware and unable to access"
+    },
+    {
+      "id": 11048,
+      "term": "mental activity of which we are unaware and unable to access",
+      "definition": "unconscious",
+      "isReverse": true
+    },
+    {
+      "id": 1049,
+      "term": "Personality is thought to be ________.",
+      "definition": "Long term, stable and not easily changed"
+    },
+    {
+      "id": 11049,
+      "term": "Long term, stable and not easily changed",
+      "definition": "Personality is thought to be ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1050,
+      "term": "The long-standing traits and patterns that propel individuals to consistently think, feel, and behave in specific ways are known as ________.",
+      "definition": "Personality"
+    },
+    {
+      "id": 11050,
+      "term": "Personality",
+      "definition": "The long-standing traits and patterns that propel individuals to consistently think, feel, and behave in specific ways are known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1051,
+      "term": "________ is credited with the first comprehensive theory of personality.",
+      "definition": "Freud"
+    },
+    {
+      "id": 11051,
+      "term": "Freud",
+      "definition": "________ is credited with the first comprehensive theory of personality.",
+      "isReverse": true
+    },
+    {
+      "id": 1052,
+      "term": "An early science that tried to correlate personality with measurements of parts of a person's skull is known as ________.",
+      "definition": "Phrenology"
+    },
+    {
+      "id": 11052,
+      "term": "Phrenology",
+      "definition": "An early science that tried to correlate personality with measurements of parts of a person's skull is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1053,
+      "term": "The id operates on the ________ principle.",
+      "definition": "Pleasure"
+    },
+    {
+      "id": 11053,
+      "term": "Pleasure",
+      "definition": "The id operates on the ________ principle.",
+      "isReverse": true
+    },
+    {
+      "id": 1054,
+      "term": "The ego defense mechanism in which a person who is confronted with anxiety returns to a more immature behavioral stage is called ________.",
+      "definition": "Regression"
+    },
+    {
+      "id": 11054,
+      "term": "Regression",
+      "definition": "The ego defense mechanism in which a person who is confronted with anxiety returns to a more immature behavioral stage is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1055,
+      "term": "The Oedipus complex occurs in the ________ stage of psychosexual development.",
+      "definition": "Phallic"
+    },
+    {
+      "id": 11055,
+      "term": "Phallic",
+      "definition": "The Oedipus complex occurs in the ________ stage of psychosexual development.",
+      "isReverse": true
+    },
+    {
+      "id": 1056,
+      "term": "The universal bank of ideas, images, and concepts that have been passed down through the generations from our ancestors refers to ________.",
+      "definition": "Collective unconscious"
+    },
+    {
+      "id": 11056,
+      "term": "Collective unconscious",
+      "definition": "The universal bank of ideas, images, and concepts that have been passed down through the generations from our ancestors refers to ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1057,
+      "term": "Self-regulation is also known as ________.",
+      "definition": "Will power"
+    },
+    {
+      "id": 11057,
+      "term": "Will power",
+      "definition": "Self-regulation is also known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1058,
+      "term": "Your level of confidence in your own abilities is known as ________.",
+      "definition": "Self-efficacy"
+    },
+    {
+      "id": 11058,
+      "term": "Self-efficacy",
+      "definition": "Your level of confidence in your own abilities is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1059,
+      "term": "Jane believes that she got a bad grade on her psychology paper because her professor doesn't like her. Jane most likely has an ________ locus of control.",
+      "definition": "External"
+    },
+    {
+      "id": 11059,
+      "term": "External",
+      "definition": "Jane believes that she got a bad grade on her psychology paper because her professor doesn't like her. Jane most likely has an ________ locus of control.",
+      "isReverse": true
+    },
+    {
+      "id": 1060,
+      "term": "Self-concept refers to ________.",
+      "definition": "All of our thoughts and feelings about ourselves"
+    },
+    {
+      "id": 11060,
+      "term": "All of our thoughts and feelings about ourselves",
+      "definition": "Self-concept refers to ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1061,
+      "term": "The idea that people's ideas about themselves should match their actions is called ________.",
+      "definition": "Congruence"
+    },
+    {
+      "id": 11061,
+      "term": "Congruence",
+      "definition": "The idea that people's ideas about themselves should match their actions is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1062,
+      "term": "The way a person reacts to the world, starting when they are very young, including the person's activity level is known as ________.",
+      "definition": "Temperament"
+    },
+    {
+      "id": 11062,
+      "term": "Temperament",
+      "definition": "The way a person reacts to the world, starting when they are very young, including the person's activity level is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1063,
+      "term": "Brianna is 18 months old. She cries frequently, is hard to soothe, and wakes frequently during the night. According to Thomas and Chess, she would be considered ________.",
+      "definition": "A difficult baby"
+    },
+    {
+      "id": 11063,
+      "term": "A difficult baby",
+      "definition": "Brianna is 18 months old. She cries frequently, is hard to soothe, and wakes frequently during the night. According to Thomas and Chess, she would be considered ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1064,
+      "term": "According to the findings of the Minnesota Study of Twins Reared Apart, identical twins, whether raised together or apart have ________ personalities.",
+      "definition": "Very similar"
+    },
+    {
+      "id": 11064,
+      "term": "Very similar",
+      "definition": "According to the findings of the Minnesota Study of Twins Reared Apart, identical twins, whether raised together or apart have ________ personalities.",
+      "isReverse": true
+    },
+    {
+      "id": 1065,
+      "term": "Temperament refers to ________.",
+      "definition": "Inborn, genetically based personality differences"
+    },
+    {
+      "id": 11065,
+      "term": "Inborn, genetically based personality differences",
+      "definition": "Temperament refers to ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1066,
+      "term": "According to the Eysencks' theory, people who score high on neuroticism tend to be ________.",
+      "definition": "Anxious"
+    },
+    {
+      "id": 11066,
+      "term": "Anxious",
+      "definition": "According to the Eysencks' theory, people who score high on neuroticism tend to be ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1067,
+      "term": "The United States is considered a ________ culture.",
+      "definition": "Individualist"
+    },
+    {
+      "id": 11067,
+      "term": "Individualist",
+      "definition": "The United States is considered a ________ culture.",
+      "isReverse": true
+    },
+    {
+      "id": 1068,
+      "term": "The concept that people choose to move to places that are compatible with their personalities and needs is known as ________.",
+      "definition": "Selective migration"
+    },
+    {
+      "id": 11068,
+      "term": "Selective migration",
+      "definition": "The concept that people choose to move to places that are compatible with their personalities and needs is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1069,
+      "term": "Which of the following is NOT a projective test?",
+      "definition": "Minnesota Multiphasic Personality Inventory (MMPI)"
+    },
+    {
+      "id": 11069,
+      "term": "Minnesota Multiphasic Personality Inventory (MMPI)",
+      "definition": "Which of the following is NOT a projective test?",
+      "isReverse": true
+    },
+    {
+      "id": 1070,
+      "term": "A personality assessment in which a person responds to ambiguous stimuli, revealing unconscious feelings, impulses, and desires ________.",
+      "definition": "Projective test"
+    },
+    {
+      "id": 11070,
+      "term": "Projective test",
+      "definition": "A personality assessment in which a person responds to ambiguous stimuli, revealing unconscious feelings, impulses, and desires ________.",
+      "isReverse": true
+    },
+    {
+      "id": 1071,
+      "term": "Which personality assessment employs a series of true/false questions?",
+      "definition": "Minnesota Multiphasic Personality Inventory (MMPI)"
+    },
+    {
+      "id": 11071,
+      "term": "Minnesota Multiphasic Personality Inventory (MMPI)",
+      "definition": "Which personality assessment employs a series of true/false questions?",
+      "isReverse": true
+    },
+    {
+      "id": 1072,
+      "term": "Unconscious (Freud)",
+      "definition": "Mental activity of which we are unaware and unable to access. Unacceptable urges are kept here through repression."
+    },
+    {
+      "id": 11072,
+      "term": "Mental activity of which we are unaware and unable to access. Unacceptable urges are kept here through repression.",
+      "definition": "Unconscious (Freud)",
+      "isReverse": true
+    },
+    {
+      "id": 1073,
+      "term": "Defense Mechanisms",
+      "definition": "Unconscious protective behaviors that aim to reduce anxiety (e.g., Projection, Rationalization, Displacement)."
+    },
+    {
+      "id": 11073,
+      "term": "Unconscious protective behaviors that aim to reduce anxiety (e.g., Projection, Rationalization, Displacement).",
+      "definition": "Defense Mechanisms",
+      "isReverse": true
+    },
+    {
+      "id": 1074,
+      "term": "Inferiority Complex (Adler)",
+      "definition": "Feelings of inferiority in childhood drive people to attempt to gain superiority."
+    },
+    {
+      "id": 11074,
+      "term": "Feelings of inferiority in childhood drive people to attempt to gain superiority.",
+      "definition": "Inferiority Complex (Adler)",
+      "isReverse": true
+    },
+    {
+      "id": 1075,
+      "term": "Collective Unconscious (Jung)",
+      "definition": "A universal version of the personal unconscious, holding mental patterns or memory traces common to all of us (archetypes)."
+    },
+    {
+      "id": 11075,
+      "term": "A universal version of the personal unconscious, holding mental patterns or memory traces common to all of us (archetypes).",
+      "definition": "Collective Unconscious (Jung)",
+      "isReverse": true
+    },
+    {
+      "id": 1076,
+      "term": "Archetypes",
+      "definition": "Ancestral memories represented by universal themes in various cultures (e.g., the hero, the maiden)."
+    },
+    {
+      "id": 11076,
+      "term": "Ancestral memories represented by universal themes in various cultures (e.g., the hero, the maiden).",
+      "definition": "Archetypes",
+      "isReverse": true
+    },
+    {
+      "id": 1077,
+      "term": "Horney's Coping Styles",
+      "definition": "Moving toward people (affiliation), Moving against people (aggression), Moving away from people (detachment)."
+    },
+    {
+      "id": 11077,
+      "term": "Moving toward people (affiliation), Moving against people (aggression), Moving away from people (detachment).",
+      "definition": "Horney's Coping Styles",
+      "isReverse": true
+    },
+    {
+      "id": 1078,
+      "term": "Reciprocal Determinism (Bandura)",
+      "definition": "Cognitive processes, behavior, and context all interact and influence each other simultaneously."
+    },
+    {
+      "id": 11078,
+      "term": "Cognitive processes, behavior, and context all interact and influence each other simultaneously.",
+      "definition": "Reciprocal Determinism (Bandura)",
+      "isReverse": true
+    },
+    {
+      "id": 1079,
+      "term": "Locus of Control (Rotter)",
+      "definition": "Beliefs about the power we have over our lives. Internal (I control outcomes) vs. External (luck/fate controls outcomes)."
+    },
+    {
+      "id": 11079,
+      "term": "Beliefs about the power we have over our lives. Internal (I control outcomes) vs. External (luck/fate controls outcomes).",
+      "definition": "Locus of Control (Rotter)",
+      "isReverse": true
+    },
+    {
+      "id": 1080,
+      "term": "Self-Regulation (Mischel)",
+      "definition": "Process of identifying a goal and using internal/external feedback to maximize goal attainment (e.g., marshmallow test)."
+    },
+    {
+      "id": 11080,
+      "term": "Process of identifying a goal and using internal/external feedback to maximize goal attainment (e.g., marshmallow test).",
+      "definition": "Self-Regulation (Mischel)",
+      "isReverse": true
+    },
+    {
+      "id": 1081,
+      "term": "Congruence (Rogers)",
+      "definition": "State of being in which our thoughts about our real self and ideal self are very similar."
+    },
+    {
+      "id": 11081,
+      "term": "State of being in which our thoughts about our real self and ideal self are very similar.",
+      "definition": "Congruence (Rogers)",
+      "isReverse": true
+    },
+    {
+      "id": 1082,
+      "term": "Five Factor Model (Big Five)",
+      "definition": "Personality theory composed of 5 factors: Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism (OCEAN)."
+    },
+    {
+      "id": 11082,
+      "term": "Personality theory composed of 5 factors: Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism (OCEAN).",
+      "definition": "Five Factor Model (Big Five)",
+      "isReverse": true
+    },
+    {
+      "id": 1083,
+      "term": "Self-Report Inventories",
+      "definition": "Objective tests to assess personality using multiple-choice items or numbered scales (e.g., MMPI)."
+    },
+    {
+      "id": 11083,
+      "term": "Objective tests to assess personality using multiple-choice items or numbered scales (e.g., MMPI).",
+      "definition": "Self-Report Inventories",
+      "isReverse": true
+    },
+    {
+      "id": 1084,
+      "term": "Projective Tests",
+      "definition": "Tests where a person interprets ambiguous stimuli to reveal unconscious feelings/desires (e.g., Rorschach Inkblot, TAT)."
+    },
+    {
+      "id": 11084,
+      "term": "Tests where a person interprets ambiguous stimuli to reveal unconscious feelings/desires (e.g., Rorschach Inkblot, TAT).",
+      "definition": "Projective Tests",
+      "isReverse": true
+    }
+  ]
+}

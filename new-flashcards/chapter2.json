@@ -1,0 +1,897 @@
+{
+  "title": "Chapter 2: Research",
+  "description": "Key Terms and Research Methods",
+  "cards": [
+    {
+      "id": 101,
+      "term": "archival research",
+      "definition": "method of research using past records or data sets to answer various research questions, or to search for interesting patterns or relationships"
+    },
+    {
+      "id": 10101,
+      "term": "method of research using past records or data sets to answer various research questions, or to search for interesting patterns or relationships",
+      "definition": "archival research",
+      "isReverse": true
+    },
+    {
+      "id": 102,
+      "term": "attrition",
+      "definition": "reduction in number of research participants as some drop out of the study over time"
+    },
+    {
+      "id": 10102,
+      "term": "reduction in number of research participants as some drop out of the study over time",
+      "definition": "attrition",
+      "isReverse": true
+    },
+    {
+      "id": 103,
+      "term": "cause-and-effect relationship",
+      "definition": "changes in one variable cause the changes in the other variable; can be determined only through an experimental research design"
+    },
+    {
+      "id": 10103,
+      "term": "changes in one variable cause the changes in the other variable; can be determined only through an experimental research design",
+      "definition": "cause-and-effect relationship",
+      "isReverse": true
+    },
+    {
+      "id": 104,
+      "term": "clinical or case study",
+      "definition": "observational research study focusing on one or a few people"
+    },
+    {
+      "id": 10104,
+      "term": "observational research study focusing on one or a few people",
+      "definition": "clinical or case study",
+      "isReverse": true
+    },
+    {
+      "id": 105,
+      "term": "confirmation bias",
+      "definition": "tendency to ignore evidence that disproves ideas or beliefs"
+    },
+    {
+      "id": 10105,
+      "term": "tendency to ignore evidence that disproves ideas or beliefs",
+      "definition": "confirmation bias",
+      "isReverse": true
+    },
+    {
+      "id": 106,
+      "term": "confounding variable",
+      "definition": "unanticipated outside factor that affects both variables of interest, often giving the false impression that changes in one variable causes changes in the other variable, when, in actuality, the outside factor causes changes in both variables"
+    },
+    {
+      "id": 10106,
+      "term": "unanticipated outside factor that affects both variables of interest, often giving the false impression that changes in one variable causes changes in the other variable, when, in actuality, the outside factor causes changes in both variables",
+      "definition": "confounding variable",
+      "isReverse": true
+    },
+    {
+      "id": 107,
+      "term": "control group",
+      "definition": "serves as a basis for comparison and controls for chance factors that might influence the results of the study—by holding such factors constant across groups so that the experimental manipulation is the only difference between groups"
+    },
+    {
+      "id": 10107,
+      "term": "serves as a basis for comparison and controls for chance factors that might influence the results of the study—by holding such factors constant across groups so that the experimental manipulation is the only difference between groups",
+      "definition": "control group",
+      "isReverse": true
+    },
+    {
+      "id": 108,
+      "term": "correlation",
+      "definition": "relationship between two or more variables; when two variables are correlated, one variable changes as the other does"
+    },
+    {
+      "id": 10108,
+      "term": "relationship between two or more variables; when two variables are correlated, one variable changes as the other does",
+      "definition": "correlation",
+      "isReverse": true
+    },
+    {
+      "id": 109,
+      "term": "correlation coefficient",
+      "definition": "number from -1 to +1, indicating the strength and direction of the relationship between variables, and usually represented by r"
+    },
+    {
+      "id": 10109,
+      "term": "number from -1 to +1, indicating the strength and direction of the relationship between variables, and usually represented by r",
+      "definition": "correlation coefficient",
+      "isReverse": true
+    },
+    {
+      "id": 110,
+      "term": "cross-sectional research",
+      "definition": "compares multiple segments of a population at a single time"
+    },
+    {
+      "id": 10110,
+      "term": "compares multiple segments of a population at a single time",
+      "definition": "cross-sectional research",
+      "isReverse": true
+    },
+    {
+      "id": 111,
+      "term": "debriefing",
+      "definition": "when an experiment involved deception, participants are told complete and truthful information about the experiment at its conclusion"
+    },
+    {
+      "id": 10111,
+      "term": "when an experiment involved deception, participants are told complete and truthful information about the experiment at its conclusion",
+      "definition": "debriefing",
+      "isReverse": true
+    },
+    {
+      "id": 112,
+      "term": "deception",
+      "definition": "purposely misleading experiment participants in order to maintain the integrity of the experiment"
+    },
+    {
+      "id": 10112,
+      "term": "purposely misleading experiment participants in order to maintain the integrity of the experiment",
+      "definition": "deception",
+      "isReverse": true
+    },
+    {
+      "id": 113,
+      "term": "deductive reasoning",
+      "definition": "results are predicted based on a general premise"
+    },
+    {
+      "id": 10113,
+      "term": "results are predicted based on a general premise",
+      "definition": "deductive reasoning",
+      "isReverse": true
+    },
+    {
+      "id": 114,
+      "term": "dependent variable",
+      "definition": "variable that the researcher measures to see how much effect the independent variable had"
+    },
+    {
+      "id": 10114,
+      "term": "variable that the researcher measures to see how much effect the independent variable had",
+      "definition": "dependent variable",
+      "isReverse": true
+    },
+    {
+      "id": 115,
+      "term": "double-blind study",
+      "definition": "experiment in which both the researchers and the participants are blind to group assignments"
+    },
+    {
+      "id": 10115,
+      "term": "experiment in which both the researchers and the participants are blind to group assignments",
+      "definition": "double-blind study",
+      "isReverse": true
+    },
+    {
+      "id": 116,
+      "term": "empirical",
+      "definition": "grounded in objective, tangible evidence that can be observed time and time again, regardless of who is observing"
+    },
+    {
+      "id": 10116,
+      "term": "grounded in objective, tangible evidence that can be observed time and time again, regardless of who is observing",
+      "definition": "empirical",
+      "isReverse": true
+    },
+    {
+      "id": 117,
+      "term": "experimental group",
+      "definition": "group designed to answer the research question; experimental manipulation is the only difference between the experimental and control groups, so any differences between the two are due to experimental manipulation rather than chance"
+    },
+    {
+      "id": 10117,
+      "term": "group designed to answer the research question; experimental manipulation is the only difference between the experimental and control groups, so any differences between the two are due to experimental manipulation rather than chance",
+      "definition": "experimental group",
+      "isReverse": true
+    },
+    {
+      "id": 118,
+      "term": "experimenter bias",
+      "definition": "researcher expectations skew the results of the study"
+    },
+    {
+      "id": 10118,
+      "term": "researcher expectations skew the results of the study",
+      "definition": "experimenter bias",
+      "isReverse": true
+    },
+    {
+      "id": 119,
+      "term": "fact",
+      "definition": "objective and verifiable observation, established using evidence collected through empirical research"
+    },
+    {
+      "id": 10119,
+      "term": "objective and verifiable observation, established using evidence collected through empirical research",
+      "definition": "fact",
+      "isReverse": true
+    },
+    {
+      "id": 120,
+      "term": "falsifiable",
+      "definition": "able to be disproven by experimental results"
+    },
+    {
+      "id": 10120,
+      "term": "able to be disproven by experimental results",
+      "definition": "falsifiable",
+      "isReverse": true
+    },
+    {
+      "id": 121,
+      "term": "generalize",
+      "definition": "inferring that the results for a sample apply to the larger population"
+    },
+    {
+      "id": 10121,
+      "term": "inferring that the results for a sample apply to the larger population",
+      "definition": "generalize",
+      "isReverse": true
+    },
+    {
+      "id": 122,
+      "term": "hypothesis",
+      "definition": "tentative and testable statement about the relationship between two or more variables"
+    },
+    {
+      "id": 10122,
+      "term": "tentative and testable statement about the relationship between two or more variables",
+      "definition": "hypothesis",
+      "isReverse": true
+    },
+    {
+      "id": 123,
+      "term": "illusory correlation",
+      "definition": "seeing relationships between two things when in reality no such relationship exists"
+    },
+    {
+      "id": 10123,
+      "term": "seeing relationships between two things when in reality no such relationship exists",
+      "definition": "illusory correlation",
+      "isReverse": true
+    },
+    {
+      "id": 124,
+      "term": "independent variable",
+      "definition": "variable that is influenced or controlled by the experimenter; in a sound experimental study, the independent variable is the only important difference between the experimental and control group"
+    },
+    {
+      "id": 10124,
+      "term": "variable that is influenced or controlled by the experimenter; in a sound experimental study, the independent variable is the only important difference between the experimental and control group",
+      "definition": "independent variable",
+      "isReverse": true
+    },
+    {
+      "id": 125,
+      "term": "independent variable",
+      "definition": "variable that is influenced or controlled by the experimenter; in a sound experimental study, the independent variable is the only important difference between the experimental and control group"
+    },
+    {
+      "id": 10125,
+      "term": "variable that is influenced or controlled by the experimenter; in a sound experimental study, the independent variable is the only important difference between the experimental and control group",
+      "definition": "independent variable",
+      "isReverse": true
+    },
+    {
+      "id": 126,
+      "term": "inductive reasoning",
+      "definition": "conclusions are drawn from observations"
+    },
+    {
+      "id": 10126,
+      "term": "conclusions are drawn from observations",
+      "definition": "inductive reasoning",
+      "isReverse": true
+    },
+    {
+      "id": 127,
+      "term": "informed consent",
+      "definition": "process of informing a research participant about what to expect during an experiment, any risks involved, and the implications of the research, and then obtaining the person's consent to participate"
+    },
+    {
+      "id": 10127,
+      "term": "process of informing a research participant about what to expect during an experiment, any risks involved, and the implications of the research, and then obtaining the person's consent to participate",
+      "definition": "informed consent",
+      "isReverse": true
+    },
+    {
+      "id": 128,
+      "term": "Institutional Animal Care and Use Committee (IACUC)",
+      "definition": "committee of administrators, scientists, veterinarians, and community members that reviews proposals for research involving non-human animals"
+    },
+    {
+      "id": 10128,
+      "term": "committee of administrators, scientists, veterinarians, and community members that reviews proposals for research involving non-human animals",
+      "definition": "Institutional Animal Care and Use Committee (IACUC)",
+      "isReverse": true
+    },
+    {
+      "id": 129,
+      "term": "Institutional Review Board (IRB)",
+      "definition": "committee of administrators, scientists, and community members that reviews proposals for research involving human participants"
+    },
+    {
+      "id": 10129,
+      "term": "committee of administrators, scientists, and community members that reviews proposals for research involving human participants",
+      "definition": "Institutional Review Board (IRB)",
+      "isReverse": true
+    },
+    {
+      "id": 130,
+      "term": "inter-rater reliability",
+      "definition": "measure of agreement among observers on how they record and classify a particular event"
+    },
+    {
+      "id": 10130,
+      "term": "measure of agreement among observers on how they record and classify a particular event",
+      "definition": "inter-rater reliability",
+      "isReverse": true
+    },
+    {
+      "id": 131,
+      "term": "longitudinal research",
+      "definition": "studies in which the same group of individuals is surveyed or measured repeatedly over an extended period of time"
+    },
+    {
+      "id": 10131,
+      "term": "studies in which the same group of individuals is surveyed or measured repeatedly over an extended period of time",
+      "definition": "longitudinal research",
+      "isReverse": true
+    },
+    {
+      "id": 132,
+      "term": "naturalistic observation",
+      "definition": "observation of behavior in its natural setting"
+    },
+    {
+      "id": 10132,
+      "term": "observation of behavior in its natural setting",
+      "definition": "naturalistic observation",
+      "isReverse": true
+    },
+    {
+      "id": 133,
+      "term": "negative correlation",
+      "definition": "two variables change in different directions, with one becoming larger as the other becomes smaller; a negative correlation is not the same thing as no correlation"
+    },
+    {
+      "id": 10133,
+      "term": "two variables change in different directions, with one becoming larger as the other becomes smaller; a negative correlation is not the same thing as no correlation",
+      "definition": "negative correlation",
+      "isReverse": true
+    },
+    {
+      "id": 134,
+      "term": "observer bias",
+      "definition": "when observations may be skewed to align with observer expectations"
+    },
+    {
+      "id": 10134,
+      "term": "when observations may be skewed to align with observer expectations",
+      "definition": "observer bias",
+      "isReverse": true
+    },
+    {
+      "id": 135,
+      "term": "operational definition",
+      "definition": "description of what actions and operations will be used to measure the dependent variables and manipulate the independent variables"
+    },
+    {
+      "id": 10135,
+      "term": "description of what actions and operations will be used to measure the dependent variables and manipulate the independent variables",
+      "definition": "operational definition",
+      "isReverse": true
+    },
+    {
+      "id": 136,
+      "term": "opinion",
+      "definition": "personal judgments, conclusions, or attitudes that may or may not be accurate"
+    },
+    {
+      "id": 10136,
+      "term": "personal judgments, conclusions, or attitudes that may or may not be accurate",
+      "definition": "opinion",
+      "isReverse": true
+    },
+    {
+      "id": 137,
+      "term": "participants",
+      "definition": "subjects of psychological research"
+    },
+    {
+      "id": 10137,
+      "term": "subjects of psychological research",
+      "definition": "participants",
+      "isReverse": true
+    },
+    {
+      "id": 138,
+      "term": "peer-reviewed journal article",
+      "definition": "article read by several other scientists (usually anonymously) with expertise in the subject matter, who provide feedback regarding the quality of the manuscript before it is accepted for publication"
+    },
+    {
+      "id": 10138,
+      "term": "article read by several other scientists (usually anonymously) with expertise in the subject matter, who provide feedback regarding the quality of the manuscript before it is accepted for publication",
+      "definition": "peer-reviewed journal article",
+      "isReverse": true
+    },
+    {
+      "id": 139,
+      "term": "placebo effect",
+      "definition": "people's expectations or beliefs influencing or determining their experience in a given situation"
+    },
+    {
+      "id": 10139,
+      "term": "people's expectations or beliefs influencing or determining their experience in a given situation",
+      "definition": "placebo effect",
+      "isReverse": true
+    },
+    {
+      "id": 140,
+      "term": "population",
+      "definition": "overall group of individuals that the researchers are interested in"
+    },
+    {
+      "id": 10140,
+      "term": "overall group of individuals that the researchers are interested in",
+      "definition": "population",
+      "isReverse": true
+    },
+    {
+      "id": 141,
+      "term": "positive correlation",
+      "definition": "two variables change in the same direction, both becoming either larger or smaller"
+    },
+    {
+      "id": 10141,
+      "term": "two variables change in the same direction, both becoming either larger or smaller",
+      "definition": "positive correlation",
+      "isReverse": true
+    },
+    {
+      "id": 142,
+      "term": "random assignment",
+      "definition": "method of experimental group assignment in which all participants have an equal chance of being assigned to either group"
+    },
+    {
+      "id": 10142,
+      "term": "method of experimental group assignment in which all participants have an equal chance of being assigned to either group",
+      "definition": "random assignment",
+      "isReverse": true
+    },
+    {
+      "id": 143,
+      "term": "random sample",
+      "definition": "subset of a larger population in which every member of the population has an equal chance of being selected"
+    },
+    {
+      "id": 10143,
+      "term": "subset of a larger population in which every member of the population has an equal chance of being selected",
+      "definition": "random sample",
+      "isReverse": true
+    },
+    {
+      "id": 144,
+      "term": "reliability",
+      "definition": "consistency and reproducibility of a given result"
+    },
+    {
+      "id": 10144,
+      "term": "consistency and reproducibility of a given result",
+      "definition": "reliability",
+      "isReverse": true
+    },
+    {
+      "id": 145,
+      "term": "replicate",
+      "definition": "repeating an experiment using different samples to determine the research's reliability"
+    },
+    {
+      "id": 10145,
+      "term": "repeating an experiment using different samples to determine the research's reliability",
+      "definition": "replicate",
+      "isReverse": true
+    },
+    {
+      "id": 146,
+      "term": "sample",
+      "definition": "subset of individuals selected from the larger population"
+    },
+    {
+      "id": 10146,
+      "term": "subset of individuals selected from the larger population",
+      "definition": "sample",
+      "isReverse": true
+    },
+    {
+      "id": 147,
+      "term": "single-blind study",
+      "definition": "experiment in which the researcher knows which participants are in the experimental group and which are in the control group"
+    },
+    {
+      "id": 10147,
+      "term": "experiment in which the researcher knows which participants are in the experimental group and which are in the control group",
+      "definition": "single-blind study",
+      "isReverse": true
+    },
+    {
+      "id": 148,
+      "term": "statistical analysis",
+      "definition": "determines how likely any difference between experimental groups is due to chance"
+    },
+    {
+      "id": 10148,
+      "term": "determines how likely any difference between experimental groups is due to chance",
+      "definition": "statistical analysis",
+      "isReverse": true
+    },
+    {
+      "id": 149,
+      "term": "survey",
+      "definition": "list of questions to be answered by research participants—given as paper-and-pencil questionnaires, administered electronically, or conducted verbally—allowing researchers to collect data from a large number of people"
+    },
+    {
+      "id": 10149,
+      "term": "list of questions to be answered by research participants—given as paper-and-pencil questionnaires, administered electronically, or conducted verbally—allowing researchers to collect data from a large number of people",
+      "definition": "survey",
+      "isReverse": true
+    },
+    {
+      "id": 150,
+      "term": "theory",
+      "definition": "well-developed set of ideas that propose an explanation for observed phenomena"
+    },
+    {
+      "id": 10150,
+      "term": "well-developed set of ideas that propose an explanation for observed phenomena",
+      "definition": "theory",
+      "isReverse": true
+    },
+    {
+      "id": 151,
+      "term": "validity",
+      "definition": "accuracy of a given result in measuring what it is designed to measure"
+    },
+    {
+      "id": 10151,
+      "term": "accuracy of a given result in measuring what it is designed to measure",
+      "definition": "validity",
+      "isReverse": true
+    },
+    {
+      "id": 152,
+      "term": "Scientific hypotheses are ________ and falsifiable.",
+      "definition": "Testable"
+    },
+    {
+      "id": 10152,
+      "term": "Testable",
+      "definition": "Scientific hypotheses are ________ and falsifiable.",
+      "isReverse": true
+    },
+    {
+      "id": 153,
+      "term": "________ are defined as observable realities.",
+      "definition": "Facts"
+    },
+    {
+      "id": 10153,
+      "term": "Facts",
+      "definition": "________ are defined as observable realities.",
+      "isReverse": true
+    },
+    {
+      "id": 154,
+      "term": "Scientific knowledge is ________.",
+      "definition": "Empirical"
+    },
+    {
+      "id": 10154,
+      "term": "Empirical",
+      "definition": "Scientific knowledge is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 155,
+      "term": "A major criticism of Freud's early theories involves the fact that his theories ________.",
+      "definition": "Were not testable"
+    },
+    {
+      "id": 10155,
+      "term": "Were not testable",
+      "definition": "A major criticism of Freud's early theories involves the fact that his theories ________.",
+      "isReverse": true
+    },
+    {
+      "id": 156,
+      "term": "Sigmund Freud developed his theory of human personality by conducting in-depth interviews over an extended period of time with a few clients. This type of research approach is known as a(n): ________.",
+      "definition": "Case study"
+    },
+    {
+      "id": 10156,
+      "term": "Case study",
+      "definition": "Sigmund Freud developed his theory of human personality by conducting in-depth interviews over an extended period of time with a few clients. This type of research approach is known as a(n): ________.",
+      "isReverse": true
+    },
+    {
+      "id": 157,
+      "term": "________ involves observing behavior in individuals in their natural environments.",
+      "definition": "Naturalistic observation"
+    },
+    {
+      "id": 10157,
+      "term": "Naturalistic observation",
+      "definition": "________ involves observing behavior in individuals in their natural environments.",
+      "isReverse": true
+    },
+    {
+      "id": 158,
+      "term": "The major limitation of case studies is ________.",
+      "definition": "The inability to generalize the findings from this approach to the larger population"
+    },
+    {
+      "id": 10158,
+      "term": "The inability to generalize the findings from this approach to the larger population",
+      "definition": "The major limitation of case studies is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 159,
+      "term": "The benefit of naturalistic observation studies is ________.",
+      "definition": "The honesty of the data that is collected in a realistic setting"
+    },
+    {
+      "id": 10159,
+      "term": "The honesty of the data that is collected in a realistic setting",
+      "definition": "The benefit of naturalistic observation studies is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 160,
+      "term": "Using existing records to try to answer a research question is known as ________.",
+      "definition": "Archival research"
+    },
+    {
+      "id": 10160,
+      "term": "Archival research",
+      "definition": "Using existing records to try to answer a research question is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 161,
+      "term": "________ involves following a group of research participants for an extended period of time.",
+      "definition": "Longitudinal research"
+    },
+    {
+      "id": 10161,
+      "term": "Longitudinal research",
+      "definition": "________ involves following a group of research participants for an extended period of time.",
+      "isReverse": true
+    },
+    {
+      "id": 162,
+      "term": "A(n) ________ is a list of questions developed by a researcher that can be administered in paper form.",
+      "definition": "Survey"
+    },
+    {
+      "id": 10162,
+      "term": "Survey",
+      "definition": "A(n) ________ is a list of questions developed by a researcher that can be administered in paper form.",
+      "isReverse": true
+    },
+    {
+      "id": 163,
+      "term": "Longitudinal research is complicated by high rates of ________.",
+      "definition": "Attrition"
+    },
+    {
+      "id": 10163,
+      "term": "Attrition",
+      "definition": "Longitudinal research is complicated by high rates of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 164,
+      "term": "Height and weight are positively correlated. This means that:",
+      "definition": "As height increases, typically weight increases"
+    },
+    {
+      "id": 10164,
+      "term": "As height increases, typically weight increases",
+      "definition": "Height and weight are positively correlated. This means that:",
+      "isReverse": true
+    },
+    {
+      "id": 165,
+      "term": "Which of the following correlation coefficients indicates the strongest relationship between two variables?",
+      "definition": "-.90"
+    },
+    {
+      "id": 10165,
+      "term": "-.90",
+      "definition": "Which of the following correlation coefficients indicates the strongest relationship between two variables?",
+      "isReverse": true
+    },
+    {
+      "id": 166,
+      "term": "Which statement best illustrates a negative correlation between the number of hours spent watching TV the week before an exam and the grade on that exam?",
+      "definition": "Students who watch more television perform more poorly on their exams"
+    },
+    {
+      "id": 10166,
+      "term": "Students who watch more television perform more poorly on their exams",
+      "definition": "Which statement best illustrates a negative correlation between the number of hours spent watching TV the week before an exam and the grade on that exam?",
+      "isReverse": true
+    },
+    {
+      "id": 167,
+      "term": "The correlation coefficient indicates the weakest relationship when ________.",
+      "definition": "It is closest to 0"
+    },
+    {
+      "id": 10167,
+      "term": "It is closest to 0",
+      "definition": "The correlation coefficient indicates the weakest relationship when ________.",
+      "isReverse": true
+    },
+    {
+      "id": 168,
+      "term": "________ means that everyone in the population has the same likelihood of being asked to participate in the study.",
+      "definition": "Random sampling"
+    },
+    {
+      "id": 10168,
+      "term": "Random sampling",
+      "definition": "________ means that everyone in the population has the same likelihood of being asked to participate in the study.",
+      "isReverse": true
+    },
+    {
+      "id": 169,
+      "term": "The ________ is controlled by the experimenter, while the ________ represents the information collected and statistically analyzed by the experimenter.",
+      "definition": "Independent variable; dependent variable"
+    },
+    {
+      "id": 10169,
+      "term": "Independent variable; dependent variable",
+      "definition": "The ________ is controlled by the experimenter, while the ________ represents the information collected and statistically analyzed by the experimenter.",
+      "isReverse": true
+    },
+    {
+      "id": 170,
+      "term": "Researchers must ________ important concepts in their studies so others would have a clear understanding of exactly how those concepts were defined.",
+      "definition": "Operationalize"
+    },
+    {
+      "id": 10170,
+      "term": "Operationalize",
+      "definition": "Researchers must ________ important concepts in their studies so others would have a clear understanding of exactly how those concepts were defined.",
+      "isReverse": true
+    },
+    {
+      "id": 171,
+      "term": "Sometimes, researchers will administer a(n) ________ to participants in the control group to control for the effects that participant expectation might have on the experiment.",
+      "definition": "Placebo"
+    },
+    {
+      "id": 10171,
+      "term": "Placebo",
+      "definition": "Sometimes, researchers will administer a(n) ________ to participants in the control group to control for the effects that participant expectation might have on the experiment.",
+      "isReverse": true
+    },
+    {
+      "id": 172,
+      "term": "________ is to animal research as ________ is to human research.",
+      "definition": "IACUC; IRB"
+    },
+    {
+      "id": 10172,
+      "term": "IACUC; IRB",
+      "definition": "________ is to animal research as ________ is to human research.",
+      "isReverse": true
+    },
+    {
+      "id": 173,
+      "term": "Researchers might use ________ when providing participants with the full details of the experiment could skew their responses.",
+      "definition": "Deception"
+    },
+    {
+      "id": 10173,
+      "term": "Deception",
+      "definition": "Researchers might use ________ when providing participants with the full details of the experiment could skew their responses.",
+      "isReverse": true
+    },
+    {
+      "id": 174,
+      "term": "A person's participation in a research project must be ________.",
+      "definition": "Voluntary"
+    },
+    {
+      "id": 10174,
+      "term": "Voluntary",
+      "definition": "A person's participation in a research project must be ________.",
+      "isReverse": true
+    },
+    {
+      "id": 175,
+      "term": "Before participating in an experiment, individuals should read and sign the ________ form.",
+      "definition": "Informed consent"
+    },
+    {
+      "id": 10175,
+      "term": "Informed consent",
+      "definition": "Before participating in an experiment, individuals should read and sign the ________ form.",
+      "isReverse": true
+    },
+    {
+      "id": 176,
+      "term": "Fact vs. Opinion",
+      "definition": "Facts are observable realities. Opinions are personal judgments, conclusions, or attitudes that may or may not be accurate."
+    },
+    {
+      "id": 10176,
+      "term": "Facts are observable realities. Opinions are personal judgments, conclusions, or attitudes that may or may not be accurate.",
+      "definition": "Fact vs. Opinion",
+      "isReverse": true
+    },
+    {
+      "id": 177,
+      "term": "Margaret Floy Washburn",
+      "definition": "The first woman to earn a PhD in psychology (1871-1939)."
+    },
+    {
+      "id": 10177,
+      "term": "The first woman to earn a PhD in psychology (1871-1939).",
+      "definition": "Margaret Floy Washburn",
+      "isReverse": true
+    },
+    {
+      "id": 178,
+      "term": "Francis Sumner",
+      "definition": "The first African American to receive a PhD in psychology (1920)."
+    },
+    {
+      "id": 10178,
+      "term": "The first African American to receive a PhD in psychology (1920).",
+      "definition": "Francis Sumner",
+      "isReverse": true
+    },
+    {
+      "id": 179,
+      "term": "Falsifiability",
+      "definition": "The ability for a hypothesis to be shown to be incorrect; a key requirement for scientific hypotheses."
+    },
+    {
+      "id": 10179,
+      "term": "The ability for a hypothesis to be shown to be incorrect; a key requirement for scientific hypotheses.",
+      "definition": "Falsifiability",
+      "isReverse": true
+    },
+    {
+      "id": 180,
+      "term": "Experimental vs Control Group",
+      "definition": "The Experimental group gets the manipulation/treatment. The Control group does not."
+    },
+    {
+      "id": 10180,
+      "term": "The Experimental group gets the manipulation/treatment. The Control group does not.",
+      "definition": "Experimental vs Control Group",
+      "isReverse": true
+    },
+    {
+      "id": 181,
+      "term": "Peer-Reviewed",
+      "definition": "Articles read by several other scientists (peers) with expertise in the subject matter, who judge if the work is suitable for publication."
+    },
+    {
+      "id": 10181,
+      "term": "Articles read by several other scientists (peers) with expertise in the subject matter, who judge if the work is suitable for publication.",
+      "definition": "Peer-Reviewed",
+      "isReverse": true
+    }
+  ]
+}

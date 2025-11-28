@@ -1,0 +1,886 @@
+{
+  "title": "Chapter 9: Lifespan Development",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 801,
+      "term": "accommodation",
+      "definition": "adjustment of a schema by changing a scheme to accommodate new information different from what was already known"
+    },
+    {
+      "id": 10801,
+      "term": "adjustment of a schema by changing a scheme to accommodate new information different from what was already known",
+      "definition": "accommodation",
+      "isReverse": true
+    },
+    {
+      "id": 802,
+      "term": "adolescence",
+      "definition": "period of development that begins at puberty and ends at early adulthood"
+    },
+    {
+      "id": 10802,
+      "term": "period of development that begins at puberty and ends at early adulthood",
+      "definition": "adolescence",
+      "isReverse": true
+    },
+    {
+      "id": 803,
+      "term": "adrenarche",
+      "definition": "maturing of the adrenal glands"
+    },
+    {
+      "id": 10803,
+      "term": "maturing of the adrenal glands",
+      "definition": "adrenarche",
+      "isReverse": true
+    },
+    {
+      "id": 804,
+      "term": "assimilation",
+      "definition": "adjustment of a schema by adding information similar to what is already known"
+    },
+    {
+      "id": 10804,
+      "term": "adjustment of a schema by adding information similar to what is already known",
+      "definition": "assimilation",
+      "isReverse": true
+    },
+    {
+      "id": 805,
+      "term": "attachment",
+      "definition": "long-standing connection or bond with others"
+    },
+    {
+      "id": 10805,
+      "term": "long-standing connection or bond with others",
+      "definition": "attachment",
+      "isReverse": true
+    },
+    {
+      "id": 806,
+      "term": "authoritarian parenting style",
+      "definition": "parents place a high value on conformity and obedience, are often rigid, and express little warmth to the child"
+    },
+    {
+      "id": 10806,
+      "term": "parents place a high value on conformity and obedience, are often rigid, and express little warmth to the child",
+      "definition": "authoritarian parenting style",
+      "isReverse": true
+    },
+    {
+      "id": 807,
+      "term": "authoritative parenting style",
+      "definition": "parents give children reasonable demands and consistent limits, express warmth and affection, and listen to the child's point of view"
+    },
+    {
+      "id": 10807,
+      "term": "parents give children reasonable demands and consistent limits, express warmth and affection, and listen to the child's point of view",
+      "definition": "authoritative parenting style",
+      "isReverse": true
+    },
+    {
+      "id": 808,
+      "term": "avoidant attachment",
+      "definition": "characterized by child's unresponsiveness to parent, does not use the parent as a secure base, and does not care if parent leaves"
+    },
+    {
+      "id": 10808,
+      "term": "characterized by child's unresponsiveness to parent, does not use the parent as a secure base, and does not care if parent leaves",
+      "definition": "avoidant attachment",
+      "isReverse": true
+    },
+    {
+      "id": 809,
+      "term": "cognitive development",
+      "definition": "domain of lifespan development that examines learning, attention, memory, language, thinking, reasoning, and creativity"
+    },
+    {
+      "id": 10809,
+      "term": "domain of lifespan development that examines learning, attention, memory, language, thinking, reasoning, and creativity",
+      "definition": "cognitive development",
+      "isReverse": true
+    },
+    {
+      "id": 810,
+      "term": "cognitive empathy",
+      "definition": "ability to take the perspective of others and to feel concern for others"
+    },
+    {
+      "id": 10810,
+      "term": "ability to take the perspective of others and to feel concern for others",
+      "definition": "cognitive empathy",
+      "isReverse": true
+    },
+    {
+      "id": 811,
+      "term": "conception",
+      "definition": "when a sperm fertilizes an egg and forms a zygote"
+    },
+    {
+      "id": 10811,
+      "term": "when a sperm fertilizes an egg and forms a zygote",
+      "definition": "conception",
+      "isReverse": true
+    },
+    {
+      "id": 812,
+      "term": "concrete operational stage",
+      "definition": "third stage in Piaget's theory of cognitive development; from about 7 to 11 years old, children can think logically about real (concrete) events"
+    },
+    {
+      "id": 10812,
+      "term": "third stage in Piaget's theory of cognitive development; from about 7 to 11 years old, children can think logically about real (concrete) events",
+      "definition": "concrete operational stage",
+      "isReverse": true
+    },
+    {
+      "id": 813,
+      "term": "conservation",
+      "definition": "idea that even if you change the appearance of something, it is still equal in size, volume, or number as long as nothing is added or removed"
+    },
+    {
+      "id": 10813,
+      "term": "idea that even if you change the appearance of something, it is still equal in size, volume, or number as long as nothing is added or removed",
+      "definition": "conservation",
+      "isReverse": true
+    },
+    {
+      "id": 814,
+      "term": "continuous development",
+      "definition": "view that development is a cumulative process: gradually improving on existing skills"
+    },
+    {
+      "id": 10814,
+      "term": "view that development is a cumulative process: gradually improving on existing skills",
+      "definition": "continuous development",
+      "isReverse": true
+    },
+    {
+      "id": 815,
+      "term": "critical (sensitive) period",
+      "definition": "time during fetal growth when specific parts or organs develop"
+    },
+    {
+      "id": 10815,
+      "term": "time during fetal growth when specific parts or organs develop",
+      "definition": "critical (sensitive) period",
+      "isReverse": true
+    },
+    {
+      "id": 816,
+      "term": "developmental milestone",
+      "definition": "approximate ages at which children reach specific normative events"
+    },
+    {
+      "id": 10816,
+      "term": "approximate ages at which children reach specific normative events",
+      "definition": "developmental milestone",
+      "isReverse": true
+    },
+    {
+      "id": 817,
+      "term": "discontinuous development",
+      "definition": "view that development takes place in unique stages, which happen at specific times or ages"
+    },
+    {
+      "id": 10817,
+      "term": "view that development takes place in unique stages, which happen at specific times or ages",
+      "definition": "discontinuous development",
+      "isReverse": true
+    },
+    {
+      "id": 818,
+      "term": "disorganized attachment",
+      "definition": "characterized by the child's odd behavior when faced with the parent; type of attachment seen most often with kids that are abused"
+    },
+    {
+      "id": 10818,
+      "term": "characterized by the child's odd behavior when faced with the parent; type of attachment seen most often with kids that are abused",
+      "definition": "disorganized attachment",
+      "isReverse": true
+    },
+    {
+      "id": 819,
+      "term": "egocentrism",
+      "definition": "preoperational child's difficulty in taking the perspective of others"
+    },
+    {
+      "id": 10819,
+      "term": "preoperational child's difficulty in taking the perspective of others",
+      "definition": "egocentrism",
+      "isReverse": true
+    },
+    {
+      "id": 820,
+      "term": "embryo",
+      "definition": "multi-cellular organism in its early stages of development"
+    },
+    {
+      "id": 10820,
+      "term": "multi-cellular organism in its early stages of development",
+      "definition": "embryo",
+      "isReverse": true
+    },
+    {
+      "id": 821,
+      "term": "emerging adulthood",
+      "definition": "newly defined period of lifespan development from 18 years old to the mid-20s; young people are taking longer to complete college, get a job, get married, and start a family"
+    },
+    {
+      "id": 10821,
+      "term": "newly defined period of lifespan development from 18 years old to the mid-20s; young people are taking longer to complete college, get a job, get married, and start a family",
+      "definition": "emerging adulthood",
+      "isReverse": true
+    },
+    {
+      "id": 822,
+      "term": "fine motor skills",
+      "definition": "use of muscles in fingers, toes, and eyes to coordinate small actions"
+    },
+    {
+      "id": 10822,
+      "term": "use of muscles in fingers, toes, and eyes to coordinate small actions",
+      "definition": "fine motor skills",
+      "isReverse": true
+    },
+    {
+      "id": 823,
+      "term": "formal operational stage",
+      "definition": "final stage in Piaget's theory of cognitive development; from age 11 and up, children are able to deal with abstract ideas and hypothetical situations"
+    },
+    {
+      "id": 10823,
+      "term": "final stage in Piaget's theory of cognitive development; from age 11 and up, children are able to deal with abstract ideas and hypothetical situations",
+      "definition": "formal operational stage",
+      "isReverse": true
+    },
+    {
+      "id": 824,
+      "term": "gonadarche",
+      "definition": "maturing of the sex glands"
+    },
+    {
+      "id": 10824,
+      "term": "maturing of the sex glands",
+      "definition": "gonadarche",
+      "isReverse": true
+    },
+    {
+      "id": 825,
+      "term": "gross motor skills",
+      "definition": "use of large muscle groups to control arms and legs for large body movements"
+    },
+    {
+      "id": 10825,
+      "term": "use of large muscle groups to control arms and legs for large body movements",
+      "definition": "gross motor skills",
+      "isReverse": true
+    },
+    {
+      "id": 826,
+      "term": "hospice",
+      "definition": "service that provides a death with dignity; pain management in a humane and comfortable environment; usually outside of a hospital setting"
+    },
+    {
+      "id": 10826,
+      "term": "service that provides a death with dignity; pain management in a humane and comfortable environment; usually outside of a hospital setting",
+      "definition": "hospice",
+      "isReverse": true
+    },
+    {
+      "id": 827,
+      "term": "menarche",
+      "definition": "beginning of menstrual period; around 12-13 years old"
+    },
+    {
+      "id": 10827,
+      "term": "beginning of menstrual period; around 12-13 years old",
+      "definition": "menarche",
+      "isReverse": true
+    },
+    {
+      "id": 828,
+      "term": "mitosis",
+      "definition": "process of cell division"
+    },
+    {
+      "id": 10828,
+      "term": "process of cell division",
+      "definition": "mitosis",
+      "isReverse": true
+    },
+    {
+      "id": 829,
+      "term": "motor skills",
+      "definition": "ability to move our body and manipulate objects"
+    },
+    {
+      "id": 10829,
+      "term": "ability to move our body and manipulate objects",
+      "definition": "motor skills",
+      "isReverse": true
+    },
+    {
+      "id": 830,
+      "term": "nature",
+      "definition": "genes and biology"
+    },
+    {
+      "id": 10830,
+      "term": "genes and biology",
+      "definition": "nature",
+      "isReverse": true
+    },
+    {
+      "id": 831,
+      "term": "newborn reflexes",
+      "definition": "inborn automatic response to a particular form of stimulation that all healthy babies are born with"
+    },
+    {
+      "id": 10831,
+      "term": "inborn automatic response to a particular form of stimulation that all healthy babies are born with",
+      "definition": "newborn reflexes",
+      "isReverse": true
+    },
+    {
+      "id": 832,
+      "term": "normative approach",
+      "definition": "study of development using norms, or average ages, when most children reach specific developmental milestones"
+    },
+    {
+      "id": 10832,
+      "term": "study of development using norms, or average ages, when most children reach specific developmental milestones",
+      "definition": "normative approach",
+      "isReverse": true
+    },
+    {
+      "id": 833,
+      "term": "nurture",
+      "definition": "environment and culture"
+    },
+    {
+      "id": 10833,
+      "term": "environment and culture",
+      "definition": "nurture",
+      "isReverse": true
+    },
+    {
+      "id": 834,
+      "term": "object permanence",
+      "definition": "idea that even if something is out of sight, it still exists"
+    },
+    {
+      "id": 10834,
+      "term": "idea that even if something is out of sight, it still exists",
+      "definition": "object permanence",
+      "isReverse": true
+    },
+    {
+      "id": 835,
+      "term": "permissive parenting style",
+      "definition": "parents make few demands and rarely use punishment"
+    },
+    {
+      "id": 10835,
+      "term": "parents make few demands and rarely use punishment",
+      "definition": "permissive parenting style",
+      "isReverse": true
+    },
+    {
+      "id": 836,
+      "term": "physical development",
+      "definition": "domain of lifespan development that examines growth and changes in the body and brain, the senses, motor skills, and health and wellness"
+    },
+    {
+      "id": 10836,
+      "term": "domain of lifespan development that examines growth and changes in the body and brain, the senses, motor skills, and health and wellness",
+      "definition": "physical development",
+      "isReverse": true
+    },
+    {
+      "id": 837,
+      "term": "placenta",
+      "definition": "structure connected to the uterus that provides nourishment and oxygen to the developing baby"
+    },
+    {
+      "id": 10837,
+      "term": "structure connected to the uterus that provides nourishment and oxygen to the developing baby",
+      "definition": "placenta",
+      "isReverse": true
+    },
+    {
+      "id": 838,
+      "term": "prenatal care",
+      "definition": "medical care during pregnancy that monitors the health of both the mother and the fetus"
+    },
+    {
+      "id": 10838,
+      "term": "medical care during pregnancy that monitors the health of both the mother and the fetus",
+      "definition": "prenatal care",
+      "isReverse": true
+    },
+    {
+      "id": 839,
+      "term": "preoperational stage",
+      "definition": "second stage in Piaget's theory of cognitive development; from ages 2 to 7, children learn to use symbols and language but do not understand mental operations and often think illogically"
+    },
+    {
+      "id": 10839,
+      "term": "second stage in Piaget's theory of cognitive development; from ages 2 to 7, children learn to use symbols and language but do not understand mental operations and often think illogically",
+      "definition": "preoperational stage",
+      "isReverse": true
+    },
+    {
+      "id": 840,
+      "term": "primary sexual characteristics",
+      "definition": "organs specifically needed for reproduction"
+    },
+    {
+      "id": 10840,
+      "term": "organs specifically needed for reproduction",
+      "definition": "primary sexual characteristics",
+      "isReverse": true
+    },
+    {
+      "id": 841,
+      "term": "psychosexual development",
+      "definition": "process proposed by Freud in which pleasure-seeking urges focus on different erogenous zones of the body as humans move through five stages of life"
+    },
+    {
+      "id": 10841,
+      "term": "process proposed by Freud in which pleasure-seeking urges focus on different erogenous zones of the body as humans move through five stages of life",
+      "definition": "psychosexual development",
+      "isReverse": true
+    },
+    {
+      "id": 842,
+      "term": "psychosocial development",
+      "definition": "domain of lifespan development that examines emotions, personality, and social relationships"
+    },
+    {
+      "id": 10842,
+      "term": "domain of lifespan development that examines emotions, personality, and social relationships",
+      "definition": "psychosocial development",
+      "isReverse": true
+    },
+    {
+      "id": 843,
+      "term": "psychosocial development (Erikson)",
+      "definition": "process proposed by Erikson in which social tasks are mastered as humans move through eight stages of life from infancy to adulthood"
+    },
+    {
+      "id": 10843,
+      "term": "process proposed by Erikson in which social tasks are mastered as humans move through eight stages of life from infancy to adulthood",
+      "definition": "psychosocial development (Erikson)",
+      "isReverse": true
+    },
+    {
+      "id": 844,
+      "term": "resistant attachment",
+      "definition": "characterized by the child's tendency to show clingy behavior and rejection of the parent when she attempts to interact with the child"
+    },
+    {
+      "id": 10844,
+      "term": "characterized by the child's tendency to show clingy behavior and rejection of the parent when she attempts to interact with the child",
+      "definition": "resistant attachment",
+      "isReverse": true
+    },
+    {
+      "id": 845,
+      "term": "reversibility",
+      "definition": "principle that objects can be changed, but then returned back to their original form or condition"
+    },
+    {
+      "id": 10845,
+      "term": "principle that objects can be changed, but then returned back to their original form or condition",
+      "definition": "reversibility",
+      "isReverse": true
+    },
+    {
+      "id": 846,
+      "term": "schema (plural = schemata)",
+      "definition": "concept (mental model) that is used to help us categorize and interpret information"
+    },
+    {
+      "id": 10846,
+      "term": "concept (mental model) that is used to help us categorize and interpret information",
+      "definition": "schema (plural = schemata)",
+      "isReverse": true
+    },
+    {
+      "id": 847,
+      "term": "secondary sexual characteristics",
+      "definition": "physical signs of sexual maturation that do not directly involve sex organs"
+    },
+    {
+      "id": 10847,
+      "term": "physical signs of sexual maturation that do not directly involve sex organs",
+      "definition": "secondary sexual characteristics",
+      "isReverse": true
+    },
+    {
+      "id": 848,
+      "term": "secure attachment",
+      "definition": "characterized by the child using the parent as a secure base from which to explore"
+    },
+    {
+      "id": 10848,
+      "term": "characterized by the child using the parent as a secure base from which to explore",
+      "definition": "secure attachment",
+      "isReverse": true
+    },
+    {
+      "id": 849,
+      "term": "secure base",
+      "definition": "parental presence that gives the infant/toddler a sense of safety as he explores his surroundings"
+    },
+    {
+      "id": 10849,
+      "term": "parental presence that gives the infant/toddler a sense of safety as he explores his surroundings",
+      "definition": "secure base",
+      "isReverse": true
+    },
+    {
+      "id": 850,
+      "term": "sensorimotor stage",
+      "definition": "first stage in Piaget's theory of cognitive development; from birth through age 2, a child learns about the world through senses and motor behavior"
+    },
+    {
+      "id": 10850,
+      "term": "first stage in Piaget's theory of cognitive development; from birth through age 2, a child learns about the world through senses and motor behavior",
+      "definition": "sensorimotor stage",
+      "isReverse": true
+    },
+    {
+      "id": 851,
+      "term": "socioemotional selectivity theory",
+      "definition": "social support/friendships dwindle in number, but remain as close, if not more close than in earlier years"
+    },
+    {
+      "id": 10851,
+      "term": "social support/friendships dwindle in number, but remain as close, if not more close than in earlier years",
+      "definition": "socioemotional selectivity theory",
+      "isReverse": true
+    },
+    {
+      "id": 852,
+      "term": "spermarche",
+      "definition": "first male ejaculation"
+    },
+    {
+      "id": 10852,
+      "term": "first male ejaculation",
+      "definition": "spermarche",
+      "isReverse": true
+    },
+    {
+      "id": 853,
+      "term": "stage of moral reasoning",
+      "definition": "process proposed by Kohlberg; humans move through three stages of moral development"
+    },
+    {
+      "id": 10853,
+      "term": "process proposed by Kohlberg; humans move through three stages of moral development",
+      "definition": "stage of moral reasoning",
+      "isReverse": true
+    },
+    {
+      "id": 854,
+      "term": "temperament",
+      "definition": "innate traits that influence how one thinks, behaves, and reacts with the environment"
+    },
+    {
+      "id": 10854,
+      "term": "innate traits that influence how one thinks, behaves, and reacts with the environment",
+      "definition": "temperament",
+      "isReverse": true
+    },
+    {
+      "id": 855,
+      "term": "teratogen",
+      "definition": "biological, chemical, or physical environmental agent that causes damage to the developing embryo or fetus"
+    },
+    {
+      "id": 10855,
+      "term": "biological, chemical, or physical environmental agent that causes damage to the developing embryo or fetus",
+      "definition": "teratogen",
+      "isReverse": true
+    },
+    {
+      "id": 856,
+      "term": "uninvolved parenting style",
+      "definition": "parents are indifferent, uninvolved, and sometimes referred to as neglectful; they don't respond to the child's needs and make relatively few demands"
+    },
+    {
+      "id": 10856,
+      "term": "parents are indifferent, uninvolved, and sometimes referred to as neglectful; they don't respond to the child's needs and make relatively few demands",
+      "definition": "uninvolved parenting style",
+      "isReverse": true
+    },
+    {
+      "id": 857,
+      "term": "zygote",
+      "definition": "structure created when a sperm and egg merge at conception; begins as a single cell and rapidly divides to form the embryo and placenta"
+    },
+    {
+      "id": 10857,
+      "term": "structure created when a sperm and egg merge at conception; begins as a single cell and rapidly divides to form the embryo and placenta",
+      "definition": "zygote",
+      "isReverse": true
+    },
+    {
+      "id": 858,
+      "term": "The view that development is a cumulative process, gradually adding to the same type of skills is known as ________.",
+      "definition": "Continuous development"
+    },
+    {
+      "id": 10858,
+      "term": "Continuous development",
+      "definition": "The view that development is a cumulative process, gradually adding to the same type of skills is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 859,
+      "term": "Developmental psychologists study human growth and development across three domains. Which of the following is not one of these domains?",
+      "definition": "Psychological"
+    },
+    {
+      "id": 10859,
+      "term": "Psychological",
+      "definition": "Developmental psychologists study human growth and development across three domains. Which of the following is not one of these domains?",
+      "isReverse": true
+    },
+    {
+      "id": 860,
+      "term": "How is lifespan development defined?",
+      "definition": "The study of how we grow and change from conception to death"
+    },
+    {
+      "id": 10860,
+      "term": "The study of how we grow and change from conception to death",
+      "definition": "How is lifespan development defined?",
+      "isReverse": true
+    },
+    {
+      "id": 861,
+      "term": "The idea that even if something is out of sight, it still exists is called ________.",
+      "definition": "Object permanence"
+    },
+    {
+      "id": 10861,
+      "term": "Object permanence",
+      "definition": "The idea that even if something is out of sight, it still exists is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 862,
+      "term": "Which theorist proposed that moral thinking proceeds through a series of stages?",
+      "definition": "Lawrence Kohlberg"
+    },
+    {
+      "id": 10862,
+      "term": "Lawrence Kohlberg",
+      "definition": "Which theorist proposed that moral thinking proceeds through a series of stages?",
+      "isReverse": true
+    },
+    {
+      "id": 863,
+      "term": "According to Erikson's theory of psychosocial development, what is the main task of the adolescent?",
+      "definition": "Forming an identity"
+    },
+    {
+      "id": 10863,
+      "term": "Forming an identity",
+      "definition": "According to Erikson's theory of psychosocial development, what is the main task of the adolescent?",
+      "isReverse": true
+    },
+    {
+      "id": 864,
+      "term": "Which of the following is the correct order of prenatal development?",
+      "definition": "Zygote, embryo, fetus"
+    },
+    {
+      "id": 10864,
+      "term": "Zygote, embryo, fetus",
+      "definition": "Which of the following is the correct order of prenatal development?",
+      "isReverse": true
+    },
+    {
+      "id": 865,
+      "term": "The time during fetal growth when specific parts or organs develop is known as ________.",
+      "definition": "Critical period"
+    },
+    {
+      "id": 10865,
+      "term": "Critical period",
+      "definition": "The time during fetal growth when specific parts or organs develop is known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 866,
+      "term": "What begins as a single-cell structure that is created when a sperm and egg merge at conception?",
+      "definition": "Zygote"
+    },
+    {
+      "id": 10866,
+      "term": "Zygote",
+      "definition": "What begins as a single-cell structure that is created when a sperm and egg merge at conception?",
+      "isReverse": true
+    },
+    {
+      "id": 867,
+      "term": "Using scissors to cut out paper shapes is an example of ________.",
+      "definition": "Fine motor skills"
+    },
+    {
+      "id": 10867,
+      "term": "Fine motor skills",
+      "definition": "Using scissors to cut out paper shapes is an example of ________.",
+      "isReverse": true
+    },
+    {
+      "id": 868,
+      "term": "The child uses the parent as a base from which to explore her world in which attachment style?",
+      "definition": "Secure"
+    },
+    {
+      "id": 10868,
+      "term": "Secure",
+      "definition": "The child uses the parent as a base from which to explore her world in which attachment style?",
+      "isReverse": true
+    },
+    {
+      "id": 869,
+      "term": "The frontal lobes become fully developed ________.",
+      "definition": "By 25 years old"
+    },
+    {
+      "id": 10869,
+      "term": "By 25 years old",
+      "definition": "The frontal lobes become fully developed ________.",
+      "isReverse": true
+    },
+    {
+      "id": 870,
+      "term": "Who created the very first modern hospice?",
+      "definition": "Cicely Saunders"
+    },
+    {
+      "id": 10870,
+      "term": "Cicely Saunders",
+      "definition": "Who created the very first modern hospice?",
+      "isReverse": true
+    },
+    {
+      "id": 871,
+      "term": "Which of the following is the order of stages in Kübler-Ross's five-stage model of grief?",
+      "definition": "Denial, anger, bargaining, depression, acceptance"
+    },
+    {
+      "id": 10871,
+      "term": "Denial, anger, bargaining, depression, acceptance",
+      "definition": "Which of the following is the order of stages in Kübler-Ross's five-stage model of grief?",
+      "isReverse": true
+    },
+    {
+      "id": 872,
+      "term": "Freud's Psychosexual Theory",
+      "definition": "Believed personality develops during early childhood; childhood experiences shape adult personalities."
+    },
+    {
+      "id": 10872,
+      "term": "Believed personality develops during early childhood; childhood experiences shape adult personalities.",
+      "definition": "Freud's Psychosexual Theory",
+      "isReverse": true
+    },
+    {
+      "id": 873,
+      "term": "Erikson's Psychosocial Theory",
+      "definition": "Proposes 8 stages of development, each with a task/conflict (e.g., Trust vs. Mistrust) that shapes competence and personality."
+    },
+    {
+      "id": 10873,
+      "term": "Proposes 8 stages of development, each with a task/conflict (e.g., Trust vs. Mistrust) that shapes competence and personality.",
+      "definition": "Erikson's Psychosocial Theory",
+      "isReverse": true
+    },
+    {
+      "id": 874,
+      "term": "Piaget's Stages of Cognitive Development",
+      "definition": "Sensorimotor (0-2), Preoperational (2-7), Concrete Operational (7-11), and Formal Operational (12+)."
+    },
+    {
+      "id": 10874,
+      "term": "Sensorimotor (0-2), Preoperational (2-7), Concrete Operational (7-11), and Formal Operational (12+).",
+      "definition": "Piaget's Stages of Cognitive Development",
+      "isReverse": true
+    },
+    {
+      "id": 875,
+      "term": "Postformal Thinking",
+      "definition": "Adult stage where logic is integrated with emotion; decisions are context-dependent."
+    },
+    {
+      "id": 10875,
+      "term": "Adult stage where logic is integrated with emotion; decisions are context-dependent.",
+      "definition": "Postformal Thinking",
+      "isReverse": true
+    },
+    {
+      "id": 876,
+      "term": "Kohlberg's Moral Development",
+      "definition": "Three levels of moral reasoning: Pre-conventional, Conventional, and Post-conventional."
+    },
+    {
+      "id": 10876,
+      "term": "Three levels of moral reasoning: Pre-conventional, Conventional, and Post-conventional.",
+      "definition": "Kohlberg's Moral Development",
+      "isReverse": true
+    },
+    {
+      "id": 877,
+      "term": "Self-Concept",
+      "definition": "The primary psychosocial milestone of childhood; developing a positive sense of self."
+    },
+    {
+      "id": 10877,
+      "term": "The primary psychosocial milestone of childhood; developing a positive sense of self.",
+      "definition": "Self-Concept",
+      "isReverse": true
+    },
+    {
+      "id": 878,
+      "term": "Parenting Styles",
+      "definition": "Authoritative (reasonable demands, warmth), Authoritarian (strict obedience), Permissive (few demands), Uninvolved (indifferent)."
+    },
+    {
+      "id": 10878,
+      "term": "Authoritative (reasonable demands, warmth), Authoritarian (strict obedience), Permissive (few demands), Uninvolved (indifferent).",
+      "definition": "Parenting Styles",
+      "isReverse": true
+    },
+    {
+      "id": 879,
+      "term": "Adolescence & Puberty",
+      "definition": "Period of development from childhood to adulthood. Early maturing boys often have social advantages; early maturing girls are at risk for emotional issues."
+    },
+    {
+      "id": 10879,
+      "term": "Period of development from childhood to adulthood. Early maturing boys often have social advantages; early maturing girls are at risk for emotional issues.",
+      "definition": "Adolescence & Puberty",
+      "isReverse": true
+    },
+    {
+      "id": 880,
+      "term": "Five Stages of Grief (Kübler-Ross)",
+      "definition": "Denial, anger, bargaining, depression, and acceptance."
+    },
+    {
+      "id": 10880,
+      "term": "Denial, anger, bargaining, depression, and acceptance.",
+      "definition": "Five Stages of Grief (Kübler-Ross)",
+      "isReverse": true
+    }
+  ]
+}

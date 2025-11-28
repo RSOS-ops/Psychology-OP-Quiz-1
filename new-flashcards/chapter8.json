@@ -1,0 +1,809 @@
+{
+  "title": "Chapter 8: Memory",
+  "description": "Key Terms and Review Questions",
+  "cards": [
+    {
+      "id": 701,
+      "term": "absentmindedness",
+      "definition": "lapses in memory that are caused by breaks in attention or our focus being somewhere else"
+    },
+    {
+      "id": 10701,
+      "term": "lapses in memory that are caused by breaks in attention or our focus being somewhere else",
+      "definition": "absentmindedness",
+      "isReverse": true
+    },
+    {
+      "id": 702,
+      "term": "acoustic encoding",
+      "definition": "input of sounds, words, and music"
+    },
+    {
+      "id": 10702,
+      "term": "input of sounds, words, and music",
+      "definition": "acoustic encoding",
+      "isReverse": true
+    },
+    {
+      "id": 703,
+      "term": "amnesia",
+      "definition": "loss of long-term memory that occurs as the result of disease, physical trauma, or psychological trauma"
+    },
+    {
+      "id": 10703,
+      "term": "loss of long-term memory that occurs as the result of disease, physical trauma, or psychological trauma",
+      "definition": "amnesia",
+      "isReverse": true
+    },
+    {
+      "id": 704,
+      "term": "anterograde amnesia",
+      "definition": "loss of memory for events that occur after the brain trauma"
+    },
+    {
+      "id": 10704,
+      "term": "loss of memory for events that occur after the brain trauma",
+      "definition": "anterograde amnesia",
+      "isReverse": true
+    },
+    {
+      "id": 705,
+      "term": "arousal theory",
+      "definition": "strong emotions trigger the formation of strong memories and weaker emotional experiences form weaker memories"
+    },
+    {
+      "id": 10705,
+      "term": "strong emotions trigger the formation of strong memories and weaker emotional experiences form weaker memories",
+      "definition": "arousal theory",
+      "isReverse": true
+    },
+    {
+      "id": 706,
+      "term": "Atkinson-Shiffrin model (A-S)",
+      "definition": "memory model that states we process information through three systems: sensory memory, short-term memory, and long-term memory"
+    },
+    {
+      "id": 10706,
+      "term": "memory model that states we process information through three systems: sensory memory, short-term memory, and long-term memory",
+      "definition": "Atkinson-Shiffrin model (A-S)",
+      "isReverse": true
+    },
+    {
+      "id": 707,
+      "term": "automatic processing",
+      "definition": "encoding of informational details like time, space, frequency, and the meaning of words"
+    },
+    {
+      "id": 10707,
+      "term": "encoding of informational details like time, space, frequency, and the meaning of words",
+      "definition": "automatic processing",
+      "isReverse": true
+    },
+    {
+      "id": 708,
+      "term": "bias",
+      "definition": "how feelings and view of the world distort memory of past events"
+    },
+    {
+      "id": 10708,
+      "term": "how feelings and view of the world distort memory of past events",
+      "definition": "bias",
+      "isReverse": true
+    },
+    {
+      "id": 709,
+      "term": "blocking",
+      "definition": "memory error in which you cannot access stored information"
+    },
+    {
+      "id": 10709,
+      "term": "memory error in which you cannot access stored information",
+      "definition": "blocking",
+      "isReverse": true
+    },
+    {
+      "id": 710,
+      "term": "chunking",
+      "definition": "organizing information into manageable bits or chunks"
+    },
+    {
+      "id": 10710,
+      "term": "organizing information into manageable bits or chunks",
+      "definition": "chunking",
+      "isReverse": true
+    },
+    {
+      "id": 711,
+      "term": "construction",
+      "definition": "formulation of new memories"
+    },
+    {
+      "id": 10711,
+      "term": "formulation of new memories",
+      "definition": "construction",
+      "isReverse": true
+    },
+    {
+      "id": 712,
+      "term": "declarative memory",
+      "definition": "type of long-term memory of facts and events we personally experience"
+    },
+    {
+      "id": 10712,
+      "term": "type of long-term memory of facts and events we personally experience",
+      "definition": "declarative memory",
+      "isReverse": true
+    },
+    {
+      "id": 713,
+      "term": "effortful processing",
+      "definition": "encoding of information that takes effort and attention"
+    },
+    {
+      "id": 10713,
+      "term": "encoding of information that takes effort and attention",
+      "definition": "effortful processing",
+      "isReverse": true
+    },
+    {
+      "id": 714,
+      "term": "elaborative rehearsal",
+      "definition": "thinking about the meaning of the new information and its relation to knowledge already stored in your memory"
+    },
+    {
+      "id": 10714,
+      "term": "thinking about the meaning of the new information and its relation to knowledge already stored in your memory",
+      "definition": "elaborative rehearsal",
+      "isReverse": true
+    },
+    {
+      "id": 715,
+      "term": "encoding",
+      "definition": "input of information into the memory system"
+    },
+    {
+      "id": 10715,
+      "term": "input of information into the memory system",
+      "definition": "encoding",
+      "isReverse": true
+    },
+    {
+      "id": 716,
+      "term": "engram",
+      "definition": "physical trace of memory"
+    },
+    {
+      "id": 10716,
+      "term": "physical trace of memory",
+      "definition": "engram",
+      "isReverse": true
+    },
+    {
+      "id": 717,
+      "term": "episodic memory",
+      "definition": "type of declarative memory that contains information about events we have personally experienced, also known as autobiographical memory"
+    },
+    {
+      "id": 10717,
+      "term": "type of declarative memory that contains information about events we have personally experienced, also known as autobiographical memory",
+      "definition": "episodic memory",
+      "isReverse": true
+    },
+    {
+      "id": 718,
+      "term": "equipotentiality hypothesis",
+      "definition": "some parts of the brain can take over for damaged parts in forming and storing memories"
+    },
+    {
+      "id": 10718,
+      "term": "some parts of the brain can take over for damaged parts in forming and storing memories",
+      "definition": "equipotentiality hypothesis",
+      "isReverse": true
+    },
+    {
+      "id": 719,
+      "term": "explicit memory",
+      "definition": "memories we consciously try to remember and recall"
+    },
+    {
+      "id": 10719,
+      "term": "memories we consciously try to remember and recall",
+      "definition": "explicit memory",
+      "isReverse": true
+    },
+    {
+      "id": 720,
+      "term": "false memory syndrome",
+      "definition": "recall of false autobiographical memories"
+    },
+    {
+      "id": 10720,
+      "term": "recall of false autobiographical memories",
+      "definition": "false memory syndrome",
+      "isReverse": true
+    },
+    {
+      "id": 721,
+      "term": "flashbulb memory",
+      "definition": "exceptionally clear recollection of an important event"
+    },
+    {
+      "id": 10721,
+      "term": "exceptionally clear recollection of an important event",
+      "definition": "flashbulb memory",
+      "isReverse": true
+    },
+    {
+      "id": 722,
+      "term": "forgetting",
+      "definition": "loss of information from long-term memory"
+    },
+    {
+      "id": 10722,
+      "term": "loss of information from long-term memory",
+      "definition": "forgetting",
+      "isReverse": true
+    },
+    {
+      "id": 723,
+      "term": "implicit memory",
+      "definition": "memories that are not part of our consciousness"
+    },
+    {
+      "id": 10723,
+      "term": "memories that are not part of our consciousness",
+      "definition": "implicit memory",
+      "isReverse": true
+    },
+    {
+      "id": 724,
+      "term": "levels of processing",
+      "definition": "information that is thought of more deeply becomes more meaningful and thus better committed to memory"
+    },
+    {
+      "id": 10724,
+      "term": "information that is thought of more deeply becomes more meaningful and thus better committed to memory",
+      "definition": "levels of processing",
+      "isReverse": true
+    },
+    {
+      "id": 725,
+      "term": "long-term memory (LTM)",
+      "definition": "continuous storage of information"
+    },
+    {
+      "id": 10725,
+      "term": "continuous storage of information",
+      "definition": "long-term memory (LTM)",
+      "isReverse": true
+    },
+    {
+      "id": 726,
+      "term": "memory",
+      "definition": "system or process that stores what we learn for future use"
+    },
+    {
+      "id": 10726,
+      "term": "system or process that stores what we learn for future use",
+      "definition": "memory",
+      "isReverse": true
+    },
+    {
+      "id": 727,
+      "term": "memory consolidation",
+      "definition": "active rehearsal to move information from short-term memory into long-term memory"
+    },
+    {
+      "id": 10727,
+      "term": "active rehearsal to move information from short-term memory into long-term memory",
+      "definition": "memory consolidation",
+      "isReverse": true
+    },
+    {
+      "id": 728,
+      "term": "memory-enhancing strategy",
+      "definition": "technique to help make sure information goes from short-term memory to long-term memory"
+    },
+    {
+      "id": 10728,
+      "term": "technique to help make sure information goes from short-term memory to long-term memory",
+      "definition": "memory-enhancing strategy",
+      "isReverse": true
+    },
+    {
+      "id": 729,
+      "term": "misattribution",
+      "definition": "memory error in which you confuse the source of your information"
+    },
+    {
+      "id": 10729,
+      "term": "memory error in which you confuse the source of your information",
+      "definition": "misattribution",
+      "isReverse": true
+    },
+    {
+      "id": 730,
+      "term": "misinformation effect paradigm",
+      "definition": "after exposure to incorrect information, a person may misremember the original event"
+    },
+    {
+      "id": 10730,
+      "term": "after exposure to incorrect information, a person may misremember the original event",
+      "definition": "misinformation effect paradigm",
+      "isReverse": true
+    },
+    {
+      "id": 731,
+      "term": "mnemonic device",
+      "definition": "memory aids that help organize information for encoding"
+    },
+    {
+      "id": 10731,
+      "term": "memory aids that help organize information for encoding",
+      "definition": "mnemonic device",
+      "isReverse": true
+    },
+    {
+      "id": 732,
+      "term": "persistence",
+      "definition": "failure of the memory system that involves the involuntary recall of unwanted memories, particularly unpleasant ones"
+    },
+    {
+      "id": 10732,
+      "term": "failure of the memory system that involves the involuntary recall of unwanted memories, particularly unpleasant ones",
+      "definition": "persistence",
+      "isReverse": true
+    },
+    {
+      "id": 733,
+      "term": "proactive interference",
+      "definition": "old information hinders the recall of newly learned information"
+    },
+    {
+      "id": 10733,
+      "term": "old information hinders the recall of newly learned information",
+      "definition": "proactive interference",
+      "isReverse": true
+    },
+    {
+      "id": 734,
+      "term": "procedural memory",
+      "definition": "type of long-term memory for making skilled actions, such as how to brush your teeth, how to drive a car, and how to swim"
+    },
+    {
+      "id": 10734,
+      "term": "type of long-term memory for making skilled actions, such as how to brush your teeth, how to drive a car, and how to swim",
+      "definition": "procedural memory",
+      "isReverse": true
+    },
+    {
+      "id": 735,
+      "term": "recall",
+      "definition": "accessing information without cues"
+    },
+    {
+      "id": 10735,
+      "term": "accessing information without cues",
+      "definition": "recall",
+      "isReverse": true
+    },
+    {
+      "id": 736,
+      "term": "recognition",
+      "definition": "identifying previously learned information after encountering it again, usually in response to a cue"
+    },
+    {
+      "id": 10736,
+      "term": "identifying previously learned information after encountering it again, usually in response to a cue",
+      "definition": "recognition",
+      "isReverse": true
+    },
+    {
+      "id": 737,
+      "term": "reconstruction",
+      "definition": "process of bringing up old memories that might be distorted by new information"
+    },
+    {
+      "id": 10737,
+      "term": "process of bringing up old memories that might be distorted by new information",
+      "definition": "reconstruction",
+      "isReverse": true
+    },
+    {
+      "id": 738,
+      "term": "rehearsal",
+      "definition": "conscious repetition of information to be remembered"
+    },
+    {
+      "id": 10738,
+      "term": "conscious repetition of information to be remembered",
+      "definition": "rehearsal",
+      "isReverse": true
+    },
+    {
+      "id": 739,
+      "term": "relearning",
+      "definition": "learning information that was previously learned"
+    },
+    {
+      "id": 10739,
+      "term": "learning information that was previously learned",
+      "definition": "relearning",
+      "isReverse": true
+    },
+    {
+      "id": 740,
+      "term": "retrieval",
+      "definition": "act of getting information out of long-term memory storage and back into conscious awareness"
+    },
+    {
+      "id": 10740,
+      "term": "act of getting information out of long-term memory storage and back into conscious awareness",
+      "definition": "retrieval",
+      "isReverse": true
+    },
+    {
+      "id": 741,
+      "term": "retroactive interference",
+      "definition": "information learned more recently hinders the recall of older information"
+    },
+    {
+      "id": 10741,
+      "term": "information learned more recently hinders the recall of older information",
+      "definition": "retroactive interference",
+      "isReverse": true
+    },
+    {
+      "id": 742,
+      "term": "retrograde amnesia",
+      "definition": "loss of memory for events that occurred prior to brain trauma"
+    },
+    {
+      "id": 10742,
+      "term": "loss of memory for events that occurred prior to brain trauma",
+      "definition": "retrograde amnesia",
+      "isReverse": true
+    },
+    {
+      "id": 743,
+      "term": "self-reference effect",
+      "definition": "tendency for an individual to have better memory for information that relates to oneself in comparison to material that has less personal relevance"
+    },
+    {
+      "id": 10743,
+      "term": "tendency for an individual to have better memory for information that relates to oneself in comparison to material that has less personal relevance",
+      "definition": "self-reference effect",
+      "isReverse": true
+    },
+    {
+      "id": 744,
+      "term": "semantic encoding",
+      "definition": "input of words and their meaning"
+    },
+    {
+      "id": 10744,
+      "term": "input of words and their meaning",
+      "definition": "semantic encoding",
+      "isReverse": true
+    },
+    {
+      "id": 745,
+      "term": "semantic memory",
+      "definition": "type of declarative memory about words, concepts, and language-based knowledge and facts"
+    },
+    {
+      "id": 10745,
+      "term": "type of declarative memory about words, concepts, and language-based knowledge and facts",
+      "definition": "semantic memory",
+      "isReverse": true
+    },
+    {
+      "id": 746,
+      "term": "sensory memory",
+      "definition": "storage of brief sensory events, such as sights, sounds, and tastes"
+    },
+    {
+      "id": 10746,
+      "term": "storage of brief sensory events, such as sights, sounds, and tastes",
+      "definition": "sensory memory",
+      "isReverse": true
+    },
+    {
+      "id": 747,
+      "term": "short-term memory (STM)",
+      "definition": "holds about seven bits of information before it is forgotten or stored, as well as information that has been retrieved and is being used; also called working memory"
+    },
+    {
+      "id": 10747,
+      "term": "holds about seven bits of information before it is forgotten or stored, as well as information that has been retrieved and is being used; also called working memory",
+      "definition": "short-term memory (STM)",
+      "isReverse": true
+    },
+    {
+      "id": 748,
+      "term": "storage",
+      "definition": "creation of a permanent record of information"
+    },
+    {
+      "id": 10748,
+      "term": "creation of a permanent record of information",
+      "definition": "storage",
+      "isReverse": true
+    },
+    {
+      "id": 749,
+      "term": "suggestibility",
+      "definition": "effects of misinformation from external sources that leads to the creation of false memories"
+    },
+    {
+      "id": 10749,
+      "term": "effects of misinformation from external sources that leads to the creation of false memories",
+      "definition": "suggestibility",
+      "isReverse": true
+    },
+    {
+      "id": 750,
+      "term": "transience",
+      "definition": "memory error in which unused memories fade with the passage of time"
+    },
+    {
+      "id": 10750,
+      "term": "memory error in which unused memories fade with the passage of time",
+      "definition": "transience",
+      "isReverse": true
+    },
+    {
+      "id": 751,
+      "term": "visual encoding",
+      "definition": "input of images"
+    },
+    {
+      "id": 10751,
+      "term": "input of images",
+      "definition": "visual encoding",
+      "isReverse": true
+    },
+    {
+      "id": 752,
+      "term": "________ is another name for short-term memory.",
+      "definition": "Working memory"
+    },
+    {
+      "id": 10752,
+      "term": "Working memory",
+      "definition": "________ is another name for short-term memory.",
+      "isReverse": true
+    },
+    {
+      "id": 753,
+      "term": "The storage capacity of long-term memory is ________.",
+      "definition": "Essentially limitless"
+    },
+    {
+      "id": 10753,
+      "term": "Essentially limitless",
+      "definition": "The storage capacity of long-term memory is ________.",
+      "isReverse": true
+    },
+    {
+      "id": 754,
+      "term": "The three functions of memory are ________.",
+      "definition": "Encoding, storage, and retrieval"
+    },
+    {
+      "id": 10754,
+      "term": "Encoding, storage, and retrieval",
+      "definition": "The three functions of memory are ________.",
+      "isReverse": true
+    },
+    {
+      "id": 755,
+      "term": "This physical trace of memory is known as the ________.",
+      "definition": "Engram"
+    },
+    {
+      "id": 10755,
+      "term": "Engram",
+      "definition": "This physical trace of memory is known as the ________.",
+      "isReverse": true
+    },
+    {
+      "id": 756,
+      "term": "An exceptionally clear recollection of an important event is a (an) ________.",
+      "definition": "Flashbulb memory"
+    },
+    {
+      "id": 10756,
+      "term": "Flashbulb memory",
+      "definition": "An exceptionally clear recollection of an important event is a (an) ________.",
+      "isReverse": true
+    },
+    {
+      "id": 757,
+      "term": "________ is when our recollections of the past are done in a self-enhancing manner.",
+      "definition": "Egocentric bias"
+    },
+    {
+      "id": 10757,
+      "term": "Egocentric bias",
+      "definition": "________ is when our recollections of the past are done in a self-enhancing manner.",
+      "isReverse": true
+    },
+    {
+      "id": 758,
+      "term": "Tip-of-the-tongue phenomenon is also known as ________.",
+      "definition": "Blocking"
+    },
+    {
+      "id": 10758,
+      "term": "Blocking",
+      "definition": "Tip-of-the-tongue phenomenon is also known as ________.",
+      "isReverse": true
+    },
+    {
+      "id": 759,
+      "term": "The formulation of new memories is sometimes called ________, and the process of bringing up old memories is called ________.",
+      "definition": "Construction; reconstruction"
+    },
+    {
+      "id": 10759,
+      "term": "Construction; reconstruction",
+      "definition": "The formulation of new memories is sometimes called ________, and the process of bringing up old memories is called ________.",
+      "isReverse": true
+    },
+    {
+      "id": 760,
+      "term": "When you are learning how to play the piano, the statement \"Every good boy does fine\" can help you remember the notes E, G, B, D, and F for the lines of the treble clef. This is an example of a (an) ________.",
+      "definition": "Acrostic"
+    },
+    {
+      "id": 10760,
+      "term": "Acrostic",
+      "definition": "When you are learning how to play the piano, the statement \"Every good boy does fine\" can help you remember the notes E, G, B, D, and F for the lines of the treble clef. This is an example of a (an) ________.",
+      "isReverse": true
+    },
+    {
+      "id": 761,
+      "term": "According to a study by Yogo and Fujihara (2008), if you want to improve your short-term memory, you should spend time writing about ________.",
+      "definition": "A traumatic life experience"
+    },
+    {
+      "id": 10761,
+      "term": "A traumatic life experience",
+      "definition": "According to a study by Yogo and Fujihara (2008), if you want to improve your short-term memory, you should spend time writing about ________.",
+      "isReverse": true
+    },
+    {
+      "id": 762,
+      "term": "The self-referencing effect refers to ________.",
+      "definition": "Making the material you are trying to memorize personally meaningful to you"
+    },
+    {
+      "id": 10762,
+      "term": "Making the material you are trying to memorize personally meaningful to you",
+      "definition": "The self-referencing effect refers to ________.",
+      "isReverse": true
+    },
+    {
+      "id": 763,
+      "term": "Memory aids that help organize information for encoding are ________.",
+      "definition": "Mnemonic devices"
+    },
+    {
+      "id": 10763,
+      "term": "Mnemonic devices",
+      "definition": "Memory aids that help organize information for encoding are ________.",
+      "isReverse": true
+    },
+    {
+      "id": 764,
+      "term": "Types of Encoding",
+      "definition": "Semantic (words/meaning), Visual (images), and Acoustic (sounds)."
+    },
+    {
+      "id": 10764,
+      "term": "Semantic (words/meaning), Visual (images), and Acoustic (sounds).",
+      "definition": "Types of Encoding",
+      "isReverse": true
+    },
+    {
+      "id": 765,
+      "term": "Explicit (Declarative) Memory",
+      "definition": "Memories we consciously try to remember and report. Includes Episodic (events) and Semantic (facts)."
+    },
+    {
+      "id": 10765,
+      "term": "Memories we consciously try to remember and report. Includes Episodic (events) and Semantic (facts).",
+      "definition": "Explicit (Declarative) Memory",
+      "isReverse": true
+    },
+    {
+      "id": 766,
+      "term": "Implicit (Non-declarative) Memory",
+      "definition": "Memories that are not part of our consciousness. Includes Procedural (skills), Priming, and Emotional Conditioning."
+    },
+    {
+      "id": 10766,
+      "term": "Memories that are not part of our consciousness. Includes Procedural (skills), Priming, and Emotional Conditioning.",
+      "definition": "Implicit (Non-declarative) Memory",
+      "isReverse": true
+    },
+    {
+      "id": 767,
+      "term": "Retrieval Methods",
+      "definition": "Recall (accessing without cues), Recognition (identifying previously learned info), and Relearning (learning again)."
+    },
+    {
+      "id": 10767,
+      "term": "Recall (accessing without cues), Recognition (identifying previously learned info), and Relearning (learning again).",
+      "definition": "Retrieval Methods",
+      "isReverse": true
+    },
+    {
+      "id": 768,
+      "term": "Amygdala",
+      "definition": "Involved in processing emotional information and facilitating memory consolidation, especially for emotionally arousing events."
+    },
+    {
+      "id": 10768,
+      "term": "Involved in processing emotional information and facilitating memory consolidation, especially for emotionally arousing events.",
+      "definition": "Amygdala",
+      "isReverse": true
+    },
+    {
+      "id": 769,
+      "term": "Hippocampus",
+      "definition": "Essential for memory consolidation (transferring new learning to long-term memory) and giving memories meaning."
+    },
+    {
+      "id": 10769,
+      "term": "Essential for memory consolidation (transferring new learning to long-term memory) and giving memories meaning.",
+      "definition": "Hippocampus",
+      "isReverse": true
+    },
+    {
+      "id": 770,
+      "term": "Cerebellum",
+      "definition": "Processes procedural memories (like how to play an instrument)."
+    },
+    {
+      "id": 10770,
+      "term": "Processes procedural memories (like how to play an instrument).",
+      "definition": "Cerebellum",
+      "isReverse": true
+    },
+    {
+      "id": 771,
+      "term": "Prefrontal Cortex",
+      "definition": "Involved in processing and retaining information; highly active during semantic tasks."
+    },
+    {
+      "id": 10771,
+      "term": "Involved in processing and retaining information; highly active during semantic tasks.",
+      "definition": "Prefrontal Cortex",
+      "isReverse": true
+    },
+    {
+      "id": 772,
+      "term": "Encoding Failure",
+      "definition": "Memory loss that happens before the actual memory process begins (we never stored it in the first place)."
+    },
+    {
+      "id": 10772,
+      "term": "Memory loss that happens before the actual memory process begins (we never stored it in the first place).",
+      "definition": "Encoding Failure",
+      "isReverse": true
+    },
+    {
+      "id": 773,
+      "term": "Mnemonic Devices",
+      "definition": "Memory aids that help us organize information for encoding (e.g., acronyms)."
+    },
+    {
+      "id": 10773,
+      "term": "Memory aids that help us organize information for encoding (e.g., acronyms).",
+      "definition": "Mnemonic Devices",
+      "isReverse": true
+    }
+  ]
+}
