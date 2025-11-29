@@ -3,6 +3,11 @@ import GlowButton from './components/GlowButton';
 import CrossfadeLoop from './components/CrossfadeLoop';
 import FlashCards from './FlashCards';
 import LoadingScreen from './components/LoadingScreen';
+import SettingsUI from './components/SettingsUI';
+import WelcomeScreen from './views/WelcomeScreen';
+import StartScreen from './views/StartScreen';
+import QuizScreen from './views/QuizScreen';
+import ResultScreen from './views/ResultScreen';
 
 const MUSIC_TRACKS = [
     'PQ__Track-10.mp3',
@@ -136,67 +141,6 @@ const chapterDescriptions = {
     14: "Chapter 14: Social Psychology",
     15: "Chapter 15: Psychological Disorders",
     16: "Chapter 16: Therapy and Treatment"
-};
-
-const SettingsUI = ({ showSettings, setShowSettings, soundEnabled, setSoundEnabled, rewardVideosDisabled, setRewardVideosDisabled, musicEnabled, setMusicEnabled }) => {
-    return (
-        <>
-            <button 
-                onClick={() => setShowSettings(true)}
-                className="fixed top-4 right-4 z-[100] text-[#f9f47c] hover:text-[#ffe066] transition-all p-2 hover:rotate-90 duration-500"
-                title="Settings"
-            >
-                <i className="fa-solid fa-gear text-2xl md:text-3xl filter drop-shadow-[0_0_5px_rgba(0,0,0,1)]"></i>
-            </button>
-
-            {showSettings && (
-                <div className="fixed inset-0 z-[101] bg-black/90 backdrop-blur-md flex items-center justify-center fade-in" onClick={(e) => e.target === e.currentTarget && setShowSettings(false)}>
-                    <div className="bg-[#111] border-2 border-[#00ffff] p-8 rounded-xl max-w-md w-full relative shadow-[0_0_50px_rgba(0,255,255,0.2)] mx-4">
-                        <h2 className="text-2xl font-bold text-white mb-6 uppercase tracking-wider border-b border-[#333] pb-4 flex justify-between items-center">
-                            Settings
-                            <button onClick={() => setShowSettings(false)} className="text-gray-500 hover:text-white transition-colors">
-                                <i className="fa-solid fa-xmark"></i>
-                            </button>
-                        </h2>
-                        
-                        <div className="space-y-6 mb-8">
-                            <div className="flex items-center justify-between p-4 bg-black/50 rounded-lg border border-[#333]">
-                                <span className="text-gray-300">Correct Answer Video Sound</span>
-                                <div 
-                                    onClick={() => setSoundEnabled(!soundEnabled)}
-                                    className={`w-12 h-6 rounded-full relative cursor-pointer border transition-colors ${soundEnabled ? 'bg-[#00ffff]/20 border-[#00ffff]' : 'bg-gray-800 border-gray-600'}`}
-                                >
-                                    <div className={`absolute top-1 w-3.5 h-3.5 rounded-full transition-all ${soundEnabled ? 'right-1 bg-[#00ffff] shadow-[0_0_10px_#00ffff]' : 'left-1 bg-gray-500'}`}></div>
-                                </div>
-                            </div>
-                            <div className="flex items-center justify-between p-4 bg-black/50 rounded-lg border border-[#333]">
-                                <span className="text-gray-300">Correct Answer Videos</span>
-                                <div 
-                                    onClick={() => setRewardVideosDisabled(!rewardVideosDisabled)}
-                                    className={`w-12 h-6 rounded-full relative cursor-pointer border transition-colors ${!rewardVideosDisabled ? 'bg-[#00ffff]/20 border-[#00ffff]' : 'bg-gray-800 border-gray-600'}`}
-                                >
-                                    <div className={`absolute top-1 w-3.5 h-3.5 rounded-full transition-all ${!rewardVideosDisabled ? 'right-1 bg-[#00ffff] shadow-[0_0_10px_#00ffff]' : 'left-1 bg-gray-500'}`}></div>
-                                </div>
-                            </div>
-                            <div className="flex items-center justify-between p-4 bg-black/50 rounded-lg border border-[#333]">
-                                <span className="text-gray-300">Background Music</span>
-                                <div 
-                                    onClick={() => setMusicEnabled(!musicEnabled)}
-                                    className={`w-12 h-6 rounded-full relative cursor-pointer border transition-colors ${musicEnabled ? 'bg-[#00ffff]/20 border-[#00ffff]' : 'bg-gray-800 border-gray-600'}`}
-                                >
-                                    <div className={`absolute top-1 w-3.5 h-3.5 rounded-full transition-all ${musicEnabled ? 'right-1 bg-[#00ffff] shadow-[0_0_10px_#00ffff]' : 'left-1 bg-gray-500'}`}></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <GlowButton onClick={() => setShowSettings(false)} className="w-full bg-[#00ffff]/10 hover:bg-[#00ffff]/20 text-[#00ffff] border border-[#00ffff] py-3 rounded-lg font-bold uppercase tracking-widest transition-all">
-                            Save & Close
-                        </GlowButton>
-                    </div>
-                </div>
-            )}
-        </>
-    );
 };
 
 function App() {
@@ -372,15 +316,6 @@ function App() {
         };
     }, [rewardVideo, hasStarted, musicEnabled]);
 
-    // Initialize/Shuffle Playlist - REMOVED (handled in useState)
-    // useEffect(() => {
-    //     if (MUSIC_TRACKS.length > 0 && playlist.length === 0) {
-    //         const shuffled = [...MUSIC_TRACKS].sort(() => Math.random() - 0.5);
-    //         setPlaylist(shuffled);
-    //         setCurrentTrackIndex(0);
-    //     }
-    // }, []);
-
     // Handle playback control
     useEffect(() => {
         const audio = audioRef.current;
@@ -414,6 +349,9 @@ function App() {
                 console.log('No src set, initializing:', trackUrl);
                 audio.src = trackUrl;
                 audio.play().catch(e => console.log('Fallback play failed:', e));
+            } else if (audio.paused) {
+                // Resume if paused and track is correct
+                audio.play().catch(e => console.log('Resume play failed:', e));
             }
         } else if (hasStarted && !musicEnabled) {
             audio.pause();
@@ -789,11 +727,6 @@ function App() {
                     className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-black cursor-pointer" 
                     onClick={() => {
                         console.log('CLICK TO START clicked');
-                        console.log('audioRef.current:', audioRef.current);
-                        console.log('musicEnabled:', musicEnabled);
-                        console.log('playlist:', playlist);
-                        console.log('currentTrackIndex:', currentTrackIndex);
-                        
                         setHasStarted(true);
                         
                         // Attempt to unlock audio context immediately on user interaction
@@ -801,7 +734,6 @@ function App() {
                             const track = playlist[currentTrackIndex];
                             const trackUrl = `/Music/${track}`;
                             
-                            console.log('Setting audio src:', trackUrl);
                             audioRef.current.src = trackUrl;
                             audioRef.current.volume = 0.3;
                             
@@ -812,11 +744,6 @@ function App() {
                                     .then(() => console.log('Audio started successfully'))
                                     .catch(e => console.error('Manual start failed:', e));
                             }
-                        } else {
-                            console.log('Audio NOT started because:');
-                            console.log('- audioRef.current exists:', !!audioRef.current);
-                            console.log('- musicEnabled:', musicEnabled);
-                            console.log('- playlist.length:', playlist.length);
                         }
                     }}
                 >
@@ -942,234 +869,53 @@ function App() {
                 
                 {/* WELCOME SCREEN */}
                 {view === 'welcome' && (
-                    <div id="welcome-screen" className="fade-in w-full max-w-4xl mx-auto">
-                        <div className="mb-6 text-[#ff00ff] text-6xl filter drop-shadow-[0_0_10px_rgba(255,0,255,0.8)]"><i className="fa-solid fa-graduation-cap"></i></div>
-                        <h2 className="text-heading-sub text-2xl md:text-3xl text-gray-300 mb-4 tracking-wide">Psychology 1 Practice Tests</h2>
-                        
-                        <div className="w-full flex justify-center mb-8">
-                            <GlowButton onClick={() => setView('splash')} className="text-button bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-2 px-6 rounded-xl text-base transition-all flex items-center gap-2 border-2 border-gray-700 hover:border-white tracking-wide">
-                                <i className="fa-solid fa-arrow-left"></i> Back to Main
-                            </GlowButton>
-                        </div>
-
-                        <h3 className="text-body text-xl font-bold text-[#00ffff] mb-8 uppercase tracking-widest border-2 border-[#00ffff] inline-block px-6 py-2 bg-black/50">Select Your Chapter</h3>
-                        
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14].map(num => (
-                                <GlowButton key={num} onClick={() => loadChapter(num)} className="chapter-btn text-button bg-[#111] hover:bg-[#222] border-2 border-[#333] hover:border-[#ff00ff] text-gray-300 hover:text-white py-4 px-6 rounded-xl transition-all shadow-none hover:shadow-[0_0_15px_rgba(255,0,255,0.4)] tracking-wider">
-                                    Chapter {num}
-                                </GlowButton>
-                            ))}
-                        </div>
-                        
-                        <div className="flex flex-wrap justify-center gap-4">
-                            {[15, 16].map(num => (
-                                <GlowButton key={num} onClick={() => loadChapter(num)} className="chapter-btn text-button bg-[#111] hover:bg-[#222] border-2 border-[#333] hover:border-[#ff00ff] text-gray-300 hover:text-white py-4 px-6 rounded-xl transition-all shadow-none hover:shadow-[0_0_15px_rgba(255,0,255,0.4)] tracking-wider">
-                                    Chapter {num}
-                                </GlowButton>
-                            ))}
-                        </div>
-
-                        <div className="bg-black/80 border border-[#333] py-3 px-4 mt-8 text-gray-500 italic text-sm font-mono">
-                            // Chapters 12 & 13 Were Skipped //
-                        </div>
-                    </div>
+                    <WelcomeScreen 
+                        setView={setView} 
+                        loadChapter={loadChapter} 
+                    />
                 )}
 
                 {/* START SCREEN */}
                 {view === 'start' && (
-                    <div id="start-screen" className="fade-in w-full max-w-2xl mx-auto border-2 border-[#ff00ff] p-8 bg-black/60 relative">
-                        <div className="absolute -top-3 -left-3 w-6 h-6 border-t-4 border-l-4 border-[#00ffff]"></div>
-                        <div className="absolute -top-3 -right-3 w-6 h-6 border-t-4 border-r-4 border-[#00ffff]"></div>
-                        <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-4 border-l-4 border-[#00ffff]"></div>
-                        <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-4 border-r-4 border-[#00ffff]"></div>
-
-                        <div className="mb-8 text-[#00ffff] text-7xl filter drop-shadow-[0_0_15px_rgba(0,255,255,0.6)]"><i className="fa-solid fa-brain"></i></div>
-                        <h1 className="text-heading-main text-5xl text-white mb-6 tracking-tighter italic transform -skew-x-6">Psychology Quiz</h1>
-                        <p className="text-body text-gray-300 mb-10 text-xl leading-relaxed">
-                            {chapterDescriptions[selectedChapter] || `Chapter ${selectedChapter}`}
-                            <br />
-                            <span className="inline-block mt-4 bg-[#ff00ff]/20 border border-[#ff00ff] px-4 py-1 text-[#ff00ff] font-bold uppercase tracking-wider">
-                                {questions.length} Questions Loaded
-                            </span>
-                        </p>
-                        <GlowButton onClick={startGame} className="text-button bg-[#ff00ff] hover:bg-[#d900d9] text-white py-5 px-12 rounded-xl text-xl transition-all shadow-[0_0_20px_rgba(255,0,255,0.6)] hover:shadow-[0_0_40px_rgba(255,0,255,0.8)] transform hover:-translate-y-1 mb-6 w-full md:w-auto tracking-widest border-2 border-white">
-                            Start New Quiz
-                        </GlowButton>
-                        
-                        {quizProgress[selectedChapter] && (
-                            <div className="mb-6 w-full flex justify-center">
-                                <GlowButton onClick={resumeGame} className="text-button bg-[#00ffff] hover:bg-[#00e6e6] text-white py-4 px-10 rounded-xl text-lg transition-all shadow-[0_0_20px_rgba(0,255,255,0.6)] hover:shadow-[0_0_40px_rgba(0,255,255,0.8)] transform hover:-translate-y-1 w-full md:w-auto tracking-widest border-2 border-white font-bold uppercase">
-                                    Resume Quiz (Q{quizProgress[selectedChapter].currentQuestionIndex + 1})
-                                </GlowButton>
-                            </div>
-                        )}
-
-                        <br/>
-                        <GlowButton onClick={() => setView('welcome')} className="text-button bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-3 px-8 rounded-xl text-lg transition-all flex items-center gap-2 justify-center mx-auto w-full md:w-auto border-2 border-gray-700 hover:border-white tracking-wide">
-                            <i className="fa-solid fa-arrow-left"></i> Back to Selection
-                        </GlowButton>
-                    </div>
+                    <StartScreen 
+                        chapterDescriptions={chapterDescriptions}
+                        selectedChapter={selectedChapter}
+                        questions={questions}
+                        startGame={startGame}
+                        quizProgress={quizProgress}
+                        resumeGame={resumeGame}
+                        setView={setView}
+                    />
                 )}
 
                 {/* QUIZ SCREEN */}
                 {view === 'quiz' && currentQuestion && (
-                    <div id="quiz-screen" className="w-full text-left fade-in max-w-4xl mx-auto pb-10">
-                        <div className="mb-8 border-b border-[#333] pb-6">
-                            <div className="w-full mb-6">
-                                {currentQuestion.isRetry && (
-                                    <span className="inline-block bg-[#ff00ff] text-white text-base font-black px-3 py-1 rounded mb-2 uppercase tracking-widest animate-pulse">
-                                        2nd Try!
-                                    </span>
-                                )}
-                                <h2 ref={questionRef} id="question-text" className="text-question text-xl md:text-2xl" dangerouslySetInnerHTML={{ __html: currentQuestion.q }}></h2>
-                            </div>
-                            
-                            <div className="w-full flex justify-center">
-                                <button 
-                                    id="hint-btn"
-                                    onClick={useHint} 
-                                    disabled={isAnswered || hintUsed}
-                                    className={`flex flex-col items-center justify-center transition-all p-2 group ${isAnswered || hintUsed ? 'opacity-30 cursor-not-allowed text-gray-600' : 'text-[#fff47d] hover:text-[#ffffa0] hover:drop-shadow-[0_0_15px_#fff47d] animate-breathe-custom-yellow'}`} 
-                                    title="Remove 2 wrong answers"
-                                >
-                                    <i className="fa-solid fa-lightbulb text-4xl mb-1 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12"></i>
-                                    <span className="text-xs font-black uppercase tracking-widest">Hint</span>
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <div id="answer-buttons" className="flex flex-col gap-4 w-full">
-                            {currentQuestion.a.map((ans, idx) => {
-                                const isEliminated = eliminatedAnswers.includes(idx);
-                                const isCorrect = ans.c;
-                                const isSelected = selectedAnswerIndex === idx;
-                                const isHidden = hiddenAnswers.includes(idx);
-
-                                let btnClass = "option-btn text-center rounded-xl font-bold shadow-sm transition-all duration-500 ease-in-out overflow-hidden";
-                                
-                                if (isHidden) {
-                                    btnClass += " max-h-0 opacity-0 !p-0 !border-0 !m-0 pointer-events-none";
-                                } else {
-                                    btnClass += " max-h-[500px] opacity-100 p-5 border-2";
-                                    
-                                    if (isEliminated) {
-                                        btnClass += " eliminated";
-                                    } else if (isAnswered) {
-                                        if (isCorrect) {
-                                            btnClass += " correct";
-                                        } else if (isSelected) {
-                                            btnClass += " wrong";
-                                        }
-                                    } else {
-                                        btnClass += " hover:bg-[#1a1a1a]";
-                                    }
-                                }
-
-                                return (
-                                    <GlowButton 
-                                        key={idx}
-                                        onClick={() => handleAnswer(ans, idx)}
-                                        disabled={isAnswered || isEliminated || isHidden}
-                                        className={btnClass}
-                                    >
-                                        {isEliminated ? (
-                                            <span className="line-through decoration-2 decoration-gray-600 text-gray-600 font-mono" dangerouslySetInnerHTML={{ __html: ans.t }}></span>
-                                        ) : (
-                                            <>
-                                                <span className="font-sans tracking-wide" dangerouslySetInnerHTML={{ __html: ans.t }}></span>
-                                                {isAnswered && isCorrect && <i className="fa-solid fa-check float-right mt-1 text-[#39ff14] text-xl filter drop-shadow-[0_0_5px_#39ff14]"></i>}
-                                                {isAnswered && isSelected && !isCorrect && <i className="fa-solid fa-xmark float-right mt-1 text-[#ff0000] text-xl filter drop-shadow-[0_0_5px_#ff0000]"></i>}
-                                            </>
-                                        )}
-                                    </GlowButton>
-                                );
-                            })}
-                        </div>
-
-                        {feedback && (
-                            <div id="feedback-area" ref={feedbackRef} className="mt-8 flex flex-col items-center animate-slide-up">
-                                <p id="feedback-text" className={`mb-6 ${feedback.type === 'correct' ? 'text-feedback-correct' : 'text-feedback-wrong'}`}>
-                                    {feedback.text}
-                                </p>
-                                <GlowButton id="next-btn" onClick={nextQuestion} className="bg-[#00ffff] text-white px-10 py-4 rounded-xl hover:bg-[#ccffff] transition-all shadow-[0_0_15px_#00ffff] font-black w-full md:w-auto uppercase tracking-widest text-lg transform hover:-translate-y-1">
-                                    Next Question <i className="fa-solid fa-arrow-right ml-2"></i>
-                                </GlowButton>
-                            </div>
-                        )}
-                    </div>
+                    <QuizScreen 
+                        currentQuestion={currentQuestion}
+                        questionRef={questionRef}
+                        useHint={useHint}
+                        isAnswered={isAnswered}
+                        hintUsed={hintUsed}
+                        eliminatedAnswers={eliminatedAnswers}
+                        hiddenAnswers={hiddenAnswers}
+                        selectedAnswerIndex={selectedAnswerIndex}
+                        handleAnswer={handleAnswer}
+                        feedback={feedback}
+                        feedbackRef={feedbackRef}
+                        nextQuestion={nextQuestion}
+                    />
                 )}
 
                 {/* RESULT SCREEN */}
                 {view === 'result' && (
-                    <div id="result-screen" className="fade-in w-full max-w-3xl mx-auto border-4 border-[#00ffff] p-10 bg-black/80 relative">
-                        <div className="absolute top-0 left-0 w-4 h-4 bg-[#00ffff]"></div>
-                        <div className="absolute top-0 right-0 w-4 h-4 bg-[#00ffff]"></div>
-                        <div className="absolute bottom-0 left-0 w-4 h-4 bg-[#00ffff]"></div>
-                        <div className="absolute bottom-0 right-0 w-4 h-4 bg-[#00ffff]"></div>
-
-                        {(() => {
-                            const originalTotal = gameQuestions.filter(q => !q.isRetry).length;
-                            const percentage = score / originalTotal;
-                            
-                            return (
-                                <>
-                                    <div id="result-icon" className="text-8xl mb-6 filter drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
-                                        {percentage === 1 ? (
-                                            <i className="fa-solid fa-crown text-[#ffd700] animate-bounce"></i>
-                                        ) : percentage >= 0.92 ? (
-                                            <i className="fa-solid fa-trophy text-[#ffd700]"></i>
-                                        ) : percentage >= 0.8 ? (
-                                            <i className="fa-solid fa-thumbs-up text-[#00ffff]"></i>
-                                        ) : percentage <= 0.7 ? (
-                                            <i className="fa-solid fa-skull text-[#ff0000]"></i>
-                                        ) : (
-                                            <i className="fa-solid fa-face-meh text-[#ffa500]"></i>
-                                        )}
-                                    </div>
-                                    <h2 className="text-heading-main text-4xl md:text-5xl text-white mb-4 tracking-tighter">
-                                        {percentage === 1 ? "GREAT JOB 100%!!" : "Assessment Complete"}
-                                    </h2>
-                                    <p className="text-body text-gray-300 mb-6 text-2xl">
-                                        You scored <span className="font-black text-[#ff00ff] text-4xl inline-block transform -rotate-3 border-2 border-[#ff00ff] px-3 py-1 mx-2 bg-black">{score}</span> out of <span id="final-total" className="font-bold text-white">{originalTotal}</span>
-                                        <br />
-                                        <span className="text-lg text-[#00ffff] font-bold">({(percentage * 100).toFixed(1)}%)</span>
-                                    </p>
-
-                                    {retryScore > 0 && (
-                                        <div className="mb-10 p-4 bg-[#111] border border-[#333] rounded-xl inline-block">
-                                            <p className="text-gray-400 text-sm uppercase tracking-widest mb-2">Retry Performance</p>
-                                            <p className="text-xl text-white">
-                                                <span className="text-[#00ffff] font-bold">{retryScore}</span> questions correct on <span className="text-[#ff00ff] font-bold">2nd Try</span>
-                                            </p>
-                                        </div>
-                                    )}
-                                    {!retryScore && <div className="mb-10"></div>}
-                                </>
-                            );
-                        })()}
-
-                        {/* History Section */}
-                        {quizHistory[selectedChapter] && quizHistory[selectedChapter].length > 0 && (
-                            <div className="mb-8 max-h-60 overflow-y-auto border border-[#333] bg-black/50 rounded-lg p-4">
-                                <h3 className="text-[#00ffff] font-bold uppercase tracking-wider mb-4 border-b border-[#333] pb-2 sticky top-0 bg-black/90">Attempt History</h3>
-                                <div className="space-y-2">
-                                    {[...quizHistory[selectedChapter]].reverse().map((attempt, idx) => (
-                                        <div key={idx} className="flex justify-between items-center text-sm border-b border-[#333] last:border-0 pb-2 last:pb-0">
-                                            <span className="text-gray-400">{new Date(attempt.date).toLocaleDateString()} {new Date(attempt.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
-                                            <span className={`font-bold ${attempt.percentage >= 90 ? 'text-[#ffd700]' : attempt.percentage >= 70 ? 'text-[#00ffff]' : 'text-red-500'}`}>
-                                                {attempt.score}/{attempt.total} ({attempt.percentage.toFixed(1)}%)
-                                            </span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        )}
-
-                        <div className="flex justify-center gap-4">
-                            <GlowButton onClick={restartGame} className="text-button bg-[#ff00ff] hover:bg-[#d900d9] text-white py-4 px-12 rounded-xl transition-all w-full md:w-auto border-2 border-white shadow-[0_0_20px_#ff00ff] tracking-widest text-xl hover:scale-105">Restart Quiz</GlowButton>
-                        </div>
-                    </div>
+                    <ResultScreen 
+                        gameQuestions={gameQuestions}
+                        score={score}
+                        retryScore={retryScore}
+                        quizHistory={quizHistory}
+                        selectedChapter={selectedChapter}
+                        restartGame={restartGame}
+                    />
                 )}
 
                 {/* REWARD VIDEO OVERLAY */}
