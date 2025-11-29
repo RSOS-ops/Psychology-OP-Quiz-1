@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://RSOS-ops.github.io/Psychology-OP-Quiz-1/",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "prebuild": "node updateRewardVideos.js",
     "build": "npm run prebuild && vite build",
     "predeploy": "npm run build",

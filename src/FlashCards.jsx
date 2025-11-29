@@ -242,10 +242,10 @@ const FlashCards = ({ onBack, customData = {}, onResetCustomData }) => {
                     >
                         {/* Front */}
                         <div className="col-start-1 row-start-1 backface-hidden bg-[#111] border-2 border-[#00ffff] rounded-2xl shadow-[0_0_30px_rgba(0,255,255,0.2)] flex flex-col items-center justify-center p-8 md:p-16 text-center">
-                            <span className="absolute top-4 left-6 text-[#00ffff] text-xs font-bold uppercase tracking-widest opacity-50">Term</span>
+                            <span className="absolute top-4 left-6 text-[#00ffff] text-xs font-bold uppercase tracking-widest opacity-50">Front</span>
                             <div className="w-full flex items-center justify-center">
                                 <h3 className="text-xl md:text-3xl font-bold text-white leading-tight">
-                                    {currentCard.term}
+                                    {currentCard.front}
                                 </h3>
                             </div>
                             <p className="absolute bottom-4 text-gray-500 text-xs animate-pulse">Click to flip</p>
@@ -253,10 +253,10 @@ const FlashCards = ({ onBack, customData = {}, onResetCustomData }) => {
 
                         {/* Back */}
                         <div className="col-start-1 row-start-1 backface-hidden rotate-y-180 bg-[#111] border-2 border-[#ff00ff] rounded-2xl shadow-[0_0_30px_rgba(255,0,255,0.2)] flex flex-col items-center justify-center p-8 md:p-16 text-center">
-                            <span className="absolute top-4 left-6 text-[#ff00ff] text-xs font-bold uppercase tracking-widest opacity-50">Definition</span>
+                            <span className="absolute top-4 left-6 text-[#ff00ff] text-xs font-bold uppercase tracking-widest opacity-50">Back</span>
                             <div className="w-full">
                                 <p className="text-xl md:text-3xl font-medium text-gray-100 leading-relaxed">
-                                    {currentCard.definition}
+                                    {currentCard.back}
                                 </p>
                             </div>
                         </div>

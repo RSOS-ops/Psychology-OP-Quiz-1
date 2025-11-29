@@ -308,19 +308,18 @@ function App() {
     // Background Music Logic
     const audioRef = useRef(null);
     const fadeIntervalRef = useRef(null);
-    const [playlist, setPlaylist] = useState([]);
+    // Initialize playlist immediately with shuffled tracks
+    const [playlist, setPlaylist] = useState(() => {
+        return [...MUSIC_TRACKS].sort(() => Math.random() - 0.5);
+    });
     const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
 
     // Initialize audio object once
     useEffect(() => {
-        audioRef.current = new Audio();
-        audioRef.current.volume = 0.3; // Default volume
-        return () => {
-            if (audioRef.current) {
-                audioRef.current.pause();
-                audioRef.current = null;
-            }
-        };
+        if (audioRef.current) {
+            audioRef.current.volume = 0.3; // Default volume
+            console.log('Audio element initialized');
+        }
     }, []);
 
     // Music Volume Ducking for Reward Videos
@@ -329,6 +328,10 @@ function App() {
         if (!audio) return;
 
         const fadeAudio = (targetVolume, duration) => {
+            // Skip volume fading on iOS where volume is read-only (always 1)
+            // We can detect this by trying to set volume and reading it back, 
+            // or just skip if it's a mobile device, but simpler to just try-catch or ignore
+            
             if (fadeIntervalRef.current) clearInterval(fadeIntervalRef.current);
             
             const startVolume = audio.volume;
@@ -340,7 +343,11 @@ function App() {
                 
                 // Linear interpolation
                 const newVolume = startVolume + (targetVolume - startVolume) * progress;
-                audio.volume = Math.max(0, Math.min(1, newVolume));
+                try {
+                    audio.volume = Math.max(0, Math.min(1, newVolume));
+                } catch (e) {
+                    // Ignore volume setting errors on iOS
+                }
                 
                 if (progress >= 1) {
                     clearInterval(fadeIntervalRef.current);
@@ -365,14 +372,14 @@ function App() {
         };
     }, [rewardVideo, hasStarted, musicEnabled]);
 
-    // Initialize/Shuffle Playlist
-    useEffect(() => {
-        if (MUSIC_TRACKS.length > 0 && playlist.length === 0) {
-            const shuffled = [...MUSIC_TRACKS].sort(() => Math.random() - 0.5);
-            setPlaylist(shuffled);
-            setCurrentTrackIndex(0);
-        }
-    }, []);
+    // Initialize/Shuffle Playlist - REMOVED (handled in useState)
+    // useEffect(() => {
+    //     if (MUSIC_TRACKS.length > 0 && playlist.length === 0) {
+    //         const shuffled = [...MUSIC_TRACKS].sort(() => Math.random() - 0.5);
+    //         setPlaylist(shuffled);
+    //         setCurrentTrackIndex(0);
+    //     }
+    // }, []);
 
     // Handle playback control
     useEffect(() => {
@@ -394,20 +401,21 @@ function App() {
 
         if (hasStarted && musicEnabled && playlist.length > 0) {
             const track = playlist[currentTrackIndex];
-            const trackUrl = `${import.meta.env.BASE_URL}Music/${track}`;
-            
-            // Check if we need to change the source
-            // We use decodeURIComponent because audio.src might be encoded
-            // Simple check: if src ends with track filename
+            const trackUrl = `/Music/${track}`;
             const currentSrc = audio.src;
             
-            if (!currentSrc.includes(track)) {
+            // Only change track if it's different (for track changes, not initial load)
+            if (currentSrc && !currentSrc.includes(track)) {
+                console.log('Changing to next track:', trackUrl);
                 audio.src = trackUrl;
-                audio.play().catch(e => console.log("Audio play failed:", e));
-            } else if (audio.paused) {
-                audio.play().catch(e => console.log("Audio resume failed:", e));
+                audio.play().catch(e => console.log('Next track play failed:', e));
+            } else if (!currentSrc) {
+                // This shouldn't happen if click handler worked, but as fallback
+                console.log('No src set, initializing:', trackUrl);
+                audio.src = trackUrl;
+                audio.play().catch(e => console.log('Fallback play failed:', e));
             }
-        } else {
+        } else if (hasStarted && !musicEnabled) {
             audio.pause();
         }
     }, [hasStarted, musicEnabled, playlist, currentTrackIndex]);
@@ -622,14 +630,14 @@ function App() {
                 
                 // Check if card already exists to avoid duplicates
                 // We strip HTML tags for comparison to be safe, or just compare raw strings
-                const cardExists = currentChapterData.cards.some(c => c.term === currentQ.q);
+                const cardExists = currentChapterData.cards.some(c => c.front === currentQ.q);
                 
                 if (!cardExists) {
                     const correctAns = currentQ.a.find(a => a.c);
                     if (correctAns) {
                         const newCard = {
-                            term: currentQ.q,
-                            definition: correctAns.t
+                            front: currentQ.q,
+                            back: correctAns.t
                         };
                         
                         const newState = {
@@ -755,26 +763,78 @@ function App() {
 
     const currentQuestion = gameQuestions[currentQuestionIndex];
 
+    // Render persistent audio element outside all conditional returns
+    const audioElement = (
+        <audio 
+            ref={audioRef} 
+            preload="metadata" 
+            playsInline 
+        />
+    );
+
     if (isLoading) {
-        return <LoadingScreen />;
+        return (
+            <>
+                {audioElement}
+                <LoadingScreen />
+            </>
+        );
     }
 
     if (!hasStarted) {
         return (
-            <div className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-black cursor-pointer" onClick={() => setHasStarted(true)}>
-                <div className="loading mb-24">
-                    {[...Array(7)].map((_, i) => (
-                        <div key={i} className="loading__square"></div>
-                    ))}
+            <>
+                {audioElement}
+                <div 
+                    className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-black cursor-pointer" 
+                    onClick={() => {
+                        console.log('CLICK TO START clicked');
+                        console.log('audioRef.current:', audioRef.current);
+                        console.log('musicEnabled:', musicEnabled);
+                        console.log('playlist:', playlist);
+                        console.log('currentTrackIndex:', currentTrackIndex);
+                        
+                        setHasStarted(true);
+                        
+                        // Attempt to unlock audio context immediately on user interaction
+                        if (audioRef.current && musicEnabled && playlist.length > 0) {
+                            const track = playlist[currentTrackIndex];
+                            const trackUrl = `/Music/${track}`;
+                            
+                            console.log('Setting audio src:', trackUrl);
+                            audioRef.current.src = trackUrl;
+                            audioRef.current.volume = 0.3;
+                            
+                            // Play immediately after setting src
+                            const playPromise = audioRef.current.play();
+                            if (playPromise !== undefined) {
+                                playPromise
+                                    .then(() => console.log('Audio started successfully'))
+                                    .catch(e => console.error('Manual start failed:', e));
+                            }
+                        } else {
+                            console.log('Audio NOT started because:');
+                            console.log('- audioRef.current exists:', !!audioRef.current);
+                            console.log('- musicEnabled:', musicEnabled);
+                            console.log('- playlist.length:', playlist.length);
+                        }
+                    }}
+                >
+                    <div className="loading mb-24">
+                        {[...Array(7)].map((_, i) => (
+                            <div key={i} className="loading__square"></div>
+                        ))}
+                    </div>
+                    <h2 className="text-[#ff00ff] text-3xl md:text-5xl font-black tracking-[0.2em] md:tracking-[0.5em] animate-pulse text-center px-4">CLICK TO START</h2>
                 </div>
-                <h2 className="text-[#ff00ff] text-3xl md:text-5xl font-black tracking-[0.2em] md:tracking-[0.5em] animate-pulse text-center px-4">CLICK TO START</h2>
-            </div>
+            </>
         );
     }
 
     if (view === 'flashcards') {
         return (
             <>
+                {audioElement}
                 <SettingsUI 
                     showSettings={showSettings} 
                     setShowSettings={setShowSettings} 
@@ -797,7 +857,9 @@ function App() {
     // Render splash screen without the glass panel wrapper
     if (view === 'splash') {
         return (
-            <div id="splash-screen" className="fixed inset-0 w-full h-full z-50 fade-in overflow-hidden bg-black">
+            <>
+                {audioElement}
+                <div id="splash-screen" className="fixed inset-0 w-full h-full z-50 fade-in overflow-hidden bg-black">
                 <SettingsUI 
                     showSettings={showSettings} 
                     setShowSettings={setShowSettings} 
@@ -832,11 +894,15 @@ function App() {
                     </div>
                 </div>
             </div>
+            </>
         );
     }
 
     return (
-        <div className="glass-panel w-full max-w-5xl md:w-[1024px] md:rounded-xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] h-[100dvh] md:h-auto md:min-h-[700px] flex flex-col relative border-2 border-[#00ffff]">
+        <>
+            {audioElement}
+            <div className="glass-panel w-full max-w-5xl md:w-[1024px] md:rounded-xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] h-[100dvh] md:h-auto md:min-h-[700px] flex flex-col relative border-2 border-[#00ffff]">
+            
             <SettingsUI 
                 showSettings={showSettings} 
                 setShowSettings={setShowSettings} 
@@ -1134,6 +1200,7 @@ function App() {
                 )}
             </div>
         </div>
+        </>
     );
 }
 
