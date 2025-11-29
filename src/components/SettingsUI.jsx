@@ -1,7 +1,19 @@
 import React from 'react';
 import GlowButton from '../components/GlowButton';
+import { useSettings } from '../hooks/useSettings';
 
-const SettingsUI = ({ showSettings, setShowSettings, soundEnabled, setSoundEnabled, rewardVideosDisabled, setRewardVideosDisabled, musicEnabled, setMusicEnabled }) => {
+const SettingsUI = () => {
+    const { 
+        showSettings, 
+        setShowSettings, 
+        settings, 
+        setSoundEnabled, 
+        setRewardVideosDisabled, 
+        setMusicEnabled 
+    } = useSettings();
+
+    const { soundEnabled, rewardVideosDisabled, musicEnabled } = settings;
+
     return (
         <>
             <button 
