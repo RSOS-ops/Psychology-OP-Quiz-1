@@ -38,7 +38,7 @@
 .glass-panel { 
     background: 
         linear-gradient(rgba(5, 5, 5, 0.70), rgba(5, 5, 5, 0.80)),
-        url('./assets/Cartoon Jelly.JPG');
+        url('./assets/CartoonJelly_NoWatermark.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

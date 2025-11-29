@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { studyData } from './data/flashcardData';
 import GlowButton from './components/GlowButton';
-import cartoonJellyBg from './assets/Cartoon Jelly.JPG';
+import cartoonJellyBg from './assets/CartoonJelly_NoWatermark.jpg';
 
 const FlashCards = ({ onBack, customData = {}, onResetCustomData }) => {
     const [mode, setMode] = useState(null); // 'study', 'custom', null
@@ -228,9 +228,9 @@ const FlashCards = ({ onBack, customData = {}, onResetCustomData }) => {
                     </div>
                     <GlowButton 
                         onClick={goBack} 
-                        className="back-to-chapters-btn bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-1 px-4 rounded-lg text-sm transition-all flex items-center gap-2 border border-gray-700 hover:border-white tracking-wide"
+                        className="back-to-quiz-chapters-btn bg-transparent hover:bg-white/10 text-gray-400 hover:text-white py-1 px-4 rounded-lg text-sm transition-all flex items-center gap-2 border border-gray-700 hover:border-white tracking-wide"
                     >
-                        ← Back to Chapters
+                        ← Back to Quiz Chapters
                     </GlowButton>
                 </div>
 

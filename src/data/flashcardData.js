@@ -365,36 +365,4 @@ const rawStudyData = {
     }
 };
 
-// Function to dynamically expand the data: create reverse cards
-const createDoubledData = (originalData) => {
-    const doubledData = {};
-    
-    Object.keys(originalData).forEach(chapterKey => {
-        const chapter = originalData[chapterKey];
-        const originalCards = chapter.cards;
-        let newCards = [];
-        
-        originalCards.forEach(card => {
-            // Original card (Term -> Definition)
-            newCards.push(card);
-            
-            // Reverse card (Definition -> Term)
-            // We give it a new unique ID by adding 10000 to the original ID to avoid conflicts
-            newCards.push({
-                id: card.id + 10000,
-                term: card.definition, // Front is now the definition
-                definition: card.term,  // Back is now the term
-                isReverse: true         // Optional flag if needed for styling
-            });
-        });
-        
-        doubledData[chapterKey] = {
-            ...chapter,
-            cards: newCards
-        };
-    });
-    
-    return doubledData;
-};
-
-export const studyData = createDoubledData(rawStudyData);
+export const studyData = rawStudyData;
