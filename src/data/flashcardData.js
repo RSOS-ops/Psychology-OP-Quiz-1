@@ -1,368 +1,75 @@
-// Data extracted from PDF files
-const rawStudyData = {
-    1: {
-        title: "Introduction to Psychology",
-        cards: [
-            { id: 1, term: "Empirical Method", definition: "A method for acquiring knowledge based on observation, including experimentation, rather than a method based only on forms of logical argument or previous authorities." },
-            { id: 2, term: "Critical Thinking", definition: "The active application of a set of skills to information for the understanding and evaluation of that information. It involves maintaining an attitude of skepticism, recognizing internal biases, making use of logical thinking, asking appropriate questions, and making observations." },
-            { id: 3, term: "Structuralism", definition: "A theory that holds that if you can describe the structure or characteristics of something, you can understand it." },
-            { id: 4, term: "Functionalism", definition: "A theory that holds that if one can identify the function of something, one can understand it. (e.g., much like the function of a car would be transportation)." },
-            { id: 5, term: "Gestalt Psychology", definition: "Translating to 'whole' or 'configuration', this perspective considers how different sensory perceptions are interpreted via a configuration. It emphasizes that the whole is different from the sum of its parts." },
-            { id: 6, term: "Pavlov's Conditioned Reflex", definition: "A form of learning behavior studied by Pavlov where an organism learns to produce a reflex response to a stimulus that was previously neutral." },
-            { id: 7, term: "Behaviorism", definition: "A school of thought largely responsible for establishing psychology as a scientific discipline through its objective methods and experimentation. It focuses on observing and controlling behavior." },
-            { id: 8, term: "B.F. Skinner", definition: "A psychologist whose focus on positive and negative reinforcement of learned behaviors (operant conditioning) had a lasting influence in psychology." },
-            { id: 9, term: "Naomi Weisstein", definition: "First published in 1968, she stimulated a feminist revolution in psychology by critiquing the field as a science. She criticized male psychologists for constructing the psychology of women entirely out of their own cultural biases without experimental verification." },
-            { id: 10, term: "Mamie Phipps Clark & Kenneth Clark", definition: "Famous African American researchers known for studies that were instrumental in the Brown v. Board of Education case. They studied the psychological effects of segregation on African American children." },
-            { id: 11, term: "Mary Whiton Calkins", definition: "A psychologist who made significant strides in the field, invented the paired-associate technique, and later became the first female president of the American Psychological Association." },
-            { id: 12, term: "Martha Bernal", definition: "The first Latina to receive a doctorate in psychology in the U.S. She demonstrated the benefit of intervention to overcome conduct disorders and researched ethnic identity." },
-            { id: 13, term: "Inez Beverly Prosser", definition: "The first African American woman to receive a PhD in psychology. She studied the impacts of educational segregation and isolation based on race." },
-            { id: 14, term: "Biopsychology", definition: "A field that primarily focuses on bodily functions regarding the nervous, sensory, and motor systems and any possible psychological disorders that may relate to them." },
-            { id: 15, term: "Cognitive Psychology", definition: "The branch of psychology that focuses on cognition and thoughts, and their relationship to experiences and actions." },
-            { id: 16, term: "Developmental Psychology", definition: "The scientific study of the physical and mental attributes of aging and maturation. This includes how cognitive, social, and psychological skills are acquired throughout growth." },
-            { id: 17, term: "Personality Psychology", definition: "A field focusing on behaviors and thought patterns that are unique to each individual. Studies include conscious and unconscious thinking and personality traits." },
-            { id: 18, term: "Social Psychology", definition: "The study of how individuals interact and relate with others and how such interactions can affect behavior." },
-            { id: 19, term: "Clinical Psychology", definition: "Focuses on the diagnosis and treatment of psychological disorders and problematic patterns of behavior. It involves clinical therapy and counseling." },
-            { id: 20, term: "Forensic Psychology", definition: "A branch dealing with the justice system. Tasks include assessment of mental competency, sentencing suggestions, and advisement regarding eyewitness testimonies." },
-            { id: 21, term: "PsyD vs PhD", definition: "A PhD puts more emphasis on research, while a PsyD (Doctor of Psychology) places less emphasis on research and more emphasis on the application of therapeutic skills." }
-        ]
-    },
-    2: {
-        title: "Psychological Research",
-        cards: [
-            { id: 101, term: "Fact vs. Opinion", definition: "Facts are observable realities. Opinions are personal judgments, conclusions, or attitudes that may or may not be accurate." },
-            { id: 102, term: "Margaret Floy Washburn", definition: "The first woman to earn a PhD in psychology (1871-1939)." },
-            { id: 103, term: "Francis Sumner", definition: "The first African American to receive a PhD in psychology (1920)." },
-            { id: 104, term: "Deductive Reasoning", definition: "Reasoning that begins with a generalization (hypothesis) and is used to reach logical conclusions about the real world." },
-            { id: 105, term: "Inductive Reasoning", definition: "Reasoning that uses empirical observations to construct broad generalizations." },
-            { id: 106, term: "Theory", definition: "A well-developed set of ideas that propose an explanation for observed phenomena." },
-            { id: 107, term: "Hypothesis", definition: "A testable prediction about how the world will behave if our idea is correct." },
-            { id: 108, term: "Falsifiability", definition: "The ability for a hypothesis to be shown to be incorrect; a key requirement for scientific hypotheses." },
-            { id: 109, term: "Clinical or Case Study", definition: "Observational research focusing on one person or just a few individuals to gain deep insight. Good for richness of info, hard to generalize." },
-            { id: 110, term: "Naturalistic Observation", definition: "Observing behavior in its natural context. Benefit: high validity/accuracy. Detriment: difficult to control." },
-            { id: 111, term: "Sample", definition: "A subset of individuals selected from a larger population." },
-            { id: 112, term: "Longitudinal Research", definition: "A research design where data-gathering is administered repeatedly over an extended period of time." },
-            { id: 113, term: "Correlation", definition: "A relationship between two or more variables. Importantly, it does not imply cause and effect." },
-            { id: 114, term: "Experimental vs Control Group", definition: "The Experimental group gets the manipulation/treatment. The Control group does not." },
-            { id: 115, term: "Experimenter Bias", definition: "The possibility that a researcher's expectations might skew the results of the study." },
-            { id: 116, term: "Placebo Effect", definition: "When people's expectations or beliefs influence or determine their experience in a given situation." },
-            { id: 117, term: "Random Sample", definition: "A subset of a larger population in which every member of the population has an equal chance of being selected." },
-            { id: 118, term: "Random Assignment", definition: "Method where all participants have an equal chance of being assigned to either the experimental or control group." },
-            { id: 119, term: "Peer-Reviewed", definition: "Articles read by several other scientists (peers) with expertise in the subject matter, who judge if the work is suitable for publication." },
-            { id: 120, term: "Informed Consent", definition: "A written description provided to participants about what to expect during an experiment, including potential risks and implications." },
-            { id: 121, term: "Deception", definition: "Purposely misleading experiment participants to maintain the integrity of the experiment, without causing harm." },
-            { id: 122, term: "Confirmation Bias", definition: "The tendency to ignore evidence that disproves ideas or beliefs." }
-        ]
-    },
-    3: {
-        title: "Biopsychology",
-        cards: [
-            { id: 201, term: "Natural Selection", definition: "Theory stating that organisms better suited for their environment will survive and reproduce, while those poorly suited will die off." },
-            { id: 202, term: "Range of Reaction", definition: "Asserts that our genes set the boundaries within which we can operate." },
-            { id: 203, term: "Epigenetics", definition: "Study of how the same genotype can lead to different phenotypes; often described as genes 'carrying memory'." },
-            { id: 204, term: "Neurons", definition: "Interconnected information processors that are essential for all of the tasks of the nervous system." },
-            { id: 205, term: "Reuptake", definition: "Process where a neurotransmitter is pumped back into the neuron that released it to clear the synapse." },
-            { id: 206, term: "Psychotropic Medications", definition: "Drugs that treat psychiatric symptoms by restoring neurotransmitter balance." },
-            { id: 207, term: "Somatic Nervous System", definition: "Associated with activities traditionally thought of as conscious or voluntary." },
-            { id: 208, term: "Autonomic Nervous System", definition: "Controls our internal organs and glands." },
-            { id: 209, term: "Fight or Flight Response", definition: "Physiological changes allowing the body to fight off a threat or run away to safety." },
-            { id: 210, term: "Cerebral Cortex", definition: "The outer surface of the brain, associated with higher level processes such as thought, emotion, reasoning, language, and memory." },
-            { id: 211, term: "Frontal Lobe", definition: "Involved in reasoning, motor control, emotion, and language. Contains the motor cortex, prefrontal cortex, and Broca's area." },
-            { id: 212, term: "Somatosensory Cortex", definition: "Essential for processing sensory information from across the body, such as touch, temperature, and pain." },
-            { id: 213, term: "Hippocampus", definition: "An essential structure for learning and memory." },
-            { id: 214, term: "Hypothalamus", definition: "Regulates homeostatic processes (like temperature, appetite) and serves as an interface between the nervous and endocrine systems." },
-            { id: 215, term: "PET Scan", definition: "Positron emission tomography; creates pictures of the living, active brain." },
-            { id: 216, term: "MRI / fMRI", definition: "Magnetic Resonance Imaging; often used to compare the brains of healthy individuals to those with psychological disorders due to high detail." },
-            { id: 217, term: "Biological Perspective", definition: "View that psychological disorders like depression and schizophrenia are associated with imbalances in neurotransmitter systems." },
-            { id: 218, term: "Pituitary Gland", definition: "The 'Master Gland' that secretes key hormones regulating fluid levels and directing other glands in the endocrine system." },
-            { id: 219, term: "Thyroid Gland", definition: "Regulates metabolism and appetite." },
-            { id: 220, term: "Adrenal Glands", definition: "Secrete epinephrine and norepinephrine involved in the stress response." },
-            { id: 221, term: "Pancreas", definition: "Regulates blood sugar levels via insulin and glucagon." }
-        ]
-    },
-    4: {
-        title: "States of Consciousness",
-        cards: [
-            { id: 301, term: "Circadian Rhythm", definition: "A biological rhythm that takes place over a period of about 24 hours (e.g., sleep-wake cycle)." },
-            { id: 302, term: "Homeostasis", definition: "The tendency to maintain a balance, or optimal level, within a biological system." },
-            { id: 303, term: "Suprachiasmatic Nucleus (SCN)", definition: "Located in the hypothalamus, it serves as the brain's clock mechanism, setting itself with light info from the retina." },
-            { id: 304, term: "Sleep Regulation", definition: "The brain's control of switching between sleep and wakefulness as well as coordinating this cycle with the outside world." },
-            { id: 305, term: "Sleep Rebound", definition: "The fact that a sleep-deprived individual will fall asleep more quickly during subsequent opportunities for sleep." },
-            { id: 306, term: "Melatonin", definition: "Hormone secreted by the pineal gland that regulates biological rhythms and the immune system." },
-            { id: 307, term: "Alpha Waves", definition: "Relatively low frequency, high amplitude patterns of electrical activity that become synchronized (associated with stage 1 sleep)." },
-            { id: 308, term: "Delta Waves", definition: "Low frequency, high amplitude brain waves associated with deep sleep (Stage 3)." },
-            { id: 309, term: "REM Sleep", definition: "Rapid Eye Movement sleep. Marked by rapid eye movements, dreaming, and paralysis of voluntary muscles. Often called 'paradoxical sleep'." },
-            { id: 310, term: "REM Rebound", definition: "If deprived of REM sleep, a person will spend more time in REM sleep later to recoup the lost time." },
-            { id: 311, term: "Sigmund Freud (Dreams)", definition: "Believed dreams represented an opportunity to gain access to the unconscious." },
-            { id: 312, term: "Carl Jung (Collective Unconscious)", definition: "Believed dreams allowed us to tap into a theoretical repository of information shared by everyone." },
-            { id: 313, term: "Insomnia", definition: "A common experience where people have difficulty falling or staying asleep." },
-            { id: 314, term: "Parasomnias", definition: "Disorders involving unwanted motor behavior/experiences during sleep (e.g., Sleepwalking, Restless Leg Syndrome, Night Terrors)." },
-            { id: 315, term: "Sleep Apnea", definition: "Disorder where sleeper stops breathing. Can be Obstructive (airway blocked) or Central (brain signal disruption)." },
-            { id: 316, term: "Narcolepsy", definition: "A disorder where a person cannot resist falling asleep at inopportune times." },
-            { id: 317, term: "Substance Use Disorder", definition: "A compulsive pattern of drug use despite negative consequences, often involving physical and psychological dependence." },
-            { id: 318, term: "Tolerance", definition: "Occurs when a user requires more and more of a drug to experience the same effects." },
-            { id: 319, term: "Withdrawal", definition: "Negative symptoms experienced when drug use is discontinued." },
-            { id: 320, term: "Depressants", definition: "Drugs that suppress central nervous system activity (e.g., Alcohol, Barbiturates, Benzodiazepines)." },
-            { id: 321, term: "Stimulants", definition: "Drugs that increase neural activity (e.g., Cocaine, Amphetamines, MDMA, Caffeine)." },
-            { id: 322, term: "Opioids", definition: "Drugs with analgesic (pain-relieving) properties (e.g., Heroin, Morphine, Methadone, Codeine)." },
-            { id: 323, term: "Hallucinogens", definition: "Drugs that result in profound alterations in sensory and perceptual experiences (e.g., LSD, Mescaline, PCP)." },
-            { id: 324, term: "Hypnosis", definition: "A state of extreme self-focus and attention in which minimal attention is given to external stimuli." },
-            { id: 325, term: "Meditation", definition: "The act of focusing on a single target (such as breath or sound) to increase awareness of the moment." },
-            { id: 326, term: "Cognitive-Behavioral Therapy (CBT)", definition: "Psychotherapy focusing on cognitive processes and problem behaviors; used to treat insomnia." }
-        ]
-    },
-    5: {
-        title: "Sensation and Perception",
-        cards: [
-            { id: 401, term: "Sensation vs. Perception", definition: "Sensation is detecting stimuli (via receptors). Perception is organizing, interpreting, and experiencing those stimuli." },
-            { id: 402, term: "Top-Down Processing", definition: "Interpretation of sensations is influenced by available knowledge, experiences, and thoughts." },
-            { id: 403, term: "Bottom-Up Processing", definition: "System in which perceptions are built from sensory input." },
-            { id: 404, term: "Visible Spectrum", definition: "The portion of the electromagnetic spectrum that we can see." },
-            { id: 405, term: "Wavelength & Frequency", definition: "Wavelength in light is associated with color. Frequency in sound is associated with pitch." },
-            { id: 406, term: "Amplitude", definition: "Associated with brightness (for light) and loudness (for sound)." },
-            { id: 407, term: "Cornea & Pupil", definition: "Cornea: transparent covering over the eye. Pupil: small opening through which light passes." },
-            { id: 408, term: "Retina & Fovea", definition: "Retina: light-sensitive lining of the eye. Fovea: small indentation in the retina containing cones (high acuity)." },
-            { id: 409, term: "Rods vs. Cones", definition: "Cones: work in bright light, perceive color. Rods: work in low light, perceive movement/contrast." },
-            { id: 410, term: "Trichromatic Theory", definition: "Theory that three types of cones (red, blue, green) combine to produce color vision." },
-            { id: 411, term: "Opponent-Process Theory", definition: "Color is coded in opponent pairs: black-white, yellow-blue, and green-red." },
-            { id: 412, term: "Depth Perception", definition: "Ability to perceive spatial relationships in 3-D space. Uses Binocular cues (two eyes) and Monocular cues (one eye)." },
-            { id: 413, term: "Temporal Theory", definition: "Pitch perception theory asserting that frequency is coded by the activity level of a sensory neuron." },
-            { id: 414, term: "Place Theory", definition: "Pitch perception theory suggesting different portions of the basilar membrane are sensitive to different frequencies." },
-            { id: 415, term: "Congenital Insensitivity to Pain", definition: "A genetic disorder where an individual is born without the ability to feel pain." },
-            { id: 416, term: "Gestalt Psychology", definition: "Field of psychology based on the idea that the whole is different from the sum of its parts." },
-            { id: 417, term: "Figure-Ground Relationship", definition: "Gestalt principle where we segment our visual world into figure (focus) and ground (background)." },
-            { id: 418, term: "Signal Detection Theory", definition: "The ability to identify a stimulus when it is embedded in a distracting background." }
-        ]
-    },
-    6: {
-        title: "Learning",
-        cards: [
-            { id: 501, term: "Reflex vs. Instinct", definition: "Reflexes are motor/neural reactions to a specific stimulus. Instincts are innate behaviors triggered by a broader range of events." },
-            { id: 502, term: "Learning", definition: "A relatively permanent change in behavior or knowledge that results from experience." },
-            { id: 503, term: "Associative Learning", definition: "Occurs when an organism makes connections between stimuli or events that occur together in the environment." },
-            { id: 504, term: "Classical Conditioning", definition: "Process by which we learn to associate stimuli and anticipate events (e.g., Pavlov's dogs)." },
-            { id: 505, term: "Neutral Stimulus (NS)", definition: "A stimulus that does not initially elicit a response (e.g., the bell before conditioning)." },
-            { id: 506, term: "Conditioned Response (CR)", definition: "The behavior caused by the conditioned stimulus (e.g., salivation in response to the bell)." },
-            { id: 507, term: "Taste Aversion", definition: "Conditioning where an interval passes between the CS (ingested food) and US (nausea), leading to avoidance." },
-            { id: 508, term: "Extinction", definition: "The decrease in the conditioned response when the unconditioned stimulus is no longer presented with the conditioned stimulus." },
-            { id: 509, term: "Stimulus Discrimination", definition: "When an organism learns to respond differently to various stimuli that are similar." },
-            { id: 510, term: "Operant Conditioning", definition: "Organisms learn to associate a behavior and its consequence (reinforcement or punishment)." },
-            { id: 511, term: "Positive Reinforcement", definition: "Something is added to INCREASE the likelihood of a behavior." },
-            { id: 512, term: "Negative Reinforcement", definition: "Something is removed (usually unpleasant) to INCREASE the likelihood of a behavior." },
-            { id: 513, term: "Positive Punishment", definition: "Something is added to DECREASE the likelihood of a behavior." },
-            { id: 514, term: "Negative Punishment", definition: "Something is removed (usually pleasant) to DECREASE the likelihood of a behavior." },
-            { id: 515, term: "Shaping", definition: "Rewarding successive approximations of a target behavior." },
-            { id: 516, term: "Fixed Interval Schedule", definition: "Reinforcement is delivered at predictable time intervals (e.g., every 5 minutes)." },
-            { id: 517, term: "Variable Ratio Schedule", definition: "Reinforcement is delivered after an unpredictable number of responses (e.g., gambling)." },
-            { id: 518, term: "Observational Learning", definition: "Learning by watching others and then imitating, or modeling, what they do or say." },
-            { id: 519, term: "Bandura's Bobo Doll Experiment", definition: "Demonstrated that children learn aggressive behaviors by observing an adult model." },
-            { id: 520, term: "Vicarious Punishment", definition: "Process where the observer sees the model punished, making the observer less likely to imitate the behavior." },
-            { id: 521, term: "Modeling Process", definition: "Steps required for successful modeling: Attention, Retention, Reproduction, and Motivation." }
-        ]
-    },
-    7: {
-        title: "Thinking and Intelligence",
-        cards: [
-            { id: 601, term: "Cognitive Psychology", definition: "The field dedicated to examining how people think, including interactions among thinking, emotion, creativity, and language." },
-            { id: 602, term: "Concepts", definition: "Categories or groupings of linguistic information, objects, ideas, or life experiences." },
-            { id: 603, term: "Natural vs. Artificial Concepts", definition: "Natural concepts are created through experience (e.g., snow). Artificial concepts are defined by a specific set of characteristics (e.g., a square)." },
-            { id: 604, term: "Schema", definition: "A mental construct consisting of a cluster or collection of related concepts. Helps the brain organize information." },
-            { id: 605, term: "Role Schema vs. Event Schema", definition: "Role schema: expectations about how individuals in certain roles will behave. Event schema (cognitive script): a set of behaviors that feels like a routine (e.g., dining out)." },
-            { id: 606, term: "Language Components", definition: "Lexicon (vocabulary) and Grammar (rules for organizing words)." },
-            { id: 607, term: "Critical Period for Language", definition: "Proficiency at acquiring language is maximal early in life and diminishes as people age." },
-            { id: 608, term: "Linguistic Determinism", definition: "The idea that language may influence the way that we think." },
-            { id: 609, term: "Problem-Solving Strategy", definition: "A plan of action used to find a solution." },
-            { id: 610, term: "Functional Fixedness", definition: "A type of mental set where you cannot perceive an object being used for something other than what it was designed for." },
-            { id: 611, term: "Anchoring Bias", definition: "Tendency to focus on one particular piece of information when making decisions." },
-            { id: 612, term: "Confirmation Bias", definition: "Focusing on information that confirms existing beliefs." },
-            { id: 613, term: "Hindsight Bias", definition: "Belief that the event just experienced was predictable." },
-            { id: 614, term: "Crystallized Intelligence", definition: "Acquired knowledge and the ability to retrieve it (e.g., learning, remembering)." },
-            { id: 615, term: "Fluid Intelligence", definition: "Encompasses the ability to see complex relationships and solve problems." },
-            { id: 616, term: "Practical Intelligence (Sternberg)", definition: "Street smarts; finding solutions that work in everyday life by applying knowledge based on experience." },
-            { id: 617, term: "Multiple Intelligences Theory (Gardner)", definition: "Theory that each person possesses at least eight types of intelligence (e.g., Linguistic, Musical, Spatial, etc.)." },
-            { id: 618, term: "Divergent Thinking", definition: "Thinking 'outside the box' to arrive at unique, multiple solutions to a problem. Associated with creativity." },
-            { id: 619, term: "Convergent Thinking", definition: "The ability to provide a correct or well-established answer or solution to a problem." },
-            { id: 620, term: "Standard Deviation", definition: "Describes how data are dispersed in a population and gives context to large data sets." },
-            { id: 621, term: "Bell Curve", definition: "A graph showing how scores are dispersed from the average score; the majority of people have an IQ between 85 and 115." },
-            { id: 622, term: "Range of Reaction", definition: "Theory that each person responds to the environment in a unique way based on their genetic makeup." },
-            { id: 623, term: "Learning Disability vs. Intellectual Disability", definition: "Learning disabilities are specific neurological impairments (e.g., dyslexia), whereas intellectual disabilities are global developmental delays." }
-        ]
-    },
-    8: {
-        title: "Memory",
-        cards: [
-            { id: 701, term: "Encoding", definition: "The input of information into the memory system. Can be Automatic (unconscious) or Effortful (requires attention)." },
-            { id: 702, term: "Types of Encoding", definition: "Semantic (words/meaning), Visual (images), and Acoustic (sounds)." },
-            { id: 703, term: "Rehearsal", definition: "The conscious repetition of information to move it from short-term to long-term memory." },
-            { id: 704, term: "Explicit (Declarative) Memory", definition: "Memories we consciously try to remember and report. Includes Episodic (events) and Semantic (facts)." },
-            { id: 705, term: "Implicit (Non-declarative) Memory", definition: "Memories that are not part of our consciousness. Includes Procedural (skills), Priming, and Emotional Conditioning." },
-            { id: 706, term: "Retrieval Methods", definition: "Recall (accessing without cues), Recognition (identifying previously learned info), and Relearning (learning again)." },
-            { id: 707, term: "Amygdala", definition: "Involved in processing emotional information and facilitating memory consolidation, especially for emotionally arousing events." },
-            { id: 708, term: "Hippocampus", definition: "Essential for memory consolidation (transferring new learning to long-term memory) and giving memories meaning." },
-            { id: 709, term: "Cerebellum", definition: "Processes procedural memories (like how to play an instrument)." },
-            { id: 710, term: "Prefrontal Cortex", definition: "Involved in processing and retaining information; highly active during semantic tasks." },
-            { id: 711, term: "Anterograde Amnesia", definition: "Inability to form new memories after trauma; often due to hippocampus injury." },
-            { id: 712, term: "Retrograde Amnesia", definition: "Loss of memory for events that occurred prior to the trauma." },
-            { id: 713, term: "Suggestibility", definition: "Effects of misinformation from external sources that leads to the creation of false memories." },
-            { id: 714, term: "Misinformation Effect Paradigm", definition: "After exposure to incorrect information, a person may misremember the original event." },
-            { id: 715, term: "Encoding Failure", definition: "Memory loss that happens before the actual memory process begins (we never stored it in the first place)." },
-            { id: 716, term: "Retroactive Interference", definition: "Information learned more recently hinders the recall of older information." },
-            { id: 717, term: "Proactive Interference", definition: "Old information hinders the recall of newly learned information." },
-            { id: 718, term: "Chunking", definition: "Organizing information into manageable bits or chunks." },
-            { id: 719, term: "Mnemonic Devices", definition: "Memory aids that help us organize information for encoding (e.g., acronyms)." },
-            { id: 720, term: "Self-Reference Effect", definition: "Tendency to have better memory for information that relates to oneself." }
-        ]
-    },
-    9: {
-        title: "Lifespan Development",
-        cards: [
-            { id: 801, term: "Normative Approach", definition: "Study of development using norms, or average ages, when most children reach specific developmental milestones." },
-            { id: 802, term: "Freud's Psychosexual Theory", definition: "Believed personality develops during early childhood; childhood experiences shape adult personalities." },
-            { id: 803, term: "Erikson's Psychosocial Theory", definition: "Proposes 8 stages of development, each with a task/conflict (e.g., Trust vs. Mistrust) that shapes competence and personality." },
-            { id: 804, term: "Assimilation", definition: "Taking in information that is comparable to what is already known (fitting new info into existing schemata)." },
-            { id: 805, term: "Accommodation", definition: "Changing schemata based on new information." },
-            { id: 806, term: "Piaget's Stages of Cognitive Development", definition: "Sensorimotor (0-2), Preoperational (2-7), Concrete Operational (7-11), and Formal Operational (12+)." },
-            { id: 807, term: "Object Permanence", definition: "Understanding that things continue to exist even when they are not seen (developed in Sensorimotor stage)." },
-            { id: 808, term: "Conservation", definition: "Understanding that mass, volume, and number remain the same despite changes in forms (developed in Concrete Operational stage)." },
-            { id: 809, term: "Postformal Thinking", definition: "Adult stage where logic is integrated with emotion; decisions are context-dependent." },
-            { id: 810, term: "Kohlberg's Moral Development", definition: "Three levels of moral reasoning: Pre-conventional, Conventional, and Post-conventional." },
-            { id: 811, term: "Teratogen", definition: "Any environmental agent (biological, chemical, or physical) that causes damage to the developing embryo or fetus." },
-            { id: 812, term: "Attachment", definition: "A long-standing connection or bond with others; critical for healthy psychosocial development." },
-            { id: 813, term: "Self-Concept", definition: "The primary psychosocial milestone of childhood; developing a positive sense of self." },
-            { id: 814, term: "Parenting Styles", definition: "Authoritative (reasonable demands, warmth), Authoritarian (strict obedience), Permissive (few demands), Uninvolved (indifferent)." },
-            { id: 815, term: "Adolescence & Puberty", definition: "Period of development from childhood to adulthood. Early maturing boys often have social advantages; early maturing girls are at risk for emotional issues." },
-            { id: 816, term: "Cognitive Empathy", definition: "Ability to take the perspective of others and feel concern for others." },
-            { id: 817, term: "Emerging Adulthood", definition: "A relatively newly defined period of lifespan development spanning from 18 years to the mid-20s." },
-            { id: 818, term: "Hospice", definition: "Service that provides a death with dignity; pain management in a humane and comfortable environment." },
-            { id: 819, term: "Five Stages of Grief (Kübler-Ross)", definition: "Denial, anger, bargaining, depression, and acceptance." }
-        ]
-    },
-    10: {
-        title: "Emotion and Motivation",
-        cards: [
-            { id: 901, term: "Intrinsic Motivation", definition: "Motivation that comes from within the individual (e.g., for personal satisfaction, autonomy, mastery)." },
-            { id: 902, term: "Extrinsic Motivation", definition: "Motivation that comes from outside the individual (e.g., for rewards, compensation, or to avoid punishment)." },
-            { id: 903, term: "Overjustification Effect", definition: "When intrinsic motivation is diminished because extrinsic motivation (like payment) is given for an activity one already enjoys." },
-            { id: 904, term: "Drive Theory", definition: "Deviations from homeostasis create physiological needs that result in psychological drive states that direct behavior to meet the need." },
-            { id: 905, term: "Self-Efficacy (Bandura)", definition: "An individual's belief in their own capability to complete a task, which motivates behavior." },
-            { id: 906, term: "Maslow's Hierarchy of Needs", definition: "A spectrum of motives ranging from biological needs (bottom) to social needs to self-actualization (top)." },
-            { id: 907, term: "Satiety Signals", definition: "Signals to stop eating. Includes blood glucose levels, passage of food in GI tract, and leptin released by fat cells." },
-            { id: 908, term: "Set-Point Theory", definition: "Asserts that each individual has an ideal body weight (set point) that is genetically predetermined and resistant to change." },
-            { id: 909, term: "Body Mass Index (BMI)", definition: "A measure of weight used to classify individuals as normal, overweight, or obese. Criticized for not distinguishing between muscle and fat." },
-            { id: 910, term: "Sexual Response Cycle (Masters & Johnson)", definition: "Four phases: Excitement, Plateau, Orgasm, and Resolution." },
-            { id: 911, term: "Sexual Orientation", definition: "Emotional and erotic attraction to same-sexed individuals (homosexual), opposite-sexed individuals (heterosexual), or both (bisexual)." },
-            { id: 912, term: "Gender Dysphoria", definition: "Diagnostic category for individuals who do not feel comfortable identifying with the gender associated with their biological sex." },
-            { id: 913, term: "Emotional Expression", definition: "The way one displays an emotion, including nonverbal and verbal behaviors." },
-            { id: 914, term: "James-Lange Theory", definition: "Emotions arise FROM physiological arousal (e.g., you feel fear BECAUSE your heart is racing)." },
-            { id: 915, term: "Cannon-Bard Theory", definition: "Physiological arousal and emotional experience occur SIMULTANEOUSLY, yet independently." },
-            { id: 916, term: "Schachter-Singer Two-Factor Theory", definition: "Emotions are composed of two factors: physiological and cognitive. Context/labeling is key to interpreting the arousal." },
-            { id: 917, term: "Cultural Display Rule", definition: "Culturally specific standards that govern the types and frequencies of displays of emotions that are acceptable." },
-            { id: 918, term: "Facial Feedback Hypothesis", definition: "Facial expressions are capable of influencing our emotions." }
-        ]
-    },
-    11: {
-        title: "Personality",
-        cards: [
-            { id: 1001, term: "Personality", definition: "Long-standing traits and patterns that propel individuals to consistently think, feel, and behave in specific ways." },
-            { id: 1002, term: "Unconscious (Freud)", definition: "Mental activity of which we are unaware and unable to access. Unacceptable urges are kept here through repression." },
-            { id: 1003, term: "Id", definition: "Contains primitive drives (hunger, thirst, sex). Operates on the pleasure principle (instant gratification)." },
-            { id: 1004, term: "Superego", definition: "Acts as our conscience/moral compass; tells us how we should behave." },
-            { id: 1005, term: "Ego", definition: "The rational part of personality that balances the demands of the Id and Superego (reality principle)." },
-            { id: 1006, term: "Defense Mechanisms", definition: "Unconscious protective behaviors that aim to reduce anxiety (e.g., Projection, Rationalization, Displacement)." },
-            { id: 1007, term: "Inferiority Complex (Adler)", definition: "Feelings of inferiority in childhood drive people to attempt to gain superiority." },
-            { id: 1008, term: "Collective Unconscious (Jung)", definition: "A universal version of the personal unconscious, holding mental patterns or memory traces common to all of us (archetypes)." },
-            { id: 1009, term: "Archetypes", definition: "Ancestral memories represented by universal themes in various cultures (e.g., the hero, the maiden)." },
-            { id: 1010, term: "Horney's Coping Styles", definition: "Moving toward people (affiliation), Moving against people (aggression), Moving away from people (detachment)." },
-            { id: 1011, term: "Reciprocal Determinism (Bandura)", definition: "Cognitive processes, behavior, and context all interact and influence each other simultaneously." },
-            { id: 1012, term: "Locus of Control (Rotter)", definition: "Beliefs about the power we have over our lives. Internal (I control outcomes) vs. External (luck/fate controls outcomes)." },
-            { id: 1013, term: "Self-Regulation (Mischel)", definition: "Process of identifying a goal and using internal/external feedback to maximize goal attainment (e.g., marshmallow test)." },
-            { id: 1014, term: "Congruence (Rogers)", definition: "State of being in which our thoughts about our real self and ideal self are very similar." },
-            { id: 1015, term: "Five Factor Model (Big Five)", definition: "Personality theory composed of 5 factors: Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism (OCEAN)." },
-            { id: 1016, term: "Selective Migration", definition: "Concept that people choose to move to places that are compatible with their personalities and needs." },
-            { id: 1017, term: "Self-Report Inventories", definition: "Objective tests to assess personality using multiple-choice items or numbered scales (e.g., MMPI)." },
-            { id: 1018, term: "Projective Tests", definition: "Tests where a person interprets ambiguous stimuli to reveal unconscious feelings/desires (e.g., Rorschach Inkblot, TAT)." },
-            { id: 1019, term: "Minnesota Multiphasic Personality Inventory (MMPI)", definition: "A widely used self-report inventory that produces a clinical profile and includes validity scales (like the Lie Scale)." }
-        ]
-    },
-    14: {
-        title: "Stress, Lifestyle, and Health",
-        cards: [
-            { id: 1101, term: "Stimulus-Based Definition of Stress", definition: "Conceptualizes stress as a demanding or threatening event/situation (the stressor itself)." },
-            { id: 1102, term: "Response-Based Definition of Stress", definition: "Emphasizes the physiological responses (e.g., increased arousal) that occur when faced with demanding situations." },
-            { id: 1103, term: "Primary Appraisal (Lazarus & Folkman)", definition: "Judgment about the degree of potential harm or threat to well-being that a stressor might entail." },
-            { id: 1104, term: "Secondary Appraisal", definition: "Judgment of the options available to cope with a stressor, as well as perceptions of how effective such options will be." },
-            { id: 1105, term: "Eustress", definition: "A good form of stress; low to moderate in intensity; associated with positive feelings and optimal health/performance." },
-            { id: 1106, term: "Health Psychology", definition: "Subfield devoted to understanding the importance of psychological influences on health, illness, and how people respond when they become ill." },
-            { id: 1107, term: "Fight-or-Flight Response", definition: "Set of physiological reactions (increases in blood pressure, heart rate, respiration rate, etc.) that occur when an individual encounters a perceived threat." },
-            { id: 1108, term: "General Adaptation Syndrome (Selye)", definition: "The body's nonspecific physiological response to stress. Consists of three stages: Alarm Reaction, Resistance, and Exhaustion." },
-            { id: 1109, term: "HPA Axis", definition: "The Hypothalamic-Pituitary-Adrenal axis. A set of structures found in both the limbic system (hypothalamus) and the endocrine system (pituitary and adrenal glands) that regulate many of the body's physiological reactions to stress through the release of hormones like cortisol." },
-            { id: 1110, term: "Daily Hassles", definition: "Minor irritations and annoyances that are part of our everyday lives (e.g., rush hour traffic, lost keys). Frequency is strongly associated with physical health problems." },
-            { id: 1111, term: "Job Burnout", definition: "General sense of emotional exhaustion and cynicism in relation to one's job. Dimensions include exhaustion, depersonalization, and diminished personal accomplishment." },
-            { id: 1112, term: "Psychophysiological Disorders", definition: "Physical disorders or diseases whose symptoms are brought about or worsened by stress and emotional factors (e.g., cardiovascular, gastrointestinal, respiratory)." },
-            { id: 1113, term: "Psychoneuroimmunology", definition: "Field that studies how psychological factors such as stress influence the immune system and immune functioning." },
-            { id: 1114, term: "Type A Behavior Pattern", definition: "Characterized by an excessive competitive drive, chronic sense of time urgency, impatience, and hostility toward others (particularly hostility is linked to heart disease)." },
-            { id: 1115, term: "Problem-Focused Coping", definition: "Managing or altering the problem that is causing one to experience stress (e.g., identifying the problem, weighing solutions)." },
-            { id: 1116, term: "Emotion-Focused Coping", definition: "Efforts to change or reduce the negative emotions associated with stress (e.g., avoiding, minimizing, distancing)." },
-            { id: 1117, term: "Social Support", definition: "The soothing impact of friends, family, and acquaintances. Can include advice, guidance, encouragement, acceptance, emotional comfort, and tangible assistance." },
-            { id: 1118, term: "Biofeedback", definition: "A technique that uses electronic equipment to measure a person's neuromuscular and autonomic activity, and provides feedback to help the person gain some level of voluntary control over these involuntary bodily processes." },
-            { id: 1119, term: "Happiness", definition: "An enduring state of mind consisting of joy, contentment, and other positive emotions, plus the sense that one's life has meaning and value." },
-            { id: 1120, term: "Flow", definition: "A state involving intense engagement in an activity; usually is experienced when participating in creative, work, and leisure endeavors." },
-            { id: 1121, term: "Positive Psychology", definition: "The science of happiness; an area of study that seeks to identify and promote those qualities that lead to greater fulfillment in our lives." }
-        ]
-    },
-    15: {
-        title: "Psychological Disorders",
-        cards: [
-            { id: 1201, term: "Psychopathology", definition: "The study of psychological disorders, including their symptoms, etiology (causes), and treatment." },
-            { id: 1202, term: "Psychological Disorder (APA)", definition: "Significant disturbances in thoughts, feelings, and behaviors that reflect dysfunction (biological, psychological, developmental), cause significant distress/disability, and do not reflect expected cultural responses." },
-            { id: 1203, term: "Dysfunction", definition: "Occurs when an internal mechanism breaks down and can no longer perform its normal function." },
-            { id: 1204, term: "Harmful Dysfunction", definition: "Model where a dysfunction leads to negative consequences for the individual or others, as judged by cultural standards." },
-            { id: 1205, term: "DSM-5", definition: "Diagnostic and Statistical Manual of Mental Disorders (5th edition). The classification system used by most mental health professionals in the U.S." },
-            { id: 1206, term: "Comorbidity", definition: "The co-occurrence of two disorders in the same individual." },
-            { id: 1207, term: "Diathesis-Stress Model", definition: "Integrates biological and psychosocial factors to predict the likelihood of a disorder; suggests that people with a predisposition (diathesis) for a disorder are more likely to develop it when faced with stress." },
-            { id: 1208, term: "Anxiety Disorders", definition: "Characterized by excessive and persistent fear and anxiety, and by related disturbances in behavior." },
-            { id: 1209, term: "Specific Phobia", definition: "Excessive, distressing, and persistent fear or anxiety about a specific object or situation." },
-            { id: 1210, term: "Social Anxiety Disorder", definition: "Extreme and persistent fear or anxiety and avoidance of social situations in which the person could potentially be evaluated negatively by others." },
-            { id: 1211, term: "Panic Disorder", definition: "Recurrent and unexpected panic attacks, along with at least one month of persistent concern about additional panic attacks." },
-            { id: 1212, term: "Generalized Anxiety Disorder", definition: "A relatively continuous state of excessive, uncontrollable, and pointless worry and apprehension." },
-            { id: 1213, term: "Obsessive-Compulsive Disorder (OCD)", definition: "Characterized by intrusive/unwanted thoughts (obsessions) and the need to engage in repetitive behaviors/mental acts (compulsions)." },
-            { id: 1214, term: "Body Dysmorphic Disorder", definition: "Preoccupation with a perceived flaw in physical appearance that is either nonexistent or barely noticeable to others." },
-            { id: 1215, term: "Posttraumatic Stress Disorder (PTSD)", definition: "Experience of a traumatic event leads to intrusive memories, flashbacks, avoidance of stimuli, and negative emotional states lasting at least one month." },
-            { id: 1216, term: "Major Depressive Disorder", definition: "Characterized by at least a two-week period of sadness/loss of interest in activities, plus other symptoms like weight changes, sleep disturbances, fatigue, or feelings of worthlessness." },
-            { id: 1217, term: "Bipolar Disorder", definition: "Mood states that vacillate between depression and mania (abnormally elevated, expansive, or irritable mood and increased energy)." },
-            { id: 1218, term: "Schizophrenia", definition: "Characterized by major disturbances in thought, perception, emotion, and behavior (e.g., hallucinations, delusions, disorganized thinking)." },
-            { id: 1219, term: "Hallucination vs. Delusion", definition: "Hallucination: perceptual experience without external stimulation. Delusion: belief that is contrary to reality and firmly held despite contradictory evidence." },
-            { id: 1220, term: "Dissociative Identity Disorder", definition: "Exhibiting two or more separate personalities or identities, each well-defined and distinct from one another." },
-            { id: 1221, term: "ADHD", definition: "Childhood disorder characterized by a constant pattern of inattention and/or hyperactive and impulsive behavior." },
-            { id: 1222, term: "Autism Spectrum Disorder", definition: "Childhood disorder characterized by deficits in social interaction/communication and repetitive patterns of behavior or interests." },
-            { id: 1223, term: "Borderline Personality Disorder", definition: "Instability in interpersonal relationships, self-image, and mood, as well as marked impulsivity." },
-            { id: 1224, term: "Antisocial Personality Disorder", definition: "Characterized by a lack of regard for others' rights, impulsivity, deceitfulness, irresponsibility, and lack of remorse." }
-        ]
-    },
-    16: {
-        title: "Therapy and Treatment",
-        cards: [
-            { id: 1301, term: "Asylums", definition: "Institutions created for the specific purpose of housing people with psychological disorders, often focusing on ostracizing rather than treating." },
-            { id: 1302, term: "Deinstitutionalization", definition: "Process of closing large asylums and providing for people to stay in their communities to be treated locally." },
-            { id: 1303, term: "Involuntary Treatment", definition: "Therapy that is not the individual's choice (e.g., condition of parole)." },
-            { id: 1304, term: "Psychotherapy", definition: "Psychological treatment that employs various methods to help someone overcome personal problems or attain personal growth." },
-            { id: 1305, term: "Biomedical Therapy", definition: "Treatment that involves medication and/or medical procedures to treat psychological disorders." },
-            { id: 1306, term: "Psychodynamic Therapy", definition: "Talk therapy based on the belief that the unconscious and childhood conflicts impact behavior." },
-            { id: 1307, term: "Play Therapy", definition: "Therapeutic process, often used with children, that uses play to help clients prevent or resolve psychosocial difficulties." },
-            { id: 1308, term: "Behavior Therapy", definition: "Principles of learning applied to change undesirable behaviors." },
-            { id: 1309, term: "Aversive Conditioning", definition: "Uses an unpleasant stimulus to stop an undesirable behavior." },
-            { id: 1310, term: "Exposure Therapy", definition: "Treating fears or anxiety by presenting the object or situation that causes the problem, with the idea that the client will eventually get used to it." },
-            { id: 1311, term: "Cognitive Therapy", definition: "Focuses on how a person's thoughts lead to feelings of distress, aiming to change these irrational thoughts." },
-            { id: 1312, term: "Cognitive-Behavioral Therapy (CBT)", definition: "Helps clients examine how their thoughts affect their behavior; aims to change cognitive distortions and self-defeating behaviors." },
-            { id: 1313, term: "Humanistic Therapy", definition: "Focuses on helping people achieve their potential, increase self-awareness, and accept themselves." },
-            { id: 1314, term: "Active Listening", definition: "Technique where the therapist acknowledges, restates, and clarifies what the client expresses." },
-            { id: 1315, term: "Psychotropic Medications", definition: "Medications used to treat psychological disorders." },
-            { id: 1316, term: "Intake", definition: "The therapist's first meeting with the client to gather specific information and address immediate needs." },
-            { id: 1317, term: "Group Therapy", definition: "Treatment format where a clinician meets together with several clients with similar problems." },
-            { id: 1318, term: "Structural Family Therapy", definition: "Therapist examines and discusses the boundaries and structure of the family (e.g., who makes the rules)." },
-            { id: 1319, term: "Comorbid Disorders", definition: "The individual has two or more diagnoses, such as a substance-related diagnosis and another psychiatric diagnosis (e.g., depression)." },
-            { id: 1320, term: "Cultural Competence", definition: "Mental health professionals' understanding and addressing of issues of race, culture, and ethnicity." }
-        ]
-    }
+import chapter1 from '../../FlashCards/NewFlashcardsByChapter/Chapter-01-flashcards.js';
+import chapter2 from '../../FlashCards/NewFlashcardsByChapter/Chapter-02-flashcards.js';
+import chapter3 from '../../FlashCards/NewFlashcardsByChapter/Chapter-03-flashcards.js';
+import chapter4 from '../../FlashCards/NewFlashcardsByChapter/Chapter-04-flashcards.js';
+import chapter5 from '../../FlashCards/NewFlashcardsByChapter/Chapter-05-flashcards.js';
+import chapter6 from '../../FlashCards/NewFlashcardsByChapter/Chapter-06-flashcards.js';
+import chapter7 from '../../FlashCards/NewFlashcardsByChapter/Chapter-07-flashcards.js';
+import chapter8 from '../../FlashCards/NewFlashcardsByChapter/Chapter-08-flashcards.js';
+import chapter9 from '../../FlashCards/NewFlashcardsByChapter/Chapter-09-flashcards.js';
+import chapter10 from '../../FlashCards/NewFlashcardsByChapter/Chapter-10-flashcards.js';
+import chapter11 from '../../FlashCards/NewFlashcardsByChapter/Chapter-11-flashcards.js';
+import chapter14 from '../../FlashCards/NewFlashcardsByChapter/Chapter-14-flashcards.js';
+import chapter15 from '../../FlashCards/NewFlashcardsByChapter/Chapter-15-flashcards.js';
+import chapter16 from '../../FlashCards/NewFlashcardsByChapter/Chapter-16-flashcards.js';
+
+// Map the imported chapters to the ID structure expected by the app
+const chapters = {
+    1: chapter1,
+    2: chapter2,
+    3: chapter3,
+    4: chapter4,
+    5: chapter5,
+    6: chapter6,
+    7: chapter7,
+    8: chapter8,
+    9: chapter9,
+    10: chapter10,
+    11: chapter11,
+    14: chapter14,
+    15: chapter15,
+    16: chapter16
 };
+
+const chapterTitles = {
+    1: "Introduction to Psychology",
+    2: "Psychological Research",
+    3: "Biopsychology",
+    4: "States of Consciousness",
+    5: "Sensation and Perception",
+    6: "Learning",
+    7: "Thinking and Intelligence",
+    8: "Memory",
+    9: "Lifespan Development",
+    10: "Emotion and Motivation",
+    11: "Personality",
+    14: "Stress, Lifestyle, and Health",
+    15: "Psychological Disorders",
+    16: "Therapy and Treatment"
+};
+
+// Helper to transform the new data schema (front/back) to the old schema (term/definition)
+const processChapter = (chapterId, cardsArray) => {
+    // Ensure cardsArray is actually an array before mapping
+    if (!Array.isArray(cardsArray)) {
+        console.error(`Chapter ${chapterId} data is not an array:`, cardsArray);
+        return { title: chapterTitles[chapterId] || `Chapter ${chapterId}`, cards: [] };
+    }
+
+    return {
+        title: chapterTitles[chapterId] || `Chapter ${chapterId}`,
+        cards: cardsArray.map(card => ({
+            id: card.id,
+            term: card.front,       // Map front -> term
+            definition: card.back   // Map back -> definition
+        }))
+    };
+};
+
+const rawStudyData = {};
+
+for (const [key, data] of Object.entries(chapters)) {
+    rawStudyData[key] = processChapter(key, data);
+}
 
 export const studyData = rawStudyData;

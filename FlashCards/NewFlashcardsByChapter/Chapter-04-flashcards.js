@@ -422,3 +422,5 @@ export const chapter4StudyData = [
     back: "hypnosis"
   }
 ];
+
+export default chapter4StudyData;

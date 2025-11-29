@@ -282,3 +282,5 @@ export const chapter6StudyData = [
     back: "Albert Bandura"
   }
 ];
+
+export default chapter6StudyData;

@@ -352,3 +352,5 @@ export const chapter9StudyData = [
     back: "denial, anger, bargaining, depression, acceptance"
   }
 ];
+
+export default chapter9StudyData;

@@ -312,3 +312,5 @@
         back: "James-Lange theory"
       }
     ];
+
+export default chapter10StudyData;

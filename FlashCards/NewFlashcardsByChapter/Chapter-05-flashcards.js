@@ -572,3 +572,5 @@ export const chapter5StudyData = [
     back: "figure"
   }
 ];
+
+export default chapter5StudyData;

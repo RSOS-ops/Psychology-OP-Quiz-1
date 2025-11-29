@@ -357,3 +357,5 @@ export const chapter11StudyData = [
     back: "Minnesota Multiphasic Personality Inventory (MMPI)"
   }
 ];
+
+export default chapter11StudyData;

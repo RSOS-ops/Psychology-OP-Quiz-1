@@ -257,3 +257,5 @@ export const chapter16StudyData = [
     back: "being a member of the ethnic majority"
   }
 ];
+
+export default chapter16StudyData;

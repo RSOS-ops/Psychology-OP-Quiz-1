@@ -1,4 +1,4 @@
-export const chapter1StudyData = [
+const chapter1StudyData = [
   // Key Terms
   {
     id: "KT101",
@@ -154,7 +154,7 @@ export const chapter1StudyData = [
   {
     id: "R106",
     front: "________ is most well-known for proposing his hierarchy of needs.",
-    back: "Abraham Maslow"`
+    back: "Abraham Maslow"
   },
   {
     id: "R107",
@@ -207,3 +207,5 @@ export const chapter1StudyData = [
     back: "master's"
   },
 ];
+
+export default chapter1StudyData;

@@ -297,3 +297,5 @@ export const chapter14StudyData = [
     back: "Positive affect involves feeling states, whereas optimism involves expectations."
   }
 ];
+
+export default chapter14StudyData;

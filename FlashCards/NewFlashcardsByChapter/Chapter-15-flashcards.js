@@ -432,3 +432,5 @@ export const chapter15StudyData = [
     back: "emotional deficits"
   }
 ];
+
+export default chapter15StudyData;

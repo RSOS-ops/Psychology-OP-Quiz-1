@@ -377,3 +377,5 @@ export const chapter7StudyData = [
     back: "There are many factors working together to influence an individual's intelligence level."
   }
 ];
+
+export default chapter7StudyData;

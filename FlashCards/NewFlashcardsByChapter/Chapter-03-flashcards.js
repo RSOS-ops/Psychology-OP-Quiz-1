@@ -562,3 +562,5 @@ export const chapter3StudyData = [
     back: "pituitary"
   }
 ];
+
+export default chapter3StudyData;

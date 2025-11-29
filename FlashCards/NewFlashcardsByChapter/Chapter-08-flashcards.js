@@ -317,3 +317,5 @@ export const chapter8StudyData = [
     back: "mnemonic devices"
   }
 ];
+
+export default chapter8StudyData;

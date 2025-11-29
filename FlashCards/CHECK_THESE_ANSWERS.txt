@@ -1,0 +1,7 @@
+  {
+    id: "R105",
+    front: "Based on your reading, which theorist would have been most likely to agree with this statement: Perceptual phenomena are best understood as a combination of their components.",
+    back: "Max Wertheimer"
+        is it Wundt/structuralism ?
+
+        
