@@ -1,0 +1,1 @@
+add code scrambling effect to text on tracking blocks animation on main page
