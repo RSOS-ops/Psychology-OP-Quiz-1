@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useRef } from 'react';
 import GlowButton from '../components/GlowButton';
+import { useQuestionAutoResize } from '../hooks/useQuestionAutoResize';
 
 const QuizScreen = ({
     currentQuestion,
@@ -20,23 +21,7 @@ const QuizScreen = ({
     const feedbackRef = useRef(null);
 
     // Adjust font size if question is too long
-    useLayoutEffect(() => {
-        if (questionRef.current) {
-            const el = questionRef.current;
-            // Reset to default to measure natural height
-            el.style.fontSize = '';
-            
-            const style = window.getComputedStyle(el);
-            const lineHeight = parseFloat(style.lineHeight);
-            const height = el.clientHeight;
-            
-            // If height is greater than 3 lines (allow a tiny margin for error)
-            if (height > lineHeight * 3.1) {
-                const currentFontSize = parseFloat(style.fontSize);
-                el.style.fontSize = `${currentFontSize * 0.85}px`;
-            }
-        }
-    }, [currentQuestionIndex, view]);
+    useQuestionAutoResize(questionRef, currentQuestionIndex, view);
 
     // Scroll to feedback when it appears
     useLayoutEffect(() => {

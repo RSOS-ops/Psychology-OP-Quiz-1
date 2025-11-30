@@ -98,23 +98,6 @@ export const PERFECT_SCORE_VIDEOS = [
     'Perfect-9.mp4'
 ];
 
-export const chapterPaths = {
-    1: "QuizQuestionsByChapters/Chp-1/Chp-1_testbank/chapter1.js",
-    2: "QuizQuestionsByChapters/Chp-2/Ch-2_PsychologicalResearch-testbank/chapter2.js",
-    3: "QuizQuestionsByChapters/Chp-3/Ch-3_Biopsychology-testbank/chapter3.js",
-    4: "QuizQuestionsByChapters/Chp-4/Ch-4_StatesofConsciousness-testbank/chapter4.js",
-    5: "QuizQuestionsByChapters/Chp-5/Ch-5_SensationandPerception-testbank/chapter5.js",
-    6: "QuizQuestionsByChapters/Chp-6/Ch-6_Learning-testbank/chapter6.js",
-    7: "QuizQuestionsByChapters/Chp-7/Ch-7_ThinkingandIntelligence-testbank/chapter7.js",
-    8: "QuizQuestionsByChapters/Chp-8/Ch-8_Memory-testbank/chapter8.js",
-    9: "QuizQuestionsByChapters/Chp-9/Ch-9_LifespanDevelopment-testbank/chapter9.js",
-    10: "QuizQuestionsByChapters/Chp-10/Ch-10_MotivationandEmotion-testbank/chapter10.js",
-    11: "QuizQuestionsByChapters/Chp-11/Ch-11_Personality-testbank/chapter11.js",
-    14: "QuizQuestionsByChapters/Chp-14/Ch-14_StressLifestyleandHealth-testbank/chapter14.js",
-    15: "QuizQuestionsByChapters/Chp-15/Ch-15_PsychologicalDisorders-testbank/chapter15.js",
-    16: "QuizQuestionsByChapters/Chp-16/Ch-16_TherapyandTreatment-testbank/chapter16.js"
-};
-
 export const chapterDescriptions = {
     1: "Chapter 1: Introduction to Psychology",
     2: "Chapter 2: Research Methods",

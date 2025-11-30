@@ -1,41 +1,34 @@
-import { createContext, useContext, useState, useEffect, useRef, useLayoutEffect } from 'react';
+import { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import { 
     CORRECT_VIDEOS, 
     STREAK_VIDEOS, 
     PERCENT_80_VIDEOS, 
     PERCENT_90_VIDEOS, 
-    PERFECT_SCORE_VIDEOS, 
-    chapterPaths, 
-    chapterDescriptions 
+    PERFECT_SCORE_VIDEOS
 } from '../constants';
 import { useSettings } from './SettingsContext';
+import { useAudio } from './AudioContext';
+import { QuizDataService } from '../services/QuizDataService';
+import { useQuizPersistence } from '../hooks/useQuizPersistence';
 
 const GameContext = createContext(null);
 
 export const GameProvider = ({ children }) => {
     const { settings } = useSettings();
+    const { setIsDucking } = useAudio();
     const { rewardVideosDisabled } = settings;
 
-    // Quiz History State (Completed Quizzes)
-    const [quizHistory, setQuizHistory] = useState(() => {
-        try {
-            return JSON.parse(localStorage.getItem('psychQuizHistory')) || {};
-        } catch { return {}; }
-    });
-
-    // Quiz Progress State (In-progress Quizzes)
-    const [quizProgress, setQuizProgress] = useState(() => {
-        try {
-            return JSON.parse(localStorage.getItem('psychQuizProgress')) || {};
-        } catch { return {}; }
-    });
-
-    // Wrong Answers State (for Flashcards)
-    const [wrongAnswers, setWrongAnswers] = useState(() => {
-        try {
-            return JSON.parse(localStorage.getItem('psychQuizWrongAnswers')) || {};
-        } catch { return {}; }
-    });
+    // Use custom hook for persistence
+    const {
+        quizHistory,
+        quizProgress,
+        wrongAnswers,
+        saveQuizHistory,
+        saveQuizProgress,
+        clearQuizProgress,
+        saveWrongAnswer,
+        clearWrongAnswers
+    } = useQuizPersistence();
 
     const [view, setView] = useState('splash'); // welcome, start, quiz, result, splash
     const [selectedChapter, setSelectedChapter] = useState(1);
@@ -56,8 +49,10 @@ export const GameProvider = ({ children }) => {
     const [streak, setStreak] = useState(0);
     const [isLoading, setIsLoading] = useState(true);
 
-    const feedbackRef = useRef(null);
-    const questionRef = useRef(null);
+    // Sync reward video state with audio ducking
+    useEffect(() => {
+        setIsDucking(!!rewardVideo);
+    }, [rewardVideo, setIsDucking]);
 
     // Initial Loading - Wait for Splash Video (min 3 seconds)
     useEffect(() => {
@@ -114,78 +109,31 @@ export const GameProvider = ({ children }) => {
                 timestamp: new Date().toISOString()
             };
             
-            setQuizProgress(prev => {
-                const newProgress = { ...prev, [selectedChapter]: currentProgress };
-                localStorage.setItem('psychQuizProgress', JSON.stringify(newProgress));
-                return newProgress;
-            });
+            saveQuizProgress(selectedChapter, currentProgress);
         }
-    }, [view, selectedChapter, gameQuestions, currentQuestionIndex, score, retryScore, isAnswered, hintUsed, eliminatedAnswers, hiddenAnswers, selectedAnswerIndex, feedback, streak]);
-
-    // Adjust font size if question is too long
-    useLayoutEffect(() => {
-        if (view === 'quiz' && questionRef.current) {
-            const el = questionRef.current;
-            // Reset to default to measure natural height
-            el.style.fontSize = '';
-            
-            const style = window.getComputedStyle(el);
-            const lineHeight = parseFloat(style.lineHeight);
-            const height = el.clientHeight;
-            
-            // If height is greater than 3 lines (allow a tiny margin for error)
-            if (height > lineHeight * 3.1) {
-                const currentFontSize = parseFloat(style.fontSize);
-                el.style.fontSize = `${currentFontSize * 0.85}px`;
-            }
-        }
-    }, [currentQuestionIndex, view]); // Run when question index changes or view changes
+    }, [
+        view, selectedChapter, gameQuestions, currentQuestionIndex, score, retryScore, 
+        isAnswered, hintUsed, eliminatedAnswers, hiddenAnswers, selectedAnswerIndex, 
+        feedback, streak, saveQuizProgress
+    ]);
 
     // Load insults
     useEffect(() => {
-        fetch(import.meta.env.BASE_URL + 'response-insults.txt')
-            .then(r => r.text())
-            .then(txt => {
-                const list = txt.split(/\r?\n/)
-                    .map(l => l.trim())
-                    .filter(l => l.length > 0)
-                    .map(l => l.replace(/^\d+\.\s*/, ''))
-                    .filter(l => l.length > 0);
-                setInsults(list);
-                setInsultBag(list);
-            })
-            .catch(console.error);
+        QuizDataService.loadInsults().then(list => {
+            setInsults(list);
+            setInsultBag(list);
+        });
     }, []);
 
-    const loadChapter = (chapterNum) => {
-        const path = chapterPaths[chapterNum];
-        if (!path) {
-            console.error('No path found for chapter:', chapterNum);
-            return;
+    const loadChapter = async (chapterNum) => {
+        try {
+            setSelectedChapter(chapterNum);
+            const data = await QuizDataService.loadChapter(chapterNum);
+            setQuestions(data);
+            setView('start');
+        } catch (error) {
+            // Error handling is done in service, but we could add UI feedback here
         }
-        
-        setSelectedChapter(chapterNum);
-        
-        // Remove all existing chapter scripts
-        document.querySelectorAll('script[src*="chapter"]').forEach(s => s.remove());
-        
-        const script = document.createElement('script');
-        script.src = import.meta.env.BASE_URL + path;
-        script.onload = () => {
-            const chapterVarName = `chapter${chapterNum}Questions`;
-            const chapterData = window[chapterVarName];
-            
-            if (chapterData && Array.isArray(chapterData)) {
-                setQuestions(chapterData);
-                setView('start');
-            } else {
-                console.error(`No ${chapterVarName} found or not an array`);
-            }
-        };
-        script.onerror = () => {
-            console.error('Failed to load script:', import.meta.env.BASE_URL + path);
-        };
-        document.body.appendChild(script);
     };
 
     const startGame = () => {
@@ -203,13 +151,7 @@ export const GameProvider = ({ children }) => {
         setFeedback(null);
         setView('quiz');
         
-        // Clear any saved progress for this chapter since we are starting fresh
-        setQuizProgress(prev => {
-            const newProgress = { ...prev };
-            delete newProgress[selectedChapter];
-            localStorage.setItem('psychQuizProgress', JSON.stringify(newProgress));
-            return newProgress;
-        });
+        clearQuizProgress(selectedChapter);
     };
 
     const resumeGame = () => {
@@ -292,38 +234,10 @@ export const GameProvider = ({ children }) => {
             }
 
             // Save to Wrong Answers for Flashcards
-            setWrongAnswers(prev => {
-                const chapterId = selectedChapter;
-                const currentChapterData = prev[chapterId] || { 
-                    title: chapterDescriptions[chapterId] || `Chapter ${chapterId}`, 
-                    cards: [] 
-                };
-                
-                // Check if card already exists to avoid duplicates
-                // We strip HTML tags for comparison to be safe, or just compare raw strings
-                const cardExists = currentChapterData.cards.some(c => c.front === currentQ.q);
-                
-                if (!cardExists) {
-                    const correctAns = currentQ.a.find(a => a.c);
-                    if (correctAns) {
-                        const newCard = {
-                            front: currentQ.q,
-                            back: correctAns.t
-                        };
-                        
-                        const newState = {
-                            ...prev,
-                            [chapterId]: {
-                                ...currentChapterData,
-                                cards: [...currentChapterData.cards, newCard]
-                            }
-                        };
-                        localStorage.setItem('psychQuizWrongAnswers', JSON.stringify(newState));
-                        return newState;
-                    }
-                }
-                return prev;
-            });
+            const correctAns = currentQ.a.find(a => a.c);
+            if (correctAns) {
+                saveWrongAnswer(selectedChapter, currentQ.q, correctAns.t);
+            }
 
             let msg = "Incorrect";
             if (insults.length > 0) {
@@ -339,11 +253,6 @@ export const GameProvider = ({ children }) => {
             setFeedback({ text: msg, type: "wrong" });
         }
         setHiddenAnswers(newHiddenAnswers);
-        
-        // Scroll to feedback
-        setTimeout(() => {
-            feedbackRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }, 100);
     };
 
     const useHint = () => {
@@ -374,22 +283,16 @@ export const GameProvider = ({ children }) => {
             setFeedback(null);
         } else {
             // Quiz Finished - Save History
-            const newHistory = { ...quizHistory };
-            if (!newHistory[selectedChapter]) newHistory[selectedChapter] = [];
-            
             const originalTotal = gameQuestions.filter(q => !q.isRetry).length;
             const percentage = (score / originalTotal) * 100;
             
-            newHistory[selectedChapter].push({
+            saveQuizHistory(selectedChapter, {
                 date: new Date().toISOString(),
                 score,
                 retryScore,
                 total: originalTotal,
                 percentage: percentage
             });
-            
-            setQuizHistory(newHistory);
-            localStorage.setItem('psychQuizHistory', JSON.stringify(newHistory));
 
             // Check for 80-89% reward
             if (!rewardVideosDisabled && percentage >= 80 && percentage < 90 && PERCENT_80_VIDEOS.length > 0) {
@@ -408,12 +311,7 @@ export const GameProvider = ({ children }) => {
             }
 
             // Clear Progress
-            setQuizProgress(prev => {
-                const newProgress = { ...prev };
-                delete newProgress[selectedChapter];
-                localStorage.setItem('psychQuizProgress', JSON.stringify(newProgress));
-                return newProgress;
-            });
+            clearQuizProgress(selectedChapter);
 
             setView('result');
         }
@@ -426,13 +324,10 @@ export const GameProvider = ({ children }) => {
     };
 
     const resetWrongAnswers = () => {
-        if (window.confirm("Are you sure you want to delete all your custom flashcards? This cannot be undone.")) {
-            setWrongAnswers({});
-            localStorage.removeItem('psychQuizWrongAnswers');
-        }
+        resetWrongAnswers();
     };
 
-    const value = {
+    const value = useMemo(() => ({
         view, setView,
         selectedChapter,
         questions,
@@ -452,8 +347,6 @@ export const GameProvider = ({ children }) => {
         quizHistory,
         quizProgress,
         wrongAnswers,
-        feedbackRef,
-        questionRef,
         loadChapter,
         startGame,
         resumeGame,
@@ -462,7 +355,12 @@ export const GameProvider = ({ children }) => {
         nextQuestion,
         restartGame,
         resetWrongAnswers
-    };
+    }), [
+        view, selectedChapter, questions, gameQuestions, currentQuestionIndex, score, retryScore,
+        isAnswered, hintUsed, feedback, eliminatedAnswers, hiddenAnswers, selectedAnswerIndex,
+        rewardVideo, streak, isLoading, quizHistory, quizProgress, wrongAnswers,
+        saveQuizHistory, saveQuizProgress, clearQuizProgress, saveWrongAnswer, clearWrongAnswers
+    ]);
 
     return (
         <GameContext.Provider value={value}>

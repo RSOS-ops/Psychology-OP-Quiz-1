@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect, useMemo } from 'react';
 
 const SettingsContext = createContext(null);
 
@@ -9,7 +9,8 @@ export const SettingsProvider = ({ children }) => {
         const defaults = {
             soundEnabled: true,
             rewardVideosDisabled: false,
-            musicEnabled: true
+            musicEnabled: true,
+            masterMute: false
         };
         try {
             const saved = JSON.parse(localStorage.getItem('psychQuizSettings'));
@@ -26,15 +27,17 @@ export const SettingsProvider = ({ children }) => {
     const setSoundEnabled = (enabled) => setSettings(s => ({ ...s, soundEnabled: enabled }));
     const setRewardVideosDisabled = (disabled) => setSettings(s => ({ ...s, rewardVideosDisabled: disabled }));
     const setMusicEnabled = (enabled) => setSettings(s => ({ ...s, musicEnabled: enabled }));
+    const toggleMasterMute = () => setSettings(s => ({ ...s, masterMute: !s.masterMute }));
 
-    const value = {
+    const value = useMemo(() => ({
         settings,
         showSettings,
         setShowSettings,
         setSoundEnabled,
         setRewardVideosDisabled,
-        setMusicEnabled
-    };
+        setMusicEnabled,
+        toggleMasterMute
+    }), [settings, showSettings]);
 
     return (
         <SettingsContext.Provider value={value}>
